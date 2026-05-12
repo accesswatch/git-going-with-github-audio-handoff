@@ -1,0 +1,11 @@
+.venv/
+node_modules/
+podcasts/tts/models/
+podcasts/tts/samples/
+podcasts/audio/**/*.mp3
+podcasts/audio/**/*.wav
+podcasts/audio/**/*.flac
+podcasts/audio/**/*.m4a
+__pycache__/
+*.pyc
+.DS_Store

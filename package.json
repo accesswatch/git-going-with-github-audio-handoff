@@ -1,0 +1,18 @@
+{
+  "name": "git-going-with-github-audio-handoff",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal audio generation handoff for the Git Going with GitHub podcast series",
+  "scripts": {
+    "podcast:audio:queue": "python -m podcasts.tts.generate_audio --dry-run --audio-format mp3",
+    "build:podcast-audio": "python -m podcasts.tts.generate_audio --audio-format mp3",
+    "build:podcast-audio:kokoro": "python -m podcasts.tts.generate_audio --engine kokoro --audio-format mp3",
+    "build:podcast-audio:piper": "python -m podcasts.tts.generate_audio --engine piper --audio-format mp3",
+    "podcast:metadata:check": "python podcasts/tag-audio-metadata.py --expected-count 75",
+    "podcast:metadata:write": "python podcasts/tag-audio-metadata.py --write --expected-count 75",
+    "podcast:inventory:check": "python podcasts/verify_audio_inventory.py --include-appendices --write-report",
+    "build:podcast-site": "node podcasts/generate-site.js",
+    "validate:podcast-feed": "node podcasts/validate-feed.js",
+    "validate:podcasts": "node podcasts/validate-listening-order.js"
+  }
+}
