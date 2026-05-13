@@ -1,18 +1,60 @@
 {
-  "name": "git-going-with-github-audio-handoff",
+  "name": "git-going-with-github",
   "version": "1.0.0",
-  "private": true,
-  "description": "Minimal audio generation handoff for the Git Going with GitHub podcast series",
+  "description": "GIT Going with GitHub - Accessible open source workshop by Community Access",
   "scripts": {
-    "podcast:audio:queue": "python -m podcasts.tts.generate_audio --dry-run --audio-format mp3",
+    "build:epub": "node scripts/build-epub.js",
+    "build:html": "node scripts/build-html.js",
+    "build:podcasts": "npm run validate:podcasts && node podcasts/build-bundles.js && node podcasts/build-challenge-bundles.js && node podcasts/generate-site.js",
+    "build:podcast-bundles": "node podcasts/build-bundles.js",
+    "build:podcast-challenge-bundles": "node podcasts/build-challenge-bundles.js",
+    "generate:podcast-transcripts": "node podcasts/generate-draft-transcripts.js",
+    "generate:podcast-transcript": "node podcasts/generate-draft-transcripts.js",
+    "build:podcast-transcripts": "npm run validate:podcasts && npm run build:podcast-bundles && npm run build:podcast-challenge-bundles && npm run generate:podcast-transcripts && npm run build:podcast-site",
+    "podcast:agentic:packet": "node podcasts/tools/agentic-pilot/build-source-packet.js",
+    "podcast:agentic:promote": "node podcasts/tools/agentic-pilot/promote-pilot.js",
+    "podcast:chapters:audit": "node podcasts/tools/agentic-pilot/audit-chapter-plans.js",
+    "podcast:chapters:normalize": "node podcasts/tools/agentic-pilot/normalize-chapter-plans.js",
     "build:podcast-audio": "python -m podcasts.tts.generate_audio --audio-format mp3",
-    "build:podcast-audio:kokoro": "python -m podcasts.tts.generate_audio --engine kokoro --audio-format mp3",
+    "build:podcast-audio:chapters": "python -m podcasts.tts.generate_audio --group chapters --audio-format mp3",
+    "build:podcast-audio:challenges": "python -m podcasts.tts.generate_audio --group challenges --audio-format mp3",
+    "build:podcast-audio:appendices": "python -m podcasts.tts.generate_audio --group appendices --audio-format mp3",
     "build:podcast-audio:piper": "python -m podcasts.tts.generate_audio --engine piper --audio-format mp3",
+    "build:podcast-audio:kokoro": "python -m podcasts.tts.generate_audio --engine kokoro --audio-format mp3",
+    "podcast:audio:queue": "python -m podcasts.tts.generate_audio --dry-run --audio-format mp3",
+    "tts:piper:download-samples": "python -m podcasts.tts.download_samples",
+    "tts:kokoro:download-samples": "python -m podcasts.tts.download_kokoro_samples",
+    "tts:kokoro:download-english-hq-samples": "python -m podcasts.tts.download_kokoro_samples --english-high-quality-only",
+    "tts:setup-all": "npm run tts:piper:download-samples && npm run tts:kokoro:download-samples",
+    "build:podcast-transcripts-and-audio": "npm run build:podcast-transcripts && npm run build:podcast-audio && npm run build:podcast-site",
+    "build:podcast-site": "node podcasts/generate-site.js",
     "podcast:metadata:check": "python podcasts/tag-audio-metadata.py --expected-count 75",
     "podcast:metadata:write": "python podcasts/tag-audio-metadata.py --write --expected-count 75",
     "podcast:inventory:check": "python podcasts/verify_audio_inventory.py --include-appendices --write-report",
-    "build:podcast-site": "node podcasts/generate-site.js",
+    "podcast:inventory:check:priority": "python podcasts/verify_audio_inventory.py --write-report",
     "validate:podcast-feed": "node podcasts/validate-feed.js",
-    "validate:podcasts": "node podcasts/validate-listening-order.js"
+    "validate:podcasts": "node podcasts/validate-catalog.js && node podcasts/validate-listening-order.js",
+    "build": "npm run build:podcasts && npm run build:html",
+    "watch:html": "node scripts/build-html.js --watch",
+    "clean": "node -e \"require('fs').rmSync('html', {recursive: true, force: true})\"",
+    "test:automation": "node --test .github/scripts/__tests__/*.test.js"
+  },
+  "keywords": [
+    "github",
+    "accessibility",
+    "workshop",
+    "documentation"
+  ],
+  "author": "",
+  "license": "CC-BY-4.0",
+  "devDependencies": {
+    "chokidar": "^3.5.3",
+    "github-markdown-css": "^5.5.1",
+    "highlight.js": "^11.9.0",
+    "lunr": "^2.3.9",
+    "marked": "^11.2.0"
+  },
+  "dependencies": {
+    "playwright": "^1.59.1"
   }
 }
