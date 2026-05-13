@@ -1,0 +1,4442 @@
+[
+  {
+    "seq": 1,
+    "speaker": "ALEX",
+    "text": "Welcome to Git Going with GitHub, episode 12: Git and Source Control in VS Code. I am Alex. Today we are going to make Git and Source Control in VS Code something you can explain, practice, and recover from when the interface surprises you.",
+    "filename": "seg001-alex.wav",
+    "duration": 13.741,
+    "status": "synthesized"
+  },
+  {
+    "seq": 2,
+    "speaker": "JAMIE",
+    "text": "And I am Jamie. I will be the voice of the learner who is willing to ask, what is this for, where am I, and how do I know I did it right?",
+    "filename": "seg002-jamie.wav",
+    "duration": 6.933,
+    "status": "synthesized"
+  },
+  {
+    "seq": 3,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg003-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 4,
+    "speaker": "ALEX",
+    "text": "The big idea today: Cloning, branching, staging, committing, pushing, and pulling from VS Code. We will name the concept, explain why it matters, practice the move, and point out the checks that tell you the work is real.",
+    "filename": "seg004-alex.wav",
+    "duration": 11.821,
+    "status": "synthesized"
+  },
+  {
+    "seq": 5,
+    "speaker": "JAMIE",
+    "text": "So the episode should work even if someone has not read the chapter yet.",
+    "filename": "seg005-jamie.wav",
+    "duration": 4.205,
+    "status": "synthesized"
+  },
+  {
+    "seq": 6,
+    "speaker": "ALEX",
+    "text": "Exactly. The transcript has to stand on its own. It can point toward practice, but it should teach the concept right here in the conversation.",
+    "filename": "seg006-alex.wav",
+    "duration": 7.147,
+    "status": "synthesized"
+  },
+  {
+    "seq": 7,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg007-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 8,
+    "speaker": "JAMIE",
+    "text": "Okay, set the room for us. What are we walking into?",
+    "filename": "seg008-jamie.wav",
+    "duration": 3.245,
+    "status": "synthesized"
+  },
+  {
+    "seq": 9,
+    "speaker": "ALEX",
+    "text": "Managing Repositories, Branches, and Changes Accessibly: Day 2, Block 1-2 Material This guide covers all Git operations in VS Code: cloning repositories, navigating the Source Control panel with screen readers, branch management, staging changes (including individual lines), push/pull operations, viewing file. The next useful detail is concrete: Prerequisites: VS Code Setup & Accessibility Basics, Working with Pull Requests, Merge Conflicts Mac keyboard shortcuts: Throughout this chapter, all Ctrl+ shortcuts use Cmd+ on Mac, and Alt+ shortcuts use Option+.",
+    "filename": "seg009-alex.wav",
+    "duration": 33.345,
+    "status": "synthesized"
+  },
+  {
+    "seq": 10,
+    "speaker": "ALEX",
+    "text": "A solid Git habit is to know which branch you are on, what changed, and what confirmation you expect before you run the next command.",
+    "filename": "seg010-alex.wav",
+    "duration": 7.404,
+    "status": "synthesized"
+  },
+  {
+    "seq": 11,
+    "speaker": "ALEX",
+    "text": "The next layer is this. Here is the learner-facing version. Chapter 14 is the first local Git workflow chapter with hands-on repository management. Put another way, it supports Challenge 10: Go Local. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.",
+    "filename": "seg011-alex.wav",
+    "duration": 17.431,
+    "status": "synthesized"
+  },
+  {
+    "seq": 12,
+    "speaker": "ALEX",
+    "text": "Here are the anchors worth keeping. There are 3. Each challenge should take under 10 minutes each. The evidence is PR metadata, branch names, and committed changes. The pattern is clone, branch, edit, commit, push, PR.",
+    "filename": "seg012-alex.wav",
+    "duration": 12.375,
+    "status": "synthesized"
+  },
+  {
+    "seq": 13,
+    "speaker": "JAMIE",
+    "text": "What does the learner do first, second, and then after that?",
+    "filename": "seg013-jamie.wav",
+    "duration": 3.33,
+    "status": "synthesized"
+  },
+  {
+    "seq": 14,
+    "speaker": "ALEX",
+    "text": "Challenge 10 Practice Set has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg014-alex.wav",
+    "duration": 6.551,
+    "status": "synthesized"
+  },
+  {
+    "seq": 15,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Clone your Learning Room repository - clone your private Learning Room repo to your local machine using VS Code; Create a branch and make one commit - check out (or create) your learn/ branch, edit a file, stage, write a clear commit message, and commit locally; and Push and open a linked PR - push your branch and open a PR in your Learning Room repo that references your Challenge 10 or Day 2 PR issue. Each step should leave a trace you can name.",
+    "filename": "seg015-alex.wav",
+    "duration": 23.959,
+    "status": "synthesized"
+  },
+  {
+    "seq": 16,
+    "speaker": "JAMIE",
+    "text": "That feels much more doable when you say it as one move.",
+    "filename": "seg016-jamie.wav",
+    "duration": 3.458,
+    "status": "synthesized"
+  },
+  {
+    "seq": 17,
+    "speaker": "ALEX",
+    "text": "Right. The magic is not speed. The magic is knowing what changed and why it matters.",
+    "filename": "seg017-alex.wav",
+    "duration": 4.929,
+    "status": "synthesized"
+  },
+  {
+    "seq": 18,
+    "speaker": "ALEX",
+    "text": "A solid pull request habit is to separate three questions: what changed, why it changed, and what still needs review. That keeps the conversation useful instead of noisy.",
+    "filename": "seg018-alex.wav",
+    "duration": 9.536,
+    "status": "synthesized"
+  },
+  {
+    "seq": 19,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg019-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 20,
+    "speaker": "JAMIE",
+    "text": "Turn that into a path someone can follow.",
+    "filename": "seg020-jamie.wav",
+    "duration": 2.733,
+    "status": "synthesized"
+  },
+  {
+    "seq": 21,
+    "speaker": "ALEX",
+    "text": "Anchor this part on Practice 10.1 Step-by-Step: Clone Your Learning Room Repository. Get a local copy of your Learning Room repository on your machine using VS Code. This is the part to say slowly: VS Code desktop (or github.dev if you cannot install desktop VS Code).",
+    "filename": "seg021-alex.wav",
+    "duration": 16.129,
+    "status": "synthesized"
+  },
+  {
+    "seq": 22,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Open VS Code. If no folder is open, you should see the Welcome tab; Open the Command Palette: Ctrl+Shift+P (Mac: Cmd+Shift+P); Type git clone and select Git: Clone; and VS Code asks for a repository URL. Paste your Learning Room repo URL (it looks like https://github.com/the workshop organization/learning-room-your username.git). You can copy this from the green Code button on your repo's GitHub page. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg022-alex.wav",
+    "duration": 31.255,
+    "status": "synthesized"
+  },
+  {
+    "seq": 23,
+    "speaker": "JAMIE",
+    "text": "What is the ordered workflow?",
+    "filename": "seg023-jamie.wav",
+    "duration": 2.199,
+    "status": "synthesized"
+  },
+  {
+    "seq": 24,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is press Enter. Step two is a file browser dialog opens asking where to save the clone. Choose a folder you can find easily (for example, Documents or Desktop). Press Select as Repository Destination. Step three is VS Code clones the repository. When it finishes, a notification appears asking \"Would you like to open the cloned repository?\" Activate Open. Step four is verify the clone worked: press Ctrl+Shift+E (Mac: Cmd+Shift+E) to open Explorer. Your screen reader should announce the file tree with files like README.md and the docs/ folder. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg024-alex.wav",
+    "duration": 37.634,
+    "status": "synthesized"
+  },
+  {
+    "seq": 25,
+    "speaker": "JAMIE",
+    "text": "Give me the sequence, because order matters here.",
+    "filename": "seg025-jamie.wav",
+    "duration": 3.095,
+    "status": "synthesized"
+  },
+  {
+    "seq": 26,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: see also: Chapter 13: How Git Works explains the three areas (working directory, staging, repository) that make commits meaningful. The listener should be able to check this: Check out (or create) a properly named branch, edit a file, stage the change, and commit with a clear message.",
+    "filename": "seg026-alex.wav",
+    "duration": 16.087,
+    "status": "synthesized"
+  },
+  {
+    "seq": 27,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is open the Command Palette: Ctrl+Shift+P (Mac: Cmd+Shift+P). Step two is if your learn/ branch already exists on the remote (because you created it during Day 1), type git checkout and select Git: Checkout to., then pick learn/your username. If the branch does not exist yet, type git create branch and select Git: Create Branch. Step three is the status bar at the bottom of VS Code now shows your branch name instead of main. Your screen reader announces the branch name when you focus the status bar. Step four is open the Explorer (Ctrl+Shift+E) and navigate to the docs/ folder. Open any file mentioned in your Challenge 10 issue (for example, docs/welcome.md). That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg027-alex.wav",
+    "duration": 44.418,
+    "status": "synthesized"
+  },
+  {
+    "seq": 28,
+    "speaker": "JAMIE",
+    "text": "How would you walk the room through that step by step?",
+    "filename": "seg028-jamie.wav",
+    "duration": 3.01,
+    "status": "synthesized"
+  },
+  {
+    "seq": 29,
+    "speaker": "ALEX",
+    "text": "First, make one small, meaningful edit. For example, add a new sentence, fix a typo, or improve a description. Save the file with Ctrl+S (Mac: Cmd+S). Then, open the Source Control panel: Ctrl+Shift+G (Mac: Cmd+Shift+G). Your screen reader announces \"Source Control\" and shows your changed file under \"Changes.\". After that, navigate to your changed file in the Changes list. Press Enter or activate the + (Stage Changes) button next to the filename. The file moves from \"Changes\" to \"Staged Changes.\". Finally, move focus to the Message input box at the top of the Source Control panel. Type a clear commit message, for example: docs: improve welcome.md introduction. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg029-alex.wav",
+    "duration": 41.794,
+    "status": "synthesized"
+  },
+  {
+    "seq": 30,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Practice 10.3 Step-by-Step: Push and Open a Linked PR. What should a learner take away from it?",
+    "filename": "seg030-jamie.wav",
+    "duration": 6.551,
+    "status": "synthesized"
+  },
+  {
+    "seq": 31,
+    "speaker": "ALEX",
+    "text": "Do not treat Practice 10.3 Step-by-Step: Push and Open a Linked PR as decoration. Push your branch to GitHub and open a PR in your Learning Room repo that references your challenge issue. That is not trivia. VS Code (for the push) and GitHub.com (for the PR). The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg031-alex.wav",
+    "duration": 19.692,
+    "status": "synthesized"
+  },
+  {
+    "seq": 32,
+    "speaker": "ALEX",
+    "text": "First, open the Command Palette: Ctrl+Shift+P (Mac: Cmd+Shift+P). Then, type git push and select Git: Push. If VS Code asks to publish the branch (because it is new), confirm by selecting OK or Publish Branch. After that, wait for the push to complete. VS Code shows a progress notification. When done, the sync indicator in the status bar should show no pending changes. Finally, open your browser and navigate to your Learning Room repository on GitHub. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg032-alex.wav",
+    "duration": 30.999,
+    "status": "synthesized"
+  },
+  {
+    "seq": 33,
+    "speaker": "JAMIE",
+    "text": "Before we leave Practice 10.3 Step-by-Step: Push and Open a Linked PR, what is the practical point?",
+    "filename": "seg033-jamie.wav",
+    "duration": 6.338,
+    "status": "synthesized"
+  },
+  {
+    "seq": 34,
+    "speaker": "ALEX",
+    "text": "Start here: GitHub usually shows a yellow banner: \"yourname recently pushed to learn/yourname.\" Activate the Compare & pull request button in that banner. Then: If you do not see the banner, activate the Pull requests tab, then activate New pull request. Set the base branch to main and the compare branch to your learn/your username branch. Next: In the PR title, write a descriptive title (for example: \"docs: improve welcome.md introduction\"). Last: In the PR description, type Closes XX (replace XX with your Challenge 10 or Day 2 PR issue number). Because the issue lives in the same repo as the PR, you only need the short XX form. The sequence works because every action has a confirmation.",
+    "filename": "seg034-alex.wav",
+    "duration": 38.613,
+    "status": "synthesized"
+  },
+  {
+    "seq": 35,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg035-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 36,
+    "speaker": "JAMIE",
+    "text": "What should the learner prove to themselves after each small task?",
+    "filename": "seg036-jamie.wav",
+    "duration": 3.629,
+    "status": "synthesized"
+  },
+  {
+    "seq": 37,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Completing Challenge 10: Submit Your Evidence is still useful because open your assigned Challenge 10 issue in your Learning Room repo and post a completion comment. For someone navigating by keyboard or screen reader, this detail matters: Close your Challenge 10 issue when your branch is pushed and the PR is open.",
+    "filename": "seg037-alex.wav",
+    "duration": 17.537,
+    "status": "synthesized"
+  },
+  {
+    "seq": 38,
+    "speaker": "ALEX",
+    "text": "The useful habit is simple: orient, act, verify, then continue. That pause between action and trust is part of the work.",
+    "filename": "seg038-alex.wav",
+    "duration": 7.255,
+    "status": "synthesized"
+  },
+  {
+    "seq": 39,
+    "speaker": "ALEX",
+    "text": "This is where the talk moves from concept to action. Expected Outcomes has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg039-alex.wav",
+    "duration": 9.025,
+    "status": "synthesized"
+  },
+  {
+    "seq": 40,
+    "speaker": "ALEX",
+    "text": "The room should hear these as checkpoints. Student can clone a repository using VS Code Command Palette. Student can create or check out a named branch following the workshop naming convention. Student can navigate the Source Control panel, stage files, and commit with a descriptive message. Student can push a branch and open a PR with same-repo issue linking.",
+    "filename": "seg040-alex.wav",
+    "duration": 19.842,
+    "status": "synthesized"
+  },
+  {
+    "seq": 41,
+    "speaker": "JAMIE",
+    "text": "Now it sounds like a workflow instead of a wall of instructions.",
+    "filename": "seg041-jamie.wav",
+    "duration": 3.863,
+    "status": "synthesized"
+  },
+  {
+    "seq": 42,
+    "speaker": "ALEX",
+    "text": "That is where confidence comes from: not from never getting lost, but from knowing how to recover.",
+    "filename": "seg042-alex.wav",
+    "duration": 5.485,
+    "status": "synthesized"
+  },
+  {
+    "seq": 43,
+    "speaker": "JAMIE",
+    "text": "Let's pause on If You Get Stuck. What should a learner take away from it?",
+    "filename": "seg043-jamie.wav",
+    "duration": 3.97,
+    "status": "synthesized"
+  },
+  {
+    "seq": 44,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. Continue learning: The GitHub Skills course Introduction to Git walks through commits, branches, and merges in an interactive, self-paced format. That is the difference between guessing and knowing: See Appendix Z for the full catalog.",
+    "filename": "seg044-alex.wav",
+    "duration": 15.169,
+    "status": "synthesized"
+  },
+  {
+    "seq": 45,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Command Palette does not open? Confirm you are in VS Code (not the browser) and press Ctrl+Shift+P (Mac: Cmd+Shift+P); Source Control panel is empty? You may not have saved your file yet. Press Ctrl+S to save, then check again; Push fails with authentication error? Open Command Palette, run Git: Fetch to test your connection. If it fails, run GitHub: Sign In from Command Palette; and Branch name wrong? Open Command Palette, run Git: Rename Branch. to fix it before pushing. Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg045-alex.wav",
+    "duration": 31.383,
+    "status": "synthesized"
+  },
+  {
+    "seq": 46,
+    "speaker": "JAMIE",
+    "text": "Before we leave If You Get Stuck, what is the practical point?",
+    "filename": "seg046-jamie.wav",
+    "duration": 3.501,
+    "status": "synthesized"
+  },
+  {
+    "seq": 47,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is cannot find the \"Compare & pull request\" banner on GitHub? Navigate to Pull requests tab and create the PR manually (step 6 above). Step two is closes XX not linking? Make sure the format is exactly Closes XX with a single space and no extra characters. The keyword is case-insensitive but must be one of Closes, Fixes, or Resolves. Step three is ask facilitator to verify your clone location, branch name, and help with one push. Step four is finished but not sure you did it right? Compare your work against the Challenge 10 reference solution. The point is not speed; the point is never losing your place.",
+    "filename": "seg047-alex.wav",
+    "duration": 35.307,
+    "status": "synthesized"
+  },
+  {
+    "seq": 48,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg048-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 49,
+    "speaker": "ALEX",
+    "text": "Before the learner moves on. This part earns its place because local Git operations give you full control and immediate feedback. That gives the learner a foothold: you can see your changes, review them, and fix mistakes before they reach GitHub. That is the difference between following directions and owning the workflow.",
+    "filename": "seg049-alex.wav",
+    "duration": 16.578,
+    "status": "synthesized"
+  },
+  {
+    "seq": 50,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Learning Pattern Used in This Chapter. What should a learner take away from it?",
+    "filename": "seg050-jamie.wav",
+    "duration": 4.994,
+    "status": "synthesized"
+  },
+  {
+    "seq": 51,
+    "speaker": "ALEX",
+    "text": "Learning Pattern Used in This Chapter has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg051-alex.wav",
+    "duration": 6.892,
+    "status": "synthesized"
+  },
+  {
+    "seq": 52,
+    "speaker": "ALEX",
+    "text": "First, clone once to get a local copy of the project. Then, branch before editing (never work directly on main). After that, make small, focused edits with clear commit messages. Finally, push and open a PR that links to an issue for traceability. Each step should leave a trace you can name.",
+    "filename": "seg052-alex.wav",
+    "duration": 16.301,
+    "status": "synthesized"
+  },
+  {
+    "seq": 53,
+    "speaker": "JAMIE",
+    "text": "Before we leave Learning Pattern Used in This Chapter, what is the practical point?",
+    "filename": "seg053-jamie.wav",
+    "duration": 4.397,
+    "status": "synthesized"
+  },
+  {
+    "seq": 54,
+    "speaker": "ALEX",
+    "text": "Start here: Verify each step before moving to the next. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg054-alex.wav",
+    "duration": 6.7,
+    "status": "synthesized"
+  },
+  {
+    "seq": 55,
+    "speaker": "ALEX",
+    "text": "Now slow down for the part people usually miss. Here is the learner-facing version. Throughout this chapter, each major operation includes learning cards - expandable sections showing how to accomplish the same task from multiple perspectives. Put another way, open the card that matches how you work.",
+    "filename": "seg055-alex.wav",
+    "duration": 16.107,
+    "status": "synthesized"
+  },
+  {
+    "seq": 56,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg056-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 57,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Tool Cards: Clone a Repository (Day 2). What should a learner take away from it?",
+    "filename": "seg057-jamie.wav",
+    "duration": 5.549,
+    "status": "synthesized"
+  },
+  {
+    "seq": 58,
+    "speaker": "ALEX",
+    "text": "This is the move inside Tool Cards: Clone a Repository (Day 2): VS Code Desktop (primary for Day 2). That matters in practice: github.dev (web editor): No clone needed.",
+    "filename": "seg058-alex.wav",
+    "duration": 10.391,
+    "status": "synthesized"
+  },
+  {
+    "seq": 59,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Ctrl+Shift+P Git: Clone paste the HTTPS URL choose a folder Open; and File Clone Repository paste URL or select from your account Clone. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg059-alex.wav",
+    "duration": 14.359,
+    "status": "synthesized"
+  },
+  {
+    "seq": 60,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like git clone https://github.com/owner/repo.git && cd repo. gh repo clone owner/repo && cd repo. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg060-alex.wav",
+    "duration": 18.967,
+    "status": "synthesized"
+  },
+  {
+    "seq": 61,
+    "speaker": "JAMIE",
+    "text": "That is the kind of detail that keeps a screen reader user oriented.",
+    "filename": "seg061-jamie.wav",
+    "duration": 3.906,
+    "status": "synthesized"
+  },
+  {
+    "seq": 62,
+    "speaker": "ALEX",
+    "text": "Yes. The named thing - the heading, tab, field, branch, or button - is the handhold.",
+    "filename": "seg062-alex.wav",
+    "duration": 4.418,
+    "status": "synthesized"
+  },
+  {
+    "seq": 63,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Method 1: Command Palette (Recommended for Screen Readers). What should a learner take away from it?",
+    "filename": "seg063-jamie.wav",
+    "duration": 6.274,
+    "status": "synthesized"
+  },
+  {
+    "seq": 64,
+    "speaker": "ALEX",
+    "text": "Method 1: Command Palette (Recommended for Screen Readers) has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg064-alex.wav",
+    "duration": 8.023,
+    "status": "synthesized"
+  },
+  {
+    "seq": 65,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Open Command Palette: Ctrl+Shift+P (Mac: Cmd+Shift+P); Type \"git clone\"; Select \"Git: Clone\"; and Paste the repository URL (example: https://github.com/community-access/accessibility-agents.git). That small check between steps is what makes the workflow reliable.",
+    "filename": "seg065-alex.wav",
+    "duration": 19.799,
+    "status": "synthesized"
+  },
+  {
+    "seq": 66,
+    "speaker": "JAMIE",
+    "text": "Before we leave Method 1: Command Palette (Recommended for Screen Readers), what is the practical point?",
+    "filename": "seg066-jamie.wav",
+    "duration": 5.805,
+    "status": "synthesized"
+  },
+  {
+    "seq": 67,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is press Enter. Step two is choose a local folder where the repository should be cloned. Step three is VS Code asks: \"Would you like to open the cloned repository?\" - select \"Open\". The sequence works because every action has a confirmation.",
+    "filename": "seg067-alex.wav",
+    "duration": 16.513,
+    "status": "synthesized"
+  },
+  {
+    "seq": 68,
+    "speaker": "ALEX",
+    "text": "A solid navigation habit is to prove where you are before activating controls. Headings, landmarks, and the address bar are not trivia; they are your map.",
+    "filename": "seg068-alex.wav",
+    "duration": 9.133,
+    "status": "synthesized"
+  },
+  {
+    "seq": 69,
+    "speaker": "JAMIE",
+    "text": "What is the one idea that makes the next few steps less mysterious?",
+    "filename": "seg069-jamie.wav",
+    "duration": 4.077,
+    "status": "synthesized"
+  },
+  {
+    "seq": 70,
+    "speaker": "ALEX",
+    "text": "Screen reader navigation has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg070-alex.wav",
+    "duration": 6.465,
+    "status": "synthesized"
+  },
+  {
+    "seq": 71,
+    "speaker": "ALEX",
+    "text": "The useful version is not abstract; it sounds like this. The Command Palette is a searchable list - type to filter, Up/Down Arrow to navigate results. The folder picker is a standard file dialog - navigate with Arrow keys, Enter to select.",
+    "filename": "seg071-alex.wav",
+    "duration": 13.376,
+    "status": "synthesized"
+  },
+  {
+    "seq": 72,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg072-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 73,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Method 2: Start Page Clone Button. What should a learner take away from it?",
+    "filename": "seg073-jamie.wav",
+    "duration": 5.037,
+    "status": "synthesized"
+  },
+  {
+    "seq": 74,
+    "speaker": "ALEX",
+    "text": "Do not treat Method 2: Start Page Clone Button as decoration. The Start page is keyboard-accessible. That is not trivia. Tab to navigate between \"New File,\" \"Open Folder,\" and \"Clone Repository\" buttons.",
+    "filename": "seg074-alex.wav",
+    "duration": 11.82,
+    "status": "synthesized"
+  },
+  {
+    "seq": 75,
+    "speaker": "ALEX",
+    "text": "First, open VS Code (no folder open). Then, the Start page appears. After that, navigate to \"Clone Git Repository\" button - press Enter. Finally, paste repository URL \u2192 Enter. Keep it that plain: know where you are, make the move, check the result.",
+    "filename": "seg075-alex.wav",
+    "duration": 15.042,
+    "status": "synthesized"
+  },
+  {
+    "seq": 76,
+    "speaker": "JAMIE",
+    "text": "Before we leave Method 2: Start Page Clone Button, what is the practical point?",
+    "filename": "seg076-jamie.wav",
+    "duration": 4.61,
+    "status": "synthesized"
+  },
+  {
+    "seq": 77,
+    "speaker": "ALEX",
+    "text": "Start here: Choose destination folder. Then: Open when prompted. Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg077-alex.wav",
+    "duration": 8.215,
+    "status": "synthesized"
+  },
+  {
+    "seq": 78,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Method 3: From GitHub.com. What should a learner take away from it?",
+    "filename": "seg078-jamie.wav",
+    "duration": 4.759,
+    "status": "synthesized"
+  },
+  {
+    "seq": 79,
+    "speaker": "ALEX",
+    "text": "Method 3: From GitHub.com has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg079-alex.wav",
+    "duration": 6.721,
+    "status": "synthesized"
+  },
+  {
+    "seq": 80,
+    "speaker": "ALEX",
+    "text": "Start here: On any GitHub repository page, click the green \"Code\" button. Then: Copy the HTTPS URL (recommended) or SSH URL. Next: Open VS Code \u2192 Ctrl+Shift+P (Mac: Cmd+Shift+P) \u2192 \"Git: Clone\". Last: Paste URL \u2192 Enter. Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg080-alex.wav",
+    "duration": 20.141,
+    "status": "synthesized"
+  },
+  {
+    "seq": 81,
+    "speaker": "JAMIE",
+    "text": "Before we leave Method 3: From GitHub.com, what is the practical point?",
+    "filename": "seg081-jamie.wav",
+    "duration": 4.482,
+    "status": "synthesized"
+  },
+  {
+    "seq": 82,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Choose destination \u2192 Open. The point is not speed; the point is never losing your place.",
+    "filename": "seg082-alex.wav",
+    "duration": 6.807,
+    "status": "synthesized"
+  },
+  {
+    "seq": 83,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Learning Cards: Cloning a Repository. What should a learner take away from it?",
+    "filename": "seg083-jamie.wav",
+    "duration": 5.207,
+    "status": "synthesized"
+  },
+  {
+    "seq": 84,
+    "speaker": "ALEX",
+    "text": "Put Learning Cards: Cloning a Repository into plain language. Low vision users (zoom, high contrast). The useful version is: Cloning works the same as the Command Palette method above. The interface gets easier when it becomes a set of named places instead of a wall of controls.",
+    "filename": "seg084-alex.wav",
+    "duration": 15.34,
+    "status": "synthesized"
+  },
+  {
+    "seq": 85,
+    "speaker": "ALEX",
+    "text": "Walk it in order: The Command Palette (Ctrl+Shift+P) appears at the top-center of VS Code and scales with your zoom level - it remains visible even at 200%+ zoom; When the folder picker dialog opens, it may extend beyond your visible area at high zoom. Use Alt+Up Arrow to navigate up in the folder tree and Enter to select. The dialog title bar shows your current location; After cloning, the Explorer panel (Ctrl+Shift+E) shows the file tree. At high zoom, use Ctrl+- to temporarily reduce zoom if the tree is hard to scan, then Ctrl+= to restore; and If you use a high contrast theme (Settings: Ctrl+, then search \"color theme\"), file status colours in the Explorer (green for added, yellow for modified) may be subtle. Enable Editor Decorator Colors or rely on the Source Control panel (Ctrl+Shift+G) where. The point is not speed; the point is never losing your place.",
+    "filename": "seg085-alex.wav",
+    "duration": 51.65,
+    "status": "synthesized"
+  },
+  {
+    "seq": 86,
+    "speaker": "JAMIE",
+    "text": "Before we leave Learning Cards: Cloning a Repository, what is the practical point?",
+    "filename": "seg086-jamie.wav",
+    "duration": 4.973,
+    "status": "synthesized"
+  },
+  {
+    "seq": 87,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Navigate to the repository on GitHub.com; Press. (period) to open github.dev - a browser-based VS Code editor; The full repository opens in an editor with file tree, search, and editing; and Changes are committed directly to GitHub from the browser. Each step should leave a trace you can name.",
+    "filename": "seg087-alex.wav",
+    "duration": 17.793,
+    "status": "synthesized"
+  },
+  {
+    "seq": 88,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Standard Git clone; git clone https://github.com/Community-Access/vscode-sci-fi-themes.git; cd vscode-sci-fi-themes; GitHub CLI clone (shorter syntax, handles auth automatically); gh repo clone Community-Access/vscode-sci-fi-themes; cd vscode-sci-fi-themes. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg088-alex.wav",
+    "duration": 28.055,
+    "status": "synthesized"
+  },
+  {
+    "seq": 89,
+    "speaker": "JAMIE",
+    "text": "So the learner is not behind if they stop there and check the page.",
+    "filename": "seg089-jamie.wav",
+    "duration": 3.863,
+    "status": "synthesized"
+  },
+  {
+    "seq": 90,
+    "speaker": "ALEX",
+    "text": "Yes. Pausing to verify is not a detour; it is how you keep control of the workflow.",
+    "filename": "seg090-alex.wav",
+    "duration": 4.651,
+    "status": "synthesized"
+  },
+  {
+    "seq": 91,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg091-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 92,
+    "speaker": "JAMIE",
+    "text": "Why is the evidence prompt part of the teaching, not just grading?",
+    "filename": "seg092-jamie.wav",
+    "duration": 3.821,
+    "status": "synthesized"
+  },
+  {
+    "seq": 93,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. To make your first clone meaningful and fun, try cloning the VS Code Sci-Fi Thinking Phrases repository. That is the difference between guessing and knowing: Repository URL: https://github.com/community-access/vscode-sci-fi-themes.git.",
+    "filename": "seg093-alex.wav",
+    "duration": 18.156,
+    "status": "synthesized"
+  },
+  {
+    "seq": 94,
+    "speaker": "ALEX",
+    "text": "That shows up in the workshop in a few specific ways. Star Trek -- Engage warp drive and run diagnostics. The Hitchhiker's Guide -- Consult the Infinite Improbability Drive. Star Wars -- Read the ripples in the Force.",
+    "filename": "seg094-alex.wav",
+    "duration": 12.225,
+    "status": "synthesized"
+  },
+  {
+    "seq": 95,
+    "speaker": "ALEX",
+    "text": "That connects to another useful point. Why Clone This? has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg095-alex.wav",
+    "duration": 7.873,
+    "status": "synthesized"
+  },
+  {
+    "seq": 96,
+    "speaker": "ALEX",
+    "text": "For a learner, the useful signals are concrete. It's a real, working repository with multiple files to explore. You'll see a practical use of cloning (customizing your personal VS Code setup). After cloning, you can pick a theme and apply it to your settings.json. When you open Copilot Chat, you'll see your custom phrases appear!",
+    "filename": "seg096-alex.wav",
+    "duration": 17.773,
+    "status": "synthesized"
+  },
+  {
+    "seq": 97,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Quick Start. What should a learner take away from it?",
+    "filename": "seg097-jamie.wav",
+    "duration": 3.757,
+    "status": "synthesized"
+  },
+  {
+    "seq": 98,
+    "speaker": "ALEX",
+    "text": "Quick Start: See CLONE-THIS-REPO.md in that repo for full instructions. The next useful detail is concrete: If you prefer not to clone locally, you can work entirely on GitHub.com.",
+    "filename": "seg098-alex.wav",
+    "duration": 10.732,
+    "status": "synthesized"
+  },
+  {
+    "seq": 99,
+    "speaker": "ALEX",
+    "text": "First, clone: Ctrl+Shift+P \u2192 \"Git: Clone\" \u2192 paste URL above \u2192 Enter. Then, choose a destination folder and open when prompted. After that, navigate to the themes/ folder and pick a.json file (star-trek, hitchhikers, or star-wars). Finally, copy the chat.agent.thinking.phrases setting into your VS Code settings.json. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg099-alex.wav",
+    "duration": 22.487,
+    "status": "synthesized"
+  },
+  {
+    "seq": 100,
+    "speaker": "JAMIE",
+    "text": "Before we leave Quick Start, what is the practical point?",
+    "filename": "seg100-jamie.wav",
+    "duration": 3.373,
+    "status": "synthesized"
+  },
+  {
+    "seq": 101,
+    "speaker": "ALEX",
+    "text": "Start here: Reload VS Code: Ctrl+Shift+P \u2192 \"Developer: Reload Window\". Then: Open Copilot Chat (Ctrl+Alt+I, or Chat: Open Chat from the Command Palette if your keymap differs) and ask a question - watch your custom phrases appear! Next: Navigate to the repository on GitHub. Last: Click any file to view it, then click the pencil icon (Edit) to modify it directly in the browser. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg101-alex.wav",
+    "duration": 27.223,
+    "status": "synthesized"
+  },
+  {
+    "seq": 102,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Clone using owner/name (no URL needed); gh repo clone community-access/vscode-sci-fi-themes; Clone and cd into the folder; gh repo clone community-access/vscode-sci-fi-themes && cd vscode-sci-fi-themes; Open the cloned repo in VS Code; gh repo clone. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg102-alex.wav",
+    "duration": 26.795,
+    "status": "synthesized"
+  },
+  {
+    "seq": 103,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg103-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 104,
+    "speaker": "ALEX",
+    "text": "Here is the practical turn. Here is the learner-facing version. The Source Control panel (Ctrl+Shift+G - Mac: Cmd+Shift+G) is where all Git operations happen in VS Code. Put another way, this section provides a complete screen reader walkthrough of every interactive element. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.",
+    "filename": "seg104-alex.wav",
+    "duration": 22.658,
+    "status": "synthesized"
+  },
+  {
+    "seq": 105,
+    "speaker": "JAMIE",
+    "text": "What would you say to someone who is already bracing for this to be too much?",
+    "filename": "seg105-jamie.wav",
+    "duration": 4.055,
+    "status": "synthesized"
+  },
+  {
+    "seq": 106,
+    "speaker": "ALEX",
+    "text": "This is the move inside Opening the Source Control Panel: shortcut: Ctrl+Shift+G (Mac: Cmd+Shift+G).",
+    "filename": "seg106-alex.wav",
+    "duration": 8.194,
+    "status": "synthesized"
+  },
+  {
+    "seq": 107,
+    "speaker": "JAMIE",
+    "text": "That is a useful checkpoint before anyone starts pressing keys.",
+    "filename": "seg107-jamie.wav",
+    "duration": 3.949,
+    "status": "synthesized"
+  },
+  {
+    "seq": 108,
+    "speaker": "ALEX",
+    "text": "Exactly. Checkpoints turn uncertainty into information.",
+    "filename": "seg108-alex.wav",
+    "duration": 3.457,
+    "status": "synthesized"
+  },
+  {
+    "seq": 109,
+    "speaker": "ALEX",
+    "text": "Keep the thread going. What opens has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg109-alex.wav",
+    "duration": 6.892,
+    "status": "synthesized"
+  },
+  {
+    "seq": 110,
+    "speaker": "ALEX",
+    "text": "These are the details that keep the idea from floating away. A sidebar panel on the left side of VS Code. Focus lands on the first interactive element (usually the commit message input or the first changed file).",
+    "filename": "seg110-alex.wav",
+    "duration": 11.947,
+    "status": "synthesized"
+  },
+  {
+    "seq": 111,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg111-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 112,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Panel structure from top to bottom. What should a learner take away from it?",
+    "filename": "seg112-jamie.wav",
+    "duration": 5.079,
+    "status": "synthesized"
+  },
+  {
+    "seq": 113,
+    "speaker": "ALEX",
+    "text": "Panel structure from top to bottom has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg113-alex.wav",
+    "duration": 6.999,
+    "status": "synthesized"
+  },
+  {
+    "seq": 114,
+    "speaker": "ALEX",
+    "text": "That becomes easier when you listen for these cues. Branch name displayed (example: \"main\" or \"feature/add-documentation\"). View/More Actions button (three dots menu). Type your commit message here. Announced as \"Source Control Input, edit, multi-line\". Shortcut: Ctrl+Enter (Mac: Cmd+Enter) when focused in the message input. Lists all modified files not yet staged.",
+    "filename": "seg114-alex.wav",
+    "duration": 20.801,
+    "status": "synthesized"
+  },
+  {
+    "seq": 115,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is source Control title bar (heading level 2). Step two is commit message input (multi-line text field). Step three is commit button (or \"Publish Branch\" if this is a new branch). Step four is changes section (collapsible tree). Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg115-alex.wav",
+    "duration": 18.882,
+    "status": "synthesized"
+  },
+  {
+    "seq": 116,
+    "speaker": "JAMIE",
+    "text": "Before we leave Panel structure from top to bottom, what is the practical point?",
+    "filename": "seg116-jamie.wav",
+    "duration": 4.439,
+    "status": "synthesized"
+  },
+  {
+    "seq": 117,
+    "speaker": "ALEX",
+    "text": "First, staged Changes section (collapsible tree). Then, merge Changes section (appears only during a merge). The point is not speed; the point is never losing your place.",
+    "filename": "seg117-alex.wav",
+    "duration": 9.303,
+    "status": "synthesized"
+  },
+  {
+    "seq": 118,
+    "speaker": "ALEX",
+    "text": "Another way to ground it. NVDA/JAWS has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg118-alex.wav",
+    "duration": 7.98,
+    "status": "synthesized"
+  },
+  {
+    "seq": 119,
+    "speaker": "ALEX",
+    "text": "If someone is taking notes, this is the short list. The panel is a web-based tree view. Use Up/Down Arrow to navigate between items. Use Right Arrow to expand a section (Changes, Staged Changes). Use Left Arrow to collapse a section. Use Enter to open a file diff. Use Space to stage/unstage a file (when focused on a file item).",
+    "filename": "seg119-alex.wav",
+    "duration": 18.455,
+    "status": "synthesized"
+  },
+  {
+    "seq": 120,
+    "speaker": "JAMIE",
+    "text": "Where do you want a learner to place their attention here?",
+    "filename": "seg120-jamie.wav",
+    "duration": 3.159,
+    "status": "synthesized"
+  },
+  {
+    "seq": 121,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, VoiceOver is still useful because key point: The Source Control panel is not a standard file tree. For someone navigating by keyboard or screen reader, this detail matters: It's a specialized Git status view.",
+    "filename": "seg121-alex.wav",
+    "duration": 13.1,
+    "status": "synthesized"
+  },
+  {
+    "seq": 122,
+    "speaker": "ALEX",
+    "text": "Here is the part that makes the next action easier. Navigate with VO+Arrow keys. VO+Space to activate (open diff or stage/unstage). The panel is announced as a \"group\" containing lists.",
+    "filename": "seg122-alex.wav",
+    "duration": 11.712,
+    "status": "synthesized"
+  },
+  {
+    "seq": 123,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg123-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 124,
+    "speaker": "ALEX",
+    "text": "This is the part worth saying out loud. Put What Each File Shows into plain language. When a file appears in the Changes or Staged Changes list, VS Code shows a status letter. The useful version is: Screen reader announcement: \"docs/GUIDE.md, Modified\" or \"README.md, Added\".",
+    "filename": "seg124-alex.wav",
+    "duration": 16.429,
+    "status": "synthesized"
+  },
+  {
+    "seq": 125,
+    "speaker": "JAMIE",
+    "text": "I like that because it gives people permission to slow down.",
+    "filename": "seg125-jamie.wav",
+    "duration": 3.671,
+    "status": "synthesized"
+  },
+  {
+    "seq": 126,
+    "speaker": "ALEX",
+    "text": "That is the goal. We want the page to feel explorable, not fragile.",
+    "filename": "seg126-alex.wav",
+    "duration": 3.949,
+    "status": "synthesized"
+  },
+  {
+    "seq": 127,
+    "speaker": "JAMIE",
+    "text": "Give me the version that sounds like an instructor, not a manual.",
+    "filename": "seg127-jamie.wav",
+    "duration": 3.842,
+    "status": "synthesized"
+  },
+  {
+    "seq": 128,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. When focused on any file in the Source Control panel. That is the difference between guessing and knowing: Use Shift+F10 to open the context menu.",
+    "filename": "seg128-alex.wav",
+    "duration": 11.565,
+    "status": "synthesized"
+  },
+  {
+    "seq": 129,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Learning Cards: Source Control Panel. What should a learner take away from it?",
+    "filename": "seg129-jamie.wav",
+    "duration": 4.845,
+    "status": "synthesized"
+  },
+  {
+    "seq": 130,
+    "speaker": "ALEX",
+    "text": "This part earns its place because low vision users (zoom, high contrast). That gives the learner a foothold: the Source Control panel adapts well to zoom and high contrast settings. That is the difference between following directions and owning the workflow.",
+    "filename": "seg130-alex.wav",
+    "duration": 13.633,
+    "status": "synthesized"
+  },
+  {
+    "seq": 131,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is at high zoom (200%+): The panel may narrow. File names truncate but the status letter (M, A, D) remains visible at the end of each row. Hover over truncated names to see the full path in a tooltip. Step two is high contrast themes: Status colours are reinforced by the status letter (M/A/D/R/U/C), so you do not rely on colour alone. To switch to a high contrast theme: Ctrl+Shift+P then type \"Preferences: Color Theme\" and select \"High Contrast\" or \"High Contrast. Step three is the commit message input is a multi-line text area. At high zoom it may appear narrow - it expands vertically as you type. Use Ctrl+Enter to commit from anywhere in the input (not Enter, which adds a new line). Step four is diff views opened from the panel use red/green highlighting. In high contrast themes these use distinct border patterns instead of subtle colour shading. Press F7 to jump between change hunks rather than scrolling through large diffs visually. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg131-alex.wav",
+    "duration": 60.845,
+    "status": "synthesized"
+  },
+  {
+    "seq": 132,
+    "speaker": "JAMIE",
+    "text": "Before we leave Learning Cards: Source Control Panel, what is the practical point?",
+    "filename": "seg132-jamie.wav",
+    "duration": 4.717,
+    "status": "synthesized"
+  },
+  {
+    "seq": 133,
+    "speaker": "ALEX",
+    "text": "First, minimap: If the minimap (the narrow code preview strip on the right edge of the editor) is distracting at high zoom, disable it: Settings (Ctrl+,) then search \"minimap enabled\" and uncheck it. The sequence works because every action has a confirmation.",
+    "filename": "seg133-alex.wav",
+    "duration": 14.295,
+    "status": "synthesized"
+  },
+  {
+    "seq": 134,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like See all modified, staged, and untracked files; git status; Short format (one letter per file, compact); git status -s; See what is staged (ready to commit); git diff --cached --name-only; See what is modified but not staged; git diff --name-only; See both. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg134-alex.wav",
+    "duration": 22.933,
+    "status": "synthesized"
+  },
+  {
+    "seq": 135,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg135-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 136,
+    "speaker": "JAMIE",
+    "text": "If I am listening before the workshop starts, what should settle in my mind first?",
+    "filename": "seg136-jamie.wav",
+    "duration": 4.631,
+    "status": "synthesized"
+  },
+  {
+    "seq": 137,
+    "speaker": "ALEX",
+    "text": "3. Branch Management: Branches are how you organize work in Git. The next useful detail is concrete: Every repository starts with a main or master branch.",
+    "filename": "seg137-alex.wav",
+    "duration": 10.007,
+    "status": "synthesized"
+  },
+  {
+    "seq": 138,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Where it's shown. What should a learner take away from it?",
+    "filename": "seg138-jamie.wav",
+    "duration": 3.693,
+    "status": "synthesized"
+  },
+  {
+    "seq": 139,
+    "speaker": "ALEX",
+    "text": "Where it's shown has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg139-alex.wav",
+    "duration": 5.697,
+    "status": "synthesized"
+  },
+  {
+    "seq": 140,
+    "speaker": "ALEX",
+    "text": "Start here: Bottom-left corner of VS Code (status bar) - visual users see it immediately. Then: Source Control panel title bar. Next: Command Palette: Ctrl+Shift+P (Mac: Cmd+Shift+P) \u2192 \"Git: Show Git Output\". Keep it that plain: know where you are, make the move, check the result.",
+    "filename": "seg140-alex.wav",
+    "duration": 16.599,
+    "status": "synthesized"
+  },
+  {
+    "seq": 141,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Keyboard access to status bar. What should a learner take away from it?",
+    "filename": "seg141-jamie.wav",
+    "duration": 4.781,
+    "status": "synthesized"
+  },
+  {
+    "seq": 142,
+    "speaker": "ALEX",
+    "text": "This is the move inside Keyboard access to status bar: visual users: You can also click the branch name in the bottom-left status bar to open the branch picker directly.",
+    "filename": "seg142-alex.wav",
+    "duration": 9.815,
+    "status": "synthesized"
+  },
+  {
+    "seq": 143,
+    "speaker": "ALEX",
+    "text": "A few details make that real. The status bar is not in the standard keyboard navigation flow. Use the Command Palette for branch operations instead.",
+    "filename": "seg143-alex.wav",
+    "duration": 8.919,
+    "status": "synthesized"
+  },
+  {
+    "seq": 144,
+    "speaker": "JAMIE",
+    "text": "That is the part I would want someone to say out loud while they work.",
+    "filename": "seg144-jamie.wav",
+    "duration": 3.842,
+    "status": "synthesized"
+  },
+  {
+    "seq": 145,
+    "speaker": "ALEX",
+    "text": "Exactly. A learner should always know what they are trying to prove before they take the next action.",
+    "filename": "seg145-alex.wav",
+    "duration": 4.8,
+    "status": "synthesized"
+  },
+  {
+    "seq": 146,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg146-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 147,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Command Palette method (recommended). What should a learner take away from it?",
+    "filename": "seg147-jamie.wav",
+    "duration": 4.93,
+    "status": "synthesized"
+  },
+  {
+    "seq": 148,
+    "speaker": "ALEX",
+    "text": "Command Palette method (recommended) has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg148-alex.wav",
+    "duration": 6.807,
+    "status": "synthesized"
+  },
+  {
+    "seq": 149,
+    "speaker": "ALEX",
+    "text": "The parts worth keeping in working memory are these. Creates the branch. Switches to it automatically. Your working files stay exactly as they were.",
+    "filename": "seg149-alex.wav",
+    "duration": 8.3,
+    "status": "synthesized"
+  },
+  {
+    "seq": 150,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Ctrl+Shift+P (Mac: Cmd+Shift+P); Type \"git create branch\"; Select \"Git: Create Branch.\"; and Type the new branch name (example: feature/improve-docs). The point is not speed; the point is never losing your place.",
+    "filename": "seg150-alex.wav",
+    "duration": 14.722,
+    "status": "synthesized"
+  },
+  {
+    "seq": 151,
+    "speaker": "JAMIE",
+    "text": "Before we leave Command Palette method (recommended), what is the practical point?",
+    "filename": "seg151-jamie.wav",
+    "duration": 4.333,
+    "status": "synthesized"
+  },
+  {
+    "seq": 152,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is press Enter. Each step should leave a trace you can name.",
+    "filename": "seg152-alex.wav",
+    "duration": 6.594,
+    "status": "synthesized"
+  },
+  {
+    "seq": 153,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Naming conventions. What should a learner take away from it?",
+    "filename": "seg153-jamie.wav",
+    "duration": 4.247,
+    "status": "synthesized"
+  },
+  {
+    "seq": 154,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: web alternative (github.com) - branch management. The listener should be able to check this: Create and switch branches without leaving your browser.",
+    "filename": "seg154-alex.wav",
+    "duration": 10.007,
+    "status": "synthesized"
+  },
+  {
+    "seq": 155,
+    "speaker": "ALEX",
+    "text": "On the ground, that means a few things. Use lowercase with hyphens: feature/add-timeline-guide. Avoid spaces and special characters. Be descriptive: fix/heading-hierarchy not fix1.",
+    "filename": "seg155-alex.wav",
+    "duration": 11.137,
+    "status": "synthesized"
+  },
+  {
+    "seq": 156,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is on the repository page, click the branch dropdown (shows \"main\" by default). Step two is type a new branch name in the search field. Step three is click \"Create branch: your-branch-name from main\". Step four is GitHub switches to the new branch immediately. Each step should leave a trace you can name.",
+    "filename": "seg156-alex.wav",
+    "duration": 19.053,
+    "status": "synthesized"
+  },
+  {
+    "seq": 157,
+    "speaker": "JAMIE",
+    "text": "Before we leave Naming conventions, what is the practical point?",
+    "filename": "seg157-jamie.wav",
+    "duration": 3.778,
+    "status": "synthesized"
+  },
+  {
+    "seq": 158,
+    "speaker": "ALEX",
+    "text": "First, any file edits you make in the browser will be on this branch. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg158-alex.wav",
+    "duration": 7.468,
+    "status": "synthesized"
+  },
+  {
+    "seq": 159,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Create and switch to a new branch; git checkout -b feature/improve-docs; List all branches; git branch -a; Switch to an existing branch; git checkout main; Delete a branch (after merging); git branch -d feature/improve-docs. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg159-alex.wav",
+    "duration": 22.253,
+    "status": "synthesized"
+  },
+  {
+    "seq": 160,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Command Palette method. What should a learner take away from it?",
+    "filename": "seg160-jamie.wav",
+    "duration": 4.183,
+    "status": "synthesized"
+  },
+  {
+    "seq": 161,
+    "speaker": "ALEX",
+    "text": "Do not treat Command Palette method as decoration. Screen reader announcement: \"Branch: main\" or \"Branch: feature/add-timeline-guide\".",
+    "filename": "seg161-alex.wav",
+    "duration": 8.215,
+    "status": "synthesized"
+  },
+  {
+    "seq": 162,
+    "speaker": "ALEX",
+    "text": "First, ctrl+Shift+P (Mac: Cmd+Shift+P). Then, type \"git checkout\". After that, select \"Git: Checkout to.\". Finally, a list of all branches appears. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg162-alex.wav",
+    "duration": 13.399,
+    "status": "synthesized"
+  },
+  {
+    "seq": 163,
+    "speaker": "JAMIE",
+    "text": "Before we leave Command Palette method, what is the practical point?",
+    "filename": "seg163-jamie.wav",
+    "duration": 3.778,
+    "status": "synthesized"
+  },
+  {
+    "seq": 164,
+    "speaker": "ALEX",
+    "text": "Start here: Up/Down Arrow to navigate. Then: Enter to switch. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg164-alex.wav",
+    "duration": 6.677,
+    "status": "synthesized"
+  },
+  {
+    "seq": 165,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg165-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 166,
+    "speaker": "JAMIE",
+    "text": "Let's pause on What happens when you switch. What should a learner take away from it?",
+    "filename": "seg166-jamie.wav",
+    "duration": 4.397,
+    "status": "synthesized"
+  },
+  {
+    "seq": 167,
+    "speaker": "ALEX",
+    "text": "What happens when you switch has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg167-alex.wav",
+    "duration": 6.252,
+    "status": "synthesized"
+  },
+  {
+    "seq": 168,
+    "speaker": "ALEX",
+    "text": "Here is what that changes in practice. VS Code saves your current files. Loads the files from the other branch. If you have uncommitted changes, Git may block the switch (see \"Stashing\" in Section 10).",
+    "filename": "seg168-alex.wav",
+    "duration": 11.309,
+    "status": "synthesized"
+  },
+  {
+    "seq": 169,
+    "speaker": "JAMIE",
+    "text": "Let's pause on After your PR is merged, you can delete the branch. What should a learner take away from it?",
+    "filename": "seg169-jamie.wav",
+    "duration": 5.997,
+    "status": "synthesized"
+  },
+  {
+    "seq": 170,
+    "speaker": "ALEX",
+    "text": "Put After your PR is merged, you can delete the branch into plain language. You cannot delete the branch you're currently on. The interface gets easier when it becomes a set of named places instead of a wall of controls.",
+    "filename": "seg170-alex.wav",
+    "duration": 11.735,
+    "status": "synthesized"
+  },
+  {
+    "seq": 171,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Ctrl+Shift+P (Mac: Cmd+Shift+P); Type \"git delete branch\"; Select \"Git: Delete Branch.\"; and Choose the branch to delete from the list. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg171-alex.wav",
+    "duration": 13.655,
+    "status": "synthesized"
+  },
+  {
+    "seq": 172,
+    "speaker": "JAMIE",
+    "text": "So this is less about memorizing and more about noticing.",
+    "filename": "seg172-jamie.wav",
+    "duration": 3.714,
+    "status": "synthesized"
+  },
+  {
+    "seq": 173,
+    "speaker": "ALEX",
+    "text": "Right. Once the learner can name the move, the interface becomes much less intimidating.",
+    "filename": "seg173-alex.wav",
+    "duration": 4.845,
+    "status": "synthesized"
+  },
+  {
+    "seq": 174,
+    "speaker": "JAMIE",
+    "text": "What is the safe way to learn from that example?",
+    "filename": "seg174-jamie.wav",
+    "duration": 3.053,
+    "status": "synthesized"
+  },
+  {
+    "seq": 175,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. Command: Ctrl+Shift+P \u2192 \"Git: Show Git Output\" \u2192 Branch list appears. That is the difference between guessing and knowing: Alternative: Use the integrated terminal.",
+    "filename": "seg175-alex.wav",
+    "duration": 13.185,
+    "status": "synthesized"
+  },
+  {
+    "seq": 176,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like git branch Local branches only; git branch -a All branches (including remote). Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg176-alex.wav",
+    "duration": 14.528,
+    "status": "synthesized"
+  },
+  {
+    "seq": 177,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg177-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 178,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Learning Cards: Branch Management. What should a learner take away from it?",
+    "filename": "seg178-jamie.wav",
+    "duration": 4.973,
+    "status": "synthesized"
+  },
+  {
+    "seq": 179,
+    "speaker": "ALEX",
+    "text": "This part earns its place because low vision users (zoom, high contrast). That gives the learner a foothold: screen reader users (NVDA / JAWS on Windows).",
+    "filename": "seg179-alex.wav",
+    "duration": 9.217,
+    "status": "synthesized"
+  },
+  {
+    "seq": 180,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is branch name in the status bar: The current branch name appears in the bottom-left corner of VS Code. At high zoom, the status bar may be partially off-screen. Use Ctrl+Shift+P then type \"Git: Checkout to.\" to see and switch branches from the Command Palette. Step two is branch picker list: When you open the branch picker from the Command Palette, the list shows all available branches. At high zoom, long branch names may truncate. Type the first few characters to filter the list - the filter is instant. Step three is visual branch indicators in the Explorer: Modified files on a branch show a coloured dot in the Explorer panel. In high contrast themes, these dots use distinct shapes or borders. The Source Control panel (Ctrl+Shift+G) is more reliable for seeing which files. Keep it that plain: know where you are, make the move, check the result.",
+    "filename": "seg180-alex.wav",
+    "duration": 48.77,
+    "status": "synthesized"
+  },
+  {
+    "seq": 181,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Creating a branch. What should a learner take away from it?",
+    "filename": "seg181-jamie.wav",
+    "duration": 4.055,
+    "status": "synthesized"
+  },
+  {
+    "seq": 182,
+    "speaker": "ALEX",
+    "text": "Creating a branch has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg182-alex.wav",
+    "duration": 5.975,
+    "status": "synthesized"
+  },
+  {
+    "seq": 183,
+    "speaker": "ALEX",
+    "text": "First, press Ctrl+Shift+P to open the Command Palette. Then, type \"git create branch\" - NVDA/JAWS announces results as you type. After that, press Enter on \"Git: Create Branch.\". Finally, the input focus moves to a text field - type your branch name (e.g., feature/add-docs). Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg183-alex.wav",
+    "duration": 19.65,
+    "status": "synthesized"
+  },
+  {
+    "seq": 184,
+    "speaker": "JAMIE",
+    "text": "Before we leave Creating a branch, what is the practical point?",
+    "filename": "seg184-jamie.wav",
+    "duration": 3.735,
+    "status": "synthesized"
+  },
+  {
+    "seq": 185,
+    "speaker": "ALEX",
+    "text": "Start here: Press Enter - VS Code creates and switches to the branch. Then: NVDA/JAWS announces the new branch name in the status bar notification. The point is not speed; the point is never losing your place.",
+    "filename": "seg185-alex.wav",
+    "duration": 12.781,
+    "status": "synthesized"
+  },
+  {
+    "seq": 186,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Switching branches. What should a learner take away from it?",
+    "filename": "seg186-jamie.wav",
+    "duration": 4.162,
+    "status": "synthesized"
+  },
+  {
+    "seq": 187,
+    "speaker": "ALEX",
+    "text": "Switching branches has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg187-alex.wav",
+    "duration": 5.996,
+    "status": "synthesized"
+  },
+  {
+    "seq": 188,
+    "speaker": "ALEX",
+    "text": "Start here: Press Ctrl+Shift+P, type \"git checkout\". Then: Select \"Git: Checkout to.\". Next: A list of branches appears - navigate with Up/Down Arrow. Last: Each item is announced as the branch name (e.g., \"main\", \"feature/add-docs\"). The point is not speed; the point is never losing your place.",
+    "filename": "seg188-alex.wav",
+    "duration": 16.429,
+    "status": "synthesized"
+  },
+  {
+    "seq": 189,
+    "speaker": "JAMIE",
+    "text": "Before we leave Switching branches, what is the practical point?",
+    "filename": "seg189-jamie.wav",
+    "duration": 3.671,
+    "status": "synthesized"
+  },
+  {
+    "seq": 190,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Press Enter to switch; and VS Code reloads files for that branch - you hear a status bar update. Each step should leave a trace you can name.",
+    "filename": "seg190-alex.wav",
+    "duration": 8.427,
+    "status": "synthesized"
+  },
+  {
+    "seq": 191,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg191-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 192,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Deleting a branch. What should a learner take away from it?",
+    "filename": "seg192-jamie.wav",
+    "duration": 4.119,
+    "status": "synthesized"
+  },
+  {
+    "seq": 193,
+    "speaker": "ALEX",
+    "text": "This is the move inside Deleting a branch: screen reader users (VoiceOver on macOS).",
+    "filename": "seg193-alex.wav",
+    "duration": 5.377,
+    "status": "synthesized"
+  },
+  {
+    "seq": 194,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Switch to a different branch first (you cannot delete the branch you are on); Press Ctrl+Shift+P, type \"git delete branch\"; Select \"Git: Delete Branch.\"; and Navigate the list to find the branch to delete, press Enter. Each step should leave a trace you can name.",
+    "filename": "seg194-alex.wav",
+    "duration": 14.573,
+    "status": "synthesized"
+  },
+  {
+    "seq": 195,
+    "speaker": "JAMIE",
+    "text": "What is the teaching move inside Creating a branch?",
+    "filename": "seg195-jamie.wav",
+    "duration": 3.159,
+    "status": "synthesized"
+  },
+  {
+    "seq": 196,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Press Cmd+Shift+P to open the Command Palette; Type \"git create branch\" - VoiceOver announces filtered results; Press Return on \"Git: Create Branch.\"; and Type the branch name in the input field. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg196-alex.wav",
+    "duration": 15.81,
+    "status": "synthesized"
+  },
+  {
+    "seq": 197,
+    "speaker": "JAMIE",
+    "text": "If someone only remembers one thing from Creating a branch, what should it be?",
+    "filename": "seg197-jamie.wav",
+    "duration": 4.397,
+    "status": "synthesized"
+  },
+  {
+    "seq": 198,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is press Return to create and switch. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg198-alex.wav",
+    "duration": 8.599,
+    "status": "synthesized"
+  },
+  {
+    "seq": 199,
+    "speaker": "JAMIE",
+    "text": "What is the teaching move inside Switching branches?",
+    "filename": "seg199-jamie.wav",
+    "duration": 3.287,
+    "status": "synthesized"
+  },
+  {
+    "seq": 200,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is press Cmd+Shift+P, type \"git checkout\". Step two is select \"Git: Checkout to.\". Step three is use VO+Down Arrow to navigate the branch list. Step four is press Return to switch. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg200-alex.wav",
+    "duration": 16.811,
+    "status": "synthesized"
+  },
+  {
+    "seq": 201,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg201-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 202,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Getting the current branch name. What should a learner take away from it?",
+    "filename": "seg202-jamie.wav",
+    "duration": 4.461,
+    "status": "synthesized"
+  },
+  {
+    "seq": 203,
+    "speaker": "ALEX",
+    "text": "Do not treat Getting the current branch name as decoration. Create and switch branches without leaving your browser. That is not trivia. Manage branches from your terminal. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg203-alex.wav",
+    "duration": 14.657,
+    "status": "synthesized"
+  },
+  {
+    "seq": 204,
+    "speaker": "ALEX",
+    "text": "First, press VO+M to move to the menu bar, then VO+Right Arrow to the status bar area. Then, or use the Command Palette: Cmd+Shift+P then type \"Git: Show Git Output\" - the output pane includes the current branch. After that, on the repository page, find the branch dropdown button (shows \"main\" by default) - it is above the file table. Finally, click or activate the dropdown. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg204-alex.wav",
+    "duration": 24.898,
+    "status": "synthesized"
+  },
+  {
+    "seq": 205,
+    "speaker": "JAMIE",
+    "text": "Before we leave Getting the current branch name, what is the practical point?",
+    "filename": "seg205-jamie.wav",
+    "duration": 4.034,
+    "status": "synthesized"
+  },
+  {
+    "seq": 206,
+    "speaker": "ALEX",
+    "text": "Start here: Type a new branch name in the search field. Then: Click \"Create branch: your-branch-name from main\" when it appears. Next: GitHub switches to the new branch immediately. Last: Any file edits in the browser will be on this branch. The sequence works because every action has a confirmation.",
+    "filename": "seg206-alex.wav",
+    "duration": 15.297,
+    "status": "synthesized"
+  },
+  {
+    "seq": 207,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Create and switch to a new branch; git checkout -b feature/improve-docs; Or use the newer 'switch' command; git switch -c feature/improve-docs; List local branches (current branch marked with ); git branch; List all branches including remote-tracking; git. Create a branch linked to an issue (auto-names from issue title); gh issue develop 42 --checkout; List remote branches; gh api repos/{owner}/{repo}/branches --jq '.[].name'. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg207-alex.wav",
+    "duration": 34.05,
+    "status": "synthesized"
+  },
+  {
+    "seq": 208,
+    "speaker": "JAMIE",
+    "text": "Let's pause on 4. Staging Changes - Files, Lines, and Chunks. What should a learner take away from it?",
+    "filename": "seg208-jamie.wav",
+    "duration": 6.018,
+    "status": "synthesized"
+  },
+  {
+    "seq": 209,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, 4. Staging Changes - Files, Lines, and Chunks is still useful because this lets you commit only part of your work, leaving the rest for a later commit.",
+    "filename": "seg209-alex.wav",
+    "duration": 9.473,
+    "status": "synthesized"
+  },
+  {
+    "seq": 210,
+    "speaker": "ALEX",
+    "text": "Start here: Stage the changes you want to include. Then: Commit those staged changes. The sequence works because every action has a confirmation.",
+    "filename": "seg210-alex.wav",
+    "duration": 8.493,
+    "status": "synthesized"
+  },
+  {
+    "seq": 211,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Staging an Entire File. What should a learner take away from it?",
+    "filename": "seg211-jamie.wav",
+    "duration": 4.546,
+    "status": "synthesized"
+  },
+  {
+    "seq": 212,
+    "speaker": "ALEX",
+    "text": "Put Staging an Entire File into plain language. Low vision users (zoom, high contrast). The useful version is: Screen reader users (NVDA / JAWS / VoiceOver).",
+    "filename": "seg212-alex.wav",
+    "duration": 10.348,
+    "status": "synthesized"
+  },
+  {
+    "seq": 213,
+    "speaker": "ALEX",
+    "text": "This is where the lesson becomes something you can check. Right-click any file in the Changes list to get a full-size context menu with \"Stage Changes\", \"Discard Changes\", and other options. Or use Ctrl+Shift+P then type \"Git: Stage Changes\" to stage the currently open file.",
+    "filename": "seg213-alex.wav",
+    "duration": 15.639,
+    "status": "synthesized"
+  },
+  {
+    "seq": 214,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Open Source Control: Ctrl+Shift+G (Mac: Cmd+Shift+G); Hover over a file in the \"Changes\" list - a + icon appears to its right; Click the + to stage that file; and Or right-click a file \u2192 \"Stage Changes\". Keep it that plain: know where you are, make the move, check the result.",
+    "filename": "seg214-alex.wav",
+    "duration": 16.791,
+    "status": "synthesized"
+  },
+  {
+    "seq": 215,
+    "speaker": "JAMIE",
+    "text": "Before we leave Staging an Entire File, what is the practical point?",
+    "filename": "seg215-jamie.wav",
+    "duration": 4.077,
+    "status": "synthesized"
+  },
+  {
+    "seq": 216,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: At high zoom, the + (stage), undo (discard), and open file icons may be small. Instead of hovering; The file moves from \"Changes\" to \"Staged Changes\" - both section headings include a count (e.g., \"Changes 2\", \"Staged Changes 1\") so you can confirm the move without relying on colour alone; In high contrast themes, staged files show a distinct background or border in the Staged Changes section; and Navigate to the file in the \"Changes\" list. Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg216-alex.wav",
+    "duration": 28.139,
+    "status": "synthesized"
+  },
+  {
+    "seq": 217,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg217-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 218,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Alternative (keyboard shortcut). What should a learner take away from it?",
+    "filename": "seg218-jamie.wav",
+    "duration": 4.823,
+    "status": "synthesized"
+  },
+  {
+    "seq": 219,
+    "speaker": "ALEX",
+    "text": "Alternative (keyboard shortcut) has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg219-alex.wav",
+    "duration": 6.764,
+    "status": "synthesized"
+  },
+  {
+    "seq": 220,
+    "speaker": "ALEX",
+    "text": "These are the pieces that turn the idea into a usable move. Focus the file \u2192 press Space.",
+    "filename": "seg220-alex.wav",
+    "duration": 5.975,
+    "status": "synthesized"
+  },
+  {
+    "seq": 221,
+    "speaker": "ALEX",
+    "text": "The next point gives the learner a handle. Alternative (context menu) has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg221-alex.wav",
+    "duration": 8.855,
+    "status": "synthesized"
+  },
+  {
+    "seq": 222,
+    "speaker": "ALEX",
+    "text": "Listen for the small confirmations in this list. Focus the file \u2192 press Shift+F10 (Mac: Ctrl+Return) \u2192 select \"Stage Changes\".",
+    "filename": "seg222-alex.wav",
+    "duration": 9.773,
+    "status": "synthesized"
+  },
+  {
+    "seq": 223,
+    "speaker": "JAMIE",
+    "text": "Let's pause on What happens. What should a learner take away from it?",
+    "filename": "seg223-jamie.wav",
+    "duration": 3.693,
+    "status": "synthesized"
+  },
+  {
+    "seq": 224,
+    "speaker": "ALEX",
+    "text": "What happens has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg224-alex.wav",
+    "duration": 5.612,
+    "status": "synthesized"
+  },
+  {
+    "seq": 225,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. The file moves from \"Changes\" \u2192 \"Staged Changes\". A green \"A\" or \"M\" indicator appears.",
+    "filename": "seg225-alex.wav",
+    "duration": 7.381,
+    "status": "synthesized"
+  },
+  {
+    "seq": 226,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg226-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 227,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Staging Multiple Files at Once. What should a learner take away from it?",
+    "filename": "seg227-jamie.wav",
+    "duration": 5.122,
+    "status": "synthesized"
+  },
+  {
+    "seq": 228,
+    "speaker": "ALEX",
+    "text": "Here is the learner-facing version. All modified files move to \"Staged Changes.\".",
+    "filename": "seg228-alex.wav",
+    "duration": 4.972,
+    "status": "synthesized"
+  },
+  {
+    "seq": 229,
+    "speaker": "ALEX",
+    "text": "Start here: Ctrl+Shift+G (Mac: Cmd+Shift+G) to open Source Control. Then: Navigate to the \"Changes\" section heading. Next: Press Shift+F10 (Mac: Ctrl+Return) to open context menu on the section itself. Last: Select \"Stage All Changes\". If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg229-alex.wav",
+    "duration": 18.519,
+    "status": "synthesized"
+  },
+  {
+    "seq": 230,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Staging Individual Lines or Chunks. What should a learner take away from it?",
+    "filename": "seg230-jamie.wav",
+    "duration": 5.378,
+    "status": "synthesized"
+  },
+  {
+    "seq": 231,
+    "speaker": "ALEX",
+    "text": "This is the move inside Staging Individual Lines or Chunks: this is one of Git's most powerful features: You can stage only specific lines of a file, leaving other changes unstaged.",
+    "filename": "seg231-alex.wav",
+    "duration": 11.138,
+    "status": "synthesized"
+  },
+  {
+    "seq": 232,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Workflow. What should a learner take away from it?",
+    "filename": "seg232-jamie.wav",
+    "duration": 3.586,
+    "status": "synthesized"
+  },
+  {
+    "seq": 233,
+    "speaker": "ALEX",
+    "text": "Anchor this part on Workflow. Result: Only those lines are staged. This is the part to say slowly: The rest of the file remains in \"Changes.\". The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes.",
+    "filename": "seg233-alex.wav",
+    "duration": 14.145,
+    "status": "synthesized"
+  },
+  {
+    "seq": 234,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Open Source Control: Ctrl+Shift+G (Mac: Cmd+Shift+G); Navigate to a file in \"Changes\"; Press Enter to open the diff view; and The diff shows your changes side-by-side or inline. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg234-alex.wav",
+    "duration": 16.898,
+    "status": "synthesized"
+  },
+  {
+    "seq": 235,
+    "speaker": "JAMIE",
+    "text": "Before we leave Workflow, what is the practical point?",
+    "filename": "seg235-jamie.wav",
+    "duration": 3.266,
+    "status": "synthesized"
+  },
+  {
+    "seq": 236,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is navigate to a changed line (use Arrow keys or F7 for next hunk). Step two is press Shift+F10 (Mac: Ctrl+Return) to open context menu. Step three is select \"Stage Selected Lines\". The sequence works because every action has a confirmation.",
+    "filename": "seg236-alex.wav",
+    "duration": 17.856,
+    "status": "synthesized"
+  },
+  {
+    "seq": 237,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg237-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 238,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Use case for this workshop. What should a learner take away from it?",
+    "filename": "seg238-jamie.wav",
+    "duration": 4.546,
+    "status": "synthesized"
+  },
+  {
+    "seq": 239,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: in the diff view, press Alt+H to see Accessible Help for diff-specific keyboard shortcuts. The listener should be able to check this: Web alternative (github.com) - editing files.",
+    "filename": "seg239-alex.wav",
+    "duration": 12.247,
+    "status": "synthesized"
+  },
+  {
+    "seq": 240,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. You fixed a typo and added a new section in the same file. You want to commit the typo fix separately from the new content. Stage only the typo fix lines, commit them with message \"fix: typo in heading\". Then stage the new section, commit with message \"docs: add Timeline View guide\".",
+    "filename": "seg240-alex.wav",
+    "duration": 16.705,
+    "status": "synthesized"
+  },
+  {
+    "seq": 241,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is click the pencil icon on any file to open the web editor. Step two is make your changes. Step three is click \"Commit changes\" - GitHub creates the commit directly. Step four is choose to commit to the current branch or create a new branch and PR. The sequence works because every action has a confirmation.",
+    "filename": "seg241-alex.wav",
+    "duration": 19.692,
+    "status": "synthesized"
+  },
+  {
+    "seq": 242,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Stage a specific file; git add docs/GUIDE.md; Stage all changes; git add.; Stage specific lines interactively; git add -p docs/GUIDE.md; Git shows each change hunk and asks: stage this? (y/n/s/e); Unstage a file; git restore --staged docs/GUIDE.md; Check what. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg242-alex.wav",
+    "duration": 27.074,
+    "status": "synthesized"
+  },
+  {
+    "seq": 243,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Reverse the process. What should a learner take away from it?",
+    "filename": "seg243-jamie.wav",
+    "duration": 4.269,
+    "status": "synthesized"
+  },
+  {
+    "seq": 244,
+    "speaker": "ALEX",
+    "text": "Reverse the process has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg244-alex.wav",
+    "duration": 6.145,
+    "status": "synthesized"
+  },
+  {
+    "seq": 245,
+    "speaker": "ALEX",
+    "text": "First, focus the file in \"Staged Changes\". Then, press Ctrl+Enter (Mac: Cmd+Enter) or Space. After that, file moves back to \"Changes\". Keep it that plain: know where you are, make the move, check the result.",
+    "filename": "seg245-alex.wav",
+    "duration": 12.674,
+    "status": "synthesized"
+  },
+  {
+    "seq": 246,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Learning Cards: Staging Changes. What should a learner take away from it?",
+    "filename": "seg246-jamie.wav",
+    "duration": 5.122,
+    "status": "synthesized"
+  },
+  {
+    "seq": 247,
+    "speaker": "ALEX",
+    "text": "Learning Cards: Staging Changes has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg247-alex.wav",
+    "duration": 6.935,
+    "status": "synthesized"
+  },
+  {
+    "seq": 248,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. In Source Control (Ctrl+Shift+G), press + or Space on a file to stage it -- your screen reader announces the file moving from \"Changes\" to \"Staged Changes\". To stage individual lines, open the file diff (Enter on the file), select lines with Shift+Up/Down, then use Command Palette: \"Git: Stage Selected Ranges\". Press Ctrl+Z in the Source Control panel to unstage the last staged file if you staged the wrong one. Staged files appear under a separate \"Staged Changes\" heading with a green + icon -- look for the section break in the Source Control panel. The inline diff view highlights added lines in green and removed lines in red; use Ctrl+= to zoom if the colors are hard to distinguish. Right-click a file in the Source Control panel for a context menu with \"Stage Changes\", \"Discard Changes\", and \"Open File\" options.",
+    "filename": "seg248-alex.wav",
+    "duration": 47.659,
+    "status": "synthesized"
+  },
+  {
+    "seq": 249,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg249-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 250,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Standard process. What should a learner take away from it?",
+    "filename": "seg250-jamie.wav",
+    "duration": 4.183,
+    "status": "synthesized"
+  },
+  {
+    "seq": 251,
+    "speaker": "ALEX",
+    "text": "Standard process has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg251-alex.wav",
+    "duration": 6.039,
+    "status": "synthesized"
+  },
+  {
+    "seq": 252,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Open Source Control: Ctrl+Shift+G (Mac: Cmd+Shift+G); Stage changes (see Section 4); Focus the commit message input (usually Tab or Shift+Tab to reach it); and Type your commit message. The point is not speed; the point is never losing your place.",
+    "filename": "seg252-alex.wav",
+    "duration": 16.066,
+    "status": "synthesized"
+  },
+  {
+    "seq": 253,
+    "speaker": "JAMIE",
+    "text": "Before we leave Standard process, what is the practical point?",
+    "filename": "seg253-jamie.wav",
+    "duration": 3.693,
+    "status": "synthesized"
+  },
+  {
+    "seq": 254,
+    "speaker": "ALEX",
+    "text": "Think of this as 1 checks: Press Ctrl+Enter (Mac: Cmd+Enter) to commit. Each step should leave a trace you can name.",
+    "filename": "seg254-alex.wav",
+    "duration": 7.789,
+    "status": "synthesized"
+  },
+  {
+    "seq": 255,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Learning Cards: Committing. What should a learner take away from it?",
+    "filename": "seg255-jamie.wav",
+    "duration": 4.183,
+    "status": "synthesized"
+  },
+  {
+    "seq": 256,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. Low vision users (zoom, high contrast).",
+    "filename": "seg256-alex.wav",
+    "duration": 5.761,
+    "status": "synthesized"
+  },
+  {
+    "seq": 257,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Open Source Control (Ctrl+Shift+G); Stage your files (click the + icon next to each file, or click Stage All Changes above the Changes section header); Click in the \"Message\" text area at the top of the Source Control panel; and Type your commit message. Each step should leave a trace you can name.",
+    "filename": "seg257-alex.wav",
+    "duration": 17.559,
+    "status": "synthesized"
+  },
+  {
+    "seq": 258,
+    "speaker": "JAMIE",
+    "text": "Before we leave Learning Cards: Committing, what is the practical point?",
+    "filename": "seg258-jamie.wav",
+    "duration": 4.034,
+    "status": "synthesized"
+  },
+  {
+    "seq": 259,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is click the Commit button (checkmark icon) or press Ctrl+Enter. Step two is if nothing is staged, VS Code asks if you want to stage all changes and commit directly - click \"Yes\" if that is what you want. Step three is the commit message input is at the top of the Source Control panel. At high zoom it may appear as a narrow rectangle - it expands vertically as you type. Step four is the Commit button may show only as a small checkmark icon at high zoom. Use Ctrl+Enter from inside the message input instead - this is more reliable than finding the button visually. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg259-alex.wav",
+    "duration": 36.823,
+    "status": "synthesized"
+  },
+  {
+    "seq": 260,
+    "speaker": "ALEX",
+    "text": "Put that beside the next piece. NVDA/JAWS has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg260-alex.wav",
+    "duration": 8.151,
+    "status": "synthesized"
+  },
+  {
+    "seq": 261,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. The commit input is announced as \"Source Control Input, edit, multi-line\". You're automatically in Forms Mode - just start typing. The input expands as you type (supports multi-line messages). Press Ctrl+Enter (Mac: Cmd+Enter) to commit (not Enter, which adds a new line).",
+    "filename": "seg261-alex.wav",
+    "duration": 16.597,
+    "status": "synthesized"
+  },
+  {
+    "seq": 262,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg262-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 263,
+    "speaker": "JAMIE",
+    "text": "Let's pause on VoiceOver. What should a learner take away from it?",
+    "filename": "seg263-jamie.wav",
+    "duration": 3.735,
+    "status": "synthesized"
+  },
+  {
+    "seq": 264,
+    "speaker": "ALEX",
+    "text": "VoiceOver has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg264-alex.wav",
+    "duration": 5.697,
+    "status": "synthesized"
+  },
+  {
+    "seq": 265,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. VO+Tab to navigate to the input. VO+Shift+Down to interact. Type your message. Ctrl+Enter to commit. VO+Shift+Up to stop interacting.",
+    "filename": "seg265-alex.wav",
+    "duration": 11.799,
+    "status": "synthesized"
+  },
+  {
+    "seq": 266,
+    "speaker": "ALEX",
+    "text": "Here is the moment where the page starts to make sense. Here is the learner-facing version. See Culture & Etiquette: Writing Good Commit Messages for format guidance. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.",
+    "filename": "seg266-alex.wav",
+    "duration": 15.191,
+    "status": "synthesized"
+  },
+  {
+    "seq": 267,
+    "speaker": "JAMIE",
+    "text": "What should happen before anyone copies and runs it?",
+    "filename": "seg267-jamie.wav",
+    "duration": 3.159,
+    "status": "synthesized"
+  },
+  {
+    "seq": 268,
+    "speaker": "ALEX",
+    "text": "This is the move inside Format: common types: feat:, fix:, docs:, style:, refactor:, test:, chore.",
+    "filename": "seg268-alex.wav",
+    "duration": 5.996,
+    "status": "synthesized"
+  },
+  {
+    "seq": 269,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. First line: type + colon + short summary (50 characters max). Blank line. Optional body: detailed explanation. Optional footer: \"Fixes 123\" to link to issue.",
+    "filename": "seg269-alex.wav",
+    "duration": 12.353,
+    "status": "synthesized"
+  },
+  {
+    "seq": 270,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Commit staged changes with a message; git commit -m \"fix: correct heading hierarchy in GUIDE.md\"; Commit with a multi-line message (opens your editor); git commit; Stage all tracked files and commit in one step; git commit -am \"docs: update screen reader. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg270-alex.wav",
+    "duration": 23.317,
+    "status": "synthesized"
+  },
+  {
+    "seq": 271,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg271-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 272,
+    "speaker": "ALEX",
+    "text": "Now shift from knowing the term to using it. What Happens After Commit has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg272-alex.wav",
+    "duration": 8.748,
+    "status": "synthesized"
+  },
+  {
+    "seq": 273,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. The \"Staged Changes\" section clears. Your changes are now part of Git history. The commit exists locally only - you must push to send it to GitHub (see Section 6).",
+    "filename": "seg273-alex.wav",
+    "duration": 11.202,
+    "status": "synthesized"
+  },
+  {
+    "seq": 274,
+    "speaker": "JAMIE",
+    "text": "Let's pause on 6. Push and Pull Operations. What should a learner take away from it?",
+    "filename": "seg274-jamie.wav",
+    "duration": 4.759,
+    "status": "synthesized"
+  },
+  {
+    "seq": 275,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: push sends your local commits to GitHub. The listener should be able to check this: Pull downloads new commits from GitHub to your local repository.",
+    "filename": "seg275-alex.wav",
+    "duration": 10.221,
+    "status": "synthesized"
+  },
+  {
+    "seq": 276,
+    "speaker": "JAMIE",
+    "text": "Let's pause on After committing locally. What should a learner take away from it?",
+    "filename": "seg276-jamie.wav",
+    "duration": 4.439,
+    "status": "synthesized"
+  },
+  {
+    "seq": 277,
+    "speaker": "ALEX",
+    "text": "After committing locally has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg277-alex.wav",
+    "duration": 6.316,
+    "status": "synthesized"
+  },
+  {
+    "seq": 278,
+    "speaker": "ALEX",
+    "text": "First, open Source Control: Ctrl+Shift+G (Mac: Cmd+Shift+G). Then, look for the \"Publish Branch\" button (if this is a new branch) or \"Sync Changes\" button. After that, press Enter on that button. The point is not speed; the point is never losing your place.",
+    "filename": "seg278-alex.wav",
+    "duration": 14.443,
+    "status": "synthesized"
+  },
+  {
+    "seq": 279,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg279-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 280,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Alternative: Command Palette. What should a learner take away from it?",
+    "filename": "seg280-jamie.wav",
+    "duration": 4.503,
+    "status": "synthesized"
+  },
+  {
+    "seq": 281,
+    "speaker": "ALEX",
+    "text": "Alternative: Command Palette has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg281-alex.wav",
+    "duration": 6.679,
+    "status": "synthesized"
+  },
+  {
+    "seq": 282,
+    "speaker": "ALEX",
+    "text": "Start here: Ctrl+Shift+P (Mac: Cmd+Shift+P). Then: Type \"git push\". Next: Select \"Git: Push\". Last: VS Code pushes your commits to GitHub. Each step should leave a trace you can name.",
+    "filename": "seg282-alex.wav",
+    "duration": 11.778,
+    "status": "synthesized"
+  },
+  {
+    "seq": 283,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Learning Cards: Push and Pull. What should a learner take away from it?",
+    "filename": "seg283-jamie.wav",
+    "duration": 4.418,
+    "status": "synthesized"
+  },
+  {
+    "seq": 284,
+    "speaker": "ALEX",
+    "text": "Put Learning Cards: Push and Pull into plain language. Low vision users (zoom, high contrast). The useful version is: Screen reader users (NVDA / JAWS on Windows).",
+    "filename": "seg284-alex.wav",
+    "duration": 9.815,
+    "status": "synthesized"
+  },
+  {
+    "seq": 285,
+    "speaker": "ALEX",
+    "text": "Walk it in order: The Sync/Publish button appears in the Source Control panel header area. At high zoom it may display as a small cloud icon with an arrow. If you cannot find it, use the Command Palette (Ctrl+Shift+P then type \"Git: Push\") - this is always reliable; Progress indication: While pushing, VS Code shows a spinning icon in the status bar (bottom-left). At high zoom this may be off-screen. After pushing, run Ctrl+Shift+P then \"Git: Show Git Output\" to read the push log as scrollable text; Pull indicators: When your branch is behind the remote, the status bar shows a down-arrow with a number (e.g., \"\u21932\" means 2 commits to pull). At high zoom, the Command Palette approach (Ctrl+Shift+P then \"Git: Pull\") avoids needing to read the status bar; and Auto-fetch: Enable auto-fetch (Settings: search \"git autofetch\") so VS Code checks for remote changes every few minutes. This prevents surprise conflicts when you push. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg285-alex.wav",
+    "duration": 55.234,
+    "status": "synthesized"
+  },
+  {
+    "seq": 286,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Pushing. What should a learner take away from it?",
+    "filename": "seg286-jamie.wav",
+    "duration": 3.479,
+    "status": "synthesized"
+  },
+  {
+    "seq": 287,
+    "speaker": "ALEX",
+    "text": "Pushing has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg287-alex.wav",
+    "duration": 5.441,
+    "status": "synthesized"
+  },
+  {
+    "seq": 288,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: After committing, press Ctrl+Shift+P, type \"git push\", select \"Git: Push\"; NVDA/JAWS announces \"Pushing.\" in the status bar; On success, a notification appears: \"Successfully pushed\" - if using NVDA, check NVDA+N to read recent notifications; and For a new branch (first push), use \"Git: Publish Branch\" instead - this sets up the upstream tracking. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg288-alex.wav",
+    "duration": 24.491,
+    "status": "synthesized"
+  },
+  {
+    "seq": 289,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg289-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 290,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Pulling. What should a learner take away from it?",
+    "filename": "seg290-jamie.wav",
+    "duration": 3.437,
+    "status": "synthesized"
+  },
+  {
+    "seq": 291,
+    "speaker": "ALEX",
+    "text": "Pulling has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg291-alex.wav",
+    "duration": 5.42,
+    "status": "synthesized"
+  },
+  {
+    "seq": 292,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is press Ctrl+Shift+P, type \"git pull\", select \"Git: Pull\". Step two is NVDA/JAWS announces \"Pulling.\" then the status changes. Step three is if there are conflicts, the Source Control panel shows a \"Merge Changes\" section - navigate there with Ctrl+Shift+G then Down Arrow. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg292-alex.wav",
+    "duration": 22.765,
+    "status": "synthesized"
+  },
+  {
+    "seq": 293,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Checking sync status. What should a learner take away from it?",
+    "filename": "seg293-jamie.wav",
+    "duration": 4.247,
+    "status": "synthesized"
+  },
+  {
+    "seq": 294,
+    "speaker": "ALEX",
+    "text": "Checking sync status: Screen reader users (VoiceOver on macOS).",
+    "filename": "seg294-alex.wav",
+    "duration": 4.268,
+    "status": "synthesized"
+  },
+  {
+    "seq": 295,
+    "speaker": "ALEX",
+    "text": "First, press Ctrl+Shift+P, type \"Git: Show Git Output\". Then, the output pane opens with push/pull log messages in plain text. After that, use Up/Down Arrow to read line by line. The sequence works because every action has a confirmation.",
+    "filename": "seg295-alex.wav",
+    "duration": 15.085,
+    "status": "synthesized"
+  },
+  {
+    "seq": 296,
+    "speaker": "JAMIE",
+    "text": "Before we leave Pushing, what is the practical point?",
+    "filename": "seg296-jamie.wav",
+    "duration": 3.095,
+    "status": "synthesized"
+  },
+  {
+    "seq": 297,
+    "speaker": "ALEX",
+    "text": "Start here: Press Cmd+Shift+P, type \"git push\", select \"Git: Push\". Then: VoiceOver announces progress from the status bar. Next: On success, a notification toast appears - press VO+F3 to read the latest notification. Keep it that plain: know where you are, make the move, check the result.",
+    "filename": "seg297-alex.wav",
+    "duration": 16.213,
+    "status": "synthesized"
+  },
+  {
+    "seq": 298,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg298-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 299,
+    "speaker": "JAMIE",
+    "text": "Before we leave Pulling, what is the practical point?",
+    "filename": "seg299-jamie.wav",
+    "duration": 3.117,
+    "status": "synthesized"
+  },
+  {
+    "seq": 300,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Press Cmd+Shift+P, type \"git pull\", select \"Git: Pull\"; VoiceOver announces when the pull completes; and If conflicts exist, navigate to Source Control (Cmd+Shift+G) and review the Merge Changes section. Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg300-alex.wav",
+    "duration": 16.834,
+    "status": "synthesized"
+  },
+  {
+    "seq": 301,
+    "speaker": "JAMIE",
+    "text": "How do you keep commands from becoming magic words?",
+    "filename": "seg301-jamie.wav",
+    "duration": 3.266,
+    "status": "synthesized"
+  },
+  {
+    "seq": 302,
+    "speaker": "ALEX",
+    "text": "Anchor this part on Screen reader feedback. Git CLI alternative - push and pull. This is the part to say slowly: Web alternative (github.com) - push and pull. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes.",
+    "filename": "seg302-alex.wav",
+    "duration": 15.468,
+    "status": "synthesized"
+  },
+  {
+    "seq": 303,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. NVDA/JAWS: Status bar announces \"Pushing.\" then \"Pushed successfully\" or an error message. Check the Source Control panel for any error messages (they appear as banner notifications).",
+    "filename": "seg303-alex.wav",
+    "duration": 12.524,
+    "status": "synthesized"
+  },
+  {
+    "seq": 304,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Push commits to GitHub; git push; Push a new branch for the first time; git push -u origin feature/improve-docs; Pull changes from GitHub; git pull; Fetch without merging (see what changed first); git fetch; git log HEAD.origin/main --oneline. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg304-alex.wav",
+    "duration": 23.639,
+    "status": "synthesized"
+  },
+  {
+    "seq": 305,
+    "speaker": "JAMIE",
+    "text": "Let's pause on What to do if push fails. What should a learner take away from it?",
+    "filename": "seg305-jamie.wav",
+    "duration": 4.375,
+    "status": "synthesized"
+  },
+  {
+    "seq": 306,
+    "speaker": "ALEX",
+    "text": "What to do if push fails has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg306-alex.wav",
+    "duration": 6.188,
+    "status": "synthesized"
+  },
+  {
+    "seq": 307,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Error: \"No upstream branch\" \u2192 You need to publish the branch first (Command Palette \u2192 \"Git: Publish Branch\"). Error: \"Permission denied\" \u2192 Check your authentication (see Appendix D: Git Authentication). Error: \"Rejected - non-fast-forward\" \u2192 Someone else pushed changes; you need to pull first.",
+    "filename": "seg307-alex.wav",
+    "duration": 16.896,
+    "status": "synthesized"
+  },
+  {
+    "seq": 308,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg308-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 309,
+    "speaker": "ALEX",
+    "text": "This is where confidence starts to build. When to pull has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg309-alex.wav",
+    "duration": 7.681,
+    "status": "synthesized"
+  },
+  {
+    "seq": 310,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Before you start work each day. When GitHub shows your branch is behind the remote. When preparing to merge a PR.",
+    "filename": "seg310-alex.wav",
+    "duration": 8.173,
+    "status": "synthesized"
+  },
+  {
+    "seq": 311,
+    "speaker": "JAMIE",
+    "text": "Let's pause on How to pull. What should a learner take away from it?",
+    "filename": "seg311-jamie.wav",
+    "duration": 3.607,
+    "status": "synthesized"
+  },
+  {
+    "seq": 312,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, How to pull is still useful because if there are conflicts: See Section 9.",
+    "filename": "seg312-alex.wav",
+    "duration": 5.697,
+    "status": "synthesized"
+  },
+  {
+    "seq": 313,
+    "speaker": "ALEX",
+    "text": "Start here: Ctrl+Shift+P (Mac: Cmd+Shift+P). Then: Type \"git pull\". Next: Select \"Git: Pull\". Last: VS Code fetches and merges remote changes. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg313-alex.wav",
+    "duration": 12.887,
+    "status": "synthesized"
+  },
+  {
+    "seq": 314,
+    "speaker": "ALEX",
+    "text": "Hold that next to this. Auto-fetch setting has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg314-alex.wav",
+    "duration": 7.319,
+    "status": "synthesized"
+  },
+  {
+    "seq": 315,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. VS Code can check for remote changes automatically every few minutes. Enable: Settings (Ctrl+, - Mac: Cmd+,) \u2192 search \"git autofetch\" \u2192 set to true.",
+    "filename": "seg315-alex.wav",
+    "duration": 11.712,
+    "status": "synthesized"
+  },
+  {
+    "seq": 316,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg316-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 317,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Syncing Your Fork with the Upstream Repository. What should a learner take away from it?",
+    "filename": "seg317-jamie.wav",
+    "duration": 5.719,
+    "status": "synthesized"
+  },
+  {
+    "seq": 318,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. When you fork a repository and the original (upstream) repository receives new commits, your fork gets out of date. That is the difference between guessing and knowing: Keeping your fork current prevents merge conflicts and ensures you're working with the latest code.",
+    "filename": "seg318-alex.wav",
+    "duration": 16.471,
+    "status": "synthesized"
+  },
+  {
+    "seq": 319,
+    "speaker": "JAMIE",
+    "text": "Let's pause on The GitHub \"Sync fork\" Button (Quickest Method). What should a learner take away from it?",
+    "filename": "seg319-jamie.wav",
+    "duration": 5.527,
+    "status": "synthesized"
+  },
+  {
+    "seq": 320,
+    "speaker": "ALEX",
+    "text": "This part earns its place because for straightforward updates, GitHub has a built-in sync button.",
+    "filename": "seg320-alex.wav",
+    "duration": 5.527,
+    "status": "synthesized"
+  },
+  {
+    "seq": 321,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is navigate to your fork on GitHub. Step two is on the repository page, look for the \"This branch is N commits behind owner/repo:main\" notice. Step three is activate the \"Sync fork\" button next to it. Step four is GitHub automatically merges upstream changes into your fork's default branch. Keep it that plain: know where you are, make the move, check the result.",
+    "filename": "seg321-alex.wav",
+    "duration": 22.125,
+    "status": "synthesized"
+  },
+  {
+    "seq": 322,
+    "speaker": "JAMIE",
+    "text": "Before we leave The GitHub \"Sync fork\" Button (Quickest Method), what is the practical point?",
+    "filename": "seg322-jamie.wav",
+    "duration": 4.887,
+    "status": "synthesized"
+  },
+  {
+    "seq": 323,
+    "speaker": "ALEX",
+    "text": "First, then pull those changes to your local clone: Git: Pull from the Command Palette. Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg323-alex.wav",
+    "duration": 9.069,
+    "status": "synthesized"
+  },
+  {
+    "seq": 324,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Screen reader path. What should a learner take away from it?",
+    "filename": "seg324-jamie.wav",
+    "duration": 3.991,
+    "status": "synthesized"
+  },
+  {
+    "seq": 325,
+    "speaker": "ALEX",
+    "text": "Screen reader path: Limitation: The GitHub sync button only syncs the default branch. The next useful detail is concrete: For other branches, use the git method below.",
+    "filename": "seg325-alex.wav",
+    "duration": 9.408,
+    "status": "synthesized"
+  },
+  {
+    "seq": 326,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg326-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 327,
+    "speaker": "JAMIE",
+    "text": "What should they understand before typing anything?",
+    "filename": "seg327-jamie.wav",
+    "duration": 3.053,
+    "status": "synthesized"
+  },
+  {
+    "seq": 328,
+    "speaker": "ALEX",
+    "text": "Here is the learner-facing version. To sync locally using git, you first configure the upstream remote. Put another way, this only needs to be done once per clone. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.",
+    "filename": "seg328-alex.wav",
+    "duration": 15.105,
+    "status": "synthesized"
+  },
+  {
+    "seq": 329,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Step 1: Open the terminal in VS Code: Ctrl+` (backtick); Step 2: Check your current remotes:; git remote -v; \u2192 You should see \"origin\" pointing to YOUR fork; Step 3: Add the upstream remote:; git remote add upstream. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg329-alex.wav",
+    "duration": 22.082,
+    "status": "synthesized"
+  },
+  {
+    "seq": 330,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Example for Accessibility Agents. What should a learner take away from it?",
+    "filename": "seg330-jamie.wav",
+    "duration": 5.25,
+    "status": "synthesized"
+  },
+  {
+    "seq": 331,
+    "speaker": "ALEX",
+    "text": "Example for Accessibility Agents has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg331-alex.wav",
+    "duration": 7.041,
+    "status": "synthesized"
+  },
+  {
+    "seq": 332,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like git remote add upstream https://github.com/community-access/accessibility-agents.git. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg332-alex.wav",
+    "duration": 17.666,
+    "status": "synthesized"
+  },
+  {
+    "seq": 333,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Fetching and Merging Upstream Changes. What should a learner take away from it?",
+    "filename": "seg333-jamie.wav",
+    "duration": 5.421,
+    "status": "synthesized"
+  },
+  {
+    "seq": 334,
+    "speaker": "ALEX",
+    "text": "Anchor this part on Fetching and Merging Upstream Changes. Once your upstream remote is configured.",
+    "filename": "seg334-alex.wav",
+    "duration": 5.953,
+    "status": "synthesized"
+  },
+  {
+    "seq": 335,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Fetch all updates from upstream (does not change your files yet); git fetch upstream; 2. Make sure you are on your default branch; git checkout main; 3. Merge upstream changes into your local branch; git merge upstream/main; 4. Push the updated branch to your. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg335-alex.wav",
+    "duration": 23.189,
+    "status": "synthesized"
+  },
+  {
+    "seq": 336,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg336-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 337,
+    "speaker": "JAMIE",
+    "text": "Let's pause on When Conflicts Occur During Sync. What should a learner take away from it?",
+    "filename": "seg337-jamie.wav",
+    "duration": 4.973,
+    "status": "synthesized"
+  },
+  {
+    "seq": 338,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: see also: Chapter 07: Merge Conflicts for a dedicated walkthrough of conflict resolution. The listener should be able to check this: If you've made changes to the same files the upstream has changed, merge conflicts can occur during sync.",
+    "filename": "seg338-alex.wav",
+    "duration": 14.977,
+    "status": "synthesized"
+  },
+  {
+    "seq": 339,
+    "speaker": "ALEX",
+    "text": "Now bring the learner back to the room. Do not treat 7. Discarding Changes as decoration. Discarding = permanently deleting your local edits. That is not trivia. The file reverts to the state of the last commit. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg339-alex.wav",
+    "duration": 17.111,
+    "status": "synthesized"
+  },
+  {
+    "seq": 340,
+    "speaker": "JAMIE",
+    "text": "Let's pause on When to Discard. What should a learner take away from it?",
+    "filename": "seg340-jamie.wav",
+    "duration": 3.97,
+    "status": "synthesized"
+  },
+  {
+    "seq": 341,
+    "speaker": "ALEX",
+    "text": "When to Discard has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg341-alex.wav",
+    "duration": 5.847,
+    "status": "synthesized"
+  },
+  {
+    "seq": 342,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. You made experimental changes and they didn't work. You want to start over from the last commit. You accidentally edited the wrong file.",
+    "filename": "seg342-alex.wav",
+    "duration": 8.405,
+    "status": "synthesized"
+  },
+  {
+    "seq": 343,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg343-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 344,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Single file. What should a learner take away from it?",
+    "filename": "seg344-jamie.wav",
+    "duration": 3.842,
+    "status": "synthesized"
+  },
+  {
+    "seq": 345,
+    "speaker": "ALEX",
+    "text": "Single file has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg345-alex.wav",
+    "duration": 5.825,
+    "status": "synthesized"
+  },
+  {
+    "seq": 346,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Open Source Control: Ctrl+Shift+G; Navigate to the file in \"Changes\"; Press Shift+F10 for context menu; and Select \"Discard Changes\". Keep it that plain: know where you are, make the move, check the result.",
+    "filename": "seg346-alex.wav",
+    "duration": 13.442,
+    "status": "synthesized"
+  },
+  {
+    "seq": 347,
+    "speaker": "JAMIE",
+    "text": "Before we leave Single file, what is the practical point?",
+    "filename": "seg347-jamie.wav",
+    "duration": 3.458,
+    "status": "synthesized"
+  },
+  {
+    "seq": 348,
+    "speaker": "ALEX",
+    "text": "Think of this as 1 checks: Confirm in the warning dialog (VS Code will ask \"Are you sure?\"). Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg348-alex.wav",
+    "duration": 9.41,
+    "status": "synthesized"
+  },
+  {
+    "seq": 349,
+    "speaker": "JAMIE",
+    "text": "Let's pause on All changes. What should a learner take away from it?",
+    "filename": "seg349-jamie.wav",
+    "duration": 3.906,
+    "status": "synthesized"
+  },
+  {
+    "seq": 350,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. Screen reader warning: VS Code shows a modal confirmation dialog. That is the difference between guessing and knowing: Navigate with Tab, select \"Discard\" or \"Cancel\" with Enter.",
+    "filename": "seg350-alex.wav",
+    "duration": 12.951,
+    "status": "synthesized"
+  },
+  {
+    "seq": 351,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Ctrl+Shift+G; Navigate to the \"Changes\" section heading; Shift+F10 for context menu; and Select \"Discard All Changes\". Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg351-alex.wav",
+    "duration": 13.741,
+    "status": "synthesized"
+  },
+  {
+    "seq": 352,
+    "speaker": "JAMIE",
+    "text": "Before we leave All changes, what is the practical point?",
+    "filename": "seg352-jamie.wav",
+    "duration": 3.565,
+    "status": "synthesized"
+  },
+  {
+    "seq": 353,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is confirm (this affects every modified file). The point is not speed; the point is never losing your place.",
+    "filename": "seg353-alex.wav",
+    "duration": 9.389,
+    "status": "synthesized"
+  },
+  {
+    "seq": 354,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Learning Cards: Discarding Changes. What should a learner take away from it?",
+    "filename": "seg354-jamie.wav",
+    "duration": 5.143,
+    "status": "synthesized"
+  },
+  {
+    "seq": 355,
+    "speaker": "ALEX",
+    "text": "This part earns its place because low vision users (zoom, high contrast). That gives the learner a foothold: screen reader users (NVDA / JAWS on Windows). That is the difference between following directions and owning the workflow.",
+    "filename": "seg355-alex.wav",
+    "duration": 12.929,
+    "status": "synthesized"
+  },
+  {
+    "seq": 356,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is the discard icon (an undo arrow) appears when hovering over a file in the Changes list. At high zoom, right-click the file instead to get a full-size context menu with \"Discard Changes.\". Step two is the confirmation dialog that appears is a modal - it dims the background. In high contrast themes, the dialog has a clear border. The \"Discard\" button is typically the focused (primary) button. Step three is for \"Discard All Changes\", right-click the \"Changes\" section heading to get the context menu. Step four is after discarding, the file disappears from the Changes list. Check the file count in the section heading to confirm (e.g., \"Changes 2\" becomes \"Changes 1\"). The point is not speed; the point is never losing your place.",
+    "filename": "seg356-alex.wav",
+    "duration": 41.664,
+    "status": "synthesized"
+  },
+  {
+    "seq": 357,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg357-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 358,
+    "speaker": "JAMIE",
+    "text": "What is the teaching move inside Single file?",
+    "filename": "seg358-jamie.wav",
+    "duration": 3.117,
+    "status": "synthesized"
+  },
+  {
+    "seq": 359,
+    "speaker": "ALEX",
+    "text": "First, press Ctrl+Shift+G to open Source Control. Then, navigate to the file in the Changes section with Down Arrow. After that, press Shift+F10 to open the context menu. Finally, navigate to \"Discard Changes\" with Down Arrow, press Enter. Each step should leave a trace you can name.",
+    "filename": "seg359-alex.wav",
+    "duration": 16.855,
+    "status": "synthesized"
+  },
+  {
+    "seq": 360,
+    "speaker": "JAMIE",
+    "text": "If someone only remembers one thing from Single file, what should it be?",
+    "filename": "seg360-jamie.wav",
+    "duration": 4.183,
+    "status": "synthesized"
+  },
+  {
+    "seq": 361,
+    "speaker": "ALEX",
+    "text": "Start here: A confirmation dialog appears - NVDA announces \"Are you sure you want to discard changes\" or similar. Then: Press Tab to navigate between \"Discard\" and \"Cancel\", press Enter on your choice. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg361-alex.wav",
+    "duration": 14.594,
+    "status": "synthesized"
+  },
+  {
+    "seq": 362,
+    "speaker": "JAMIE",
+    "text": "Let's pause on All files. What should a learner take away from it?",
+    "filename": "seg362-jamie.wav",
+    "duration": 3.757,
+    "status": "synthesized"
+  },
+  {
+    "seq": 363,
+    "speaker": "ALEX",
+    "text": "Here is the learner-facing version. Screen reader users (VoiceOver on macOS). Put another way, discard changes from your terminal.",
+    "filename": "seg363-alex.wav",
+    "duration": 7.575,
+    "status": "synthesized"
+  },
+  {
+    "seq": 364,
+    "speaker": "ALEX",
+    "text": "Start here: Navigate to the \"Changes\" section heading (announced as \"Changes, expanded, N items\"). Then: Press Shift+F10, select \"Discard All Changes\". Next: Confirm in the dialog. Last: Press Cmd+Shift+G to open Source Control. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg364-alex.wav",
+    "duration": 17.282,
+    "status": "synthesized"
+  },
+  {
+    "seq": 365,
+    "speaker": "JAMIE",
+    "text": "Before we leave All files, what is the practical point?",
+    "filename": "seg365-jamie.wav",
+    "duration": 3.437,
+    "status": "synthesized"
+  },
+  {
+    "seq": 366,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Use VO+Arrow keys to navigate to the file; Press VO+Shift+M to open the context menu (or Ctrl+Return); Navigate to \"Discard Changes\", press VO+Space; and In the confirmation dialog, use VO+Right Arrow to reach the buttons, VO+Space to activate. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg366-alex.wav",
+    "duration": 19.692,
+    "status": "synthesized"
+  },
+  {
+    "seq": 367,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Discard changes to a specific file (restore to last commit); git restore docs/GUIDE.md; Discard all unstaged changes; git restore.; Discard staged changes (unstage first, then restore); git restore --staged docs/GUIDE.md; git restore docs/GUIDE.md; Nuclear. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg367-alex.wav",
+    "duration": 26.647,
+    "status": "synthesized"
+  },
+  {
+    "seq": 368,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Safer Alternative: Stash Instead of Discard. What should a learner take away from it?",
+    "filename": "seg368-jamie.wav",
+    "duration": 5.762,
+    "status": "synthesized"
+  },
+  {
+    "seq": 369,
+    "speaker": "ALEX",
+    "text": "This is the move inside Safer Alternative: Stash Instead of Discard: if you're not sure whether you'll need these changes later, use stash (Section 10) instead of discard. That matters in practice: Stash saves your changes temporarily without committing them.",
+    "filename": "seg369-alex.wav",
+    "duration": 13.717,
+    "status": "synthesized"
+  },
+  {
+    "seq": 370,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg370-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 371,
+    "speaker": "ALEX",
+    "text": "That matters because of the next idea. Anchor this part on Deleting a File from the Repository (Git Delete / git rm). Git Delete removes a file from both your working directory AND Git's tracking. This is the part to say slowly: This is different from discarding changes - it permanently removes the file from the repository history going forward. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes.",
+    "filename": "seg371-alex.wav",
+    "duration": 24.813,
+    "status": "synthesized"
+  },
+  {
+    "seq": 372,
+    "speaker": "JAMIE",
+    "text": "Let's pause on How to use. What should a learner take away from it?",
+    "filename": "seg372-jamie.wav",
+    "duration": 3.693,
+    "status": "synthesized"
+  },
+  {
+    "seq": 373,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: the file is staged for deletion - you still need to commit to record the removal.",
+    "filename": "seg373-alex.wav",
+    "duration": 6.444,
+    "status": "synthesized"
+  },
+  {
+    "seq": 374,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is open the file you want to remove in the editor. Step two is ctrl+Shift+P (Mac: Cmd+Shift+P). Step three is type \"Git: Delete\". Step four is confirm the deletion. The sequence works because every action has a confirmation.",
+    "filename": "seg374-alex.wav",
+    "duration": 17.239,
+    "status": "synthesized"
+  },
+  {
+    "seq": 375,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. When to use Git Delete vs. just deleting the file has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg375-alex.wav",
+    "duration": 9.495,
+    "status": "synthesized"
+  },
+  {
+    "seq": 376,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Simply deleting a file from Explorer leaves it as an \"untracked deletion\" in Git. Using Git: Delete (git rm) stages the deletion in one step. Use git rm when you want to track the file removal as part of your next commit.",
+    "filename": "seg376-alex.wav",
+    "duration": 13.845,
+    "status": "synthesized"
+  },
+  {
+    "seq": 377,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg377-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 378,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Learning Cards: Deleting a File from the Repository. What should a learner take away from it?",
+    "filename": "seg378-jamie.wav",
+    "duration": 6.082,
+    "status": "synthesized"
+  },
+  {
+    "seq": 379,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Learning Cards: Deleting a File from the Repository is still useful because alternatively: Ctrl+Shift+P then \"Git: Delete\" removes the file and stages the deletion in one step. For someone navigating by keyboard or screen reader, this detail matters: Low vision users (zoom, high contrast).",
+    "filename": "seg379-alex.wav",
+    "duration": 17.559,
+    "status": "synthesized"
+  },
+  {
+    "seq": 380,
+    "speaker": "ALEX",
+    "text": "Start here: Right-click the file in the Explorer panel (Ctrl+Shift+E). Then: Select \"Delete\" to delete from your file system. Next: The file appears in Source Control (Ctrl+Shift+G) under Changes with a \"D\" (deleted) status. Last: Stage and commit the deletion to record it in Git. Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg380-alex.wav",
+    "duration": 19.586,
+    "status": "synthesized"
+  },
+  {
+    "seq": 381,
+    "speaker": "JAMIE",
+    "text": "Before we leave Learning Cards: Deleting a File from the Repository, what is the practical point?",
+    "filename": "seg381-jamie.wav",
+    "duration": 5.762,
+    "status": "synthesized"
+  },
+  {
+    "seq": 382,
+    "speaker": "ALEX",
+    "text": "Walk it in order: The easiest approach at high zoom is Ctrl+Shift+P then type \"Git: Delete\" - this works on the currently open file and avoids finding small context menu targets; After deletion, confirm in Source Control (Ctrl+Shift+G) - the file appears with a \"D\" status letter. The \"D\" is text, not colour-only, so it works in all themes; Stage and commit as normal; and Open the file you want to remove in the editor. The point is not speed; the point is never losing your place.",
+    "filename": "seg382-alex.wav",
+    "duration": 27.607,
+    "status": "synthesized"
+  },
+  {
+    "seq": 383,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Remove a file and stage the deletion in one step; git rm docs/old-file.md; Remove a file but keep it locally (stop tracking only); git rm --cached docs/old-file.md; Remove an entire directory; git rm -r old-folder/; Commit the deletion; git commit -m \"chore. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg383-alex.wav",
+    "duration": 26.113,
+    "status": "synthesized"
+  },
+  {
+    "seq": 384,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Put 8. Timeline View - File History and Blame into plain language. The Timeline view shows the Git history of the currently open file: every commit that touched this file, who made it, and when. The interface gets easier when it becomes a set of named places instead of a wall of controls.",
+    "filename": "seg384-alex.wav",
+    "duration": 16.962,
+    "status": "synthesized"
+  },
+  {
+    "seq": 385,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Method 1: Explorer Sidebar. What should a learner take away from it?",
+    "filename": "seg385-jamie.wav",
+    "duration": 4.653,
+    "status": "synthesized"
+  },
+  {
+    "seq": 386,
+    "speaker": "ALEX",
+    "text": "Method 1: Explorer Sidebar has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg386-alex.wav",
+    "duration": 6.849,
+    "status": "synthesized"
+  },
+  {
+    "seq": 387,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Open Explorer: Ctrl+Shift+E; At the bottom of the Explorer, there's a \"Timeline\" section; Tab or Arrow to navigate into Timeline; and The list shows all commits affecting the currently open file. Each step should leave a trace you can name.",
+    "filename": "seg387-alex.wav",
+    "duration": 14.912,
+    "status": "synthesized"
+  },
+  {
+    "seq": 388,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg388-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 389,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Method 2: Command Palette. What should a learner take away from it?",
+    "filename": "seg389-jamie.wav",
+    "duration": 4.354,
+    "status": "synthesized"
+  },
+  {
+    "seq": 390,
+    "speaker": "ALEX",
+    "text": "Method 2: Command Palette has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg390-alex.wav",
+    "duration": 6.465,
+    "status": "synthesized"
+  },
+  {
+    "seq": 391,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is open a file in the editor. Step two is ctrl+Shift+P. Step three is type \"timeline\". Step four is select \"View: Show Timeline\". If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg391-alex.wav",
+    "duration": 14.743,
+    "status": "synthesized"
+  },
+  {
+    "seq": 392,
+    "speaker": "JAMIE",
+    "text": "Let's pause on What Timeline Shows. What should a learner take away from it?",
+    "filename": "seg392-jamie.wav",
+    "duration": 4.119,
+    "status": "synthesized"
+  },
+  {
+    "seq": 393,
+    "speaker": "ALEX",
+    "text": "What Timeline Shows: Screen reader announcement: \"docs: add Timeline Guide, Jeff, 2 days ago\".",
+    "filename": "seg393-alex.wav",
+    "duration": 5.804,
+    "status": "synthesized"
+  },
+  {
+    "seq": 394,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Commit message (first line). Author name. Relative time (example: \"3 days ago\" or \"2 hours ago\"). Commit hash (short form, like a3f2b9c).",
+    "filename": "seg394-alex.wav",
+    "duration": 10.69,
+    "status": "synthesized"
+  },
+  {
+    "seq": 395,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Viewing a Commit's Changes. What should a learner take away from it?",
+    "filename": "seg395-jamie.wav",
+    "duration": 4.589,
+    "status": "synthesized"
+  },
+  {
+    "seq": 396,
+    "speaker": "ALEX",
+    "text": "Here is the learner-facing version. This is incredibly useful for understanding. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.",
+    "filename": "seg396-alex.wav",
+    "duration": 11.009,
+    "status": "synthesized"
+  },
+  {
+    "seq": 397,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. When a particular line was added. Why a section was removed. What the file looked like at any point in history.",
+    "filename": "seg397-alex.wav",
+    "duration": 7.852,
+    "status": "synthesized"
+  },
+  {
+    "seq": 398,
+    "speaker": "ALEX",
+    "text": "Start here: Navigate to a commit in the Timeline list. Then: Press Enter. Next: A diff view opens showing what changed in that specific commit. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg398-alex.wav",
+    "duration": 11.584,
+    "status": "synthesized"
+  },
+  {
+    "seq": 399,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg399-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 400,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Git Blame - Line-by-Line History. What should a learner take away from it?",
+    "filename": "seg400-jamie.wav",
+    "duration": 4.994,
+    "status": "synthesized"
+  },
+  {
+    "seq": 401,
+    "speaker": "ALEX",
+    "text": "This is the move inside Git Blame - Line-by-Line History: Git Blame shows who last modified each line of the file.",
+    "filename": "seg401-alex.wav",
+    "duration": 7.021,
+    "status": "synthesized"
+  },
+  {
+    "seq": 402,
+    "speaker": "JAMIE",
+    "text": "Let's pause on How to access. What should a learner take away from it?",
+    "filename": "seg402-jamie.wav",
+    "duration": 3.863,
+    "status": "synthesized"
+  },
+  {
+    "seq": 403,
+    "speaker": "ALEX",
+    "text": "How to access has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg403-alex.wav",
+    "duration": 5.847,
+    "status": "synthesized"
+  },
+  {
+    "seq": 404,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Open a file in the editor; Ctrl+Shift+P; Type \"git blame\"; and Select \"Git: Toggle Blame\". Keep it that plain: know where you are, make the move, check the result.",
+    "filename": "seg404-alex.wav",
+    "duration": 10.583,
+    "status": "synthesized"
+  },
+  {
+    "seq": 405,
+    "speaker": "JAMIE",
+    "text": "Let's pause on What appears. What should a learner take away from it?",
+    "filename": "seg405-jamie.wav",
+    "duration": 3.629,
+    "status": "synthesized"
+  },
+  {
+    "seq": 406,
+    "speaker": "ALEX",
+    "text": "What appears has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg406-alex.wav",
+    "duration": 5.548,
+    "status": "synthesized"
+  },
+  {
+    "seq": 407,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Inline annotations next to every line (visually). Hover over a line to see commit details.",
+    "filename": "seg407-alex.wav",
+    "duration": 7.019,
+    "status": "synthesized"
+  },
+  {
+    "seq": 408,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg408-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 409,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Do not treat For screen reader users as decoration. Useful blame settings (add to.vscode/settings.json or user Settings). The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg409-alex.wav",
+    "duration": 14.551,
+    "status": "synthesized"
+  },
+  {
+    "seq": 410,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. The inline blame annotations can add noise. Use Timeline view instead to see recent changes to the whole file. Use Ctrl+F to search the Timeline list for a specific author or date.",
+    "filename": "seg410-alex.wav",
+    "duration": 12.845,
+    "status": "synthesized"
+  },
+  {
+    "seq": 411,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Learning Cards: Timeline and History. What should a learner take away from it?",
+    "filename": "seg411-jamie.wav",
+    "duration": 4.973,
+    "status": "synthesized"
+  },
+  {
+    "seq": 412,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Learning Cards: Timeline and History is still useful because low vision users (zoom, high contrast). For someone navigating by keyboard or screen reader, this detail matters: Screen reader users (NVDA / JAWS on Windows).",
+    "filename": "seg412-alex.wav",
+    "duration": 14.252,
+    "status": "synthesized"
+  },
+  {
+    "seq": 413,
+    "speaker": "ALEX",
+    "text": "Start here: Timeline panel location: It is at the bottom of the Explorer sidebar (Ctrl+Shift+E). At high zoom you may need to scroll down in the Explorer to find it. If the Timeline section is collapsed, click the Timeline heading to expand it. Then: Reading commit entries: Each entry shows the commit message, author, and time. At high zoom, long commit messages may truncate. Click any entry to open the diff view, which shows the full message in the editor tab title. Next: Diff view at high zoom: Red/green highlighting shows removed/added lines. In high contrast themes, changes use distinct borders or backgrounds. Press F7 to jump through changes with a visible highlight that is easier to track than scrolling. Last: Git Blame at high zoom: The inline blame annotations are small grey text at the end of each line. At high zoom they may overlap with code. Use Timeline view instead for a more readable list of who changed what. Each step should leave a trace you can name.",
+    "filename": "seg413-alex.wav",
+    "duration": 52.802,
+    "status": "synthesized"
+  },
+  {
+    "seq": 414,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Opening Timeline. What should a learner take away from it?",
+    "filename": "seg414-jamie.wav",
+    "duration": 4.013,
+    "status": "synthesized"
+  },
+  {
+    "seq": 415,
+    "speaker": "ALEX",
+    "text": "Opening Timeline has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg415-alex.wav",
+    "duration": 6.039,
+    "status": "synthesized"
+  },
+  {
+    "seq": 416,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Press Ctrl+Shift+E to open Explorer; Press Tab repeatedly or Down Arrow to navigate past the file tree to the \"Timeline\" section; Press Right Arrow to expand it if collapsed; and Navigate commit entries with Up/Down Arrow. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg416-alex.wav",
+    "duration": 17.239,
+    "status": "synthesized"
+  },
+  {
+    "seq": 417,
+    "speaker": "JAMIE",
+    "text": "Before we leave Opening Timeline, what is the practical point?",
+    "filename": "seg417-jamie.wav",
+    "duration": 3.671,
+    "status": "synthesized"
+  },
+  {
+    "seq": 418,
+    "speaker": "ALEX",
+    "text": "Think of this as 2 checks: Each entry is announced as: \"commit message, author, time\" (e.g., \"docs: add Timeline Guide, Jeff, 2 days ago\"); and Press Enter on any entry to open its diff view. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg418-alex.wav",
+    "duration": 13.035,
+    "status": "synthesized"
+  },
+  {
+    "seq": 419,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg419-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 420,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Reading a diff with screen reader. What should a learner take away from it?",
+    "filename": "seg420-jamie.wav",
+    "duration": 4.738,
+    "status": "synthesized"
+  },
+  {
+    "seq": 421,
+    "speaker": "ALEX",
+    "text": "Reading a diff with screen reader has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg421-alex.wav",
+    "duration": 6.615,
+    "status": "synthesized"
+  },
+  {
+    "seq": 422,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: In the diff view, press Alt+F2 to open the Accessible Diff Viewer; The Accessible Diff Viewer presents changes as a text list: each line shows + (added), - (removed), or unchanged; Navigate with Up/Down Arrow to read each line; and Press Escape to close the Accessible Diff Viewer. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg422-alex.wav",
+    "duration": 19.479,
+    "status": "synthesized"
+  },
+  {
+    "seq": 423,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Git Blame. What should a learner take away from it?",
+    "filename": "seg423-jamie.wav",
+    "duration": 3.671,
+    "status": "synthesized"
+  },
+  {
+    "seq": 424,
+    "speaker": "ALEX",
+    "text": "This part earns its place because screen reader users (VoiceOver on macOS). That is the difference between following directions and owning the workflow.",
+    "filename": "seg424-alex.wav",
+    "duration": 8.769,
+    "status": "synthesized"
+  },
+  {
+    "seq": 425,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is open a file, press Ctrl+Shift+P, type \"Git: Toggle Blame\". Step two is blame annotations appear inline - NVDA reads them when navigating lines. Step three is to reduce noise, disable blame (repeat the toggle command) and use Timeline instead. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg425-alex.wav",
+    "duration": 21.613,
+    "status": "synthesized"
+  },
+  {
+    "seq": 426,
+    "speaker": "JAMIE",
+    "text": "What is the teaching move inside Opening Timeline?",
+    "filename": "seg426-jamie.wav",
+    "duration": 3.309,
+    "status": "synthesized"
+  },
+  {
+    "seq": 427,
+    "speaker": "ALEX",
+    "text": "First, press Cmd+Shift+E to open Explorer. Then, use VO+Down Arrow to navigate below the file tree to the Timeline section. After that, press VO+Space to expand if collapsed. Finally, navigate entries with VO+Down Arrow. The sequence works because every action has a confirmation.",
+    "filename": "seg427-alex.wav",
+    "duration": 17.965,
+    "status": "synthesized"
+  },
+  {
+    "seq": 428,
+    "speaker": "JAMIE",
+    "text": "If someone only remembers one thing from Opening Timeline, what should it be?",
+    "filename": "seg428-jamie.wav",
+    "duration": 4.397,
+    "status": "synthesized"
+  },
+  {
+    "seq": 429,
+    "speaker": "ALEX",
+    "text": "Start here: Press VO+Space on a commit to open its diff. Keep it that plain: know where you are, make the move, check the result.",
+    "filename": "seg429-alex.wav",
+    "duration": 6.784,
+    "status": "synthesized"
+  },
+  {
+    "seq": 430,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg430-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 431,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Accessible Diff Viewer. What should a learner take away from it?",
+    "filename": "seg431-jamie.wav",
+    "duration": 4.29,
+    "status": "synthesized"
+  },
+  {
+    "seq": 432,
+    "speaker": "ALEX",
+    "text": "Here is the learner-facing version. Screen reader advantage: git log --oneline and git blame produce clean, columnar text output. Put another way, read line by line with arrow keys in the terminal.",
+    "filename": "seg432-alex.wav",
+    "duration": 11.265,
+    "status": "synthesized"
+  },
+  {
+    "seq": 433,
+    "speaker": "ALEX",
+    "text": "Start here: In any diff view, press Option+F2 to open the Accessible Diff Viewer. Then: Read changes line by line with VO+Down Arrow. Next: Press Escape to close. Keep it that plain: know where you are, make the move, check the result.",
+    "filename": "seg433-alex.wav",
+    "duration": 13.505,
+    "status": "synthesized"
+  },
+  {
+    "seq": 434,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like View commit history for the entire repo; git log --oneline; View history for a specific file; git log --oneline docs/GUIDE.md; View history with what changed in each commit; git log -p docs/GUIDE.md; View who last changed each line (blame); git blame. View recent commits from the web; gh api repos/{owner}/{repo}/commits --jq '.[0:5].[].commit.message'; View PR history; gh pr list --state all --limit 10. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg434-alex.wav",
+    "duration": 34.903,
+    "status": "synthesized"
+  },
+  {
+    "seq": 435,
+    "speaker": "JAMIE",
+    "text": "What should someone listen for when a lesson offers more than one tool path?",
+    "filename": "seg435-jamie.wav",
+    "duration": 4.119,
+    "status": "synthesized"
+  },
+  {
+    "seq": 436,
+    "speaker": "ALEX",
+    "text": "This is the move inside 9. Resolving Merge Conflicts in VS Code: merge conflicts happen when two people edit the same lines of a file. That matters in practice: Git can't decide which version to keep, so it asks you to choose.",
+    "filename": "seg436-alex.wav",
+    "duration": 13.292,
+    "status": "synthesized"
+  },
+  {
+    "seq": 437,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Anchor this part on How VS Code Displays Conflicts. When you open a file with conflicts, you see something like. This is the part to say slowly: VS Code adds buttons above each conflict (visually). The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes.",
+    "filename": "seg437-alex.wav",
+    "duration": 17.793,
+    "status": "synthesized"
+  },
+  {
+    "seq": 438,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. \"Accept Current Change\" (keeps HEAD version). \"Accept Incoming Change\" (keeps the other branch's version). \"Accept Both Changes\" (keeps both, one after the other). \"Compare Changes\" (opens side-by-side diff).",
+    "filename": "seg438-alex.wav",
+    "duration": 12.608,
+    "status": "synthesized"
+  },
+  {
+    "seq": 439,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg439-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 440,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Screen Reader Workflow for Resolving Conflicts. What should a learner take away from it?",
+    "filename": "seg440-jamie.wav",
+    "duration": 5.719,
+    "status": "synthesized"
+  },
+  {
+    "seq": 441,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: the buttons are NOT accessible via keyboard.",
+    "filename": "seg441-alex.wav",
+    "duration": 4.716,
+    "status": "synthesized"
+  },
+  {
+    "seq": 442,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. <<<<<<< marks the start. ======= separates the two versions. marks the end. The section between <<<<<<< and ======= is your current branch (HEAD). The section between ======= and is the incoming branch (the branch you're merging). Delete the conflict markers ( ).",
+    "filename": "seg442-alex.wav",
+    "duration": 15.34,
+    "status": "synthesized"
+  },
+  {
+    "seq": 443,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is identify the conflict markers. Step two is read both versions. Step three is decide what to keep. Step four is stage the resolved file. Each step should leave a trace you can name.",
+    "filename": "seg443-alex.wav",
+    "duration": 13.741,
+    "status": "synthesized"
+  },
+  {
+    "seq": 444,
+    "speaker": "JAMIE",
+    "text": "Before we leave Screen Reader Workflow for Resolving Conflicts, what is the practical point?",
+    "filename": "seg444-jamie.wav",
+    "duration": 5.25,
+    "status": "synthesized"
+  },
+  {
+    "seq": 445,
+    "speaker": "ALEX",
+    "text": "First, commit the merge. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg445-alex.wav",
+    "duration": 5.165,
+    "status": "synthesized"
+  },
+  {
+    "seq": 446,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Using Accessible Diff for Conflict Review. What should a learner take away from it?",
+    "filename": "seg446-jamie.wav",
+    "duration": 5.421,
+    "status": "synthesized"
+  },
+  {
+    "seq": 447,
+    "speaker": "ALEX",
+    "text": "Do not treat Using Accessible Diff for Conflict Review as decoration. Better approach: Use the Accessible Diff Viewer (F7) to navigate conflict hunks systematically.",
+    "filename": "seg447-alex.wav",
+    "duration": 10.007,
+    "status": "synthesized"
+  },
+  {
+    "seq": 448,
+    "speaker": "ALEX",
+    "text": "First, open the conflicted file. Then, press F7 to jump to the first conflict hunk. After that, press Alt+F2 to open Accessible View. Finally, read both versions clearly. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg448-alex.wav",
+    "duration": 14.338,
+    "status": "synthesized"
+  },
+  {
+    "seq": 449,
+    "speaker": "JAMIE",
+    "text": "Before we leave Using Accessible Diff for Conflict Review, what is the practical point?",
+    "filename": "seg449-jamie.wav",
+    "duration": 4.823,
+    "status": "synthesized"
+  },
+  {
+    "seq": 450,
+    "speaker": "ALEX",
+    "text": "Start here: Press Escape to return to editor. Then: Manually edit to resolve. Next: Press F7 to jump to the next conflict. Last: Repeat until all conflicts resolved. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg450-alex.wav",
+    "duration": 13.207,
+    "status": "synthesized"
+  },
+  {
+    "seq": 451,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Aborting a Merge. What should a learner take away from it?",
+    "filename": "seg451-jamie.wav",
+    "duration": 4.034,
+    "status": "synthesized"
+  },
+  {
+    "seq": 452,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Aborting a Merge is still useful because if you want to cancel the merge and go back to before you started. For someone navigating by keyboard or screen reader, this detail matters: Everything returns to the pre-merge state.",
+    "filename": "seg452-alex.wav",
+    "duration": 13.313,
+    "status": "synthesized"
+  },
+  {
+    "seq": 453,
+    "speaker": "ALEX",
+    "text": "Start here: Ctrl+Shift+P. Then: Type \"git abort\". Next: Select \"Git: Abort Merge\". That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg453-alex.wav",
+    "duration": 8.384,
+    "status": "synthesized"
+  },
+  {
+    "seq": 454,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg454-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 455,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Learning Cards: Resolving Merge Conflicts has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg455-alex.wav",
+    "duration": 9.196,
+    "status": "synthesized"
+  },
+  {
+    "seq": 456,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Press F7 in a conflict file to enter the Accessible Diff Viewer and step through conflicts hunk by hunk with announced change types. Conflict markers ( ) are read aloud as you arrow through lines -- listen for these to identify conflict boundaries. After resolving all markers, stage the file with Ctrl+Shift+G then navigate to it and press +, then commit to complete the merge. VS Code highlights conflict regions with colored backgrounds: green for \"Current Change\" (yours) and blue for \"Incoming Change\" (theirs). The inline action buttons (\"Accept Current\", \"Accept Incoming\", \"Accept Both\") appear above each conflict -- they are visible at high zoom levels. Use Ctrl+Shift+M to check the Problems panel for any remaining conflict markers you may have missed.",
+    "filename": "seg456-alex.wav",
+    "duration": 43.799,
+    "status": "synthesized"
+  },
+  {
+    "seq": 457,
+    "speaker": "JAMIE",
+    "text": "Let's pause on 10. Stash Management. What should a learner take away from it?",
+    "filename": "seg457-jamie.wav",
+    "duration": 4.525,
+    "status": "synthesized"
+  },
+  {
+    "seq": 458,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. Stash temporarily saves your uncommitted changes so you can switch branches or pull updates without committing half-finished work.",
+    "filename": "seg458-alex.wav",
+    "duration": 10.135,
+    "status": "synthesized"
+  },
+  {
+    "seq": 459,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. When to Use Stash has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg459-alex.wav",
+    "duration": 7.639,
+    "status": "synthesized"
+  },
+  {
+    "seq": 460,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. You need to switch branches but have uncommitted changes. You want to pull updates from GitHub but have local edits. You want to save experimental work without committing it.",
+    "filename": "seg460-alex.wav",
+    "duration": 10.688,
+    "status": "synthesized"
+  },
+  {
+    "seq": 461,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg461-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 462,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Method 1: Command Palette. What should a learner take away from it?",
+    "filename": "seg462-jamie.wav",
+    "duration": 4.333,
+    "status": "synthesized"
+  },
+  {
+    "seq": 463,
+    "speaker": "ALEX",
+    "text": "Method 1: Command Palette has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg463-alex.wav",
+    "duration": 6.444,
+    "status": "synthesized"
+  },
+  {
+    "seq": 464,
+    "speaker": "ALEX",
+    "text": "First, ctrl+Shift+P. Then, type \"git stash\". After that, select \"Git: Stash\". Finally, optionally type a stash message (helps you remember what's in it). Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg464-alex.wav",
+    "duration": 13.057,
+    "status": "synthesized"
+  },
+  {
+    "seq": 465,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. What happens has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg465-alex.wav",
+    "duration": 7.233,
+    "status": "synthesized"
+  },
+  {
+    "seq": 466,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Your uncommitted changes disappear from the editor. The files revert to the last commit. Your changes are saved in a hidden Git stash. You can now switch branches or pull safely.",
+    "filename": "seg466-alex.wav",
+    "duration": 11.885,
+    "status": "synthesized"
+  },
+  {
+    "seq": 467,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Command Palette. What should a learner take away from it?",
+    "filename": "seg467-jamie.wav",
+    "duration": 3.842,
+    "status": "synthesized"
+  },
+  {
+    "seq": 468,
+    "speaker": "ALEX",
+    "text": "Command Palette has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg468-alex.wav",
+    "duration": 5.804,
+    "status": "synthesized"
+  },
+  {
+    "seq": 469,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Ctrl+Shift+P; Type \"git stash list\"; and Select \"Git: Show Stash\". Each step should leave a trace you can name.",
+    "filename": "seg469-alex.wav",
+    "duration": 7.616,
+    "status": "synthesized"
+  },
+  {
+    "seq": 470,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg470-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 471,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Alternative: Integrated Terminal. What should a learner take away from it?",
+    "filename": "seg471-jamie.wav",
+    "duration": 4.951,
+    "status": "synthesized"
+  },
+  {
+    "seq": 472,
+    "speaker": "ALEX",
+    "text": "Alternative: Integrated Terminal has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg472-alex.wav",
+    "duration": 6.935,
+    "status": "synthesized"
+  },
+  {
+    "seq": 473,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like git stash list. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg473-alex.wav",
+    "duration": 11.949,
+    "status": "synthesized"
+  },
+  {
+    "seq": 474,
+    "speaker": "JAMIE",
+    "text": "Let's pause on To restore your stashed changes. What should a learner take away from it?",
+    "filename": "seg474-jamie.wav",
+    "duration": 4.802,
+    "status": "synthesized"
+  },
+  {
+    "seq": 475,
+    "speaker": "ALEX",
+    "text": "To restore your stashed changes has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg475-alex.wav",
+    "duration": 6.615,
+    "status": "synthesized"
+  },
+  {
+    "seq": 476,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is ctrl+Shift+P. Step two is type \"git stash apply\". Step three is select \"Git: Apply Latest Stash\". That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg476-alex.wav",
+    "duration": 12.994,
+    "status": "synthesized"
+  },
+  {
+    "seq": 477,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Or to apply a specific stash. What should a learner take away from it?",
+    "filename": "seg477-jamie.wav",
+    "duration": 4.93,
+    "status": "synthesized"
+  },
+  {
+    "seq": 478,
+    "speaker": "ALEX",
+    "text": "Or to apply a specific stash has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg478-alex.wav",
+    "duration": 6.679,
+    "status": "synthesized"
+  },
+  {
+    "seq": 479,
+    "speaker": "ALEX",
+    "text": "First, ctrl+Shift+P. Then, type \"git stash pop\". After that, select \"Git: Pop Stash.\". Finally, choose which stash from the list. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg479-alex.wav",
+    "duration": 11.669,
+    "status": "synthesized"
+  },
+  {
+    "seq": 480,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg480-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 481,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Difference between Apply and Pop. What should a learner take away from it?",
+    "filename": "seg481-jamie.wav",
+    "duration": 4.866,
+    "status": "synthesized"
+  },
+  {
+    "seq": 482,
+    "speaker": "ALEX",
+    "text": "Difference between Apply and Pop has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg482-alex.wav",
+    "duration": 6.572,
+    "status": "synthesized"
+  },
+  {
+    "seq": 483,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Apply: restores changes and keeps the stash (you can apply it again later). Pop: restores changes and deletes the stash.",
+    "filename": "seg483-alex.wav",
+    "duration": 8.791,
+    "status": "synthesized"
+  },
+  {
+    "seq": 484,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Dropping a Stash. What should a learner take away from it?",
+    "filename": "seg484-jamie.wav",
+    "duration": 4.055,
+    "status": "synthesized"
+  },
+  {
+    "seq": 485,
+    "speaker": "ALEX",
+    "text": "Put Dropping a Stash into plain language. If you no longer need what's in a stash.",
+    "filename": "seg485-alex.wav",
+    "duration": 4.588,
+    "status": "synthesized"
+  },
+  {
+    "seq": 486,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Ctrl+Shift+P; Type \"git stash drop\"; Select \"Git: Drop Stash.\"; and Choose which stash to delete. Keep it that plain: know where you are, make the move, check the result.",
+    "filename": "seg486-alex.wav",
+    "duration": 10.797,
+    "status": "synthesized"
+  },
+  {
+    "seq": 487,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Learning Cards: Stash Management. What should a learner take away from it?",
+    "filename": "seg487-jamie.wav",
+    "duration": 4.994,
+    "status": "synthesized"
+  },
+  {
+    "seq": 488,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. If the Stashes section is not visible, use the Command Palette: Ctrl+Shift+P then type \"git stash\" to access all stash commands. That is the difference between guessing and knowing: Low vision users (zoom, high contrast).",
+    "filename": "seg488-alex.wav",
+    "duration": 15.553,
+    "status": "synthesized"
+  },
+  {
+    "seq": 489,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Open Source Control: Ctrl+Shift+G; In the Source Control panel, there may be a \"Stashes\" section below Staged Changes (visible when stashes exist); Click a stash to see what it contains; and Right-click a stash to Apply, Pop, or Drop it. Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg489-alex.wav",
+    "duration": 18.391,
+    "status": "synthesized"
+  },
+  {
+    "seq": 490,
+    "speaker": "JAMIE",
+    "text": "Before we leave Learning Cards: Stash Management, what is the practical point?",
+    "filename": "seg490-jamie.wav",
+    "duration": 4.589,
+    "status": "synthesized"
+  },
+  {
+    "seq": 491,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is the Stashes section in the Source Control panel may be below the fold at high zoom. Scroll down in the panel, or use the Command Palette (Ctrl+Shift+P then \"git stash\") which is always accessible regardless of zoom level. Step two is stash names in the Command Palette list are full text (e.g., \"stash@{0}: WIP on feature/docs: add Timeline guide\") and respect your font size settings. Step three is after applying a stash, your files reappear in the Changes section of Source Control. Check the file count to confirm. The point is not speed; the point is never losing your place.",
+    "filename": "seg491-alex.wav",
+    "duration": 34.56,
+    "status": "synthesized"
+  },
+  {
+    "seq": 492,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg492-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 493,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Creating a stash. What should a learner take away from it?",
+    "filename": "seg493-jamie.wav",
+    "duration": 4.098,
+    "status": "synthesized"
+  },
+  {
+    "seq": 494,
+    "speaker": "ALEX",
+    "text": "Creating a stash has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg494-alex.wav",
+    "duration": 5.996,
+    "status": "synthesized"
+  },
+  {
+    "seq": 495,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is press Ctrl+Shift+P, type \"git stash\". Step two is select \"Git: Stash\" - NVDA announces the result. Step three is an input appears asking for a stash message - type something descriptive (e.g., \"WIP: documentation changes for Timeline section\"). Step four is press Enter - your changes disappear from Source Control and are saved in the stash. The point is not speed; the point is never losing your place.",
+    "filename": "seg495-alex.wav",
+    "duration": 25.986,
+    "status": "synthesized"
+  },
+  {
+    "seq": 496,
+    "speaker": "JAMIE",
+    "text": "Before we leave Creating a stash, what is the practical point?",
+    "filename": "seg496-jamie.wav",
+    "duration": 3.693,
+    "status": "synthesized"
+  },
+  {
+    "seq": 497,
+    "speaker": "ALEX",
+    "text": "First, NVDA announces the Source Control panel update (file counts drop to 0). Each step should leave a trace you can name.",
+    "filename": "seg497-alex.wav",
+    "duration": 8.087,
+    "status": "synthesized"
+  },
+  {
+    "seq": 498,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Applying a stash. What should a learner take away from it?",
+    "filename": "seg498-jamie.wav",
+    "duration": 3.991,
+    "status": "synthesized"
+  },
+  {
+    "seq": 499,
+    "speaker": "ALEX",
+    "text": "Applying a stash has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg499-alex.wav",
+    "duration": 6.017,
+    "status": "synthesized"
+  },
+  {
+    "seq": 500,
+    "speaker": "ALEX",
+    "text": "First, press Ctrl+Shift+P, type \"git stash pop\". Then, select \"Git: Pop Stash.\". After that, a list of stashes appears - navigate with Up/Down Arrow. Finally, each item is announced with the stash message you wrote. Each step should leave a trace you can name.",
+    "filename": "seg500-alex.wav",
+    "duration": 15.17,
+    "status": "synthesized"
+  },
+  {
+    "seq": 501,
+    "speaker": "JAMIE",
+    "text": "Before we leave Applying a stash, what is the practical point?",
+    "filename": "seg501-jamie.wav",
+    "duration": 3.565,
+    "status": "synthesized"
+  },
+  {
+    "seq": 502,
+    "speaker": "ALEX",
+    "text": "Start here: Press Enter to apply and delete the stash. Then: Your changes reappear in the Changes section. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg502-alex.wav",
+    "duration": 9.538,
+    "status": "synthesized"
+  },
+  {
+    "seq": 503,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Viewing stashes. What should a learner take away from it?",
+    "filename": "seg503-jamie.wav",
+    "duration": 4.034,
+    "status": "synthesized"
+  },
+  {
+    "seq": 504,
+    "speaker": "ALEX",
+    "text": "Here is the learner-facing version. Screen reader users (VoiceOver on macOS). Put another way, GitHub.com does not have a stash feature.",
+    "filename": "seg504-alex.wav",
+    "duration": 7.895,
+    "status": "synthesized"
+  },
+  {
+    "seq": 505,
+    "speaker": "ALEX",
+    "text": "Start here: Press Ctrl+Shift+P, type \"git stash list\". Then: Or in the terminal: type git stash list and read the output line by line. Next: Press Cmd+Shift+P, type \"git stash\". Last: Select \"Git: Stash\" and provide a message. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg505-alex.wav",
+    "duration": 17.218,
+    "status": "synthesized"
+  },
+  {
+    "seq": 506,
+    "speaker": "JAMIE",
+    "text": "Before we leave Viewing stashes, what is the practical point?",
+    "filename": "seg506-jamie.wav",
+    "duration": 3.543,
+    "status": "synthesized"
+  },
+  {
+    "seq": 507,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Press Return; To apply: Cmd+Shift+P, type \"git stash pop\", select from the list with VO+Down Arrow, press Return; Create a draft commit on a temporary branch; and Or use GitHub Codespaces (which runs a full VS Code environment in the browser and supports git stash in the terminal). That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg507-alex.wav",
+    "duration": 19.031,
+    "status": "synthesized"
+  },
+  {
+    "seq": 508,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Stash all uncommitted changes with a message; git stash push -m \"WIP: documentation changes\"; Stash including untracked (new) files; git stash push -u -m \"WIP: including new files\"; List all stashes; git stash list; Show what a specific stash contains; git. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg508-alex.wav",
+    "duration": 23.957,
+    "status": "synthesized"
+  },
+  {
+    "seq": 509,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg509-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 510,
+    "speaker": "JAMIE",
+    "text": "What do you want them to do when the plan breaks?",
+    "filename": "seg510-jamie.wav",
+    "duration": 2.69,
+    "status": "synthesized"
+  },
+  {
+    "seq": 511,
+    "speaker": "ALEX",
+    "text": "This is the move inside 10b. Emergency Recovery - git reflog: git reflog is the safety net you reach for when something goes seriously wrong: an accidental hard reset, a lost branch, a rebase that destroyed commits you needed. That matters in practice: It is the most underused recovery tool in Git.",
+    "filename": "seg511-alex.wav",
+    "duration": 17.367,
+    "status": "synthesized"
+  },
+  {
+    "seq": 512,
+    "speaker": "JAMIE",
+    "text": "What decision is this helping them make?",
+    "filename": "seg512-jamie.wav",
+    "duration": 2.711,
+    "status": "synthesized"
+  },
+  {
+    "seq": 513,
+    "speaker": "ALEX",
+    "text": "When to Use Reflog has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg513-alex.wav",
+    "duration": 6.124,
+    "status": "synthesized"
+  },
+  {
+    "seq": 514,
+    "speaker": "ALEX",
+    "text": "Use the comparison to make a decision, not to recite a table. The main contrasts are: Scenario means What happened means Reflog solution. Deleted a branch by mistake means git branch -D feature/x means Find the last commit SHA from reflog \u2192 recreate branch. git reset --hard lost commits means Moved HEAD to older commit means Find the SHA before the reset \u2192 reset back to it.",
+    "filename": "seg514-alex.wav",
+    "duration": 23.618,
+    "status": "synthesized"
+  },
+  {
+    "seq": 515,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Reading the Reflog in VS Code Terminal. What should a learner take away from it?",
+    "filename": "seg515-jamie.wav",
+    "duration": 5.506,
+    "status": "synthesized"
+  },
+  {
+    "seq": 516,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: run this in the integrated terminal (Ctrl+Backtick). The listener should be able to check this: The output is plain text - read line by line with \u2193.",
+    "filename": "seg516-alex.wav",
+    "duration": 10.967,
+    "status": "synthesized"
+  },
+  {
+    "seq": 517,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like git reflog. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg517-alex.wav",
+    "duration": 11.456,
+    "status": "synthesized"
+  },
+  {
+    "seq": 518,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg518-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 519,
+    "speaker": "JAMIE",
+    "text": "Let's pause on If you need to restore a commit that has been lost. What should a learner take away from it?",
+    "filename": "seg519-jamie.wav",
+    "duration": 5.719,
+    "status": "synthesized"
+  },
+  {
+    "seq": 520,
+    "speaker": "ALEX",
+    "text": "Do not treat If you need to restore a commit that has been lost as decoration. Use git branch over git reset --hard when recovering - creating a branch is non-destructive; you keep both the current state and the recovered state, then decide which to keep.",
+    "filename": "seg520-alex.wav",
+    "duration": 13.655,
+    "status": "synthesized"
+  },
+  {
+    "seq": 521,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Step 1 - Find the last good commit SHA in reflog; git reflog; Step 2 - Preview what that commit looked like; git show abc1234; Step 3a - Create a new branch at that point (safest); git branch recovery/my-lost-work abc1234; Step 3b - OR reset the current branch. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg521-alex.wav",
+    "duration": 27.287,
+    "status": "synthesized"
+  },
+  {
+    "seq": 522,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Recovering a Deleted Branch. What should a learner take away from it?",
+    "filename": "seg522-jamie.wav",
+    "duration": 4.738,
+    "status": "synthesized"
+  },
+  {
+    "seq": 523,
+    "speaker": "ALEX",
+    "text": "Recovering a Deleted Branch has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg523-alex.wav",
+    "duration": 6.593,
+    "status": "synthesized"
+  },
+  {
+    "seq": 524,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Find the last commit on the deleted branch; git reflog grep 'feature/deleted-branch-name'; Recreate the branch at that SHA; git checkout -b feature/deleted-branch-name abc1234. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg524-alex.wav",
+    "duration": 22.743,
+    "status": "synthesized"
+  },
+  {
+    "seq": 525,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Put Why Reflog Is Local-Only into plain language. Reflog records are stored in your local.git/ directory and are not pushed to GitHub. The useful version is: If your entire local clone is destroyed (hard drive failure, rm -rf), reflog cannot help - but GitHub retains the pushed commits in the remote history. The interface gets easier when it becomes a set of named places instead of a wall of controls.",
+    "filename": "seg525-alex.wav",
+    "duration": 23.616,
+    "status": "synthesized"
+  },
+  {
+    "seq": 526,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg526-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 527,
+    "speaker": "JAMIE",
+    "text": "How should someone ask for help in a way that gets them unstuck faster?",
+    "filename": "seg527-jamie.wav",
+    "duration": 3.97,
+    "status": "synthesized"
+  },
+  {
+    "seq": 528,
+    "speaker": "ALEX",
+    "text": "Learning Cards: Emergency Recovery has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg528-alex.wav",
+    "duration": 7.255,
+    "status": "synthesized"
+  },
+  {
+    "seq": 529,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Run git reflog --oneline in the terminal and arrow through the output -- each line announces a HEAD movement with its SHA and action description. Copy the SHA you want to recover to by selecting it in the terminal (Shift+Arrow) then pressing Ctrl+C, then run git checkout -b recovery. Reflog entries are kept for 90 days -- you have time to recover, so do not panic. git reflog output is columnar text: SHA on the left, action description on the right -- increase terminal font size with Ctrl+= for readability. Each reflog entry starts with HEAD@{N} where N is the number of steps back -- lower numbers are more recent. Use git log --oneline --graph after recovery to visually confirm the branch history looks correct.",
+    "filename": "seg529-alex.wav",
+    "duration": 41.815,
+    "status": "synthesized"
+  },
+  {
+    "seq": 530,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. This part earns its place because VS Code's Source Control panel is one way to use Git. That gives the learner a foothold: these alternatives exist for different workflows.",
+    "filename": "seg530-alex.wav",
+    "duration": 11.757,
+    "status": "synthesized"
+  },
+  {
+    "seq": 531,
+    "speaker": "JAMIE",
+    "text": "What stays the same when the tool changes?",
+    "filename": "seg531-jamie.wav",
+    "duration": 2.925,
+    "status": "synthesized"
+  },
+  {
+    "seq": 532,
+    "speaker": "ALEX",
+    "text": "GitHub Desktop has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg532-alex.wav",
+    "duration": 6.06,
+    "status": "synthesized"
+  },
+  {
+    "seq": 533,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Graphical Git client. Download: desktop.github.com. Strengths: Visual diff review, simpler branch management for beginners. Screen reader support: Partial - keyboard navigation works for core flows but some visual-only elements exist.",
+    "filename": "seg533-alex.wav",
+    "duration": 15.147,
+    "status": "synthesized"
+  },
+  {
+    "seq": 534,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg534-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 535,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. GitHub CLI (gh) has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg535-alex.wav",
+    "duration": 8.407,
+    "status": "synthesized"
+  },
+  {
+    "seq": 536,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Command-line interface for GitHub operations. Install: winget install GitHub.cli (Windows) or brew install gh (macOS). Strengths: Fast, scriptable, plain-text output (predictable for screen readers).",
+    "filename": "seg536-alex.wav",
+    "duration": 14.445,
+    "status": "synthesized"
+  },
+  {
+    "seq": 537,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Common commands. What should a learner take away from it?",
+    "filename": "seg537-jamie.wav",
+    "duration": 4.034,
+    "status": "synthesized"
+  },
+  {
+    "seq": 538,
+    "speaker": "ALEX",
+    "text": "This is the move inside Common commands: see Culture & Etiquette for more gh examples.",
+    "filename": "seg538-alex.wav",
+    "duration": 5.569,
+    "status": "synthesized"
+  },
+  {
+    "seq": 539,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like gh repo clone owner/repo Clone a repository; gh issue list List issues; gh pr create Create a PR interactively; gh pr list List your PRs; gh pr view 14 Read PR 14. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg539-alex.wav",
+    "duration": 21.356,
+    "status": "synthesized"
+  },
+  {
+    "seq": 540,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Git CLI (Terminal) has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg540-alex.wav",
+    "duration": 8.087,
+    "status": "synthesized"
+  },
+  {
+    "seq": 541,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. The standard Git command-line interface. Included with VS Code (integrated terminal: Ctrl+Backtick).",
+    "filename": "seg541-alex.wav",
+    "duration": 8.0,
+    "status": "synthesized"
+  },
+  {
+    "seq": 542,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg542-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 543,
+    "speaker": "JAMIE",
+    "text": "Before we leave Common commands, what is the practical point?",
+    "filename": "seg543-jamie.wav",
+    "duration": 3.586,
+    "status": "synthesized"
+  },
+  {
+    "seq": 544,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: terminal output is plain text - more predictable than GUI elements for some operations.",
+    "filename": "seg544-alex.wav",
+    "duration": 7.041,
+    "status": "synthesized"
+  },
+  {
+    "seq": 545,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like git status Show modified files; git add. Stage all changes; git commit -m \"message\" Commit with message; git push Push to GitHub; git pull Pull from GitHub; git log View commit history. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg545-alex.wav",
+    "duration": 21.101,
+    "status": "synthesized"
+  },
+  {
+    "seq": 546,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Try It: Clone, Branch, Commit. What should a learner take away from it?",
+    "filename": "seg546-jamie.wav",
+    "duration": 4.546,
+    "status": "synthesized"
+  },
+  {
+    "seq": 547,
+    "speaker": "ALEX",
+    "text": "Do not treat Try It: Clone, Branch, Commit as decoration. Time: 5 minutes What you need: VS Code with Git configured. That is not trivia. Do the complete Git workflow once, start to finish. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg547-alex.wav",
+    "duration": 15.575,
+    "status": "synthesized"
+  },
+  {
+    "seq": 548,
+    "speaker": "ALEX",
+    "text": "First, clone - Press Ctrl+Shift+P, type Git: Clone, press Enter. Paste https://github.com/Community-Access/vscode-sci-fi-themes.git and choose a folder. VS Code opens the repo. Then, create a branch - Click the branch name in the status bar (bottom left) or press Ctrl+Shift+P \u2192 Git: Create Branch. Name it chapter11/your-name. After that, make a change - Open a theme file in the themes/ folder (for example, star-trek-settings.json). Add a new thinking phrase to the array. Finally, stage - Press Ctrl+Shift+G to open Source Control. Navigate to your changed file and press Enter to stage it (or use the + button). The point is not speed; the point is never losing your place.",
+    "filename": "seg548-alex.wav",
+    "duration": 39.959,
+    "status": "synthesized"
+  },
+  {
+    "seq": 549,
+    "speaker": "JAMIE",
+    "text": "Before we leave Try It: Clone, Branch, Commit, what is the practical point?",
+    "filename": "seg549-jamie.wav",
+    "duration": 4.183,
+    "status": "synthesized"
+  },
+  {
+    "seq": 550,
+    "speaker": "ALEX",
+    "text": "Start here: Commit - Tab to the message input, type feat: add new thinking phrase, press Ctrl+Enter. Then: Push - Press Ctrl+Shift+P \u2192 Git: Push. Each step should leave a trace you can name.",
+    "filename": "seg550-alex.wav",
+    "duration": 11.413,
+    "status": "synthesized"
+  },
+  {
+    "seq": 551,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg551-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 552,
+    "speaker": "JAMIE",
+    "text": "What should people carry with them after this?",
+    "filename": "seg552-jamie.wav",
+    "duration": 2.647,
+    "status": "synthesized"
+  },
+  {
+    "seq": 553,
+    "speaker": "ALEX",
+    "text": "Carry the map. Know what page or tool you are in, know which action you are taking, and know what confirmation should follow. If the confirmation is missing, pause. That pause is not wasted time; it is professional judgment.",
+    "filename": "seg553-alex.wav",
+    "duration": 11.799,
+    "status": "synthesized"
+  },
+  {
+    "seq": 554,
+    "speaker": "JAMIE",
+    "text": "That is a better way to say it than just follow the steps.",
+    "filename": "seg554-jamie.wav",
+    "duration": 3.394,
+    "status": "synthesized"
+  },
+  {
+    "seq": 555,
+    "speaker": "ALEX",
+    "text": "Right. Steps matter, but understanding wins. That is episode 12. Next in the series is episode 13, where we keep building the same contributor muscles.",
+    "filename": "seg555-alex.wav",
+    "duration": 8.847,
+    "status": "synthesized"
+  }
+]

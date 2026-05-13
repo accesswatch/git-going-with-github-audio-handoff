@@ -1,0 +1,30 @@
+[2026-05-12 20:37:59] DOWNLOAD https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx
+[2026-05-12 20:38:06] DOWNLOAD https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin
+[2026-05-12 20:38:08] SYNTH af_alloy -> /Users/mikedoise/Developer/git-going-with-github-audio-handoff/podcasts/tts/samples/kokoro/english-high-quality/af_alloy.wav
+[2026-05-12 20:38:09] SYNTH af_aoede -> /Users/mikedoise/Developer/git-going-with-github-audio-handoff/podcasts/tts/samples/kokoro/english-high-quality/af_aoede.wav
+[2026-05-12 20:38:10] SYNTH af_bella -> /Users/mikedoise/Developer/git-going-with-github-audio-handoff/podcasts/tts/samples/kokoro/english-high-quality/af_bella.wav
+[2026-05-12 20:38:10] SYNTH af_heart -> /Users/mikedoise/Developer/git-going-with-github-audio-handoff/podcasts/tts/samples/kokoro/english-high-quality/af_heart.wav
+[2026-05-12 20:38:11] SYNTH af_jessica -> /Users/mikedoise/Developer/git-going-with-github-audio-handoff/podcasts/tts/samples/kokoro/english-high-quality/af_jessica.wav
+[2026-05-12 20:38:12] SYNTH af_kore -> /Users/mikedoise/Developer/git-going-with-github-audio-handoff/podcasts/tts/samples/kokoro/english-high-quality/af_kore.wav
+[2026-05-12 20:38:13] SYNTH af_nicole -> /Users/mikedoise/Developer/git-going-with-github-audio-handoff/podcasts/tts/samples/kokoro/english-high-quality/af_nicole.wav
+[2026-05-12 20:38:14] SYNTH af_nova -> /Users/mikedoise/Developer/git-going-with-github-audio-handoff/podcasts/tts/samples/kokoro/english-high-quality/af_nova.wav
+[2026-05-12 20:38:14] SYNTH af_river -> /Users/mikedoise/Developer/git-going-with-github-audio-handoff/podcasts/tts/samples/kokoro/english-high-quality/af_river.wav
+[2026-05-12 20:38:15] SYNTH af_sarah -> /Users/mikedoise/Developer/git-going-with-github-audio-handoff/podcasts/tts/samples/kokoro/english-high-quality/af_sarah.wav
+[2026-05-12 20:38:16] SYNTH af_sky -> /Users/mikedoise/Developer/git-going-with-github-audio-handoff/podcasts/tts/samples/kokoro/english-high-quality/af_sky.wav
+[2026-05-12 20:38:16] SYNTH am_adam -> /Users/mikedoise/Developer/git-going-with-github-audio-handoff/podcasts/tts/samples/kokoro/english-high-quality/am_adam.wav
+[2026-05-12 20:38:17] SYNTH am_echo -> /Users/mikedoise/Developer/git-going-with-github-audio-handoff/podcasts/tts/samples/kokoro/english-high-quality/am_echo.wav
+[2026-05-12 20:38:18] SYNTH am_eric -> /Users/mikedoise/Developer/git-going-with-github-audio-handoff/podcasts/tts/samples/kokoro/english-high-quality/am_eric.wav
+[2026-05-12 20:38:18] SYNTH am_fenrir -> /Users/mikedoise/Developer/git-going-with-github-audio-handoff/podcasts/tts/samples/kokoro/english-high-quality/am_fenrir.wav
+[2026-05-12 20:38:19] SYNTH am_liam -> /Users/mikedoise/Developer/git-going-with-github-audio-handoff/podcasts/tts/samples/kokoro/english-high-quality/am_liam.wav
+[2026-05-12 20:38:20] SYNTH am_michael -> /Users/mikedoise/Developer/git-going-with-github-audio-handoff/podcasts/tts/samples/kokoro/english-high-quality/am_michael.wav
+[2026-05-12 20:38:20] SYNTH am_onyx -> /Users/mikedoise/Developer/git-going-with-github-audio-handoff/podcasts/tts/samples/kokoro/english-high-quality/am_onyx.wav
+[2026-05-12 20:38:21] SYNTH am_puck -> /Users/mikedoise/Developer/git-going-with-github-audio-handoff/podcasts/tts/samples/kokoro/english-high-quality/am_puck.wav
+[2026-05-12 20:38:22] SYNTH am_santa -> /Users/mikedoise/Developer/git-going-with-github-audio-handoff/podcasts/tts/samples/kokoro/english-high-quality/am_santa.wav
+[2026-05-12 20:38:23] SYNTH bf_alice -> /Users/mikedoise/Developer/git-going-with-github-audio-handoff/podcasts/tts/samples/kokoro/english-high-quality/bf_alice.wav
+[2026-05-12 20:38:24] SYNTH bf_emma -> /Users/mikedoise/Developer/git-going-with-github-audio-handoff/podcasts/tts/samples/kokoro/english-high-quality/bf_emma.wav
+[2026-05-12 20:38:25] SYNTH bf_isabella -> /Users/mikedoise/Developer/git-going-with-github-audio-handoff/podcasts/tts/samples/kokoro/english-high-quality/bf_isabella.wav
+[2026-05-12 20:38:25] SYNTH bf_lily -> /Users/mikedoise/Developer/git-going-with-github-audio-handoff/podcasts/tts/samples/kokoro/english-high-quality/bf_lily.wav
+[2026-05-12 20:38:26] SYNTH bm_daniel -> /Users/mikedoise/Developer/git-going-with-github-audio-handoff/podcasts/tts/samples/kokoro/english-high-quality/bm_daniel.wav
+[2026-05-12 20:38:27] SYNTH bm_fable -> /Users/mikedoise/Developer/git-going-with-github-audio-handoff/podcasts/tts/samples/kokoro/english-high-quality/bm_fable.wav
+[2026-05-12 20:38:27] SYNTH bm_george -> /Users/mikedoise/Developer/git-going-with-github-audio-handoff/podcasts/tts/samples/kokoro/english-high-quality/bm_george.wav
+[2026-05-12 20:38:28] SYNTH bm_lewis -> /Users/mikedoise/Developer/git-going-with-github-audio-handoff/podcasts/tts/samples/kokoro/english-high-quality/bm_lewis.wav

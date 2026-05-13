@@ -1,0 +1,506 @@
+[
+  {
+    "seq": 1,
+    "speaker": "ALEX",
+    "text": "Welcome to episode 43 of Git Going with GitHub: GitHub Skills - Complete Course Catalog. I am Alex, and today we are teaching this topic as a conversation you can carry into the workshop, not as a page you have to memorize.",
+    "filename": "seg001-alex.wav",
+    "duration": 13.357,
+    "status": "synthesized"
+  },
+  {
+    "seq": 2,
+    "speaker": "JAMIE",
+    "text": "And I am Jamie. I will keep pulling the lesson back to real learners, real repositories, and the evidence that proves the work happened.",
+    "filename": "seg002-jamie.wav",
+    "duration": 7.232,
+    "status": "synthesized"
+  },
+  {
+    "seq": 3,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg003-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 4,
+    "speaker": "ALEX",
+    "text": "The lesson focus is All 36 GitHub Skills modules organized into six learning paths. We will treat every step as a teachable decision, because that is what makes the skill portable.",
+    "filename": "seg004-alex.wav",
+    "duration": 10.818,
+    "status": "synthesized"
+  },
+  {
+    "seq": 5,
+    "speaker": "JAMIE",
+    "text": "So we should explain the why clearly enough that the steps make sense when the learner meets them later.",
+    "filename": "seg005-jamie.wav",
+    "duration": 5.165,
+    "status": "synthesized"
+  },
+  {
+    "seq": 6,
+    "speaker": "ALEX",
+    "text": "That is it. If a listener only has audio right now, they should still get the complete concept and know what evidence would prove success.",
+    "filename": "seg006-alex.wav",
+    "duration": 7.403,
+    "status": "synthesized"
+  },
+  {
+    "seq": 7,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg007-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 8,
+    "speaker": "JAMIE",
+    "text": "Okay, set the room for us. What are we walking into?",
+    "filename": "seg008-jamie.wav",
+    "duration": 3.245,
+    "status": "synthesized"
+  },
+  {
+    "seq": 9,
+    "speaker": "ALEX",
+    "text": "Learning Cards: How GitHub Skills Works has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg009-alex.wav",
+    "duration": 7.212,
+    "status": "synthesized"
+  },
+  {
+    "seq": 10,
+    "speaker": "ALEX",
+    "text": "A few details make that real. Every GitHub Skills course runs inside a standard GitHub repository -- the screen reader navigation skills from this workshop (heading nav, issue reading, PR workflows) apply directly. After copying a course with \"Use this template,\" navigate to the Issues tab (G then I) and press H or 3 to find \"Step 1:\" -- this is where Mona's first lesson appears. Mona posts feedback as issue comments -- press 9 (NVDA/JAWS) to jump to the comments section and read her instructions. Course content appears as standard GitHub issues and comments -- your existing GitHub theme and font size settings apply automatically. Mona's step numbers appear as issue titles with \"Step 1:\", \"Step 2:\" prefixes -- scan the Issues list for these numbered titles to track your progress. Course completion is indicated when Mona closes the final issue with a success message -- look for the purple \"Closed\" badge.",
+    "filename": "seg010-alex.wav",
+    "duration": 50.669,
+    "status": "synthesized"
+  },
+  {
+    "seq": 11,
+    "speaker": "JAMIE",
+    "text": "How would you walk the room through that step by step?",
+    "filename": "seg011-jamie.wav",
+    "duration": 3.01,
+    "status": "synthesized"
+  },
+  {
+    "seq": 12,
+    "speaker": "ALEX",
+    "text": "Here is the learner-facing version. Each course follows the same pattern. Put another way, all interaction happens through GitHub's standard interface. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.",
+    "filename": "seg012-alex.wav",
+    "duration": 14.145,
+    "status": "synthesized"
+  },
+  {
+    "seq": 13,
+    "speaker": "ALEX",
+    "text": "Start here: Navigate to the course URL and select \"Start course\". Then: GitHub copies the course repository to your account. Next: Mona (GitHub's automated learning bot) opens an issue with Step 1 instructions within 20 seconds. Last: You complete the task described in the issue (create a branch, edit a file, open a PR). The point is not speed; the point is never losing your place.",
+    "filename": "seg013-alex.wav",
+    "duration": 21.122,
+    "status": "synthesized"
+  },
+  {
+    "seq": 14,
+    "speaker": "JAMIE",
+    "text": "What does the learner do first, second, and then after that?",
+    "filename": "seg014-jamie.wav",
+    "duration": 3.33,
+    "status": "synthesized"
+  },
+  {
+    "seq": 15,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Mona detects your action, validates it, and posts the next step as a comment or new issue; and Repeat until Mona closes the final issue with a completion message. Each step should leave a trace you can name.",
+    "filename": "seg015-alex.wav",
+    "duration": 12.823,
+    "status": "synthesized"
+  },
+  {
+    "seq": 16,
+    "speaker": "JAMIE",
+    "text": "What should feel predictable before the first live session starts?",
+    "filename": "seg016-jamie.wav",
+    "duration": 3.799,
+    "status": "synthesized"
+  },
+  {
+    "seq": 17,
+    "speaker": "ALEX",
+    "text": "This is the move inside Courses Used in This Workshop: these three modules are integrated into the Day 1 agenda. That matters in practice: You complete them during the workshop with facilitator guidance.",
+    "filename": "seg017-alex.wav",
+    "duration": 11.671,
+    "status": "synthesized"
+  },
+  {
+    "seq": 18,
+    "speaker": "JAMIE",
+    "text": "That feels much more doable when you say it as one move.",
+    "filename": "seg018-jamie.wav",
+    "duration": 3.458,
+    "status": "synthesized"
+  },
+  {
+    "seq": 19,
+    "speaker": "ALEX",
+    "text": "Right. The magic is not speed. The magic is knowing what changed and why it matters.",
+    "filename": "seg019-alex.wav",
+    "duration": 4.629,
+    "status": "synthesized"
+  },
+  {
+    "seq": 20,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg020-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 21,
+    "speaker": "ALEX",
+    "text": "Now bring the learner back to the room. Anchor this part on Learning Paths. The remaining courses are organized into six learning paths. This is the part to say slowly: Each path builds on skills from this workshop and progresses from introductory to advanced.",
+    "filename": "seg021-alex.wav",
+    "duration": 14.487,
+    "status": "synthesized"
+  },
+  {
+    "seq": 22,
+    "speaker": "JAMIE",
+    "text": "What would you say to someone who is already bracing for this to be too much?",
+    "filename": "seg022-jamie.wav",
+    "duration": 4.055,
+    "status": "synthesized"
+  },
+  {
+    "seq": 23,
+    "speaker": "ALEX",
+    "text": "Learning Cards: Navigating Learning Paths has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg023-alex.wav",
+    "duration": 7.297,
+    "status": "synthesized"
+  },
+  {
+    "seq": 24,
+    "speaker": "ALEX",
+    "text": "The parts worth keeping in working memory are these. The six learning paths below are organized as H3 headings with tables listing courses in recommended order -- press 3 to jump between paths, then T to enter each course table. Each course link is in the rightmost \"Link\" column of the table -- navigate to it with arrow keys after entering the table. Use the Personal Completion Checklist at the bottom of this appendix as a progress tracker -- copy it into a GitHub issue or personal notes file. Each learning path table has columns for Order, Module, Duration, Prerequisite, What You Learn, and Link -- widen your browser if columns appear truncated at high zoom. Course durations range from 30 minutes to 2 hours -- the Duration column helps you plan which courses fit your available time. The Quick Reference table near the bottom alphabetically lists all 36 courses for fast scanning when you know the course name.",
+    "filename": "seg024-alex.wav",
+    "duration": 49.26,
+    "status": "synthesized"
+  },
+  {
+    "seq": 25,
+    "speaker": "ALEX",
+    "text": "The useful habit is simple: orient, act, verify, then continue. That pause between action and trust is part of the work.",
+    "filename": "seg025-alex.wav",
+    "duration": 7.255,
+    "status": "synthesized"
+  },
+  {
+    "seq": 26,
+    "speaker": "ALEX",
+    "text": "That matters because of the next idea. Do not treat Path 1: Git Fundamentals as decoration. Deepen your understanding of Git version control beyond what the workshop covered. That is not trivia. The following table lists Git fundamentals courses in recommended order. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg026-alex.wav",
+    "duration": 19.948,
+    "status": "synthesized"
+  },
+  {
+    "seq": 27,
+    "speaker": "ALEX",
+    "text": "A solid Git habit is to know which branch you are on, what changed, and what confirmation you expect before you run the next command.",
+    "filename": "seg027-alex.wav",
+    "duration": 7.104,
+    "status": "synthesized"
+  },
+  {
+    "seq": 28,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg028-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 29,
+    "speaker": "JAMIE",
+    "text": "If I am listening before the workshop starts, what should settle in my mind first?",
+    "filename": "seg029-jamie.wav",
+    "duration": 4.631,
+    "status": "synthesized"
+  },
+  {
+    "seq": 30,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Path 2: GitHub Collaboration is still useful because learn the collaboration features that power open source projects and team workflows. For someone navigating by keyboard or screen reader, this detail matters: The following table lists GitHub collaboration courses in recommended order.",
+    "filename": "seg030-alex.wav",
+    "duration": 17.111,
+    "status": "synthesized"
+  },
+  {
+    "seq": 31,
+    "speaker": "ALEX",
+    "text": "This is where the talk moves from concept to action. Put Path 3: GitHub Actions and Automation into plain language. Build automated workflows that test, build, and deploy your projects. The useful version is: The following table lists GitHub Actions courses in recommended order.",
+    "filename": "seg031-alex.wav",
+    "duration": 15.703,
+    "status": "synthesized"
+  },
+  {
+    "seq": 32,
+    "speaker": "JAMIE",
+    "text": "Now it sounds like a workflow instead of a wall of instructions.",
+    "filename": "seg032-jamie.wav",
+    "duration": 3.863,
+    "status": "synthesized"
+  },
+  {
+    "seq": 33,
+    "speaker": "ALEX",
+    "text": "That is where confidence comes from: not from never getting lost, but from knowing how to recover.",
+    "filename": "seg033-alex.wav",
+    "duration": 5.485,
+    "status": "synthesized"
+  },
+  {
+    "seq": 34,
+    "speaker": "JAMIE",
+    "text": "What is the one idea that makes the next few steps less mysterious?",
+    "filename": "seg034-jamie.wav",
+    "duration": 4.077,
+    "status": "synthesized"
+  },
+  {
+    "seq": 35,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. Master AI-assisted development with GitHub Copilot across editors, CLI, and GitHub itself. That is the difference between guessing and knowing: The following table lists GitHub Copilot courses in recommended order.",
+    "filename": "seg035-alex.wav",
+    "duration": 15.403,
+    "status": "synthesized"
+  },
+  {
+    "seq": 36,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg036-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 37,
+    "speaker": "ALEX",
+    "text": "Before the learner moves on. This part earns its place because learn to identify vulnerabilities, scan for secrets, and secure your supply chain. That gives the learner a foothold: the following table lists security courses in recommended order. That is the difference between following directions and owning the workflow.",
+    "filename": "seg037-alex.wav",
+    "duration": 17.005,
+    "status": "synthesized"
+  },
+  {
+    "seq": 38,
+    "speaker": "JAMIE",
+    "text": "Give me the version that sounds like an instructor, not a manual.",
+    "filename": "seg038-jamie.wav",
+    "duration": 3.842,
+    "status": "synthesized"
+  },
+  {
+    "seq": 39,
+    "speaker": "ALEX",
+    "text": "Path 6: Cloud and Migration: Deploy to the cloud and migrate existing projects to GitHub. The next useful detail is concrete: The following table lists cloud and migration courses in recommended order.",
+    "filename": "seg039-alex.wav",
+    "duration": 12.396,
+    "status": "synthesized"
+  },
+  {
+    "seq": 40,
+    "speaker": "ALEX",
+    "text": "Now slow down for the part people usually miss. Here is the learner-facing version. The following table alphabetically lists every GitHub Skills course with its category and link for quick lookup.",
+    "filename": "seg040-alex.wav",
+    "duration": 10.603,
+    "status": "synthesized"
+  },
+  {
+    "seq": 41,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg041-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 42,
+    "speaker": "JAMIE",
+    "text": "How do the two days connect instead of feeling like separate courses?",
+    "filename": "seg042-jamie.wav",
+    "duration": 3.927,
+    "status": "synthesized"
+  },
+  {
+    "seq": 43,
+    "speaker": "ALEX",
+    "text": "This is the move inside During the Workshop: three courses are woven into Day 1. That matters in practice: You set each one up during the block where it appears, work through Mona's steps alongside the learning room exercises, and finish before moving to the next block.",
+    "filename": "seg043-alex.wav",
+    "duration": 14.381,
+    "status": "synthesized"
+  },
+  {
+    "seq": 44,
+    "speaker": "JAMIE",
+    "text": "That is the kind of detail that keeps a screen reader user oriented.",
+    "filename": "seg044-jamie.wav",
+    "duration": 3.906,
+    "status": "synthesized"
+  },
+  {
+    "seq": 45,
+    "speaker": "ALEX",
+    "text": "Yes. The named thing - the heading, tab, field, branch, or button - is the handhold.",
+    "filename": "seg045-alex.wav",
+    "duration": 4.418,
+    "status": "synthesized"
+  },
+  {
+    "seq": 46,
+    "speaker": "JAMIE",
+    "text": "Turn that into a path someone can follow.",
+    "filename": "seg046-jamie.wav",
+    "duration": 2.733,
+    "status": "synthesized"
+  },
+  {
+    "seq": 47,
+    "speaker": "ALEX",
+    "text": "After the Workshop - Recommended Next Steps has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg047-alex.wav",
+    "duration": 7.191,
+    "status": "synthesized"
+  },
+  {
+    "seq": 48,
+    "speaker": "ALEX",
+    "text": "Listen for the small confirmations in this list. Want to contribute to open source? Start with Path 2 (Collaboration). Want to automate your workflow? Start with Path 3 (Actions). Want to code faster with AI? Start with Path 4 (Copilot). Want to secure your projects? Start with Path 5 (Security).",
+    "filename": "seg048-alex.wav",
+    "duration": 15.511,
+    "status": "synthesized"
+  },
+  {
+    "seq": 49,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Finish any incomplete workshop courses first. If Introduction to GitHub, Communicate Using Markdown, or Review Pull Requests are still in progress, complete them before starting new modules; Pick one path that matches your next goal; Work through one course at a time. Each course takes 30-60 minutes. Spreading them across multiple days helps with retention; and Use the workshop materials as reference. When a GitHub Skills course asks you to create a branch or open a PR, the chapter guides from this workshop describe the same operations with screen reader instructions. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg049-alex.wav",
+    "duration": 35.501,
+    "status": "synthesized"
+  },
+  {
+    "seq": 50,
+    "speaker": "JAMIE",
+    "text": "Where do you want a learner to place their attention here?",
+    "filename": "seg050-jamie.wav",
+    "duration": 3.159,
+    "status": "synthesized"
+  },
+  {
+    "seq": 51,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: GitHub Skills does not have a central dashboard for tracking completions.",
+    "filename": "seg051-alex.wav",
+    "duration": 6.103,
+    "status": "synthesized"
+  },
+  {
+    "seq": 52,
+    "speaker": "ALEX",
+    "text": "The useful version is not abstract; it sounds like this. GitHub profile: Completed courses appear as repositories in your account. Pin your favorites to your profile. Repository list: Filter your repositories by the \"skills-\" prefix to see all courses you have started. Mona's final message: When you finish a course, Mona posts a completion message in the final issue. Bookmark it. This checklist: Copy the list below into a personal note or issue to track which courses you have completed.",
+    "filename": "seg052-alex.wav",
+    "duration": 27.351,
+    "status": "synthesized"
+  },
+  {
+    "seq": 53,
+    "speaker": "ALEX",
+    "text": "A solid pull request habit is to separate three questions: what changed, why it changed, and what still needs review. That keeps the conversation useful instead of noisy.",
+    "filename": "seg053-alex.wav",
+    "duration": 9.536,
+    "status": "synthesized"
+  },
+  {
+    "seq": 54,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg054-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 55,
+    "speaker": "ALEX",
+    "text": "The next point gives the learner a handle. Do not treat Personal Completion Checklist as decoration. Copy this list into your own notes to track progress.",
+    "filename": "seg055-alex.wav",
+    "duration": 8.706,
+    "status": "synthesized"
+  },
+  {
+    "seq": 56,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Additional Resources. What should a learner take away from it?",
+    "filename": "seg056-jamie.wav",
+    "duration": 4.311,
+    "status": "synthesized"
+  },
+  {
+    "seq": 57,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Additional Resources is still useful because back: Appendix Y: Workshop Materials Teaching chapter: Chapter 00: Pre-Workshop Setup.",
+    "filename": "seg057-alex.wav",
+    "duration": 9.751,
+    "status": "synthesized"
+  },
+  {
+    "seq": 58,
+    "speaker": "ALEX",
+    "text": "Here are the anchors worth keeping. GitHub Skills homepage - browse all courses with descriptions. GitHub Skills organization - view all course repositories directly. GitHub Skills Discussions - ask questions and share feedback with the GitHub Skills community.",
+    "filename": "seg058-alex.wav",
+    "duration": 14.613,
+    "status": "synthesized"
+  },
+  {
+    "seq": 59,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg059-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 60,
+    "speaker": "JAMIE",
+    "text": "What should people carry with them after this?",
+    "filename": "seg060-jamie.wav",
+    "duration": 2.647,
+    "status": "synthesized"
+  },
+  {
+    "seq": 61,
+    "speaker": "ALEX",
+    "text": "Carry the map. Know what page or tool you are in, know which action you are taking, and know what confirmation should follow. If the confirmation is missing, pause. That pause is not wasted time; it is professional judgment.",
+    "filename": "seg061-alex.wav",
+    "duration": 11.799,
+    "status": "synthesized"
+  },
+  {
+    "seq": 62,
+    "speaker": "JAMIE",
+    "text": "That is a better way to say it than just follow the steps.",
+    "filename": "seg062-jamie.wav",
+    "duration": 3.394,
+    "status": "synthesized"
+  },
+  {
+    "seq": 63,
+    "speaker": "ALEX",
+    "text": "Right. Steps matter, but understanding wins. That is episode 43. Next in the series is episode 44, where we keep building the same contributor muscles.",
+    "filename": "seg063-alex.wav",
+    "duration": 9.167,
+    "status": "synthesized"
+  }
+]

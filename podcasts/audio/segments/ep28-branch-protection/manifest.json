@@ -1,0 +1,866 @@
+[
+  {
+    "seq": 1,
+    "speaker": "ALEX",
+    "text": "Welcome to Git Going with GitHub, episode 28: Branch Protection and Rulesets. I am Alex. Today we are going to make Branch Protection and Rulesets something you can explain, practice, and recover from when the interface surprises you.",
+    "filename": "seg001-alex.wav",
+    "duration": 13.143,
+    "status": "synthesized"
+  },
+  {
+    "seq": 2,
+    "speaker": "JAMIE",
+    "text": "And I am Jamie. I will be the voice of the learner who is willing to ask, what is this for, where am I, and how do I know I did it right?",
+    "filename": "seg002-jamie.wav",
+    "duration": 6.933,
+    "status": "synthesized"
+  },
+  {
+    "seq": 3,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg003-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 4,
+    "speaker": "ALEX",
+    "text": "The big idea today: Required reviews, status checks, rulesets, and diagnosing blocked merges. We will name the concept, explain why it matters, practice the move, and point out the checks that tell you the work is real.",
+    "filename": "seg004-alex.wav",
+    "duration": 11.65,
+    "status": "synthesized"
+  },
+  {
+    "seq": 5,
+    "speaker": "JAMIE",
+    "text": "So the episode should work even if someone has not read the chapter yet.",
+    "filename": "seg005-jamie.wav",
+    "duration": 4.205,
+    "status": "synthesized"
+  },
+  {
+    "seq": 6,
+    "speaker": "ALEX",
+    "text": "Exactly. The transcript has to stand on its own. It can point toward practice, but it should teach the concept right here in the conversation.",
+    "filename": "seg006-alex.wav",
+    "duration": 7.147,
+    "status": "synthesized"
+  },
+  {
+    "seq": 7,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg007-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 8,
+    "speaker": "JAMIE",
+    "text": "Okay, set the room for us. What are we walking into?",
+    "filename": "seg008-jamie.wav",
+    "duration": 3.245,
+    "status": "synthesized"
+  },
+  {
+    "seq": 9,
+    "speaker": "ALEX",
+    "text": "How Merging Rules Work and Why Your PR May Be Blocked: Who this is for: Contributors who have submitted a PR and are wondering why it cannot be merged yet, as well as workshop facilitators who configure branch protection for practice repositories.",
+    "filename": "seg009-alex.wav",
+    "duration": 13.975,
+    "status": "synthesized"
+  },
+  {
+    "seq": 10,
+    "speaker": "ALEX",
+    "text": "A solid pull request habit is to separate three questions: what changed, why it changed, and what still needs review. That keeps the conversation useful instead of noisy.",
+    "filename": "seg010-alex.wav",
+    "duration": 9.986,
+    "status": "synthesized"
+  },
+  {
+    "seq": 11,
+    "speaker": "JAMIE",
+    "text": "How would you walk the room through that step by step?",
+    "filename": "seg011-jamie.wav",
+    "duration": 3.01,
+    "status": "synthesized"
+  },
+  {
+    "seq": 12,
+    "speaker": "ALEX",
+    "text": "Quick Navigation has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg012-alex.wav",
+    "duration": 6.06,
+    "status": "synthesized"
+  },
+  {
+    "seq": 13,
+    "speaker": "ALEX",
+    "text": "Start here: What Branch Protection Does. Then: Common Branch Protection Rules. Next: Repository Rulesets - The Modern Approach. Last: Why Your PR Cannot Be Merged - Diagnosis Guide. The point is not speed; the point is never losing your place.",
+    "filename": "seg013-alex.wav",
+    "duration": 13.442,
+    "status": "synthesized"
+  },
+  {
+    "seq": 14,
+    "speaker": "JAMIE",
+    "text": "What does the learner do first, second, and then after that?",
+    "filename": "seg014-jamie.wav",
+    "duration": 3.33,
+    "status": "synthesized"
+  },
+  {
+    "seq": 15,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Navigating the Merge Box with a Screen Reader; Status Checks - What They Are and What They Mean; Who Can Configure Branch Protection; and Workshop Repository Configuration Reference. Each step should leave a trace you can name.",
+    "filename": "seg015-alex.wav",
+    "duration": 13.1,
+    "status": "synthesized"
+  },
+  {
+    "seq": 16,
+    "speaker": "ALEX",
+    "text": "A solid navigation habit is to prove where you are before activating controls. Headings, landmarks, and the address bar are not trivia; they are your map.",
+    "filename": "seg016-alex.wav",
+    "duration": 9.133,
+    "status": "synthesized"
+  },
+  {
+    "seq": 17,
+    "speaker": "JAMIE",
+    "text": "What is the one idea that makes the next few steps less mysterious?",
+    "filename": "seg017-jamie.wav",
+    "duration": 4.077,
+    "status": "synthesized"
+  },
+  {
+    "seq": 18,
+    "speaker": "ALEX",
+    "text": "This is the move inside 1. What Branch Protection Does: a branch protection rule is a set of requirements that must be satisfied before a PR can be merged into a specific branch (typically main). That matters in practice: Think of branch protection as the quality gate for a repository's primary branch.",
+    "filename": "seg018-alex.wav",
+    "duration": 16.833,
+    "status": "synthesized"
+  },
+  {
+    "seq": 19,
+    "speaker": "ALEX",
+    "text": "That shows up in the workshop in a few specific ways. Require that code is reviewed before it enters the default branch. Require that automated tests pass before merging. Prevent direct pushes to main without a PR. Ensure the branch is up-to-date before merging.",
+    "filename": "seg019-alex.wav",
+    "duration": 14.999,
+    "status": "synthesized"
+  },
+  {
+    "seq": 20,
+    "speaker": "JAMIE",
+    "text": "That feels much more doable when you say it as one move.",
+    "filename": "seg020-jamie.wav",
+    "duration": 3.458,
+    "status": "synthesized"
+  },
+  {
+    "seq": 21,
+    "speaker": "ALEX",
+    "text": "Right. The magic is not speed. The magic is knowing what changed and why it matters.",
+    "filename": "seg021-alex.wav",
+    "duration": 4.629,
+    "status": "synthesized"
+  },
+  {
+    "seq": 22,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg022-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 23,
+    "speaker": "ALEX",
+    "text": "Now bring the learner back to the room. Learning Cards: What Branch Protection Does has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg023-alex.wav",
+    "duration": 9.281,
+    "status": "synthesized"
+  },
+  {
+    "seq": 24,
+    "speaker": "ALEX",
+    "text": "For a learner, the useful signals are concrete. The merge box at the bottom of every PR page is where branch protection surfaces its requirements -- press End to jump to the bottom, then use H to find the merge heading. Each requirement is announced as a status line: \"1 review required,\" \"Some checks haven't completed yet,\" etc. -- listen for these before attempting to merge. If the Merge button says \"disabled\" or \"grayed out,\" branch protection is blocking -- the status lines immediately above explain exactly what is needed. The merge box uses green (ready), yellow (pending), and red (blocked) indicators -- zoom in on the merge area to read the text labels next to each colored icon. The \"Update branch\" button appears as a secondary button above the merge button when your PR is behind main -- it can be easy to miss at high zoom. Required checks show checkmark or X icons that are small at default size -- browser zoom to 150%+ makes the pass/fail status easier to distinguish.",
+    "filename": "seg024-alex.wav",
+    "duration": 54.786,
+    "status": "synthesized"
+  },
+  {
+    "seq": 25,
+    "speaker": "JAMIE",
+    "text": "What would you say to someone who is already bracing for this to be too much?",
+    "filename": "seg025-jamie.wav",
+    "duration": 4.055,
+    "status": "synthesized"
+  },
+  {
+    "seq": 26,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: the maintainer requires a minimum number of approving reviews before the PR can be merged. The listener should be able to check this: Example: \"Require 1 approving review\".",
+    "filename": "seg026-alex.wav",
+    "duration": 11.756,
+    "status": "synthesized"
+  },
+  {
+    "seq": 27,
+    "speaker": "ALEX",
+    "text": "The parts worth keeping in working memory are these. Your PR shows a \"1 review required\" notice in the merge box. If a reviewer requests changes, their approval is revoked - you need at least one new approval after your latest push. After you push new commits, re-request review from the original reviewer.",
+    "filename": "seg027-alex.wav",
+    "duration": 16.556,
+    "status": "synthesized"
+  },
+  {
+    "seq": 28,
+    "speaker": "ALEX",
+    "text": "That matters because of the next idea. Do not treat Required Status Checks as decoration. Automated workflows (GitHub Actions or third-party CI) must complete successfully before merging is allowed. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg028-alex.wav",
+    "duration": 16.791,
+    "status": "synthesized"
+  },
+  {
+    "seq": 29,
+    "speaker": "ALEX",
+    "text": "The useful habit is simple: orient, act, verify, then continue. That pause between action and trust is part of the work.",
+    "filename": "seg029-alex.wav",
+    "duration": 6.955,
+    "status": "synthesized"
+  },
+  {
+    "seq": 30,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg030-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 31,
+    "speaker": "JAMIE",
+    "text": "If I am listening before the workshop starts, what should settle in my mind first?",
+    "filename": "seg031-jamie.wav",
+    "duration": 4.631,
+    "status": "synthesized"
+  },
+  {
+    "seq": 32,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Example checks you may see is still useful because what \"Required\" means: The merge button is grayed out (or shows an error) until all required checks show a green checkmark. For someone navigating by keyboard or screen reader, this detail matters: A failing or pending check blocks the merge.",
+    "filename": "seg032-alex.wav",
+    "duration": 16.3,
+    "status": "synthesized"
+  },
+  {
+    "seq": 33,
+    "speaker": "ALEX",
+    "text": "Here is what that changes in practice. ci / build - compiles the code. ci / test - runs the test suite. lint - code style checks. accessibility-check - automated accessibility scanning.",
+    "filename": "seg033-alex.wav",
+    "duration": 11.287,
+    "status": "synthesized"
+  },
+  {
+    "seq": 34,
+    "speaker": "ALEX",
+    "text": "This is where the talk moves from concept to action. Put Require Branches to Be Up to Date into plain language. Before merging, your PR branch must include all changes from main. The useful version is: This prevents merge conflicts from being introduced silently.",
+    "filename": "seg034-alex.wav",
+    "duration": 14.487,
+    "status": "synthesized"
+  },
+  {
+    "seq": 35,
+    "speaker": "ALEX",
+    "text": "The room should hear these as checkpoints. The merge box shows: \"This branch is out of date with the base branch\". Button: \"Update branch\" - merges current main into your branch. Alternative: Rebase your branch (only if the maintainer permits rebase merges).",
+    "filename": "seg035-alex.wav",
+    "duration": 13.143,
+    "status": "synthesized"
+  },
+  {
+    "seq": 36,
+    "speaker": "JAMIE",
+    "text": "Now it sounds like a workflow instead of a wall of instructions.",
+    "filename": "seg036-jamie.wav",
+    "duration": 3.863,
+    "status": "synthesized"
+  },
+  {
+    "seq": 37,
+    "speaker": "ALEX",
+    "text": "That is where confidence comes from: not from never getting lost, but from knowing how to recover.",
+    "filename": "seg037-alex.wav",
+    "duration": 5.335,
+    "status": "synthesized"
+  },
+  {
+    "seq": 38,
+    "speaker": "ALEX",
+    "text": "A solid Git habit is to know which branch you are on, what changed, and what confirmation you expect before you run the next command.",
+    "filename": "seg038-alex.wav",
+    "duration": 7.554,
+    "status": "synthesized"
+  },
+  {
+    "seq": 39,
+    "speaker": "JAMIE",
+    "text": "Where do you want a learner to place their attention here?",
+    "filename": "seg039-jamie.wav",
+    "duration": 3.159,
+    "status": "synthesized"
+  },
+  {
+    "seq": 40,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. All commits in the PR must have a Verified badge (see Appendix D: Git Authentication). That is the difference between guessing and knowing: If your commits are unverified, the PR cannot be merged until you re-commit with signing enabled.",
+    "filename": "seg040-alex.wav",
+    "duration": 15.467,
+    "status": "synthesized"
+  },
+  {
+    "seq": 41,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg041-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 42,
+    "speaker": "ALEX",
+    "text": "Before the learner moves on. This part earns its place because only squash merges or rebase merges are permitted - no merge commits. That gives the learner a foothold: this keeps the commit history linear and readable. That is the difference between following directions and owning the workflow.",
+    "filename": "seg042-alex.wav",
+    "duration": 15.554,
+    "status": "synthesized"
+  },
+  {
+    "seq": 43,
+    "speaker": "JAMIE",
+    "text": "Give me the version that sounds like an instructor, not a manual.",
+    "filename": "seg043-jamie.wav",
+    "duration": 3.842,
+    "status": "synthesized"
+  },
+  {
+    "seq": 44,
+    "speaker": "ALEX",
+    "text": "Lock Branch: A locked branch cannot receive any merges - it is effectively read-only. The next useful detail is concrete: This is sometimes used for archived repositories or during release freezes.",
+    "filename": "seg044-alex.wav",
+    "duration": 11.607,
+    "status": "synthesized"
+  },
+  {
+    "seq": 45,
+    "speaker": "ALEX",
+    "text": "Now slow down for the part people usually miss. Here is the learner-facing version. Repository Rulesets (introduced in late 2023) are the next generation of branch protection. Put another way, they extend branch protection rules.",
+    "filename": "seg045-alex.wav",
+    "duration": 13.911,
+    "status": "synthesized"
+  },
+  {
+    "seq": 46,
+    "speaker": "ALEX",
+    "text": "Here is the part that makes the next action easier. Organization-level rules - apply across all repos in an org from one place. Bypass lists - specific users or roles can be exempted from rules (e.g., release bots). Target multiple branches - one ruleset can target a pattern like release/ or v. Violation insights - audit log of when rules were bypassed and by whom.",
+    "filename": "seg046-alex.wav",
+    "duration": 20.352,
+    "status": "synthesized"
+  },
+  {
+    "seq": 47,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg047-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 48,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Rulesets vs. Branch Protection Rules. What should a learner take away from it?",
+    "filename": "seg048-jamie.wav",
+    "duration": 5.378,
+    "status": "synthesized"
+  },
+  {
+    "seq": 49,
+    "speaker": "ALEX",
+    "text": "This is the move inside Rulesets vs. Branch Protection Rules: most repositories you encounter still use classic branch protection rules. That matters in practice: Rulesets will become more common as maintainers migrate.",
+    "filename": "seg049-alex.wav",
+    "duration": 12.973,
+    "status": "synthesized"
+  },
+  {
+    "seq": 50,
+    "speaker": "JAMIE",
+    "text": "That is the kind of detail that keeps a screen reader user oriented.",
+    "filename": "seg050-jamie.wav",
+    "duration": 3.906,
+    "status": "synthesized"
+  },
+  {
+    "seq": 51,
+    "speaker": "ALEX",
+    "text": "Yes. The named thing - the heading, tab, field, branch, or button - is the handhold.",
+    "filename": "seg051-alex.wav",
+    "duration": 4.418,
+    "status": "synthesized"
+  },
+  {
+    "seq": 52,
+    "speaker": "JAMIE",
+    "text": "How do you keep commands from becoming magic words?",
+    "filename": "seg052-jamie.wav",
+    "duration": 3.266,
+    "status": "synthesized"
+  },
+  {
+    "seq": 53,
+    "speaker": "ALEX",
+    "text": "Anchor this part on Finding and Reading Rulesets. If you want to understand why certain rules apply to a branch. This is the part to say slowly: Alternatively, PR merge box messages describe which rules are blocking - you don't need admin access to understand what's required. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes.",
+    "filename": "seg053-alex.wav",
+    "duration": 21.249,
+    "status": "synthesized"
+  },
+  {
+    "seq": 54,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Repository \u2192 Insights tab \u2192 Rulesets (if you have access - contributors usually don't); Or: Repository \u2192 Settings \u2192 Rules \u2192 Rulesets (admin only). Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg054-alex.wav",
+    "duration": 19.991,
+    "status": "synthesized"
+  },
+  {
+    "seq": 55,
+    "speaker": "JAMIE",
+    "text": "Let's pause on 4. Why Your PR Cannot Be Merged - Diagnosis Guide. What should a learner take away from it?",
+    "filename": "seg055-jamie.wav",
+    "duration": 6.402,
+    "status": "synthesized"
+  },
+  {
+    "seq": 56,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: when you open a PR and the merge button is grayed out or shows an error, the merge box tells you exactly what needs to happen.",
+    "filename": "seg056-alex.wav",
+    "duration": 8.725,
+    "status": "synthesized"
+  },
+  {
+    "seq": 57,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg057-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 58,
+    "speaker": "ALEX",
+    "text": "The next point gives the learner a handle. Do not treat \"X review required / X reviews required\" as decoration. What it means: The required number of approvals hasn't been reached yet.",
+    "filename": "seg058-alex.wav",
+    "duration": 10.775,
+    "status": "synthesized"
+  },
+  {
+    "seq": 59,
+    "speaker": "JAMIE",
+    "text": "Turn that into a path someone can follow.",
+    "filename": "seg059-jamie.wav",
+    "duration": 2.733,
+    "status": "synthesized"
+  },
+  {
+    "seq": 60,
+    "speaker": "ALEX",
+    "text": "What to do has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg060-alex.wav",
+    "duration": 5.569,
+    "status": "synthesized"
+  },
+  {
+    "seq": 61,
+    "speaker": "ALEX",
+    "text": "Start here: Request review from a codeowner or maintainer (right sidebar \u2192 Reviewers \u2192 request). Then: Check if any reviews exist but requested changes - those count against you. Next: Wait for the reviewer to submit their review. Last: Respond to requested changes by pushing new commits, then re-requesting review. Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg061-alex.wav",
+    "duration": 21.527,
+    "status": "synthesized"
+  },
+  {
+    "seq": 62,
+    "speaker": "ALEX",
+    "text": "Hold that next to this. Put \"Some checks haven't completed yet\" or \"Some checks were not successful\" into plain language. What it means: A required status check is pending or failing. The interface gets easier when it becomes a set of named places instead of a wall of controls.",
+    "filename": "seg062-alex.wav",
+    "duration": 15.021,
+    "status": "synthesized"
+  },
+  {
+    "seq": 63,
+    "speaker": "JAMIE",
+    "text": "So the learner is not behind if they stop there and check the page.",
+    "filename": "seg063-jamie.wav",
+    "duration": 3.863,
+    "status": "synthesized"
+  },
+  {
+    "seq": 64,
+    "speaker": "ALEX",
+    "text": "Yes. Pausing to verify is not a detour; it is how you keep control of the workflow.",
+    "filename": "seg064-alex.wav",
+    "duration": 4.651,
+    "status": "synthesized"
+  },
+  {
+    "seq": 65,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg065-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 66,
+    "speaker": "JAMIE",
+    "text": "What is the ordered workflow?",
+    "filename": "seg066-jamie.wav",
+    "duration": 2.199,
+    "status": "synthesized"
+  },
+  {
+    "seq": 67,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. If checks pass on main but fail on your PR: The issue is specific to your changes. That is the difference between guessing and knowing: If checks are stuck \"in progress\" for over 30 minutes: The workflow runner may have an issue - contact the maintainer.",
+    "filename": "seg067-alex.wav",
+    "duration": 15.895,
+    "status": "synthesized"
+  },
+  {
+    "seq": 68,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Scroll down to the merge box - expand \"Show all checks\"; Find the failing check \u2192 click \"Details\" to see the full log; Fix the underlying issue (test failure, lint error, build error) in your branch; and Push new commits - checks re-run automatically. Each step should leave a trace you can name.",
+    "filename": "seg068-alex.wav",
+    "duration": 16.919,
+    "status": "synthesized"
+  },
+  {
+    "seq": 69,
+    "speaker": "JAMIE",
+    "text": "Give me the sequence, because order matters here.",
+    "filename": "seg069-jamie.wav",
+    "duration": 3.095,
+    "status": "synthesized"
+  },
+  {
+    "seq": 70,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is wait for checks to complete (typically 1-5 minutes for most CI). If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg070-alex.wav",
+    "duration": 10.775,
+    "status": "synthesized"
+  },
+  {
+    "seq": 71,
+    "speaker": "ALEX",
+    "text": "That connects to another useful point. This part earns its place because what it means: New commits were pushed to main after you created your PR branch. That gives the learner a foothold: the maintainer requires everything to be current.",
+    "filename": "seg071-alex.wav",
+    "duration": 13.015,
+    "status": "synthesized"
+  },
+  {
+    "seq": 72,
+    "speaker": "JAMIE",
+    "text": "Let's pause on What to do. What should a learner take away from it?",
+    "filename": "seg072-jamie.wav",
+    "duration": 3.65,
+    "status": "synthesized"
+  },
+  {
+    "seq": 73,
+    "speaker": "ALEX",
+    "text": "On the ground, that means a few things. Click \"Update branch\" in the merge box - GitHub does a merge commit from main into your branch. Or locally: git fetch upstream && git rebase upstream/main then force-push (only if you are comfortable with rebase).",
+    "filename": "seg073-alex.wav",
+    "duration": 13.867,
+    "status": "synthesized"
+  },
+  {
+    "seq": 74,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg074-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 75,
+    "speaker": "ALEX",
+    "text": "Here is the practical turn. Here is the learner-facing version. What it means: Branch protection requires signed commits (see Appendix D: Git Authentication). A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.",
+    "filename": "seg075-alex.wav",
+    "duration": 14.893,
+    "status": "synthesized"
+  },
+  {
+    "seq": 76,
+    "speaker": "JAMIE",
+    "text": "Before we leave What to do, what is the practical point?",
+    "filename": "seg076-jamie.wav",
+    "duration": 3.373,
+    "status": "synthesized"
+  },
+  {
+    "seq": 77,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Enable commit signing locally before making more commits; and For existing unsigned commits, you need to rebase-rewrite them - this is advanced; ask the maintainer if there is a workaround. The sequence works because every action has a confirmation.",
+    "filename": "seg077-alex.wav",
+    "duration": 14.893,
+    "status": "synthesized"
+  },
+  {
+    "seq": 78,
+    "speaker": "JAMIE",
+    "text": "That is a useful checkpoint before anyone starts pressing keys.",
+    "filename": "seg078-jamie.wav",
+    "duration": 3.949,
+    "status": "synthesized"
+  },
+  {
+    "seq": 79,
+    "speaker": "ALEX",
+    "text": "Exactly. Checkpoints turn uncertainty into information.",
+    "filename": "seg079-alex.wav",
+    "duration": 3.457,
+    "status": "synthesized"
+  },
+  {
+    "seq": 80,
+    "speaker": "ALEX",
+    "text": "Keep the thread going. Anchor this part on \"Merging is blocked\". What it means: A ruleset or branch protection has explicitly blocked merging for a reason not covered by other messages. This is the part to say slowly: Check the PR for a pinned comment from the mergeable status check or a GitHub Actions check that posts a comment explaining the block.",
+    "filename": "seg080-alex.wav",
+    "duration": 18.368,
+    "status": "synthesized"
+  },
+  {
+    "seq": 81,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg081-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 82,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Learning Cards: Why Your PR Cannot Be Merged. What should a learner take away from it?",
+    "filename": "seg082-jamie.wav",
+    "duration": 5.762,
+    "status": "synthesized"
+  },
+  {
+    "seq": 83,
+    "speaker": "ALEX",
+    "text": "Learning Cards: Why Your PR Cannot Be Merged has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg083-alex.wav",
+    "duration": 7.596,
+    "status": "synthesized"
+  },
+  {
+    "seq": 84,
+    "speaker": "ALEX",
+    "text": "These are the details that keep the idea from floating away. Navigate to the merge box (End key, then H key to find \"Merge\" heading) and read each status line with arrow keys -- the messages tell you exactly what action to take. When a check fails, Tab to the \"Details\" link next to the failing check name and press Enter to open the log -- use Ctrl+F to search for \"error\" or \"failed\". After pushing a fix, the checks re-run automatically -- return to the PR page and listen for the status to change from \"pending\" to \"passed\". Failed checks show a red X icon that can be tiny -- zoom to 150%+ and look for the word \"failing\" or \"failed\" next to each check name. The \"Update branch\" button (for out-of-date PRs) is a secondary action that blends in at low zoom -- look for it directly above the main merge button. The Details link next to each check opens a log page with monospace text -- increase your editor or browser font size before reading long CI logs.",
+    "filename": "seg084-alex.wav",
+    "duration": 53.335,
+    "status": "synthesized"
+  },
+  {
+    "seq": 85,
+    "speaker": "ALEX",
+    "text": "Another way to ground it. Do not treat 5. Navigating the Merge Box with a Screen Reader as decoration. The merge box lives at the bottom of every PR page. That is not trivia. With a screen reader, navigating to it efficiently is important. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg085-alex.wav",
+    "duration": 18.434,
+    "status": "synthesized"
+  },
+  {
+    "seq": 86,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Reading Check Details. What should a learner take away from it?",
+    "filename": "seg086-jamie.wav",
+    "duration": 4.269,
+    "status": "synthesized"
+  },
+  {
+    "seq": 87,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Reading Check Details is still useful because the check log is a text-heavy page in a pre-formatted block.",
+    "filename": "seg087-alex.wav",
+    "duration": 6.976,
+    "status": "synthesized"
+  },
+  {
+    "seq": 88,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg088-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 89,
+    "speaker": "ALEX",
+    "text": "This is the part worth saying out loud. Put 6. Status Checks - What They Are and What They Mean into plain language. Status checks come from two sources.",
+    "filename": "seg089-alex.wav",
+    "duration": 9.133,
+    "status": "synthesized"
+  },
+  {
+    "seq": 90,
+    "speaker": "JAMIE",
+    "text": "I like that because it gives people permission to slow down.",
+    "filename": "seg090-jamie.wav",
+    "duration": 3.671,
+    "status": "synthesized"
+  },
+  {
+    "seq": 91,
+    "speaker": "ALEX",
+    "text": "That is the goal. We want the page to feel explorable, not fragile.",
+    "filename": "seg091-alex.wav",
+    "duration": 3.949,
+    "status": "synthesized"
+  },
+  {
+    "seq": 92,
+    "speaker": "JAMIE",
+    "text": "Let's pause on GitHub Actions Status Checks. What should a learner take away from it?",
+    "filename": "seg092-jamie.wav",
+    "duration": 4.823,
+    "status": "synthesized"
+  },
+  {
+    "seq": 93,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. Defined in.github/workflows/.yml in the repository. That is the difference between guessing and knowing: Each job: in a workflow file becomes a status check.",
+    "filename": "seg093-alex.wav",
+    "duration": 12.631,
+    "status": "synthesized"
+  },
+  {
+    "seq": 94,
+    "speaker": "ALEX",
+    "text": "Put that beside the next piece. This part earns its place because services like Netlify, Vercel, Codecov, and Snyk post status checks via the GitHub API. That gives the learner a foothold: the learner will recognize them by their app name prefix (e.g., netlify/deploy-preview - Deploy Preview ready). That is the difference between following directions and owning the workflow.",
+    "filename": "seg094-alex.wav",
+    "duration": 20.693,
+    "status": "synthesized"
+  },
+  {
+    "seq": 95,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg095-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 96,
+    "speaker": "JAMIE",
+    "text": "Let's pause on 7. Who Can Configure Branch Protection. What should a learner take away from it?",
+    "filename": "seg096-jamie.wav",
+    "duration": 5.463,
+    "status": "synthesized"
+  },
+  {
+    "seq": 97,
+    "speaker": "ALEX",
+    "text": "7. Who Can Configure Branch Protection: As a workshop participant, you are typically a contributor to the main community-access/accessibility-agents repo and an admin of your own fork. The next useful detail is concrete: On your fork, you can configure branch protection however you like - including disabling it entirely for practice purposes.",
+    "filename": "seg097-alex.wav",
+    "duration": 18.945,
+    "status": "synthesized"
+  },
+  {
+    "seq": 98,
+    "speaker": "ALEX",
+    "text": "Now shift from knowing the term to using it. Here is the learner-facing version. The community-access/accessibility-agents repository uses the following branch protection configuration on main. Put another way, your personal fork of accessibility-agents has no branch protection by default.",
+    "filename": "seg098-alex.wav",
+    "duration": 16.962,
+    "status": "synthesized"
+  },
+  {
+    "seq": 99,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Related Resources. What should a learner take away from it?",
+    "filename": "seg099-jamie.wav",
+    "duration": 4.226,
+    "status": "synthesized"
+  },
+  {
+    "seq": 100,
+    "speaker": "ALEX",
+    "text": "This is the move inside Related Resources: next: Appendix P: Security Features Back: Appendix N: Advanced Search Teaching chapter: Chapter 08: Open Source Culture.",
+    "filename": "seg100-alex.wav",
+    "duration": 10.305,
+    "status": "synthesized"
+  },
+  {
+    "seq": 101,
+    "speaker": "ALEX",
+    "text": "A few details make that real. Appendix D - Git Authentication and Commit Signing. Appendix Q - GitHub Actions Workflows. Appendix L - GitHub Security Features.",
+    "filename": "seg101-alex.wav",
+    "duration": 10.114,
+    "status": "synthesized"
+  },
+  {
+    "seq": 102,
+    "speaker": "JAMIE",
+    "text": "That is the part I would want someone to say out loud while they work.",
+    "filename": "seg102-jamie.wav",
+    "duration": 3.842,
+    "status": "synthesized"
+  },
+  {
+    "seq": 103,
+    "speaker": "ALEX",
+    "text": "Exactly. A learner should always know what they are trying to prove before they take the next action.",
+    "filename": "seg103-alex.wav",
+    "duration": 4.8,
+    "status": "synthesized"
+  },
+  {
+    "seq": 104,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg104-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 105,
+    "speaker": "JAMIE",
+    "text": "What should people carry with them after this?",
+    "filename": "seg105-jamie.wav",
+    "duration": 2.647,
+    "status": "synthesized"
+  },
+  {
+    "seq": 106,
+    "speaker": "ALEX",
+    "text": "Carry the map. Know what page or tool you are in, know which action you are taking, and know what confirmation should follow. If the confirmation is missing, pause. That pause is not wasted time; it is professional judgment.",
+    "filename": "seg106-alex.wav",
+    "duration": 11.799,
+    "status": "synthesized"
+  },
+  {
+    "seq": 107,
+    "speaker": "JAMIE",
+    "text": "That is a better way to say it than just follow the steps.",
+    "filename": "seg107-jamie.wav",
+    "duration": 3.394,
+    "status": "synthesized"
+  },
+  {
+    "seq": 108,
+    "speaker": "ALEX",
+    "text": "Right. Steps matter, but understanding wins. That is episode 28. Next in the series is episode 29, where we keep building the same contributor muscles.",
+    "filename": "seg108-alex.wav",
+    "duration": 9.189,
+    "status": "synthesized"
+  }
+]

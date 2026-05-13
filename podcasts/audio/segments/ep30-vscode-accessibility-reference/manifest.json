@@ -1,0 +1,930 @@
+[
+  {
+    "seq": 1,
+    "speaker": "ALEX",
+    "text": "This is Git Going with GitHub, episode 30: VS Code Accessibility Reference. I am Alex. By the end of this episode, VS Code Accessibility Reference should feel less like a wall of GitHub words and more like a set of moves you can trust.",
+    "filename": "seg001-alex.wav",
+    "duration": 13.911,
+    "status": "synthesized"
+  },
+  {
+    "seq": 2,
+    "speaker": "JAMIE",
+    "text": "And I am Jamie. I am here for the practical questions: what should I listen for, what can go wrong, and what is the next calm move?",
+    "filename": "seg002-jamie.wav",
+    "duration": 6.763,
+    "status": "synthesized"
+  },
+  {
+    "seq": 3,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg003-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 4,
+    "speaker": "ALEX",
+    "text": "Today we are working on this: Complete accessibility settings, audio signals, diff viewer, and screen reader configs. I want the learner to leave with a mental map, not just a remembered path through buttons.",
+    "filename": "seg004-alex.wav",
+    "duration": 11.053,
+    "status": "synthesized"
+  },
+  {
+    "seq": 5,
+    "speaker": "JAMIE",
+    "text": "So the goal is understanding first, then action, then confirmation.",
+    "filename": "seg005-jamie.wav",
+    "duration": 4.119,
+    "status": "synthesized"
+  },
+  {
+    "seq": 6,
+    "speaker": "ALEX",
+    "text": "Right. We are building a rhythm: orient yourself, take one intentional action, then verify what changed before moving on.",
+    "filename": "seg006-alex.wav",
+    "duration": 6.272,
+    "status": "synthesized"
+  },
+  {
+    "seq": 7,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg007-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 8,
+    "speaker": "JAMIE",
+    "text": "Okay, set the room for us. What are we walking into?",
+    "filename": "seg008-jamie.wav",
+    "duration": 3.245,
+    "status": "synthesized"
+  },
+  {
+    "seq": 9,
+    "speaker": "ALEX",
+    "text": "Complete Technical Reference for Screen Reader Users: Purpose: This appendix provides comprehensive technical documentation for all VS Code accessibility features, settings, and keyboard shortcuts. The next useful detail is concrete: The main chapters cover essentials; this appendix is your complete reference manual.",
+    "filename": "seg009-alex.wav",
+    "duration": 17.964,
+    "status": "synthesized"
+  },
+  {
+    "seq": 10,
+    "speaker": "ALEX",
+    "text": "A solid navigation habit is to prove where you are before activating controls. Headings, landmarks, and the address bar are not trivia; they are your map.",
+    "filename": "seg010-alex.wav",
+    "duration": 8.983,
+    "status": "synthesized"
+  },
+  {
+    "seq": 11,
+    "speaker": "ALEX",
+    "text": "The next layer is this. Learning Cards: VS Code Accessibility Reference Overview has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg011-alex.wav",
+    "duration": 9.815,
+    "status": "synthesized"
+  },
+  {
+    "seq": 12,
+    "speaker": "ALEX",
+    "text": "Here are the anchors worth keeping. This appendix is your lookup manual -- use Ctrl+G (Go to Line) or Ctrl+Shift+O (Go to Symbol) to jump directly to a setting name. Every table is structured with headers; use T in browse mode to jump between tables, then arrow through rows. Bookmark this file in VS Code (Ctrl+K Ctrl+K) so you can return instantly when you need a setting path. Increase editor font size (Ctrl+=) before scanning the long settings tables -- column values are easier to compare at larger sizes. Use the Minimap (if sighted enough) or breadcrumbs bar to orient within this large reference file. High-contrast themes make the table grid lines and code spans easier to distinguish from body text.",
+    "filename": "seg012-alex.wav",
+    "duration": 41.005,
+    "status": "synthesized"
+  },
+  {
+    "seq": 13,
+    "speaker": "JAMIE",
+    "text": "What is the one idea that makes the next few steps less mysterious?",
+    "filename": "seg013-jamie.wav",
+    "duration": 4.077,
+    "status": "synthesized"
+  },
+  {
+    "seq": 14,
+    "speaker": "ALEX",
+    "text": "This is the move inside 1. Complete Accessibility Settings Reference: all settings can be accessed via Settings UI (Ctrl+,) or by editing settings.json directly (Ctrl+Shift+P \u2192 \"Open User Settings JSON\").",
+    "filename": "seg014-alex.wav",
+    "duration": 14.253,
+    "status": "synthesized"
+  },
+  {
+    "seq": 15,
+    "speaker": "JAMIE",
+    "text": "That feels much more doable when you say it as one move.",
+    "filename": "seg015-jamie.wav",
+    "duration": 3.458,
+    "status": "synthesized"
+  },
+  {
+    "seq": 16,
+    "speaker": "ALEX",
+    "text": "Right. The magic is not speed. The magic is knowing what changed and why it matters.",
+    "filename": "seg016-alex.wav",
+    "duration": 4.629,
+    "status": "synthesized"
+  },
+  {
+    "seq": 17,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg017-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 18,
+    "speaker": "ALEX",
+    "text": "Now bring the learner back to the room. Anchor this part on 2. Audio Cues - All Options. Audio cues provide non-verbal feedback through sound. This is the part to say slowly: Each cue can be configured independently.",
+    "filename": "seg018-alex.wav",
+    "duration": 12.93,
+    "status": "synthesized"
+  },
+  {
+    "seq": 19,
+    "speaker": "JAMIE",
+    "text": "What would you say to someone who is already bracing for this to be too much?",
+    "filename": "seg019-jamie.wav",
+    "duration": 4.055,
+    "status": "synthesized"
+  },
+  {
+    "seq": 20,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: settings UI: Ctrl+, \u2192 search \"audio cue\". The listener should be able to check this: Settings.json: Edit directly (see Section 7).",
+    "filename": "seg020-alex.wav",
+    "duration": 10.305,
+    "status": "synthesized"
+  },
+  {
+    "seq": 21,
+    "speaker": "ALEX",
+    "text": "The useful habit is simple: orient, act, verify, then continue. That pause between action and trust is part of the work.",
+    "filename": "seg021-alex.wav",
+    "duration": 7.405,
+    "status": "synthesized"
+  },
+  {
+    "seq": 22,
+    "speaker": "JAMIE",
+    "text": "Give me the sequence, because order matters here.",
+    "filename": "seg022-jamie.wav",
+    "duration": 3.095,
+    "status": "synthesized"
+  },
+  {
+    "seq": 23,
+    "speaker": "ALEX",
+    "text": "Do not treat Customizing Signal Sounds as decoration. Advanced feature: You can replace default sounds with custom audio files. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg023-alex.wav",
+    "duration": 13.228,
+    "status": "synthesized"
+  },
+  {
+    "seq": 24,
+    "speaker": "ALEX",
+    "text": "First, ctrl+Shift+P \u2192 \"Preferences: Open User Settings (JSON)\". Then, add custom sound paths. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg024-alex.wav",
+    "duration": 10.24,
+    "status": "synthesized"
+  },
+  {
+    "seq": 25,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg025-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 26,
+    "speaker": "JAMIE",
+    "text": "If I am listening before the workshop starts, what should settle in my mind first?",
+    "filename": "seg026-jamie.wav",
+    "duration": 4.631,
+    "status": "synthesized"
+  },
+  {
+    "seq": 27,
+    "speaker": "ALEX",
+    "text": "Sound file requirements has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg027-alex.wav",
+    "duration": 6.337,
+    "status": "synthesized"
+  },
+  {
+    "seq": 28,
+    "speaker": "ALEX",
+    "text": "Here is what that changes in practice. Format: WAV, MP3, or OGG. Duration: Keep under 2 seconds. Volume: Normalize to avoid clipping.",
+    "filename": "seg028-alex.wav",
+    "duration": 8.94,
+    "status": "synthesized"
+  },
+  {
+    "seq": 29,
+    "speaker": "ALEX",
+    "text": "This is where the talk moves from concept to action. Put 3. Accessible Diff Viewer - Complete Guide into plain language. The Accessible Diff Viewer presents file diffs as a structured, line-by-line list instead of a visual side-by-side view.",
+    "filename": "seg029-alex.wav",
+    "duration": 13.527,
+    "status": "synthesized"
+  },
+  {
+    "seq": 30,
+    "speaker": "JAMIE",
+    "text": "Now it sounds like a workflow instead of a wall of instructions.",
+    "filename": "seg030-jamie.wav",
+    "duration": 3.863,
+    "status": "synthesized"
+  },
+  {
+    "seq": 31,
+    "speaker": "ALEX",
+    "text": "That is where confidence comes from: not from never getting lost, but from knowing how to recover.",
+    "filename": "seg031-alex.wav",
+    "duration": 5.335,
+    "status": "synthesized"
+  },
+  {
+    "seq": 32,
+    "speaker": "ALEX",
+    "text": "A solid pull request habit is to separate three questions: what changed, why it changed, and what still needs review. That keeps the conversation useful instead of noisy.",
+    "filename": "seg032-alex.wav",
+    "duration": 9.986,
+    "status": "synthesized"
+  },
+  {
+    "seq": 33,
+    "speaker": "JAMIE",
+    "text": "Where do you want a learner to place their attention here?",
+    "filename": "seg033-jamie.wav",
+    "duration": 3.159,
+    "status": "synthesized"
+  },
+  {
+    "seq": 34,
+    "speaker": "ALEX",
+    "text": "When to Use Accessible Diff Viewer has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg034-alex.wav",
+    "duration": 6.764,
+    "status": "synthesized"
+  },
+  {
+    "seq": 35,
+    "speaker": "ALEX",
+    "text": "These are the details that keep the idea from floating away. Reviewing pull request changes. Resolving merge conflicts. Comparing file versions (Timeline view). Reviewing Copilot-generated edits. Any time you need to understand what changed in a file.",
+    "filename": "seg035-alex.wav",
+    "duration": 14.08,
+    "status": "synthesized"
+  },
+  {
+    "seq": 36,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg036-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 37,
+    "speaker": "ALEX",
+    "text": "Before the learner moves on. This part earns its place because the Accessible Diff Viewer starts with a header showing the file path and change summary. That gives the learner a foothold: it then shows each hunk (changed section) in order. That is the difference between following directions and owning the workflow.",
+    "filename": "seg037-alex.wav",
+    "duration": 15.81,
+    "status": "synthesized"
+  },
+  {
+    "seq": 38,
+    "speaker": "JAMIE",
+    "text": "How would you walk the room through that step by step?",
+    "filename": "seg038-jamie.wav",
+    "duration": 3.01,
+    "status": "synthesized"
+  },
+  {
+    "seq": 39,
+    "speaker": "ALEX",
+    "text": "NVDA/JAWS has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg039-alex.wav",
+    "duration": 6.615,
+    "status": "synthesized"
+  },
+  {
+    "seq": 40,
+    "speaker": "ALEX",
+    "text": "First, open diff: Enter on file in Source Control, or F7 in an open diff. Then, alt+F2 to open Accessible Diff Viewer. After that, navigate with Up/Down Arrow (line by line). Finally, use H key to jump between hunks (each hunk has a heading). Each step should leave a trace you can name.",
+    "filename": "seg040-alex.wav",
+    "duration": 16.834,
+    "status": "synthesized"
+  },
+  {
+    "seq": 41,
+    "speaker": "JAMIE",
+    "text": "What does the learner do first, second, and then after that?",
+    "filename": "seg041-jamie.wav",
+    "duration": 3.33,
+    "status": "synthesized"
+  },
+  {
+    "seq": 42,
+    "speaker": "ALEX",
+    "text": "Start here: Escape to close and return to editor. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg042-alex.wav",
+    "duration": 6.445,
+    "status": "synthesized"
+  },
+  {
+    "seq": 43,
+    "speaker": "JAMIE",
+    "text": "Turn that into a path someone can follow.",
+    "filename": "seg043-jamie.wav",
+    "duration": 2.733,
+    "status": "synthesized"
+  },
+  {
+    "seq": 44,
+    "speaker": "ALEX",
+    "text": "VoiceOver has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg044-alex.wav",
+    "duration": 5.697,
+    "status": "synthesized"
+  },
+  {
+    "seq": 45,
+    "speaker": "ALEX",
+    "text": "Start here: VO+Arrow to navigate to diff file \u2192 VO+Space to open. Then: Option+F2 for Accessible Diff Viewer. Next: VO+Arrow keys to navigate lines. Last: VO+Command+H to jump between hunk headings. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg045-alex.wav",
+    "duration": 17.965,
+    "status": "synthesized"
+  },
+  {
+    "seq": 46,
+    "speaker": "JAMIE",
+    "text": "What is the ordered workflow?",
+    "filename": "seg046-jamie.wav",
+    "duration": 2.199,
+    "status": "synthesized"
+  },
+  {
+    "seq": 47,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Escape to close. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg047-alex.wav",
+    "duration": 5.013,
+    "status": "synthesized"
+  },
+  {
+    "seq": 48,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg048-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 49,
+    "speaker": "JAMIE",
+    "text": "Give me the version that sounds like an instructor, not a manual.",
+    "filename": "seg049-jamie.wav",
+    "duration": 3.842,
+    "status": "synthesized"
+  },
+  {
+    "seq": 50,
+    "speaker": "ALEX",
+    "text": "This is the move inside Understanding Context Lines: the diff shows 3 unchanged lines before and after each change for context. That matters in practice: These are announced as \"Unchanged: [content]\".",
+    "filename": "seg050-alex.wav",
+    "duration": 11.735,
+    "status": "synthesized"
+  },
+  {
+    "seq": 51,
+    "speaker": "JAMIE",
+    "text": "That is the kind of detail that keeps a screen reader user oriented.",
+    "filename": "seg051-jamie.wav",
+    "duration": 3.906,
+    "status": "synthesized"
+  },
+  {
+    "seq": 52,
+    "speaker": "ALEX",
+    "text": "Yes. The named thing - the heading, tab, field, branch, or button - is the handhold.",
+    "filename": "seg052-alex.wav",
+    "duration": 4.418,
+    "status": "synthesized"
+  },
+  {
+    "seq": 53,
+    "speaker": "JAMIE",
+    "text": "How do you keep commands from becoming magic words?",
+    "filename": "seg053-jamie.wav",
+    "duration": 3.266,
+    "status": "synthesized"
+  },
+  {
+    "seq": 54,
+    "speaker": "ALEX",
+    "text": "Anchor this part on Example. The unchanged lines help you understand where in the file the change occurred. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes.",
+    "filename": "seg054-alex.wav",
+    "duration": 11.841,
+    "status": "synthesized"
+  },
+  {
+    "seq": 55,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Hunk 1 of 3 - lines 42-48; Unchanged: Screen Reader Setup; Unchanged:; - Removed: This guide covers NVDA only.; + Added: This guide covers NVDA, JAWS, and VoiceOver.; Unchanged:; Unchanged: Installing NVDA. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg055-alex.wav",
+    "duration": 24.599,
+    "status": "synthesized"
+  },
+  {
+    "seq": 56,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Inline view (recommended for screen readers). What should a learner take away from it?",
+    "filename": "seg056-jamie.wav",
+    "duration": 5.634,
+    "status": "synthesized"
+  },
+  {
+    "seq": 57,
+    "speaker": "ALEX",
+    "text": "Inline view (recommended for screen readers) has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg057-alex.wav",
+    "duration": 7.255,
+    "status": "synthesized"
+  },
+  {
+    "seq": 58,
+    "speaker": "ALEX",
+    "text": "The useful version is not abstract; it sounds like this. All changes in a single editor. Removed lines followed by added lines. Easier to navigate with screen reader reading commands.",
+    "filename": "seg058-alex.wav",
+    "duration": 10.56,
+    "status": "synthesized"
+  },
+  {
+    "seq": 59,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg059-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 60,
+    "speaker": "ALEX",
+    "text": "The next point gives the learner a handle. Side-by-side view (default, visual) has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg060-alex.wav",
+    "duration": 8.983,
+    "status": "synthesized"
+  },
+  {
+    "seq": 61,
+    "speaker": "ALEX",
+    "text": "This is where the lesson becomes something you can check. Left panel: original file. Right panel: modified file. Requires navigating between panels.",
+    "filename": "seg061-alex.wav",
+    "duration": 8.791,
+    "status": "synthesized"
+  },
+  {
+    "seq": 62,
+    "speaker": "JAMIE",
+    "text": "Let's pause on To switch to inline view. What should a learner take away from it?",
+    "filename": "seg062-jamie.wav",
+    "duration": 4.311,
+    "status": "synthesized"
+  },
+  {
+    "seq": 63,
+    "speaker": "ALEX",
+    "text": "To switch to inline view has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg063-alex.wav",
+    "duration": 6.38,
+    "status": "synthesized"
+  },
+  {
+    "seq": 64,
+    "speaker": "ALEX",
+    "text": "Start here: Open Settings: Ctrl+,. Then: Search: \"diffEditor.renderSideBySide\". Next: Uncheck the box (or set to false in settings.json). Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg064-alex.wav",
+    "duration": 12.524,
+    "status": "synthesized"
+  },
+  {
+    "seq": 65,
+    "speaker": "ALEX",
+    "text": "Hold that next to this. Learning Cards: Accessible Diff Viewer has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg065-alex.wav",
+    "duration": 8.407,
+    "status": "synthesized"
+  },
+  {
+    "seq": 66,
+    "speaker": "ALEX",
+    "text": "That shows up in the workshop in a few specific ways. Press F7 in any diff editor to jump to the first changed hunk -- then F7 / Shift+F7 to move between hunks. Use Alt+F2 (Accessible View) to read the full diff in a structured, non-streaming pane with proper line prefixes. Switch to inline diff view (diffEditor.renderSideBySide: false) so all changes appear in one editor instead of two panels. Inline diff view places removed and added lines back-to-back with color-coded backgrounds -- increase font size for easier scanning. Enable accessibility.signals.diffLineInserted and diffLineDeleted for audio feedback as you arrow through changed lines. Zoom the diff editor independently with Ctrl+= if the surrounding UI is already at a comfortable size.",
+    "filename": "seg066-alex.wav",
+    "duration": 45.421,
+    "status": "synthesized"
+  },
+  {
+    "seq": 67,
+    "speaker": "JAMIE",
+    "text": "So the learner is not behind if they stop there and check the page.",
+    "filename": "seg067-jamie.wav",
+    "duration": 3.863,
+    "status": "synthesized"
+  },
+  {
+    "seq": 68,
+    "speaker": "ALEX",
+    "text": "Yes. Pausing to verify is not a detour; it is how you keep control of the workflow.",
+    "filename": "seg068-alex.wav",
+    "duration": 4.651,
+    "status": "synthesized"
+  },
+  {
+    "seq": 69,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg069-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 70,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Recommended NVDA settings. What should a learner take away from it?",
+    "filename": "seg070-jamie.wav",
+    "duration": 5.015,
+    "status": "synthesized"
+  },
+  {
+    "seq": 71,
+    "speaker": "ALEX",
+    "text": "Recommended NVDA settings has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg071-alex.wav",
+    "duration": 6.871,
+    "status": "synthesized"
+  },
+  {
+    "seq": 72,
+    "speaker": "ALEX",
+    "text": "For a learner, the useful signals are concrete. NVDA Menu \u2192 Preferences \u2192 Settings \u2192 Browse Mode. \"Maximum length of text on a single line\": 10000. \"Automatic focus mode for focus changes\": Checked. \"Automatic focus mode for caret movement\": Unchecked. \"Report tooltips\": Unchecked (reduces interruptions; use Alt+F2 instead). \"Report notifications\": Checked.",
+    "filename": "seg072-alex.wav",
+    "duration": 22.124,
+    "status": "synthesized"
+  },
+  {
+    "seq": 73,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Browse Mode settings; Object Presentation; Speech settings; and Input Composition. Each step should leave a trace you can name.",
+    "filename": "seg073-alex.wav",
+    "duration": 8.769,
+    "status": "synthesized"
+  },
+  {
+    "seq": 74,
+    "speaker": "ALEX",
+    "text": "That connects to another useful point. NVDA add-ons for VS Code has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg074-alex.wav",
+    "duration": 9.111,
+    "status": "synthesized"
+  },
+  {
+    "seq": 75,
+    "speaker": "ALEX",
+    "text": "The parts worth keeping in working memory are these. Focus Highlight - shows focus location visually (helpful for sighted trainers). IndentNav - navigate by indentation level (useful for Python, YAML).",
+    "filename": "seg075-alex.wav",
+    "duration": 11.842,
+    "status": "synthesized"
+  },
+  {
+    "seq": 76,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Recommended JAWS settings. What should a learner take away from it?",
+    "filename": "seg076-jamie.wav",
+    "duration": 4.546,
+    "status": "synthesized"
+  },
+  {
+    "seq": 77,
+    "speaker": "ALEX",
+    "text": "Recommended JAWS settings has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg077-alex.wav",
+    "duration": 6.465,
+    "status": "synthesized"
+  },
+  {
+    "seq": 78,
+    "speaker": "ALEX",
+    "text": "On the ground, that means a few things. \"Auto Forms Mode\": Checked. \"ARIA Live Region Verbosity\": Polite or Assertive (depending on preference). \"Report tooltip text\": Unchecked (use Alt+F2 instead). \"Punctuation Level\": Most (for code). \"Speak Long Lines Continuously\": Yes. \"Blank Line Announcement\": Tone (less verbose than speech).",
+    "filename": "seg078-alex.wav",
+    "duration": 18.412,
+    "status": "synthesized"
+  },
+  {
+    "seq": 79,
+    "speaker": "ALEX",
+    "text": "First, settings Center \u2192 HTML/PDF/Accessibility. Then, settings Center \u2192 Reading. After that, settings Center \u2192 Text Processing. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg079-alex.wav",
+    "duration": 12.971,
+    "status": "synthesized"
+  },
+  {
+    "seq": 80,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg080-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 81,
+    "speaker": "ALEX",
+    "text": "Here is the practical turn. Here is the learner-facing version. Custom JAWS scripts exist for VS Code. Put another way, check: jaws-vscode-scripts (GitHub) for community-maintained scripts. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.",
+    "filename": "seg081-alex.wav",
+    "duration": 16.642,
+    "status": "synthesized"
+  },
+  {
+    "seq": 82,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Recommended VoiceOver Utility settings. What should a learner take away from it?",
+    "filename": "seg082-jamie.wav",
+    "duration": 5.485,
+    "status": "synthesized"
+  },
+  {
+    "seq": 83,
+    "speaker": "ALEX",
+    "text": "Recommended VoiceOver Utility settings has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg083-alex.wav",
+    "duration": 7.212,
+    "status": "synthesized"
+  },
+  {
+    "seq": 84,
+    "speaker": "ALEX",
+    "text": "The room should hear these as checkpoints. \"Punctuation\": All (for code and Markdown). \"Capitalization\": Speak cap (useful for acronyms and code). \"Reading Units\": Set to sentenceboundary for prose, word for code. \"Content Changes\": On (for live regions like Copilot Chat). \"Status Messages\": On. \"Quick Nav\": OFF when inside editor (use Left+Right Arrow to toggle).",
+    "filename": "seg084-alex.wav",
+    "duration": 20.951,
+    "status": "synthesized"
+  },
+  {
+    "seq": 85,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Verbosity \u2192 Text; Verbosity \u2192 Announcements; and Navigation. The sequence works because every action has a confirmation.",
+    "filename": "seg085-alex.wav",
+    "duration": 9.517,
+    "status": "synthesized"
+  },
+  {
+    "seq": 86,
+    "speaker": "JAMIE",
+    "text": "That is a useful checkpoint before anyone starts pressing keys.",
+    "filename": "seg086-jamie.wav",
+    "duration": 3.949,
+    "status": "synthesized"
+  },
+  {
+    "seq": 87,
+    "speaker": "ALEX",
+    "text": "Exactly. Checkpoints turn uncertainty into information.",
+    "filename": "seg087-alex.wav",
+    "duration": 3.457,
+    "status": "synthesized"
+  },
+  {
+    "seq": 88,
+    "speaker": "ALEX",
+    "text": "Keep the thread going. Anchor this part on Quick Nav navigation (when enabled). Quick Nav should be OFF when editing text (conflicts with text navigation).",
+    "filename": "seg088-alex.wav",
+    "duration": 8.576,
+    "status": "synthesized"
+  },
+  {
+    "seq": 89,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg089-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 90,
+    "speaker": "JAMIE",
+    "text": "Let's pause on 5. Complete Keyboard Shortcuts. What should a learner take away from it?",
+    "filename": "seg090-jamie.wav",
+    "duration": 4.93,
+    "status": "synthesized"
+  },
+  {
+    "seq": 91,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: for screen reader navigation shortcuts when using GitHub in a browser (NVDA, JAWS, VoiceOver), see Appendix B - Screen Reader Cheat Sheet.",
+    "filename": "seg091-alex.wav",
+    "duration": 10.199,
+    "status": "synthesized"
+  },
+  {
+    "seq": 92,
+    "speaker": "ALEX",
+    "text": "Another way to ground it. Do not treat 6. Accessibility Signals Types and Customization as decoration. Accessibility signals are events that trigger announcements or audio cues. That is not trivia. Beyond audio cues, VS Code has verbal announcements for various events. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg092-alex.wav",
+    "duration": 20.866,
+    "status": "synthesized"
+  },
+  {
+    "seq": 93,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Announcement Verbosity Settings. What should a learner take away from it?",
+    "filename": "seg093-jamie.wav",
+    "duration": 4.759,
+    "status": "synthesized"
+  },
+  {
+    "seq": 94,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Announcement Verbosity Settings is still useful because control how much information VS Code announces. For someone navigating by keyboard or screen reader, this detail matters: verbose: Announces full context and details minimal: Announces only essential information off: No automatic announcements (use Accessible View manually).",
+    "filename": "seg094-alex.wav",
+    "duration": 18.688,
+    "status": "synthesized"
+  },
+  {
+    "seq": 95,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg095-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 96,
+    "speaker": "ALEX",
+    "text": "This is the part worth saying out loud. Put Custom Announcement Timing into plain language. Control when and how often announcements occur.",
+    "filename": "seg096-alex.wav",
+    "duration": 7.874,
+    "status": "synthesized"
+  },
+  {
+    "seq": 97,
+    "speaker": "JAMIE",
+    "text": "I like that because it gives people permission to slow down.",
+    "filename": "seg097-jamie.wav",
+    "duration": 3.671,
+    "status": "synthesized"
+  },
+  {
+    "seq": 98,
+    "speaker": "ALEX",
+    "text": "That is the goal. We want the page to feel explorable, not fragile.",
+    "filename": "seg098-alex.wav",
+    "duration": 3.949,
+    "status": "synthesized"
+  },
+  {
+    "seq": 99,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Signal Priorities. What should a learner take away from it?",
+    "filename": "seg099-jamie.wav",
+    "duration": 4.183,
+    "status": "synthesized"
+  },
+  {
+    "seq": 100,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. When multiple signals occur simultaneously, VS Code prioritizes them. That is the difference between guessing and knowing: This prevents overlapping announcements.",
+    "filename": "seg100-alex.wav",
+    "duration": 12.289,
+    "status": "synthesized"
+  },
+  {
+    "seq": 101,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Errors (highest priority) - always announced; Warnings - announced after errors; Completions - announced if no errors/warnings; and Focus changes - announced last. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg101-alex.wav",
+    "duration": 12.929,
+    "status": "synthesized"
+  },
+  {
+    "seq": 102,
+    "speaker": "ALEX",
+    "text": "Put that beside the next piece. Learning Cards: Accessibility Signals has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg102-alex.wav",
+    "duration": 8.855,
+    "status": "synthesized"
+  },
+  {
+    "seq": 103,
+    "speaker": "ALEX",
+    "text": "Listen for the small confirmations in this list. Start with auto for most signals -- they play only when screen reader mode is active, keeping things quiet otherwise. The lineHasError and taskFailed signals are the highest-value audio cues; enable these first. Use accessibility.signals.volume (0-100) to balance signal volume against your screen reader speech. Audio cues supplement visual indicators you might miss -- enable lineHasWarning and lineHasError for sounds on the current line. The save and format signals confirm file operations completed without needing to check the status bar visually. Pair audio cues with high-contrast gutter icons for a dual-channel (sight + sound) feedback loop.",
+    "filename": "seg103-alex.wav",
+    "duration": 38.72,
+    "status": "synthesized"
+  },
+  {
+    "seq": 104,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg104-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 105,
+    "speaker": "JAMIE",
+    "text": "Let's pause on 7. Settings.json Configuration Examples. What should a learner take away from it?",
+    "filename": "seg105-jamie.wav",
+    "duration": 6.082,
+    "status": "synthesized"
+  },
+  {
+    "seq": 106,
+    "speaker": "ALEX",
+    "text": "7. Settings.json Configuration Examples: The configuration examples below are JSON blocks you paste into your settings.json file. The next useful detail is concrete: To apply a complete set at once, consider using VS Code Profiles -- named configuration bundles that let you switch your entire setup instantly.",
+    "filename": "seg106-alex.wav",
+    "duration": 18.22,
+    "status": "synthesized"
+  },
+  {
+    "seq": 107,
+    "speaker": "ALEX",
+    "text": "Now shift from knowing the term to using it. Here is the learner-facing version. The github.copilot.enable object controls which file types get Copilot suggestions.",
+    "filename": "seg107-alex.wav",
+    "duration": 10.391,
+    "status": "synthesized"
+  },
+  {
+    "seq": 108,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Paste this into your settings.json for a balanced screen reader profile. What should a learner take away from it?",
+    "filename": "seg108-jamie.wav",
+    "duration": 7.17,
+    "status": "synthesized"
+  },
+  {
+    "seq": 109,
+    "speaker": "ALEX",
+    "text": "This is the move inside Paste this into your settings.json for a balanced screen reader profile: next: Appendix H: GitHub Desktop Back: Appendix F: Git Security Teaching chapter: Chapter 11: VS Code Interface.",
+    "filename": "seg109-alex.wav",
+    "duration": 13.143,
+    "status": "synthesized"
+  },
+  {
+    "seq": 110,
+    "speaker": "JAMIE",
+    "text": "That is the part I would want someone to say out loud while they work.",
+    "filename": "seg110-jamie.wav",
+    "duration": 3.842,
+    "status": "synthesized"
+  },
+  {
+    "seq": 111,
+    "speaker": "ALEX",
+    "text": "Exactly. A learner should always know what they are trying to prove before they take the next action.",
+    "filename": "seg111-alex.wav",
+    "duration": 4.8,
+    "status": "synthesized"
+  },
+  {
+    "seq": 112,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg112-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 113,
+    "speaker": "JAMIE",
+    "text": "What should people carry with them after this?",
+    "filename": "seg113-jamie.wav",
+    "duration": 2.647,
+    "status": "synthesized"
+  },
+  {
+    "seq": 114,
+    "speaker": "ALEX",
+    "text": "Carry the map. Know what page or tool you are in, know which action you are taking, and know what confirmation should follow. If the confirmation is missing, pause. That pause is not wasted time; it is professional judgment.",
+    "filename": "seg114-alex.wav",
+    "duration": 11.799,
+    "status": "synthesized"
+  },
+  {
+    "seq": 115,
+    "speaker": "JAMIE",
+    "text": "That is a better way to say it than just follow the steps.",
+    "filename": "seg115-jamie.wav",
+    "duration": 3.394,
+    "status": "synthesized"
+  },
+  {
+    "seq": 116,
+    "speaker": "ALEX",
+    "text": "Right. Steps matter, but understanding wins. That is episode 30. Next in the series is episode 31, where we keep building the same contributor muscles.",
+    "filename": "seg116-alex.wav",
+    "duration": 8.997,
+    "status": "synthesized"
+  }
+]

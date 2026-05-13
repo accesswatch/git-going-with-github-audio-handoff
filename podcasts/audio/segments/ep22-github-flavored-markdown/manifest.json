@@ -1,0 +1,3434 @@
+[
+  {
+    "seq": 1,
+    "speaker": "ALEX",
+    "text": "This is Git Going with GitHub, episode 22: GitHub Flavored Markdown. I am Alex. By the end of this episode, GitHub Flavored Markdown should feel less like a wall of GitHub words and more like a set of moves you can trust.",
+    "filename": "seg001-alex.wav",
+    "duration": 13.015,
+    "status": "synthesized"
+  },
+  {
+    "seq": 2,
+    "speaker": "JAMIE",
+    "text": "And I am Jamie. I am here for the practical questions: what should I listen for, what can go wrong, and what is the next calm move?",
+    "filename": "seg002-jamie.wav",
+    "duration": 6.763,
+    "status": "synthesized"
+  },
+  {
+    "seq": 3,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg003-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 4,
+    "speaker": "ALEX",
+    "text": "Today we are working on this: Markdown syntax, GitHub extensions, and writing accessible documentation. I want the learner to leave with a mental map, not just a remembered path through buttons.",
+    "filename": "seg004-alex.wav",
+    "duration": 11.031,
+    "status": "synthesized"
+  },
+  {
+    "seq": 5,
+    "speaker": "JAMIE",
+    "text": "So the goal is understanding first, then action, then confirmation.",
+    "filename": "seg005-jamie.wav",
+    "duration": 4.119,
+    "status": "synthesized"
+  },
+  {
+    "seq": 6,
+    "speaker": "ALEX",
+    "text": "Right. We are building a rhythm: orient yourself, take one intentional action, then verify what changed before moving on.",
+    "filename": "seg006-alex.wav",
+    "duration": 6.272,
+    "status": "synthesized"
+  },
+  {
+    "seq": 7,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg007-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 8,
+    "speaker": "JAMIE",
+    "text": "Okay, set the room for us. What are we walking into?",
+    "filename": "seg008-jamie.wav",
+    "duration": 3.245,
+    "status": "synthesized"
+  },
+  {
+    "seq": 9,
+    "speaker": "ALEX",
+    "text": "From First Paragraph to Polished Repository - Everything You Need to Know: Whether you have never written a single line of Markdown or you already know the basics and want to master the GitHub-specific extensions, this guide takes you from zero to confident. The next useful detail is concrete: We start with what Markdown is and why it matters, walk through every foundational element with examples, and then cover the GitHub Flavored Markdown (GFM) features you will encounter in real repositories - alert blocks, Mermaid diagrams, math, footnotes, and.",
+    "filename": "seg009-alex.wav",
+    "duration": 29.869,
+    "status": "synthesized"
+  },
+  {
+    "seq": 10,
+    "speaker": "JAMIE",
+    "text": "How would you walk the room through that step by step?",
+    "filename": "seg010-jamie.wav",
+    "duration": 3.01,
+    "status": "synthesized"
+  },
+  {
+    "seq": 11,
+    "speaker": "ALEX",
+    "text": "Markdown Foundations has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg011-alex.wav",
+    "duration": 6.359,
+    "status": "synthesized"
+  },
+  {
+    "seq": 12,
+    "speaker": "ALEX",
+    "text": "Start here: What Is Markdown? Then: Where You Will Use Markdown in This Workshop. Next: How to Practice as You Read. Last: Paragraphs and Line Breaks. The point is not speed; the point is never losing your place.",
+    "filename": "seg012-alex.wav",
+    "duration": 10.882,
+    "status": "synthesized"
+  },
+  {
+    "seq": 13,
+    "speaker": "JAMIE",
+    "text": "What does the learner do first, second, and then after that?",
+    "filename": "seg013-jamie.wav",
+    "duration": 3.33,
+    "status": "synthesized"
+  },
+  {
+    "seq": 14,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Headings; Emphasis - Bold, Italic, and Bold Italic; Strikethrough; and Lists - Ordered and Unordered. Each step should leave a trace you can name.",
+    "filename": "seg014-alex.wav",
+    "duration": 8.557,
+    "status": "synthesized"
+  },
+  {
+    "seq": 15,
+    "speaker": "JAMIE",
+    "text": "Turn that into a path someone can follow.",
+    "filename": "seg015-jamie.wav",
+    "duration": 2.733,
+    "status": "synthesized"
+  },
+  {
+    "seq": 16,
+    "speaker": "ALEX",
+    "text": "GitHub Flavored Markdown (GFM) has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg016-alex.wav",
+    "duration": 7.041,
+    "status": "synthesized"
+  },
+  {
+    "seq": 17,
+    "speaker": "ALEX",
+    "text": "Walk it in order: What Is GitHub Flavored Markdown?; Alert and Callout Blocks; Collapsible Sections with Details and Summary; and Task List Checkboxes. Each step should leave a trace you can name.",
+    "filename": "seg017-alex.wav",
+    "duration": 11.159,
+    "status": "synthesized"
+  },
+  {
+    "seq": 18,
+    "speaker": "JAMIE",
+    "text": "What is the ordered workflow?",
+    "filename": "seg018-jamie.wav",
+    "duration": 2.199,
+    "status": "synthesized"
+  },
+  {
+    "seq": 19,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Syntax Highlighting in Fenced Code Blocks; Mermaid Diagrams; Math Expressions with LaTeX; and Footnotes. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg019-alex.wav",
+    "duration": 11.394,
+    "status": "synthesized"
+  },
+  {
+    "seq": 20,
+    "speaker": "JAMIE",
+    "text": "That feels much more doable when you say it as one move.",
+    "filename": "seg020-jamie.wav",
+    "duration": 3.458,
+    "status": "synthesized"
+  },
+  {
+    "seq": 21,
+    "speaker": "ALEX",
+    "text": "Right. The magic is not speed. The magic is knowing what changed and why it matters.",
+    "filename": "seg021-alex.wav",
+    "duration": 4.629,
+    "status": "synthesized"
+  },
+  {
+    "seq": 22,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg022-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 23,
+    "speaker": "JAMIE",
+    "text": "Give me the sequence, because order matters here.",
+    "filename": "seg023-jamie.wav",
+    "duration": 3.095,
+    "status": "synthesized"
+  },
+  {
+    "seq": 24,
+    "speaker": "ALEX",
+    "text": "Putting It All Together has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg024-alex.wav",
+    "duration": 6.06,
+    "status": "synthesized"
+  },
+  {
+    "seq": 25,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Screen Reader Behavior Summary; Accessible Markdown Authoring Checklist; Common Mistakes and How to Fix Them; and Your First Real Markdown Document - Guided Exercise. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg025-alex.wav",
+    "duration": 14.274,
+    "status": "synthesized"
+  },
+  {
+    "seq": 26,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Part 3 - Putting It All Together. What should a learner take away from it?",
+    "filename": "seg026-jamie.wav",
+    "duration": 4.759,
+    "status": "synthesized"
+  },
+  {
+    "seq": 27,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is quick-Reference Card. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg027-alex.wav",
+    "duration": 7.639,
+    "status": "synthesized"
+  },
+  {
+    "seq": 28,
+    "speaker": "JAMIE",
+    "text": "What would you say to someone who is already bracing for this to be too much?",
+    "filename": "seg028-jamie.wav",
+    "duration": 4.055,
+    "status": "synthesized"
+  },
+  {
+    "seq": 29,
+    "speaker": "ALEX",
+    "text": "Learning Cards: Using This Markdown Reference has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg029-alex.wav",
+    "duration": 7.596,
+    "status": "synthesized"
+  },
+  {
+    "seq": 30,
+    "speaker": "ALEX",
+    "text": "The parts worth keeping in working memory are these. Use heading navigation (H key) to jump between numbered sections -- each topic is an h2 heading. Every section shows raw Markdown first, then rendered output, then screen reader behavior notes. The Table of Contents at the top has anchor links -- activate any link to jump directly to that section. Code blocks show the raw Markdown to type -- increase zoom and the monospace font stays readable. Each section follows the same pattern: explanation, raw code, rendered result, and accessibility notes. Use Ctrl+F to search for a specific Markdown element (e.g., search \"table\" or \"heading\").",
+    "filename": "seg030-alex.wav",
+    "duration": 34.412,
+    "status": "synthesized"
+  },
+  {
+    "seq": 31,
+    "speaker": "ALEX",
+    "text": "The useful habit is simple: orient, act, verify, then continue. That pause between action and trust is part of the work.",
+    "filename": "seg031-alex.wav",
+    "duration": 7.255,
+    "status": "synthesized"
+  },
+  {
+    "seq": 32,
+    "speaker": "ALEX",
+    "text": "That matters because of the next idea. Do not treat 1. What Is Markdown? as decoration. Markdown is a lightweight way to format plain text so it renders as rich, structured content - headings, bold text, links, lists, code blocks, tables, and more. That is not trivia. You write in a plain text file using simple punctuation characters, and a Markdown processor converts those characters into formatted output. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg032-alex.wav",
+    "duration": 27.797,
+    "status": "synthesized"
+  },
+  {
+    "seq": 33,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg033-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 34,
+    "speaker": "JAMIE",
+    "text": "If I am listening before the workshop starts, what should settle in my mind first?",
+    "filename": "seg034-jamie.wav",
+    "duration": 4.631,
+    "status": "synthesized"
+  },
+  {
+    "seq": 35,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, A brief history is still useful because john Gruber created Markdown in 2004 with the goal of making a format that is \"as easy to read and write as plain text.\" Since then, Markdown has become the default writing format.",
+    "filename": "seg035-alex.wav",
+    "duration": 14.252,
+    "status": "synthesized"
+  },
+  {
+    "seq": 36,
+    "speaker": "ALEX",
+    "text": "Here is what that changes in practice. GitHub (README files, issues, pull requests, comments, wikis, discussions). Stack Overflow and many developer forums. Static site generators (Jekyll, Hugo, Gatsby). Note-taking apps (Obsidian, Notion, Bear). Documentation systems (MkDocs, Docusaurus, Read the Docs). Chat platforms (Slack, Discord, Microsoft Teams).",
+    "filename": "seg036-alex.wav",
+    "duration": 19.756,
+    "status": "synthesized"
+  },
+  {
+    "seq": 37,
+    "speaker": "ALEX",
+    "text": "This is where the talk moves from concept to action. Put Markdown versus HTML into plain language. Markdown converts to HTML behind the scenes. The useful version is: When you write bold, GitHub converts it to bold.",
+    "filename": "seg037-alex.wav",
+    "duration": 13.143,
+    "status": "synthesized"
+  },
+  {
+    "seq": 38,
+    "speaker": "JAMIE",
+    "text": "Now it sounds like a workflow instead of a wall of instructions.",
+    "filename": "seg038-jamie.wav",
+    "duration": 3.863,
+    "status": "synthesized"
+  },
+  {
+    "seq": 39,
+    "speaker": "ALEX",
+    "text": "That is where confidence comes from: not from never getting lost, but from knowing how to recover.",
+    "filename": "seg039-alex.wav",
+    "duration": 5.485,
+    "status": "synthesized"
+  },
+  {
+    "seq": 40,
+    "speaker": "JAMIE",
+    "text": "What is the one idea that makes the next few steps less mysterious?",
+    "filename": "seg040-jamie.wav",
+    "duration": 4.077,
+    "status": "synthesized"
+  },
+  {
+    "seq": 41,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. When you view a.md file on GitHub, GitHub renders it automatically. That is the difference between guessing and knowing: When you edit that file, you see the raw Markdown.",
+    "filename": "seg041-alex.wav",
+    "duration": 11.989,
+    "status": "synthesized"
+  },
+  {
+    "seq": 42,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg042-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 43,
+    "speaker": "ALEX",
+    "text": "Before the learner moves on. This part earns its place because markdown is not just one tool in this workshop - it is the thread that connects everything you do. That gives the learner a foothold: here is every place you will write or read Markdown during the two days. That is the difference between following directions and owning the workflow.",
+    "filename": "seg043-alex.wav",
+    "duration": 17.175,
+    "status": "synthesized"
+  },
+  {
+    "seq": 44,
+    "speaker": "JAMIE",
+    "text": "How should they picture the shape of the workshop?",
+    "filename": "seg044-jamie.wav",
+    "duration": 2.882,
+    "status": "synthesized"
+  },
+  {
+    "seq": 45,
+    "speaker": "ALEX",
+    "text": "Day 1 - GitHub Foundations (Browser): The following table lists every Day 1 activity where Markdown is used.",
+    "filename": "seg045-alex.wav",
+    "duration": 6.721,
+    "status": "synthesized"
+  },
+  {
+    "seq": 46,
+    "speaker": "ALEX",
+    "text": "Now slow down for the part people usually miss. Here is the learner-facing version. The following table lists every Day 2 activity where Markdown is used.",
+    "filename": "seg046-alex.wav",
+    "duration": 8.768,
+    "status": "synthesized"
+  },
+  {
+    "seq": 47,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg047-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 48,
+    "speaker": "JAMIE",
+    "text": "Where do you want a learner to place their attention here?",
+    "filename": "seg048-jamie.wav",
+    "duration": 3.159,
+    "status": "synthesized"
+  },
+  {
+    "seq": 49,
+    "speaker": "ALEX",
+    "text": "This is the move inside Learning Room connection: in the Learning Room repository, every challenge description, every welcome file, and every piece of documentation is Markdown. That matters in practice: When you fix a broken link in docs/welcome.md for Challenge 1, you are editing Markdown.",
+    "filename": "seg049-alex.wav",
+    "duration": 17.346,
+    "status": "synthesized"
+  },
+  {
+    "seq": 50,
+    "speaker": "JAMIE",
+    "text": "That is the kind of detail that keeps a screen reader user oriented.",
+    "filename": "seg050-jamie.wav",
+    "duration": 3.906,
+    "status": "synthesized"
+  },
+  {
+    "seq": 51,
+    "speaker": "ALEX",
+    "text": "Yes. The named thing - the heading, tab, field, branch, or button - is the handhold.",
+    "filename": "seg051-alex.wav",
+    "duration": 4.268,
+    "status": "synthesized"
+  },
+  {
+    "seq": 52,
+    "speaker": "ALEX",
+    "text": "Here is the moment where the page starts to make sense. Anchor this part on 3. How to Practice as You Read. The best way to learn Markdown is to type it yourself. This is the part to say slowly: Here are three ways to practice as you read this guide. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes.",
+    "filename": "seg052-alex.wav",
+    "duration": 18.988,
+    "status": "synthesized"
+  },
+  {
+    "seq": 53,
+    "speaker": "ALEX",
+    "text": "A solid pull request habit is to separate three questions: what changed, why it changed, and what still needs review. That keeps the conversation useful instead of noisy.",
+    "filename": "seg053-alex.wav",
+    "duration": 9.986,
+    "status": "synthesized"
+  },
+  {
+    "seq": 54,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Option 1 - GitHub Issue (recommended for Day 1). What should a learner take away from it?",
+    "filename": "seg054-jamie.wav",
+    "duration": 6.082,
+    "status": "synthesized"
+  },
+  {
+    "seq": 55,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: the Write and Preview tabs are announced as tab buttons. The listener should be able to check this: Press Enter on \"Preview\" to switch.",
+    "filename": "seg055-alex.wav",
+    "duration": 8.748,
+    "status": "synthesized"
+  },
+  {
+    "seq": 56,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is go to any repository where you have write access (the Learning Room works). Step two is click New Issue. Step three is type Markdown in the issue body. Step four is click the Preview tab to see the rendered result. The sequence works because every action has a confirmation.",
+    "filename": "seg056-alex.wav",
+    "duration": 17.687,
+    "status": "synthesized"
+  },
+  {
+    "seq": 57,
+    "speaker": "JAMIE",
+    "text": "Before we leave Option 1 - GitHub Issue (recommended for Day 1), what is the practical point?",
+    "filename": "seg057-jamie.wav",
+    "duration": 5.378,
+    "status": "synthesized"
+  },
+  {
+    "seq": 58,
+    "speaker": "ALEX",
+    "text": "First, switch back to Write to keep editing. Then, you do not need to submit the issue - the Preview tab is your sandbox. Keep it that plain: know where you are, make the move, check the result.",
+    "filename": "seg058-alex.wav",
+    "duration": 9.751,
+    "status": "synthesized"
+  },
+  {
+    "seq": 59,
+    "speaker": "ALEX",
+    "text": "A solid issue habit is to read the title, the body, and the timeline before acting. You are listening for the requested action, the missing evidence, and the person who needs a response.",
+    "filename": "seg059-alex.wav",
+    "duration": 9.877,
+    "status": "synthesized"
+  },
+  {
+    "seq": 60,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg060-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 61,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Option 2 - Any.md file in VS Code (recommended for Day 2). What should a learner take away from it?",
+    "filename": "seg061-jamie.wav",
+    "duration": 7.49,
+    "status": "synthesized"
+  },
+  {
+    "seq": 62,
+    "speaker": "ALEX",
+    "text": "Option 2 - Any.md file in VS Code (recommended for Day 2) has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg062-alex.wav",
+    "duration": 9.367,
+    "status": "synthesized"
+  },
+  {
+    "seq": 63,
+    "speaker": "ALEX",
+    "text": "First, create a new file: Ctrl+N, then save it as practice.md. Then, type your Markdown in the editor. After that, press Ctrl+Shift+V to open the rendered Markdown preview in a new tab. Finally, the preview updates live as you type. Keep it that plain: know where you are, make the move, check the result.",
+    "filename": "seg063-alex.wav",
+    "duration": 17.133,
+    "status": "synthesized"
+  },
+  {
+    "seq": 64,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Option 3 - GitHub Gist. What should a learner take away from it?",
+    "filename": "seg064-jamie.wav",
+    "duration": 4.61,
+    "status": "synthesized"
+  },
+  {
+    "seq": 65,
+    "speaker": "ALEX",
+    "text": "Option 3 - GitHub Gist has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg065-alex.wav",
+    "duration": 6.593,
+    "status": "synthesized"
+  },
+  {
+    "seq": 66,
+    "speaker": "ALEX",
+    "text": "Start here: Go to gist.github.com. Then: Name your file practice.md. Next: Type Markdown in the content area. Last: Click Create secret gist (only you can see it). Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg066-alex.wav",
+    "duration": 14.125,
+    "status": "synthesized"
+  },
+  {
+    "seq": 67,
+    "speaker": "JAMIE",
+    "text": "Before we leave Option 3 - GitHub Gist, what is the practical point?",
+    "filename": "seg067-jamie.wav",
+    "duration": 4.205,
+    "status": "synthesized"
+  },
+  {
+    "seq": 68,
+    "speaker": "ALEX",
+    "text": "Walk it in order: View the rendered result. The point is not speed; the point is never losing your place.",
+    "filename": "seg068-alex.wav",
+    "duration": 5.505,
+    "status": "synthesized"
+  },
+  {
+    "seq": 69,
+    "speaker": "ALEX",
+    "text": "Hold that next to this. Put 4. Paragraphs and Line Breaks into plain language. This is the most fundamental element in Markdown, and it trips up almost everyone at first. The interface gets easier when it becomes a set of named places instead of a wall of controls.",
+    "filename": "seg069-alex.wav",
+    "duration": 14.893,
+    "status": "synthesized"
+  },
+  {
+    "seq": 70,
+    "speaker": "JAMIE",
+    "text": "So the learner is not behind if they stop there and check the page.",
+    "filename": "seg070-jamie.wav",
+    "duration": 3.863,
+    "status": "synthesized"
+  },
+  {
+    "seq": 71,
+    "speaker": "ALEX",
+    "text": "Yes. Pausing to verify is not a detour; it is how you keep control of the workflow.",
+    "filename": "seg071-alex.wav",
+    "duration": 4.651,
+    "status": "synthesized"
+  },
+  {
+    "seq": 72,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg072-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 73,
+    "speaker": "JAMIE",
+    "text": "Give me the version that sounds like an instructor, not a manual.",
+    "filename": "seg073-jamie.wav",
+    "duration": 3.842,
+    "status": "synthesized"
+  },
+  {
+    "seq": 74,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. A paragraph is one or more lines of text separated by a blank line (an empty line with nothing on it). That is the difference between guessing and knowing: If you do not leave a blank line between two blocks of text, Markdown treats them as one continuous paragraph.",
+    "filename": "seg074-alex.wav",
+    "duration": 16.577,
+    "status": "synthesized"
+  },
+  {
+    "seq": 75,
+    "speaker": "ALEX",
+    "text": "That connects to another useful point. This part earns its place because sometimes you want to go to a new line without starting a whole new paragraph - for example, in an address or a poem. That gives the learner a foothold: to create a line break (a in HTML), end a line with two or more spaces and then press Enter.",
+    "filename": "seg075-alex.wav",
+    "duration": 16.599,
+    "status": "synthesized"
+  },
+  {
+    "seq": 76,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Common mistake - no blank line between paragraphs. What should a learner take away from it?",
+    "filename": "seg076-jamie.wav",
+    "duration": 5.997,
+    "status": "synthesized"
+  },
+  {
+    "seq": 77,
+    "speaker": "ALEX",
+    "text": "Common mistake - no blank line between paragraphs: What renders (wrong): Both lines merge into one paragraph. The next useful detail is concrete: Fix: Add a blank line between them.",
+    "filename": "seg077-alex.wav",
+    "duration": 10.304,
+    "status": "synthesized"
+  },
+  {
+    "seq": 78,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg078-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 79,
+    "speaker": "ALEX",
+    "text": "Here is the practical turn. Here is the learner-facing version. Headings create the structure of your document. Put another way, they are how screen readers navigate, how tables of contents are built, and how readers scan for the section they need. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.",
+    "filename": "seg079-alex.wav",
+    "duration": 19.073,
+    "status": "synthesized"
+  },
+  {
+    "seq": 80,
+    "speaker": "ALEX",
+    "text": "A solid navigation habit is to prove where you are before activating controls. Headings, landmarks, and the address bar are not trivia; they are your map.",
+    "filename": "seg080-alex.wav",
+    "duration": 9.133,
+    "status": "synthesized"
+  },
+  {
+    "seq": 81,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Syntax. What should a learner take away from it?",
+    "filename": "seg081-jamie.wav",
+    "duration": 3.714,
+    "status": "synthesized"
+  },
+  {
+    "seq": 82,
+    "speaker": "ALEX",
+    "text": "This is the move inside Syntax: add one to six characters at the start of a line, followed by a space, then the heading text. That matters in practice: The number of characters determines the heading level.",
+    "filename": "seg082-alex.wav",
+    "duration": 11.223,
+    "status": "synthesized"
+  },
+  {
+    "seq": 83,
+    "speaker": "JAMIE",
+    "text": "That is a useful checkpoint before anyone starts pressing keys.",
+    "filename": "seg083-jamie.wav",
+    "duration": 3.949,
+    "status": "synthesized"
+  },
+  {
+    "seq": 84,
+    "speaker": "ALEX",
+    "text": "Exactly. Checkpoints turn uncertainty into information.",
+    "filename": "seg084-alex.wav",
+    "duration": 3.607,
+    "status": "synthesized"
+  },
+  {
+    "seq": 85,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Rules for accessible headings. What should a learner take away from it?",
+    "filename": "seg085-jamie.wav",
+    "duration": 4.781,
+    "status": "synthesized"
+  },
+  {
+    "seq": 86,
+    "speaker": "ALEX",
+    "text": "Anchor this part on Rules for accessible headings. Screen readers let you navigate by heading level. This is the part to say slowly: In NVDA and JAWS, pressing H moves to the next heading.",
+    "filename": "seg086-alex.wav",
+    "duration": 11.372,
+    "status": "synthesized"
+  },
+  {
+    "seq": 87,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: One H1 per document. The heading is your document title. Every document gets exactly one; Never skip levels. Go from to, never from to. Skipping levels breaks the document outline for screen reader users who navigate by heading; Make headings descriptive. A heading of \"Section 3\" tells a screen reader user nothing. A heading of \"Creating Your First Pull Request\" tells them exactly what the section covers; and Do not use bold as a heading substitute. Writing My Section on its own line looks like a heading visually, but it is not a heading in the document structure. Screen reader users navigating by heading (H key in Browse Mode) will never find it. Keep it that plain: know where you are, make the move, check the result.",
+    "filename": "seg087-alex.wav",
+    "duration": 38.677,
+    "status": "synthesized"
+  },
+  {
+    "seq": 88,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg088-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 89,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Alternative heading syntax (not recommended). What should a learner take away from it?",
+    "filename": "seg089-jamie.wav",
+    "duration": 5.719,
+    "status": "synthesized"
+  },
+  {
+    "seq": 90,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: markdown also supports \"setext\" headings where you underline text with = or - characters. The listener should be able to check this: This only works for levels 1 and 2, and it is harder to scan visually in raw Markdown.",
+    "filename": "seg090-alex.wav",
+    "duration": 13.975,
+    "status": "synthesized"
+  },
+  {
+    "seq": 91,
+    "speaker": "ALEX",
+    "text": "Another way to ground it. Do not treat 6. Emphasis - Bold, Italic, and Bold Italic as decoration. Emphasis changes how text is read by screen readers - it is not just visual. That is not trivia. When text is bold or italic, well-configured screen readers can announce emphasis changes, giving the listener additional context about importance. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg091-alex.wav",
+    "duration": 24.599,
+    "status": "synthesized"
+  },
+  {
+    "seq": 92,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Bold. What should a learner take away from it?",
+    "filename": "seg092-jamie.wav",
+    "duration": 3.415,
+    "status": "synthesized"
+  },
+  {
+    "seq": 93,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Bold is still useful because wrap text in two asterisks or two underscores on each side. For someone navigating by keyboard or screen reader, this detail matters: This is bold text using underscores.",
+    "filename": "seg093-alex.wav",
+    "duration": 12.267,
+    "status": "synthesized"
+  },
+  {
+    "seq": 94,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg094-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 95,
+    "speaker": "ALEX",
+    "text": "This is the part worth saying out loud. Put Italic into plain language. Wrap text in one asterisk or one underscore on each side. The useful version is: This is italic text using asterisks.",
+    "filename": "seg095-alex.wav",
+    "duration": 11.415,
+    "status": "synthesized"
+  },
+  {
+    "seq": 96,
+    "speaker": "JAMIE",
+    "text": "I like that because it gives people permission to slow down.",
+    "filename": "seg096-jamie.wav",
+    "duration": 3.671,
+    "status": "synthesized"
+  },
+  {
+    "seq": 97,
+    "speaker": "ALEX",
+    "text": "That is the goal. We want the page to feel explorable, not fragile.",
+    "filename": "seg097-alex.wav",
+    "duration": 3.949,
+    "status": "synthesized"
+  },
+  {
+    "seq": 98,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Bold and italic combined. What should a learner take away from it?",
+    "filename": "seg098-jamie.wav",
+    "duration": 4.61,
+    "status": "synthesized"
+  },
+  {
+    "seq": 99,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. Wrap text in three asterisks on each side.",
+    "filename": "seg099-alex.wav",
+    "duration": 5.911,
+    "status": "synthesized"
+  },
+  {
+    "seq": 100,
+    "speaker": "JAMIE",
+    "text": "What decision is this helping them make?",
+    "filename": "seg100-jamie.wav",
+    "duration": 2.711,
+    "status": "synthesized"
+  },
+  {
+    "seq": 101,
+    "speaker": "ALEX",
+    "text": "This part earns its place because the following table provides guidance on when to use each type of emphasis. That gives the learner a foothold: NVDA can announce emphasis changes if the user enables \"Report font attributes\" (under Speech settings). That is the difference between following directions and owning the workflow.",
+    "filename": "seg101-alex.wav",
+    "duration": 17.516,
+    "status": "synthesized"
+  },
+  {
+    "seq": 102,
+    "speaker": "ALEX",
+    "text": "Use the comparison to make a decision, not to recite a table. The main contrasts are: Key terms, important warnings, UI element names means \"Click the Submit button\". Book or document titles, introducing new terms, gentle emphasis means \"See the Contributing Guide for details\". Bold italic means Extremely rare - critical warnings only means \" Do not force push to the main branch \".",
+    "filename": "seg102-alex.wav",
+    "duration": 20.971,
+    "status": "synthesized"
+  },
+  {
+    "seq": 103,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg103-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 104,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Emphasis inside words. What should a learner take away from it?",
+    "filename": "seg104-jamie.wav",
+    "duration": 4.461,
+    "status": "synthesized"
+  },
+  {
+    "seq": 105,
+    "speaker": "ALEX",
+    "text": "Emphasis inside words: Underscores do not (in most Markdown processors including GitHub). The next useful detail is concrete: Use asterisks when you need emphasis inside a word (rare, but it comes up in technical documentation).",
+    "filename": "seg105-alex.wav",
+    "duration": 13.42,
+    "status": "synthesized"
+  },
+  {
+    "seq": 106,
+    "speaker": "ALEX",
+    "text": "Now shift from knowing the term to using it. Here is the learner-facing version. Strikethrough text shows deleted or outdated content with a line through it. Put another way, wrap text in two tildes on each side.",
+    "filename": "seg106-alex.wav",
+    "duration": 11.543,
+    "status": "synthesized"
+  },
+  {
+    "seq": 107,
+    "speaker": "JAMIE",
+    "text": "Let's pause on 8. Lists - Ordered and Unordered. What should a learner take away from it?",
+    "filename": "seg107-jamie.wav",
+    "duration": 4.61,
+    "status": "synthesized"
+  },
+  {
+    "seq": 108,
+    "speaker": "ALEX",
+    "text": "This is the move inside 8. Lists - Ordered and Unordered: lists are one of the most common elements in GitHub documentation. That matters in practice: Issue descriptions, PR checklists, README instructions, step-by-step guides - they all use lists.",
+    "filename": "seg108-alex.wav",
+    "duration": 14.167,
+    "status": "synthesized"
+  },
+  {
+    "seq": 109,
+    "speaker": "JAMIE",
+    "text": "That is the part I would want someone to say out loud while they work.",
+    "filename": "seg109-jamie.wav",
+    "duration": 3.842,
+    "status": "synthesized"
+  },
+  {
+    "seq": 110,
+    "speaker": "ALEX",
+    "text": "Exactly. A learner should always know what they are trying to prove before they take the next action.",
+    "filename": "seg110-alex.wav",
+    "duration": 4.8,
+    "status": "synthesized"
+  },
+  {
+    "seq": 111,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg111-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 112,
+    "speaker": "ALEX",
+    "text": "This is where confidence starts to build. Anchor this part on Unordered lists (bullet points). Start each line with a dash (-), asterisk ( ), or plus sign (+) followed by a space. This is the part to say slowly: They are the most common convention on GitHub and visually distinct from the asterisks used for bold and italic. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes.",
+    "filename": "seg112-alex.wav",
+    "duration": 22.956,
+    "status": "synthesized"
+  },
+  {
+    "seq": 113,
+    "speaker": "ALEX",
+    "text": "Here are the anchors worth keeping. First item. Second item. Third item.",
+    "filename": "seg113-alex.wav",
+    "duration": 4.503,
+    "status": "synthesized"
+  },
+  {
+    "seq": 114,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Ordered lists (numbered). What should a learner take away from it?",
+    "filename": "seg114-jamie.wav",
+    "duration": 4.311,
+    "status": "synthesized"
+  },
+  {
+    "seq": 115,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: start each line with a number followed by a period and a space.",
+    "filename": "seg115-alex.wav",
+    "duration": 5.42,
+    "status": "synthesized"
+  },
+  {
+    "seq": 116,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is clone the repository. Step two is create a new branch. Step three is make your changes. Step four is open a pull request. Each step should leave a trace you can name.",
+    "filename": "seg116-alex.wav",
+    "duration": 12.801,
+    "status": "synthesized"
+  },
+  {
+    "seq": 117,
+    "speaker": "ALEX",
+    "text": "The next layer is this. Do not treat A helpful trick - Markdown renumbers for you as decoration. Here is something that surprises most new users. That is not trivia. In Markdown, the actual numbers you type do not matter for the rendered output.",
+    "filename": "seg117-alex.wav",
+    "duration": 12.8,
+    "status": "synthesized"
+  },
+  {
+    "seq": 118,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg118-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 119,
+    "speaker": "JAMIE",
+    "text": "What does someone need before they touch the keyboard?",
+    "filename": "seg119-jamie.wav",
+    "duration": 3.053,
+    "status": "synthesized"
+  },
+  {
+    "seq": 120,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Starting an ordered list at a specific number is still useful because if you need a list to start at a number other than 1, use that number for the first item. For someone navigating by keyboard or screen reader, this detail matters: All subsequent items are numbered sequentially from there.",
+    "filename": "seg120-alex.wav",
+    "duration": 16.321,
+    "status": "synthesized"
+  },
+  {
+    "seq": 121,
+    "speaker": "ALEX",
+    "text": "Now bring the learner back to the room. Put 9. Nested Lists and Mixed Lists into plain language. Lists can contain other lists, creating an indented hierarchy. The useful version is: This is essential for complex instructions, outlines, and project structures. The interface gets easier when it becomes a set of named places instead of a wall of controls.",
+    "filename": "seg121-alex.wav",
+    "duration": 18.775,
+    "status": "synthesized"
+  },
+  {
+    "seq": 122,
+    "speaker": "JAMIE",
+    "text": "So this is less about memorizing and more about noticing.",
+    "filename": "seg122-jamie.wav",
+    "duration": 3.714,
+    "status": "synthesized"
+  },
+  {
+    "seq": 123,
+    "speaker": "ALEX",
+    "text": "Right. Once the learner can name the move, the interface becomes much less intimidating.",
+    "filename": "seg123-alex.wav",
+    "duration": 4.845,
+    "status": "synthesized"
+  },
+  {
+    "seq": 124,
+    "speaker": "JAMIE",
+    "text": "What is the safe way to learn from that example?",
+    "filename": "seg124-jamie.wav",
+    "duration": 3.053,
+    "status": "synthesized"
+  },
+  {
+    "seq": 125,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. Indent the nested items by two or four spaces (GitHub accepts either, but four is most reliable).",
+    "filename": "seg125-alex.wav",
+    "duration": 9.153,
+    "status": "synthesized"
+  },
+  {
+    "seq": 126,
+    "speaker": "ALEX",
+    "text": "The room should hear these as checkpoints. Accessibility testing tools. Screen readers. NVDA (Windows, free). JAWS (Windows, commercial). VoiceOver (macOS and iOS, built-in). Browser extensions.",
+    "filename": "seg126-alex.wav",
+    "duration": 12.119,
+    "status": "synthesized"
+  },
+  {
+    "seq": 127,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Accessibility testing tools; - Screen readers; - NVDA (Windows, free); - JAWS (Windows, commercial); - VoiceOver (macOS and iOS, built-in); - Browser extensions; - axe DevTools; - WAVE; - Documentation tools; - Markdown editors; - Static site generators. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg127-alex.wav",
+    "duration": 23.531,
+    "status": "synthesized"
+  },
+  {
+    "seq": 128,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg128-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 129,
+    "speaker": "ALEX",
+    "text": "Keep the thread going. This part earns its place because the same indentation principle applies to numbered lists.",
+    "filename": "seg129-alex.wav",
+    "duration": 6.679,
+    "status": "synthesized"
+  },
+  {
+    "seq": 130,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Mixing ordered and unordered lists. What should a learner take away from it?",
+    "filename": "seg130-jamie.wav",
+    "duration": 4.909,
+    "status": "synthesized"
+  },
+  {
+    "seq": 131,
+    "speaker": "ALEX",
+    "text": "Mixing ordered and unordered lists: You can nest an unordered list inside an ordered list and vice versa.",
+    "filename": "seg131-alex.wav",
+    "duration": 6.039,
+    "status": "synthesized"
+  },
+  {
+    "seq": 132,
+    "speaker": "JAMIE",
+    "text": "How do you keep commands from becoming magic words?",
+    "filename": "seg132-jamie.wav",
+    "duration": 3.266,
+    "status": "synthesized"
+  },
+  {
+    "seq": 133,
+    "speaker": "ALEX",
+    "text": "Here is the learner-facing version. List items can contain paragraphs, code blocks, and other elements. Put another way, indent the content to align with the list item text (typically four spaces). A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.",
+    "filename": "seg133-alex.wav",
+    "duration": 16.62,
+    "status": "synthesized"
+  },
+  {
+    "seq": 134,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Clone the repository; Open your terminal and run the following command. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg134-alex.wav",
+    "duration": 14.272,
+    "status": "synthesized"
+  },
+  {
+    "seq": 135,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg135-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 136,
+    "speaker": "JAMIE",
+    "text": "Let's pause on 10. Links. What should a learner take away from it?",
+    "filename": "seg136-jamie.wav",
+    "duration": 3.735,
+    "status": "synthesized"
+  },
+  {
+    "seq": 137,
+    "speaker": "ALEX",
+    "text": "This is the move inside 10. Links: links are how you connect documents, reference issues, point to external resources, and cite sources. That matters in practice: Getting links right is critical for accessibility - links with bad text are one of the most common accessibility failures in documentation.",
+    "filename": "seg137-alex.wav",
+    "duration": 16.556,
+    "status": "synthesized"
+  },
+  {
+    "seq": 138,
+    "speaker": "ALEX",
+    "text": "Put that beside the next piece. Anchor this part on Basic link syntax. Wrap the visible link text in square brackets, followed immediately by the URL in parentheses.",
+    "filename": "seg138-alex.wav",
+    "duration": 9.965,
+    "status": "synthesized"
+  },
+  {
+    "seq": 139,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Links with title text. What should a learner take away from it?",
+    "filename": "seg139-jamie.wav",
+    "duration": 4.29,
+    "status": "synthesized"
+  },
+  {
+    "seq": 140,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: add a title in quotes after the URL. The listener should be able to check this: The title appears as a tooltip on hover.",
+    "filename": "seg140-alex.wav",
+    "duration": 8.619,
+    "status": "synthesized"
+  },
+  {
+    "seq": 141,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg141-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 142,
+    "speaker": "ALEX",
+    "text": "The next point gives the learner a handle. Do not treat Writing accessible link text as decoration. This is one of the most important accessibility skills in Markdown authoring. That is not trivia. Screen reader users often navigate by pulling up a list of all links on a page (NVDA: NVDA+F7 then select Links; JAWS: Insert+F7). The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg142-alex.wav",
+    "duration": 24.834,
+    "status": "synthesized"
+  },
+  {
+    "seq": 143,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Reference-style links. What should a learner take away from it?",
+    "filename": "seg143-jamie.wav",
+    "duration": 4.183,
+    "status": "synthesized"
+  },
+  {
+    "seq": 144,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Reference-style links is still useful because for documents with many links, reference-style links keep the text readable by separating the URL from the prose. For someone navigating by keyboard or screen reader, this detail matters: You define the link target once at the bottom of the document.",
+    "filename": "seg144-alex.wav",
+    "duration": 16.876,
+    "status": "synthesized"
+  },
+  {
+    "seq": 145,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Put Relative links within a repository into plain language. When linking to other files in the same repository, use relative paths instead of full URLs. The useful version is: This way, links work on any fork or branch.",
+    "filename": "seg145-alex.wav",
+    "duration": 14.229,
+    "status": "synthesized"
+  },
+  {
+    "seq": 146,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg146-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 147,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Email links. What should a learner take away from it?",
+    "filename": "seg147-jamie.wav",
+    "duration": 3.799,
+    "status": "synthesized"
+  },
+  {
+    "seq": 148,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. The angle brackets tell Markdown to create a mailto: link.",
+    "filename": "seg148-alex.wav",
+    "duration": 6.679,
+    "status": "synthesized"
+  },
+  {
+    "seq": 149,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. This part earns its place because GitHub automatically converts full URLs in your text into clickable links, but always prefer explicit descriptive links in prose. That gives the learner a foothold: bare URLs should only appear in reference sections or code examples. That is the difference between following directions and owning the workflow.",
+    "filename": "seg149-alex.wav",
+    "duration": 20.653,
+    "status": "synthesized"
+  },
+  {
+    "seq": 150,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Learning Cards: Links. What should a learner take away from it?",
+    "filename": "seg150-jamie.wav",
+    "duration": 4.162,
+    "status": "synthesized"
+  },
+  {
+    "seq": 151,
+    "speaker": "ALEX",
+    "text": "Learning Cards: Links has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg151-alex.wav",
+    "duration": 6.359,
+    "status": "synthesized"
+  },
+  {
+    "seq": 152,
+    "speaker": "ALEX",
+    "text": "That shows up in the workshop in a few specific ways. Pull up a links list (NVDA: NVDA+F7 then Links tab; JAWS: Insert+F7) to audit your document -- every link must make sense without its surrounding sentence. Reference-style links ([text][ref]) produce identical HTML to inline links -- screen readers announce them the same way, so choose whichever keeps your source readable. Relative links to other repo files (e.g., Setup) work on any fork or branch -- prefer them over full URLs for internal documentation. Links render as blue underlined text by default -- if your GitHub theme reduces underline visibility, rely on the color difference or hover state to identify links. Long URLs in link text are hard to read at high zoom; always use descriptive text like Contributing Guide instead of pasting the raw URL. The title attribute (text in quotes after the URL) appears as a tooltip on hover -- useful at high magnification but do not put essential information only there.",
+    "filename": "seg152-alex.wav",
+    "duration": 56.0,
+    "status": "synthesized"
+  },
+  {
+    "seq": 153,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg153-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 154,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Here is the learner-facing version. Images in Markdown use a syntax similar to links, with an exclamation mark (!) at the beginning.",
+    "filename": "seg154-alex.wav",
+    "duration": 9.239,
+    "status": "synthesized"
+  },
+  {
+    "seq": 155,
+    "speaker": "JAMIE",
+    "text": "Before we leave Syntax, what is the practical point?",
+    "filename": "seg155-jamie.wav",
+    "duration": 3.266,
+    "status": "synthesized"
+  },
+  {
+    "seq": 156,
+    "speaker": "ALEX",
+    "text": "This is the move inside Syntax: the text inside the square brackets is the alt text - the description that screen readers read aloud instead of displaying the image. That matters in practice: This is the single most important accessibility attribute for images.",
+    "filename": "seg156-alex.wav",
+    "duration": 14.465,
+    "status": "synthesized"
+  },
+  {
+    "seq": 157,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Anchor this part on Writing good alt text. The following table provides guidance on alt text for different types of images. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes.",
+    "filename": "seg157-alex.wav",
+    "duration": 14.336,
+    "status": "synthesized"
+  },
+  {
+    "seq": 158,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg158-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 159,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Image with a link. What should a learner take away from it?",
+    "filename": "seg159-jamie.wav",
+    "duration": 4.055,
+    "status": "synthesized"
+  },
+  {
+    "seq": 160,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: to make an image clickable, wrap the image syntax inside a link.",
+    "filename": "seg160-alex.wav",
+    "duration": 5.697,
+    "status": "synthesized"
+  },
+  {
+    "seq": 161,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Do not treat When to use details blocks for complex images as decoration. If an image contains complex information (like an architecture diagram or a data visualization), provide a full text description in a collapsible block. That is not trivia. Screen readers announce images as \"graphic\" followed by the alt text.",
+    "filename": "seg161-alex.wav",
+    "duration": 19.522,
+    "status": "synthesized"
+  },
+  {
+    "seq": 162,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Learning Cards: Images. What should a learner take away from it?",
+    "filename": "seg162-jamie.wav",
+    "duration": 4.439,
+    "status": "synthesized"
+  },
+  {
+    "seq": 163,
+    "speaker": "ALEX",
+    "text": "Learning Cards: Images has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg163-alex.wav",
+    "duration": 6.593,
+    "status": "synthesized"
+  },
+  {
+    "seq": 164,
+    "speaker": "ALEX",
+    "text": "These are the details that keep the idea from floating away. Alt text is read aloud as the only representation of the image -- write it to answer \"what information does this image convey?\" not just \"what does it look like?\". For decorative images, use empty alt text ( ) so the screen reader skips them entirely rather than announcing the filename. Complex images (architecture diagrams, charts) need a full text description in a block below the image -- expand it to read the complete information. Images render at their original size by default -- use browser or VS Code zoom to enlarge them, and ensure alt text is present in case the image becomes too pixelated. Screenshots with small text are the hardest images to read at high magnification -- request that contributors use cropped, focused screenshots instead of full-screen captures. The alt text is invisible in the rendered view but visible in the raw Markdown source -- switch to the source view to verify alt text exists on all images.",
+    "filename": "seg164-alex.wav",
+    "duration": 52.395,
+    "status": "synthesized"
+  },
+  {
+    "seq": 165,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg165-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 166,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Put 12. Blockquotes into plain language. Blockquotes are used for callouts, important notes, cited text, and instructor guidance throughout this course. The useful version is: Start each line with a character followed by a space. The interface gets easier when it becomes a set of named places instead of a wall of controls.",
+    "filename": "seg166-alex.wav",
+    "duration": 17.858,
+    "status": "synthesized"
+  },
+  {
+    "seq": 167,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Basic blockquote. What should a learner take away from it?",
+    "filename": "seg167-jamie.wav",
+    "duration": 4.141,
+    "status": "synthesized"
+  },
+  {
+    "seq": 168,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. It is used to highlight important information or to quote someone else's text.",
+    "filename": "seg168-alex.wav",
+    "duration": 7.916,
+    "status": "synthesized"
+  },
+  {
+    "seq": 169,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. This part earns its place because add a on the blank lines between paragraphs to keep them inside the blockquote.",
+    "filename": "seg169-alex.wav",
+    "duration": 7.36,
+    "status": "synthesized"
+  },
+  {
+    "seq": 170,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg170-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 171,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Blockquotes with other elements. What should a learner take away from it?",
+    "filename": "seg171-jamie.wav",
+    "duration": 4.802,
+    "status": "synthesized"
+  },
+  {
+    "seq": 172,
+    "speaker": "ALEX",
+    "text": "Blockquotes with other elements: Blockquotes can contain any Markdown element - headings, lists, code, bold, links. The next useful detail is concrete: Screen readers announce the beginning and end of a blockquote.",
+    "filename": "seg172-alex.wav",
+    "duration": 11.735,
+    "status": "synthesized"
+  },
+  {
+    "seq": 173,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Here is the learner-facing version. Throughout this workshop, blockquotes serve specific purposes. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.",
+    "filename": "seg173-alex.wav",
+    "duration": 13.185,
+    "status": "synthesized"
+  },
+  {
+    "seq": 174,
+    "speaker": "ALEX",
+    "text": "Listen for the small confirmations in this list. Screen reader notes: Tips specific to assistive technology users. Learning Room connections: How the current topic connects to the practice repo. Important warnings: Critical information that could prevent errors. Instructor guidance: Notes from the facilitator about pacing or approach.",
+    "filename": "seg174-alex.wav",
+    "duration": 17.794,
+    "status": "synthesized"
+  },
+  {
+    "seq": 175,
+    "speaker": "JAMIE",
+    "text": "Let's pause on 13. Inline Code and Code Blocks. What should a learner take away from it?",
+    "filename": "seg175-jamie.wav",
+    "duration": 5.335,
+    "status": "synthesized"
+  },
+  {
+    "seq": 176,
+    "speaker": "ALEX",
+    "text": "This is the move inside 13. Inline Code and Code Blocks: code formatting is essential on GitHub. That matters in practice: the learner will use it for command-line instructions, file names, configuration values, keyboard shortcuts, and actual source code.",
+    "filename": "seg176-alex.wav",
+    "duration": 14.315,
+    "status": "synthesized"
+  },
+  {
+    "seq": 177,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg177-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 178,
+    "speaker": "JAMIE",
+    "text": "What should happen before anyone copies and runs it?",
+    "filename": "seg178-jamie.wav",
+    "duration": 3.159,
+    "status": "synthesized"
+  },
+  {
+    "seq": 179,
+    "speaker": "ALEX",
+    "text": "Anchor this part on Inline code. Wrap text in single backticks ( `) to format it as code within a sentence. This is the part to say slowly: Run git status to see which files have changed.",
+    "filename": "seg179-alex.wav",
+    "duration": 10.796,
+    "status": "synthesized"
+  },
+  {
+    "seq": 180,
+    "speaker": "ALEX",
+    "text": "This is where the lesson becomes something you can check. Command names: git clone, npm install. File names: README.md, CONTRIBUTING.md. Keyboard shortcuts: Ctrl+C, Alt+Tab. Variable or function names: userName, getElementById().",
+    "filename": "seg180-alex.wav",
+    "duration": 15.532,
+    "status": "synthesized"
+  },
+  {
+    "seq": 181,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Run git status to see which files have changed.; The configuration file is package.json.; Press Ctrl+Shift+P to open the Command Palette. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg181-alex.wav",
+    "duration": 18.413,
+    "status": "synthesized"
+  },
+  {
+    "seq": 182,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Code blocks (fenced). What should a learner take away from it?",
+    "filename": "seg182-jamie.wav",
+    "duration": 4.269,
+    "status": "synthesized"
+  },
+  {
+    "seq": 183,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: for multi-line code, wrap it in triple backticks ( ` ) on their own lines. The listener should be able to check this: All formatting is preserved exactly.",
+    "filename": "seg183-alex.wav",
+    "duration": 10.156,
+    "status": "synthesized"
+  },
+  {
+    "seq": 184,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Do not treat Code blocks with syntax highlighting as decoration. Add a language identifier right after the opening triple backticks to enable syntax highlighting. That is not trivia. def greet(name: str) - str: \"\"\"Return a greeting for the given name.\"\"\" return f\"Hello, {name}! The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg184-alex.wav",
+    "duration": 22.144,
+    "status": "synthesized"
+  },
+  {
+    "seq": 185,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg185-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 186,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Showing diffs in code blocks. What should a learner take away from it?",
+    "filename": "seg186-jamie.wav",
+    "duration": 4.717,
+    "status": "synthesized"
+  },
+  {
+    "seq": 187,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Showing diffs in code blocks is still useful because the diff language identifier highlights additions and removals. For someone navigating by keyboard or screen reader, this detail matters: + new line that was added unchanged context line.",
+    "filename": "seg187-alex.wav",
+    "duration": 14.913,
+    "status": "synthesized"
+  },
+  {
+    "seq": 188,
+    "speaker": "ALEX",
+    "text": "For a learner, the useful signals are concrete. old line that was removed.",
+    "filename": "seg188-alex.wav",
+    "duration": 4.631,
+    "status": "synthesized"
+  },
+  {
+    "seq": 189,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Put Code blocks inside list items into plain language. Indent the code block to align with the list item text.",
+    "filename": "seg189-alex.wav",
+    "duration": 8.471,
+    "status": "synthesized"
+  },
+  {
+    "seq": 190,
+    "speaker": "JAMIE",
+    "text": "Let's pause on How to show literal backticks. What should a learner take away from it?",
+    "filename": "seg190-jamie.wav",
+    "duration": 4.631,
+    "status": "synthesized"
+  },
+  {
+    "seq": 191,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. If your code contains backticks, use more backticks for the fence. That is the difference between guessing and knowing: Use four backticks to wrap content that contains triple backticks.",
+    "filename": "seg191-alex.wav",
+    "duration": 12.416,
+    "status": "synthesized"
+  },
+  {
+    "seq": 192,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg192-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 193,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. This part earns its place because a horizontal rule creates a thematic break between sections - a visual line across the page. That gives the learner a foothold: use three or more dashes, asterisks, or underscores on a line by themselves. That is the difference between following directions and owning the workflow.",
+    "filename": "seg193-alex.wav",
+    "duration": 17.879,
+    "status": "synthesized"
+  },
+  {
+    "seq": 194,
+    "speaker": "JAMIE",
+    "text": "Let's pause on 15. Escaping Special Characters. What should a learner take away from it?",
+    "filename": "seg194-jamie.wav",
+    "duration": 5.058,
+    "status": "synthesized"
+  },
+  {
+    "seq": 195,
+    "speaker": "ALEX",
+    "text": "15. Escaping Special Characters: Many characters have special meaning in Markdown. The next useful detail is concrete: If you want to display them as literal characters instead, put a backslash (\\) before them.",
+    "filename": "seg195-alex.wav",
+    "duration": 12.161,
+    "status": "synthesized"
+  },
+  {
+    "seq": 196,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Here is the learner-facing version. The following table lists every character that can be escaped in Markdown.",
+    "filename": "seg196-alex.wav",
+    "duration": 7.573,
+    "status": "synthesized"
+  },
+  {
+    "seq": 197,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg197-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 198,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Examples. What should a learner take away from it?",
+    "filename": "seg198-jamie.wav",
+    "duration": 3.629,
+    "status": "synthesized"
+  },
+  {
+    "seq": 199,
+    "speaker": "ALEX",
+    "text": "This is the move inside Examples: this asterisk is literal: \\ not bold\\ This hash is literal: \\ not a heading Show a pipe character: \\.",
+    "filename": "seg199-alex.wav",
+    "duration": 9.772,
+    "status": "synthesized"
+  },
+  {
+    "seq": 200,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Anchor this part on 16. Tables. Tables organize data into rows and columns. This is the part to say slowly: They are used extensively on GitHub for comparison charts, reference data, settings documentation, and checklists. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes.",
+    "filename": "seg200-alex.wav",
+    "duration": 20.866,
+    "status": "synthesized"
+  },
+  {
+    "seq": 201,
+    "speaker": "JAMIE",
+    "text": "What should they understand before typing anything?",
+    "filename": "seg201-jamie.wav",
+    "duration": 3.053,
+    "status": "synthesized"
+  },
+  {
+    "seq": 202,
+    "speaker": "ALEX",
+    "text": "Basic table syntax has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg202-alex.wav",
+    "duration": 6.423,
+    "status": "synthesized"
+  },
+  {
+    "seq": 203,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Name Role Platform; --- --- ---; NVDA Screen reader Windows; JAWS Screen reader Windows; VoiceOver Screen reader macOS / iOS; TalkBack Screen reader Android. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg203-alex.wav",
+    "duration": 18.24,
+    "status": "synthesized"
+  },
+  {
+    "seq": 204,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg204-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 205,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. How table syntax works has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg205-alex.wav",
+    "duration": 8.044,
+    "status": "synthesized"
+  },
+  {
+    "seq": 206,
+    "speaker": "ALEX",
+    "text": "Here is the part that makes the next action easier. The first row is always the header row. The second row contains dashes (---) that separate the header from the data. You need at least three dashes per column. Each subsequent row is a data row. Columns are separated by pipe characters ( ). Leading and trailing pipes are optional but recommended for readability.",
+    "filename": "seg206-alex.wav",
+    "duration": 19.031,
+    "status": "synthesized"
+  },
+  {
+    "seq": 207,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Column alignment. What should a learner take away from it?",
+    "filename": "seg207-jamie.wav",
+    "duration": 4.013,
+    "status": "synthesized"
+  },
+  {
+    "seq": 208,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Column alignment is still useful because add colons (:) to the separator row to control text alignment.",
+    "filename": "seg208-alex.wav",
+    "duration": 7.255,
+    "status": "synthesized"
+  },
+  {
+    "seq": 209,
+    "speaker": "ALEX",
+    "text": "These are the pieces that turn the idea into a usable move.:--- = left aligned (default).:---: = center aligned. ---: = right aligned.",
+    "filename": "seg209-alex.wav",
+    "duration": 8.215,
+    "status": "synthesized"
+  },
+  {
+    "seq": 210,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Put Formatting inside table cells into plain language. You can use inline formatting within table cells. The interface gets easier when it becomes a set of named places instead of a wall of controls.",
+    "filename": "seg210-alex.wav",
+    "duration": 12.885,
+    "status": "synthesized"
+  },
+  {
+    "seq": 211,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg211-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 212,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Accessibility considerations for tables. What should a learner take away from it?",
+    "filename": "seg212-jamie.wav",
+    "duration": 5.634,
+    "status": "synthesized"
+  },
+  {
+    "seq": 213,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. Screen readers navigate tables with Ctrl+Alt+Arrow keys (NVDA and JAWS). That is the difference between guessing and knowing: Ctrl+Alt+Right moves to the next column.",
+    "filename": "seg213-alex.wav",
+    "duration": 14.273,
+    "status": "synthesized"
+  },
+  {
+    "seq": 214,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Always include a description before the table. Add a one-sentence summary immediately above the table explaining what it contains. Screen reader users hear the table structure (rows and columns) but benefit from knowing what the table is about before entering; Keep tables simple. Tables with more than 5-6 columns become difficult to navigate with a screen reader. Consider splitting wide tables into multiple narrower tables; Use tables for data, not layout. If you are using a table just to arrange content side by side, use a list instead; and Make the header row descriptive. The header cell is announced before each data cell when navigating by column, so \"Platform\" is better than \"Col 3\". The sequence works because every action has a confirmation.",
+    "filename": "seg214-alex.wav",
+    "duration": 43.649,
+    "status": "synthesized"
+  },
+  {
+    "seq": 215,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. This part earns its place because if your \"table\" has only two columns where the first is a label and the second is a value, consider using a definition-style list or bold labels instead. That gives the learner a foothold: this is often easier to read with a screen reader than a two-column table.",
+    "filename": "seg215-alex.wav",
+    "duration": 17.602,
+    "status": "synthesized"
+  },
+  {
+    "seq": 216,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Learning Cards: Tables. What should a learner take away from it?",
+    "filename": "seg216-jamie.wav",
+    "duration": 4.247,
+    "status": "synthesized"
+  },
+  {
+    "seq": 217,
+    "speaker": "ALEX",
+    "text": "Learning Cards: Tables has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg217-alex.wav",
+    "duration": 6.465,
+    "status": "synthesized"
+  },
+  {
+    "seq": 218,
+    "speaker": "ALEX",
+    "text": "A few details make that real. Navigate tables with Ctrl+Alt+Arrow keys (NVDA/JAWS) -- Right moves to the next column, Down to the next row; the column header is announced each time you change columns. Enter table mode automatically when your screen reader encounters a table -- press T in browse mode to jump to the next table on the page. Before the table structure, listen for the description sentence the author should place above it -- this tells you what data the table contains before you enter cell-by-cell navigation. Wide tables (6+ columns) may require horizontal scrolling at high zoom -- if the table overflows, scroll right to see truncated columns or view the raw Markdown source instead. Column alignment (left, center, right) is controlled by colons in the separator row -- at high magnification, right-aligned numbers are easier to compare than left-aligned ones. If a table is hard to read at your zoom level, try narrowing the browser window -- GitHub will sometimes reflow content or add a horizontal scrollbar.",
+    "filename": "seg218-alex.wav",
+    "duration": 55.765,
+    "status": "synthesized"
+  },
+  {
+    "seq": 219,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg219-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 220,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Learning Cards: GitHub Flavored Markdown has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg220-alex.wav",
+    "duration": 9.004,
+    "status": "synthesized"
+  },
+  {
+    "seq": 221,
+    "speaker": "ALEX",
+    "text": "On the ground, that means a few things. GFM features (sections 17-27) work only on GitHub -- your screen reader behavior notes are in each section. Alert blocks (section 18) render as blockquotes with a type prefix -- listen for \"Note,\" \"Warning,\" etc. Task list checkboxes (section 20) are announced as \"checkbox checked\" or \"checkbox not checked\". Alert blocks use color-coded left borders (blue for Note, yellow for Warning, red for Caution) -- the text label also identifies the type. Mermaid diagrams (section 22) are visual only on GitHub -- the raw code block is always readable. Use GitHub's Preview tab when writing to confirm your GFM renders correctly before submitting.",
+    "filename": "seg221-alex.wav",
+    "duration": 36.802,
+    "status": "synthesized"
+  },
+  {
+    "seq": 222,
+    "speaker": "JAMIE",
+    "text": "Let's pause on 17. What Is GitHub Flavored Markdown? What should a learner take away from it?",
+    "filename": "seg222-jamie.wav",
+    "duration": 5.485,
+    "status": "synthesized"
+  },
+  {
+    "seq": 223,
+    "speaker": "ALEX",
+    "text": "This is the move inside 17. What Is GitHub Flavored Markdown?: GitHub Flavored Markdown (GFM) is GitHub's own superset of standard Markdown. That matters in practice: It takes everything from the CommonMark specification (the modern standard for Markdown) and adds features specifically designed for software collaboration: tables, task lists, strikethrough, autolinked references, alert blocks, Mermaid diagrams, math.",
+    "filename": "seg223-alex.wav",
+    "duration": 23.831,
+    "status": "synthesized"
+  },
+  {
+    "seq": 224,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Anchor this part on Where GFM works. The following table shows where GFM is supported.",
+    "filename": "seg224-alex.wav",
+    "duration": 7.083,
+    "status": "synthesized"
+  },
+  {
+    "seq": 225,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg225-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 226,
+    "speaker": "JAMIE",
+    "text": "Let's pause on 18. Alert and Callout Blocks. What should a learner take away from it?",
+    "filename": "seg226-jamie.wav",
+    "duration": 4.909,
+    "status": "synthesized"
+  },
+  {
+    "seq": 227,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: GitHub introduced alert blocks in 2023. The listener should be able to check this: They render as colored, bordered callout boxes - great for emphasizing warnings, tips, or critical information.",
+    "filename": "seg227-alex.wav",
+    "duration": 13.591,
+    "status": "synthesized"
+  },
+  {
+    "seq": 228,
+    "speaker": "JAMIE",
+    "text": "Let's pause on How to write them. What should a learner take away from it?",
+    "filename": "seg228-jamie.wav",
+    "duration": 3.97,
+    "status": "synthesized"
+  },
+  {
+    "seq": 229,
+    "speaker": "ALEX",
+    "text": "How to write them has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg229-alex.wav",
+    "duration": 5.804,
+    "status": "synthesized"
+  },
+  {
+    "seq": 230,
+    "speaker": "ALEX",
+    "text": "First, start a blockquote. Then, the first line must be exactly [!TYPE] where TYPE is one of: NOTE, TIP, IMPORTANT, WARNING, CAUTION. After that, all subsequent lines start with and a space, just like a regular blockquote. Finally, you can include any Markdown inside the alert: lists, code, links, bold. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg230-alex.wav",
+    "duration": 19.309,
+    "status": "synthesized"
+  },
+  {
+    "seq": 231,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Choosing the right alert type. What should a learner take away from it?",
+    "filename": "seg231-jamie.wav",
+    "duration": 4.717,
+    "status": "synthesized"
+  },
+  {
+    "seq": 232,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Choosing the right alert type is still useful because the following table describes each alert type and when to use it.",
+    "filename": "seg232-alex.wav",
+    "duration": 7.488,
+    "status": "synthesized"
+  },
+  {
+    "seq": 233,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg233-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 234,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Put Screen Reader Behavior into plain language. Alert blocks render as elements with an SVG icon and a strong heading.",
+    "filename": "seg234-alex.wav",
+    "duration": 8.94,
+    "status": "synthesized"
+  },
+  {
+    "seq": 235,
+    "speaker": "ALEX",
+    "text": "That becomes easier when you listen for these cues. NVDA/JAWS: announces blockquote role, then reads the type label (\"Note\", \"Warning\") then the content. VoiceOver: reads the type as bold text then the content. The colored icon is decorative (aria-hidden); it does not add information beyond the type label.",
+    "filename": "seg235-alex.wav",
+    "duration": 17.047,
+    "status": "synthesized"
+  },
+  {
+    "seq": 236,
+    "speaker": "JAMIE",
+    "text": "Let's pause on 19. Collapsible Sections with Details and Summary. What should a learner take away from it?",
+    "filename": "seg236-jamie.wav",
+    "duration": 6.21,
+    "status": "synthesized"
+  },
+  {
+    "seq": 237,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. The and HTML elements create collapsible sections. That is the difference between guessing and knowing: They are one of the most useful tools for keeping long documents, issue reports, and PRs manageable - hiding optional content until the reader chooses to expand it.",
+    "filename": "seg237-alex.wav",
+    "duration": 17.431,
+    "status": "synthesized"
+  },
+  {
+    "seq": 238,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Important formatting rules. What should a learner take away from it?",
+    "filename": "seg238-jamie.wav",
+    "duration": 4.567,
+    "status": "synthesized"
+  },
+  {
+    "seq": 239,
+    "speaker": "ALEX",
+    "text": "Important formatting rules has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg239-alex.wav",
+    "duration": 6.423,
+    "status": "synthesized"
+  },
+  {
+    "seq": 240,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is blank line after. Put a blank line between the closing tag and your Markdown content. Without it, Markdown formatting inside may not render. Step two is blank line before. Same principle at the end. Step three is the text should be descriptive - it is the only thing visible when collapsed. The point is not speed; the point is never losing your place.",
+    "filename": "seg240-alex.wav",
+    "duration": 21.333,
+    "status": "synthesized"
+  },
+  {
+    "seq": 241,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg241-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 242,
+    "speaker": "JAMIE",
+    "text": "Zoom out for a second. What kind of journey is this?",
+    "filename": "seg242-jamie.wav",
+    "duration": 3.053,
+    "status": "synthesized"
+  },
+  {
+    "seq": 243,
+    "speaker": "ALEX",
+    "text": "Real-world uses in this workshop: The following list describes common uses for collapsible sections.",
+    "filename": "seg243-alex.wav",
+    "duration": 6.145,
+    "status": "synthesized"
+  },
+  {
+    "seq": 244,
+    "speaker": "ALEX",
+    "text": "If someone is taking notes, this is the short list. Bug reports in issues: Collapse the full stack trace so the issue body stays readable. Long configuration blocks: Let readers expand the full YAML only if they need it. Exercise solutions: Collapse the answer so learners try the exercise first. Screen reader guidance blocks: Throughout this course, some sections collapse detailed assistive technology instructions so sighted users see a cleaner page while screen reader users can easily expand them. Meeting notes: Collapse detailed minutes while showing the summary.",
+    "filename": "seg244-alex.wav",
+    "duration": 30.743,
+    "status": "synthesized"
+  },
+  {
+    "seq": 245,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Details sections that start open. What should a learner take away from it?",
+    "filename": "seg245-jamie.wav",
+    "duration": 5.101,
+    "status": "synthesized"
+  },
+  {
+    "seq": 246,
+    "speaker": "ALEX",
+    "text": "Here is the learner-facing version. Add the open attribute to have the section expanded by default.",
+    "filename": "seg246-alex.wav",
+    "duration": 5.889,
+    "status": "synthesized"
+  },
+  {
+    "seq": 247,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like; Currently known issues; - Checkbox toggle requires Focus Mode in NVDA; - Alert blocks do not render in email notifications. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg247-alex.wav",
+    "duration": 17.581,
+    "status": "synthesized"
+  },
+  {
+    "seq": 248,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Screen Reader Behavior. What should a learner take away from it?",
+    "filename": "seg248-jamie.wav",
+    "duration": 4.29,
+    "status": "synthesized"
+  },
+  {
+    "seq": 249,
+    "speaker": "ALEX",
+    "text": "This is the move inside Screen Reader Behavior: the element renders as a disclosure widget. That matters in practice: After expanding: The content is immediately readable.",
+    "filename": "seg249-alex.wav",
+    "duration": 10.113,
+    "status": "synthesized"
+  },
+  {
+    "seq": 250,
+    "speaker": "ALEX",
+    "text": "The useful version is not abstract; it sounds like this. NVDA: announces \"button collapsed\" for the - press Enter or Space to expand. JAWS: announces \"collapsed\" - press Enter on the summary to expand. VoiceOver: announces \"collapsed, button\" - press VO+Space to activate.",
+    "filename": "seg250-alex.wav",
+    "duration": 15.019,
+    "status": "synthesized"
+  },
+  {
+    "seq": 251,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg251-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 252,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Learning Cards: Collapsible Sections has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg252-alex.wav",
+    "duration": 8.727,
+    "status": "synthesized"
+  },
+  {
+    "seq": 253,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. The element is announced as a button -- press Enter or Space to toggle between collapsed and expanded; listen for \"collapsed\" or \"expanded\" state announcements. After expanding, the content is immediately available -- arrow down to read it; no page reload or focus change occurs. Nested blocks (details inside details) work but add complexity -- each level is an independent toggle button; keep nesting to one level deep for predictable navigation. The summary text is the only visible element when collapsed -- it appears as a disclosure triangle ( ) with text; zoom in to ensure the triangle and text are both readable. Expanded content appears inline below the summary -- at high zoom it flows naturally with the rest of the page content. The open attribute forces a section to start expanded -- useful when the content is important enough that most readers should see it by default.",
+    "filename": "seg253-alex.wav",
+    "duration": 49.389,
+    "status": "synthesized"
+  },
+  {
+    "seq": 254,
+    "speaker": "JAMIE",
+    "text": "Let's pause on 20. Task List Checkboxes. What should a learner take away from it?",
+    "filename": "seg254-jamie.wav",
+    "duration": 4.695,
+    "status": "synthesized"
+  },
+  {
+    "seq": 255,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: task lists in GitHub issues and PRs render as real interactive checkboxes. The listener should be able to check this: Anyone with write access to the repository can check and uncheck them directly in the rendered view without editing the Markdown.",
+    "filename": "seg255-alex.wav",
+    "duration": 15.831,
+    "status": "synthesized"
+  },
+  {
+    "seq": 256,
+    "speaker": "JAMIE",
+    "text": "What is the teaching move inside Syntax?",
+    "filename": "seg256-jamie.wav",
+    "duration": 2.903,
+    "status": "synthesized"
+  },
+  {
+    "seq": 257,
+    "speaker": "ALEX",
+    "text": "Syntax has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg257-alex.wav",
+    "duration": 5.591,
+    "status": "synthesized"
+  },
+  {
+    "seq": 258,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like [x] Color contrast verified (4.5:1 minimum for body text); - [x] Keyboard navigation tested; - [ ] Screen reader tested with NVDA; - [ ] Screen reader tested with JAWS; - [ ] Screen reader tested with VoiceOver; - [ ] Alt text provided for all images; - [ ]. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg258-alex.wav",
+    "duration": 23.744,
+    "status": "synthesized"
+  },
+  {
+    "seq": 259,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg259-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 260,
+    "speaker": "JAMIE",
+    "text": "Before we leave How to write them, what is the practical point?",
+    "filename": "seg260-jamie.wav",
+    "duration": 3.586,
+    "status": "synthesized"
+  },
+  {
+    "seq": 261,
+    "speaker": "ALEX",
+    "text": "Start here: Start with a list item marker (-,, or +) and a space. Then: Add [x] for a checked box or [ ] (with a space inside) for an unchecked box. Next: Add a space, then the task description. Last: The description should be meaningful - \"Test NVDA\" is better than \"Item 3\". Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg261-alex.wav",
+    "duration": 17.857,
+    "status": "synthesized"
+  },
+  {
+    "seq": 262,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. What makes task lists special on GitHub has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg262-alex.wav",
+    "duration": 8.727,
+    "status": "synthesized"
+  },
+  {
+    "seq": 263,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Progress tracking: In issues, GitHub shows a progress bar: \"2 of 7 tasks completed\". Click to check: In the rendered view, users with triage or write permissions can click to toggle checkboxes without editing the comment. Linked issues: You can reference issues in a task: - [ ] Fix 42 - the task shows the issue title and its open/closed state. PR templates: Task lists in PR templates create checklists that authors fill out before requesting review.",
+    "filename": "seg263-alex.wav",
+    "duration": 27.159,
+    "status": "synthesized"
+  },
+  {
+    "seq": 264,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Example - pull request checklist. What should a learner take away from it?",
+    "filename": "seg264-jamie.wav",
+    "duration": 4.845,
+    "status": "synthesized"
+  },
+  {
+    "seq": 265,
+    "speaker": "ALEX",
+    "text": "Example - pull request checklist has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg265-alex.wav",
+    "duration": 6.764,
+    "status": "synthesized"
+  },
+  {
+    "seq": 266,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Pre-review checklist; - [x] Changes are limited to the files listed in the issue; - [x] All new images have descriptive alt text; - [ ] Screen reader tested the changes with NVDA; - [ ] No heading levels are skipped; - [ ] All links use descriptive text (not. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg266-alex.wav",
+    "duration": 22.997,
+    "status": "synthesized"
+  },
+  {
+    "seq": 267,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg267-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 268,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. This part earns its place because in Browse Mode, checkboxes are read as checkbox, not checked or checkbox, checked.",
+    "filename": "seg268-alex.wav",
+    "duration": 8.065,
+    "status": "synthesized"
+  },
+  {
+    "seq": 269,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. NVDA: Press NVDA+Space to enter Focus Mode, then Tab to find the checkbox, then Space to toggle it. JAWS: Tab to the checkbox, then Space to toggle. VoiceOver: VO+Space on the checkbox element.",
+    "filename": "seg269-alex.wav",
+    "duration": 14.189,
+    "status": "synthesized"
+  },
+  {
+    "seq": 270,
+    "speaker": "JAMIE",
+    "text": "Let's pause on 21. Syntax Highlighting in Fenced Code Blocks. What should a learner take away from it?",
+    "filename": "seg270-jamie.wav",
+    "duration": 6.189,
+    "status": "synthesized"
+  },
+  {
+    "seq": 271,
+    "speaker": "ALEX",
+    "text": "21. Syntax Highlighting in Fenced Code Blocks: We covered basic code blocks in Section 13. The next useful detail is concrete: This section covers the GitHub-specific syntax highlighting that makes code blocks more readable for sighted users.",
+    "filename": "seg271-alex.wav",
+    "duration": 14.508,
+    "status": "synthesized"
+  },
+  {
+    "seq": 272,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Here is the learner-facing version. Add a language identifier right after the opening triple backticks. Put another way, GitHub uses Linguist to apply syntax highlighting with appropriate colors for keywords, strings, comments, and other language constructs. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.",
+    "filename": "seg272-alex.wav",
+    "duration": 21.035,
+    "status": "synthesized"
+  },
+  {
+    "seq": 273,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg273-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 274,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Complete list of commonly used language identifiers. What should a learner take away from it?",
+    "filename": "seg274-jamie.wav",
+    "duration": 6.167,
+    "status": "synthesized"
+  },
+  {
+    "seq": 275,
+    "speaker": "ALEX",
+    "text": "This is the move inside Complete list of commonly used language identifiers: the following table lists the language identifiers you are most likely to use. That matters in practice: If no language is specified, the code block renders as plain monospaced text with no highlighting.",
+    "filename": "seg275-alex.wav",
+    "duration": 15.639,
+    "status": "synthesized"
+  },
+  {
+    "seq": 276,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Anchor this part on Screen Reader Note. Syntax highlighting is visual only - screen readers read the code text without announcing color changes. This is the part to say slowly: The code block itself is announced as a code region.",
+    "filename": "seg276-alex.wav",
+    "duration": 14.594,
+    "status": "synthesized"
+  },
+  {
+    "seq": 277,
+    "speaker": "JAMIE",
+    "text": "Let's pause on 22. Mermaid Diagrams. What should a learner take away from it?",
+    "filename": "seg277-jamie.wav",
+    "duration": 4.823,
+    "status": "synthesized"
+  },
+  {
+    "seq": 278,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: GitHub renders Mermaid.js diagrams inline when you use a mermaid fenced code block. The listener should be able to check this: They are common in READMEs, PRs, and documentation to illustrate architecture, flows, and relationships.",
+    "filename": "seg278-alex.wav",
+    "duration": 14.976,
+    "status": "synthesized"
+  },
+  {
+    "seq": 279,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg279-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 280,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Do not treat Syntax as decoration. flowchart LR A[Fork repo] -- B[Clone locally] B -- C[Create branch] C -- D[Make changes] D -- E[Push branch] E -- F[Open PR] F -- G{Review passed?} G -- Yes -- H[Merge] G -- No -- D. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg280-alex.wav",
+    "duration": 19.479,
+    "status": "synthesized"
+  },
+  {
+    "seq": 281,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Common diagram types. What should a learner take away from it?",
+    "filename": "seg281-jamie.wav",
+    "duration": 4.567,
+    "status": "synthesized"
+  },
+  {
+    "seq": 282,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Common diagram types is still useful because the following table lists the Mermaid diagram types you are most likely to encounter on GitHub.",
+    "filename": "seg282-alex.wav",
+    "duration": 9.367,
+    "status": "synthesized"
+  },
+  {
+    "seq": 283,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Put Accessibility limitation - critical into plain language. Mermaid diagrams render as SVG images. The useful version is: GitHub does not auto-generate alt text for them.",
+    "filename": "seg283-alex.wav",
+    "duration": 12.331,
+    "status": "synthesized"
+  },
+  {
+    "seq": 284,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg284-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 285,
+    "speaker": "JAMIE",
+    "text": "Let's pause on How to make Mermaid diagrams accessible. What should a learner take away from it?",
+    "filename": "seg285-jamie.wav",
+    "duration": 5.421,
+    "status": "synthesized"
+  },
+  {
+    "seq": 286,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. Example - accessible Mermaid usage. That is the difference between guessing and knowing: flowchart LR Fork -- Clone -- Branch -- Commit -- Push -- PR -- Review -- Merge.",
+    "filename": "seg286-alex.wav",
+    "duration": 11.863,
+    "status": "synthesized"
+  },
+  {
+    "seq": 287,
+    "speaker": "ALEX",
+    "text": "Think of this as 3 checks: Write a text description before the diagram that conveys all the same information; Optionally, duplicate the information as a numbered list or table; and Consider wrapping the Mermaid source in a block if the text description is sufficient. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg287-alex.wav",
+    "duration": 17.175,
+    "status": "synthesized"
+  },
+  {
+    "seq": 288,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. This part earns its place because GitHub renders LaTeX math expressions using MathJax. That gives the learner a foothold: this is common in data science, research, and algorithm documentation. That is the difference between following directions and owning the workflow.",
+    "filename": "seg288-alex.wav",
+    "duration": 16.962,
+    "status": "synthesized"
+  },
+  {
+    "seq": 289,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Inline math. What should a learner take away from it?",
+    "filename": "seg289-jamie.wav",
+    "duration": 3.906,
+    "status": "synthesized"
+  },
+  {
+    "seq": 290,
+    "speaker": "ALEX",
+    "text": "Inline math: Use single $ delimiters for math within a sentence. The next useful detail is concrete: Renders as: The formula is $e = mc^2$ where $c$ is the speed of light.",
+    "filename": "seg290-alex.wav",
+    "duration": 11.797,
+    "status": "synthesized"
+  },
+  {
+    "seq": 291,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg291-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 292,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Here is the learner-facing version. Use $$ delimiters for display-style (centered, larger) math on their own lines.",
+    "filename": "seg292-alex.wav",
+    "duration": 8.791,
+    "status": "synthesized"
+  },
+  {
+    "seq": 293,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Common LaTeX patterns. What should a learner take away from it?",
+    "filename": "seg293-jamie.wav",
+    "duration": 4.653,
+    "status": "synthesized"
+  },
+  {
+    "seq": 294,
+    "speaker": "ALEX",
+    "text": "This is the move inside Common LaTeX patterns: the following table shows some LaTeX patterns you might encounter.",
+    "filename": "seg294-alex.wav",
+    "duration": 7.02,
+    "status": "synthesized"
+  },
+  {
+    "seq": 295,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Anchor this part on Screen Reader Note. Math expressions rendered by MathJax include aria-label attributes with the spoken form of the equation. This is the part to say slowly: Screen readers should announce the math correctly, but accuracy varies. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes.",
+    "filename": "seg295-alex.wav",
+    "duration": 21.143,
+    "status": "synthesized"
+  },
+  {
+    "seq": 296,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. NVDA with Firefox or Chrome: reads MathML fairly well. JAWS: reads the aria-label text. VoiceOver: reads the aria-label text.",
+    "filename": "seg296-alex.wav",
+    "duration": 10.091,
+    "status": "synthesized"
+  },
+  {
+    "seq": 297,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg297-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 298,
+    "speaker": "JAMIE",
+    "text": "Let's pause on 24. Footnotes. What should a learner take away from it?",
+    "filename": "seg298-jamie.wav",
+    "duration": 4.29,
+    "status": "synthesized"
+  },
+  {
+    "seq": 299,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: GitHub supports Markdown footnotes, which render as superscript numbers that link to references at the bottom of the document. The listener should be able to check this: They are useful for citations, additional context, and references that would interrupt the flow of the main text.",
+    "filename": "seg299-alex.wav",
+    "duration": 16.471,
+    "status": "synthesized"
+  },
+  {
+    "seq": 300,
+    "speaker": "JAMIE",
+    "text": "Let's pause on How they work. What should a learner take away from it?",
+    "filename": "seg300-jamie.wav",
+    "duration": 3.757,
+    "status": "synthesized"
+  },
+  {
+    "seq": 301,
+    "speaker": "ALEX",
+    "text": "How they work has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg301-alex.wav",
+    "duration": 5.74,
+    "status": "synthesized"
+  },
+  {
+    "seq": 302,
+    "speaker": "ALEX",
+    "text": "First, in your text, add [^identifier] where you want the footnote reference to appear. Then, anywhere in the document (typically at the bottom), define the footnote with [^identifier]: Your footnote text. After that, GitHub renders the reference as a superscript number that links to the definition. Finally, the definition includes a back-link that returns to the reference location. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg302-alex.wav",
+    "duration": 23.17,
+    "status": "synthesized"
+  },
+  {
+    "seq": 303,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Footnote identifiers. What should a learner take away from it?",
+    "filename": "seg303-jamie.wav",
+    "duration": 4.461,
+    "status": "synthesized"
+  },
+  {
+    "seq": 304,
+    "speaker": "ALEX",
+    "text": "Footnote identifiers has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg304-alex.wav",
+    "duration": 6.38,
+    "status": "synthesized"
+  },
+  {
+    "seq": 305,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. You can use numbers: [^1], [^2], [^3]. You can use descriptive names: [^webaim-survey], [^wcag-reference]. Descriptive names make the raw Markdown more readable but render as sequential numbers.",
+    "filename": "seg305-alex.wav",
+    "duration": 11.84,
+    "status": "synthesized"
+  },
+  {
+    "seq": 306,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg306-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 307,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Put Multi-line footnotes into plain language. Indent continuation lines with two spaces. The interface gets easier when it becomes a set of named places instead of a wall of controls.",
+    "filename": "seg307-alex.wav",
+    "duration": 12.738,
+    "status": "synthesized"
+  },
+  {
+    "seq": 308,
+    "speaker": "JAMIE",
+    "text": "Before we leave Screen Reader Behavior, what is the practical point?",
+    "filename": "seg308-jamie.wav",
+    "duration": 3.906,
+    "status": "synthesized"
+  },
+  {
+    "seq": 309,
+    "speaker": "ALEX",
+    "text": "Screen Reader Behavior has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg309-alex.wav",
+    "duration": 6.359,
+    "status": "synthesized"
+  },
+  {
+    "seq": 310,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. The footnote reference is a link ( element) announcing its number. NVDA: \"superscript, 1, link\". JAWS: \"link, 1\". VoiceOver: \"link, footnote 1\". The back-link at the definition reads \"return to footnote reference\". Activating the footnote link jumps focus to the definition; activating the back-link returns focus to the original location.",
+    "filename": "seg310-alex.wav",
+    "duration": 20.375,
+    "status": "synthesized"
+  },
+  {
+    "seq": 311,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. This part earns its place because every heading in a GitHub Markdown file automatically gets an anchor ID. That gives the learner a foothold: you can link to any heading from anywhere - within the same document, from another file, or from an issue or PR.",
+    "filename": "seg311-alex.wav",
+    "duration": 15.189,
+    "status": "synthesized"
+  },
+  {
+    "seq": 312,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg312-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 313,
+    "speaker": "JAMIE",
+    "text": "Let's pause on How GitHub generates anchor IDs. What should a learner take away from it?",
+    "filename": "seg313-jamie.wav",
+    "duration": 5.207,
+    "status": "synthesized"
+  },
+  {
+    "seq": 314,
+    "speaker": "ALEX",
+    "text": "How GitHub generates anchor IDs: GitHub converts the heading text to an anchor ID. The next useful detail is concrete: The following table shows example headings and their generated anchors.",
+    "filename": "seg314-alex.wav",
+    "duration": 11.436,
+    "status": "synthesized"
+  },
+  {
+    "seq": 315,
+    "speaker": "ALEX",
+    "text": "First, converting to lowercase. Then, replacing spaces with hyphens. After that, removing most punctuation (except hyphens). Finally, removing leading and trailing whitespace. Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg315-alex.wav",
+    "duration": 14.252,
+    "status": "synthesized"
+  },
+  {
+    "seq": 316,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Here is the learner-facing version. You can build a manual table of contents using heading anchor links. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.",
+    "filename": "seg316-alex.wav",
+    "duration": 13.698,
+    "status": "synthesized"
+  },
+  {
+    "seq": 317,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Duplicate headings. What should a learner take away from it?",
+    "filename": "seg317-jamie.wav",
+    "duration": 4.205,
+    "status": "synthesized"
+  },
+  {
+    "seq": 318,
+    "speaker": "ALEX",
+    "text": "This is the move inside Duplicate headings: if a document has two headings with the same text, GitHub appends -1, -2, and so on to the duplicate anchors. That matters in practice: Best practice: Avoid duplicate heading text.",
+    "filename": "seg318-alex.wav",
+    "duration": 13.653,
+    "status": "synthesized"
+  },
+  {
+    "seq": 319,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg319-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 320,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Finding the anchor for any heading. What should a learner take away from it?",
+    "filename": "seg320-jamie.wav",
+    "duration": 4.823,
+    "status": "synthesized"
+  },
+  {
+    "seq": 321,
+    "speaker": "ALEX",
+    "text": "Finding the anchor for any heading has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg321-alex.wav",
+    "duration": 6.636,
+    "status": "synthesized"
+  },
+  {
+    "seq": 322,
+    "speaker": "ALEX",
+    "text": "Think of this as 3 checks: Mouse users: On GitHub, hover over any heading - a chain link icon appears to the left. Click it to update the URL with the anchor; Screen reader users: Navigate to the heading, then Tab once. A link button appears. Activate it and the URL in the address bar updates to show the anchor; and Keyboard (GitHub shortcut): There is no direct shortcut, but you can copy the heading text, convert it to the anchor format mentally, and type it in the URL. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg322-alex.wav",
+    "duration": 28.482,
+    "status": "synthesized"
+  },
+  {
+    "seq": 323,
+    "speaker": "JAMIE",
+    "text": "Let's pause on 26. Autolinked References - Issues, PRs, Commits, and Users. What should a learner take away from it?",
+    "filename": "seg323-jamie.wav",
+    "duration": 7.319,
+    "status": "synthesized"
+  },
+  {
+    "seq": 324,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: one of GitHub's most powerful features is automatic linking. The listener should be able to check this: When you type certain patterns in any Markdown field on GitHub, they automatically become clickable links.",
+    "filename": "seg324-alex.wav",
+    "duration": 13.249,
+    "status": "synthesized"
+  },
+  {
+    "seq": 325,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Do not treat Issue and pull request references as decoration. The following table shows how to reference issues and pull requests. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg325-alex.wav",
+    "duration": 14.272,
+    "status": "synthesized"
+  },
+  {
+    "seq": 326,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg326-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 327,
+    "speaker": "JAMIE",
+    "text": "Let's pause on User and team mentions. What should a learner take away from it?",
+    "filename": "seg327-jamie.wav",
+    "duration": 4.461,
+    "status": "synthesized"
+  },
+  {
+    "seq": 328,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, User and team mentions is still useful because the following table shows how to mention users and teams.",
+    "filename": "seg328-alex.wav",
+    "duration": 7.191,
+    "status": "synthesized"
+  },
+  {
+    "seq": 329,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Put Commit references into plain language. The following table shows how to reference specific commits.",
+    "filename": "seg329-alex.wav",
+    "duration": 7.575,
+    "status": "synthesized"
+  },
+  {
+    "seq": 330,
+    "speaker": "ALEX",
+    "text": "A solid Git habit is to know which branch you are on, what changed, and what confirmation you expect before you run the next command.",
+    "filename": "seg330-alex.wav",
+    "duration": 7.554,
+    "status": "synthesized"
+  },
+  {
+    "seq": 331,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Closing keywords in pull requests. What should a learner take away from it?",
+    "filename": "seg331-jamie.wav",
+    "duration": 5.015,
+    "status": "synthesized"
+  },
+  {
+    "seq": 332,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. When you include certain keywords followed by an issue reference in a PR description, merging the PR automatically closes the referenced issue. That is the difference between guessing and knowing: All of these keywords work: close, closes, closed, fix, fixes, fixed, resolve, resolves, resolved.",
+    "filename": "seg332-alex.wav",
+    "duration": 17.707,
+    "status": "synthesized"
+  },
+  {
+    "seq": 333,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg333-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 334,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. This part earns its place because GitHub automatically converts full URLs into clickable links. That gives the learner a foothold: accessibility note: While autolinked URLs work, they create poor link text for screen readers (the entire URL is read character by character). That is the difference between following directions and owning the workflow.",
+    "filename": "seg334-alex.wav",
+    "duration": 20.823,
+    "status": "synthesized"
+  },
+  {
+    "seq": 335,
+    "speaker": "JAMIE",
+    "text": "Let's pause on 27. HTML in Markdown. What should a learner take away from it?",
+    "filename": "seg335-jamie.wav",
+    "duration": 5.335,
+    "status": "synthesized"
+  },
+  {
+    "seq": 336,
+    "speaker": "ALEX",
+    "text": "27. HTML in Markdown: GitHub allows a subset of HTML in Markdown files. The next useful detail is concrete: This is useful for semantic elements that do not have Markdown equivalents, advanced layout needs, and accessibility improvements.",
+    "filename": "seg336-alex.wav",
+    "duration": 15.81,
+    "status": "synthesized"
+  },
+  {
+    "seq": 337,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Keyboard key visualization. What should a learner take away from it?",
+    "filename": "seg337-jamie.wav",
+    "duration": 4.674,
+    "status": "synthesized"
+  },
+  {
+    "seq": 338,
+    "speaker": "ALEX",
+    "text": "Here is the learner-facing version. The element renders text in a key-cap style box. Put another way, press NVDA + Space to toggle Focus Mode.",
+    "filename": "seg338-alex.wav",
+    "duration": 8.833,
+    "status": "synthesized"
+  },
+  {
+    "seq": 339,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Press Ctrl + C to copy.; Press NVDA + Space to toggle Focus Mode. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg339-alex.wav",
+    "duration": 14.72,
+    "status": "synthesized"
+  },
+  {
+    "seq": 340,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg340-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 341,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Hidden comments. What should a learner take away from it?",
+    "filename": "seg341-jamie.wav",
+    "duration": 4.034,
+    "status": "synthesized"
+  },
+  {
+    "seq": 342,
+    "speaker": "ALEX",
+    "text": "This is the move inside Hidden comments: hidden comments are useful for notes to yourself or other contributors that should not be visible to readers.",
+    "filename": "seg342-alex.wav",
+    "duration": 8.257,
+    "status": "synthesized"
+  },
+  {
+    "seq": 343,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Anchor this part on Allowed HTML elements on GitHub. GitHub whitelists specific HTML elements for security. This is the part to say slowly: The following table lists the most useful allowed elements. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes.",
+    "filename": "seg343-alex.wav",
+    "duration": 19.202,
+    "status": "synthesized"
+  },
+  {
+    "seq": 344,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Disallowed HTML on GitHub. What should a learner take away from it?",
+    "filename": "seg344-jamie.wav",
+    "duration": 5.229,
+    "status": "synthesized"
+  },
+  {
+    "seq": 345,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: GitHub strips these elements for security.",
+    "filename": "seg345-alex.wav",
+    "duration": 4.759,
+    "status": "synthesized"
+  },
+  {
+    "seq": 346,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. No JavaScript execution. No arbitrary CSS. No embedded content. No form elements (except task list checkboxes). No input fields. Event attributes like onclick, onload.",
+    "filename": "seg346-alex.wav",
+    "duration": 12.437,
+    "status": "synthesized"
+  },
+  {
+    "seq": 347,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg347-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 348,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Do not treat 28. Screen Reader Behavior Summary as decoration. This table consolidates how every Markdown element behaves with screen readers. That is not trivia. Use it as a quick reference when choosing how to format your content.",
+    "filename": "seg348-alex.wav",
+    "duration": 15.234,
+    "status": "synthesized"
+  },
+  {
+    "seq": 349,
+    "speaker": "JAMIE",
+    "text": "Let's pause on 29. Accessible Markdown Authoring Checklist. What should a learner take away from it?",
+    "filename": "seg349-jamie.wav",
+    "duration": 5.975,
+    "status": "synthesized"
+  },
+  {
+    "seq": 350,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, 29. Accessible Markdown Authoring Checklist is still useful because use this checklist every time you write a Markdown file, issue, or PR description. For someone navigating by keyboard or screen reader, this detail matters: It covers the accessibility requirements that make your content work for everyone.",
+    "filename": "seg350-alex.wav",
+    "duration": 18.284,
+    "status": "synthesized"
+  },
+  {
+    "seq": 351,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Structure has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg351-alex.wav",
+    "duration": 7.191,
+    "status": "synthesized"
+  },
+  {
+    "seq": 352,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. [ ] One H1 heading per document, used as the title. [ ] Heading levels never skip (no jumping from H2 to H4). [ ] Headings are descriptive (not \"Section 1\" or \"Untitled\"). [ ] Long documents have a table of contents with anchor links.",
+    "filename": "seg352-alex.wav",
+    "duration": 13.952,
+    "status": "synthesized"
+  },
+  {
+    "seq": 353,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg353-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 354,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Text and emphasis. What should a learner take away from it?",
+    "filename": "seg354-jamie.wav",
+    "duration": 4.162,
+    "status": "synthesized"
+  },
+  {
+    "seq": 355,
+    "speaker": "ALEX",
+    "text": "Text and emphasis has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg355-alex.wav",
+    "duration": 6.039,
+    "status": "synthesized"
+  },
+  {
+    "seq": 356,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. [ ] Bold marks genuinely important content, not just visual styling. [ ] Bold text is not used as a substitute for headings. [ ] Strikethrough text has surrounding context explaining the change.",
+    "filename": "seg356-alex.wav",
+    "duration": 12.46,
+    "status": "synthesized"
+  },
+  {
+    "seq": 357,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Links has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg357-alex.wav",
+    "duration": 7.063,
+    "status": "synthesized"
+  },
+  {
+    "seq": 358,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. [ ] Every link has descriptive text (never \"click here,\" \"here,\" \"read more,\" or \"link\"). [ ] No bare URLs in prose (always use descriptive text). [ ] Multiple links on the same page have unique text if they point to different destinations. [ ] Relative links used for files within the same repository.",
+    "filename": "seg358-alex.wav",
+    "duration": 17.111,
+    "status": "synthesized"
+  },
+  {
+    "seq": 359,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Images. What should a learner take away from it?",
+    "filename": "seg359-jamie.wav",
+    "duration": 3.607,
+    "status": "synthesized"
+  },
+  {
+    "seq": 360,
+    "speaker": "ALEX",
+    "text": "Images has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg360-alex.wav",
+    "duration": 5.548,
+    "status": "synthesized"
+  },
+  {
+    "seq": 361,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. [ ] Every informative image has descriptive alt text. [ ] Alt text is not a filename (screenshot.png) or generic (image, photo). [ ] Complex images (charts, diagrams) have a detailed text description in a block. [ ] Decorative images have empty alt text.",
+    "filename": "seg361-alex.wav",
+    "duration": 15.957,
+    "status": "synthesized"
+  },
+  {
+    "seq": 362,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg362-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 363,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Lists and tables has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg363-alex.wav",
+    "duration": 7.575,
+    "status": "synthesized"
+  },
+  {
+    "seq": 364,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. [ ] Lists use the correct type: ordered for sequential steps, unordered for non-sequential items. [ ] Tables have a text description immediately before them. [ ] Tables have descriptive header cells. [ ] Tables have fewer than 7 columns (split wide tables). [ ] Tables are used for data, not layout.",
+    "filename": "seg364-alex.wav",
+    "duration": 17.175,
+    "status": "synthesized"
+  },
+  {
+    "seq": 365,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Code. What should a learner take away from it?",
+    "filename": "seg365-jamie.wav",
+    "duration": 3.415,
+    "status": "synthesized"
+  },
+  {
+    "seq": 366,
+    "speaker": "ALEX",
+    "text": "Code has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg366-alex.wav",
+    "duration": 5.335,
+    "status": "synthesized"
+  },
+  {
+    "seq": 367,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. [ ] Fenced code blocks have a language identifier. [ ] Inline code used for commands, file names, and values. [ ] Code examples are complete enough to understand without the visual highlighting.",
+    "filename": "seg367-alex.wav",
+    "duration": 11.991,
+    "status": "synthesized"
+  },
+  {
+    "seq": 368,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. GFM features has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg368-alex.wav",
+    "duration": 7.788,
+    "status": "synthesized"
+  },
+  {
+    "seq": 369,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. [ ] Mermaid diagrams have a text equivalent. [ ] Alert block type matches the urgency of the content. [ ] summary text clearly describes what is inside. [ ] Task list items have descriptive labels. [ ] Complex math expressions have plain English descriptions.",
+    "filename": "seg369-alex.wav",
+    "duration": 15.275,
+    "status": "synthesized"
+  },
+  {
+    "seq": 370,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg370-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 371,
+    "speaker": "JAMIE",
+    "text": "Let's pause on General. What should a learner take away from it?",
+    "filename": "seg371-jamie.wav",
+    "duration": 3.522,
+    "status": "synthesized"
+  },
+  {
+    "seq": 372,
+    "speaker": "ALEX",
+    "text": "General has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg372-alex.wav",
+    "duration": 5.484,
+    "status": "synthesized"
+  },
+  {
+    "seq": 373,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. [ ] Color is never the only way information is conveyed. [ ] No information is communicated only through visual position or layout. [ ] Content makes sense when read linearly, top to bottom.",
+    "filename": "seg373-alex.wav",
+    "duration": 12.695,
+    "status": "synthesized"
+  },
+  {
+    "seq": 374,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Do not treat 30. Common Mistakes and How to Fix Them as decoration. This section covers the errors we see most often in workshop participants' Markdown. That is not trivia. Each one includes what goes wrong, why it matters, and how to fix it. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg374-alex.wav",
+    "duration": 19.991,
+    "status": "synthesized"
+  },
+  {
+    "seq": 375,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Mistake 1 - Forgetting the blank line between paragraphs. What should a learner take away from it?",
+    "filename": "seg375-jamie.wav",
+    "duration": 6.167,
+    "status": "synthesized"
+  },
+  {
+    "seq": 376,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Mistake 1 - Forgetting the blank line between paragraphs is still useful because what it produces: One merged paragraph. For someone navigating by keyboard or screen reader, this detail matters: Fix: Add a blank line between paragraphs.",
+    "filename": "seg376-alex.wav",
+    "duration": 14.08,
+    "status": "synthesized"
+  },
+  {
+    "seq": 377,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg377-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 378,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Put Mistake 2 - Skipping heading levels into plain language. Why it matters: Screen reader users navigating by heading level will miss entire sections. The useful version is: Jumping from H1 to H4 means H2 and H3 navigation finds nothing.",
+    "filename": "seg378-alex.wav",
+    "duration": 16.322,
+    "status": "synthesized"
+  },
+  {
+    "seq": 379,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Mistake 3 - Generic link text. What should a learner take away from it?",
+    "filename": "seg379-jamie.wav",
+    "duration": 5.015,
+    "status": "synthesized"
+  },
+  {
+    "seq": 380,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. Why it matters: A screen reader user scanning the links list hears \"here\" - with no context about where the link goes. That is the difference between guessing and knowing: Fix: For more information, read the GitHub Documentation.",
+    "filename": "seg380-alex.wav",
+    "duration": 14.743,
+    "status": "synthesized"
+  },
+  {
+    "seq": 381,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. This part earns its place because why it matters: Screen reader users have no idea what the image shows. That gives the learner a foothold: some screen readers announce the filename, which is not helpful. That is the difference between following directions and owning the workflow.",
+    "filename": "seg381-alex.wav",
+    "duration": 15.765,
+    "status": "synthesized"
+  },
+  {
+    "seq": 382,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg382-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 383,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Mistake 5 - Using bold instead of headings. What should a learner take away from it?",
+    "filename": "seg383-jamie.wav",
+    "duration": 5.677,
+    "status": "synthesized"
+  },
+  {
+    "seq": 384,
+    "speaker": "ALEX",
+    "text": "Mistake 5 - Using bold instead of headings: Why it matters: Visually, this looks like a heading. The next useful detail is concrete: But screen reader users navigating with H will never find it.",
+    "filename": "seg384-alex.wav",
+    "duration": 11.287,
+    "status": "synthesized"
+  },
+  {
+    "seq": 385,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Here is the learner-facing version. Why it matters: A screen reader user enters the table without knowing what data it contains. Put another way, they hear \"table, 2 columns, 3 rows\" but not what the table is about.",
+    "filename": "seg385-alex.wav",
+    "duration": 13.655,
+    "status": "synthesized"
+  },
+  {
+    "seq": 386,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Mistake 7 - Code block without a language identifier. What should a learner take away from it?",
+    "filename": "seg386-jamie.wav",
+    "duration": 6.295,
+    "status": "synthesized"
+  },
+  {
+    "seq": 387,
+    "speaker": "ALEX",
+    "text": "This is the move inside Mistake 7 - Code block without a language identifier: why it matters: Without the language identifier, sighted users lose the visual benefit of syntax highlighting, and tools that process Markdown lose metadata about the content. That matters in practice: Fix: Always add the language: `python.",
+    "filename": "seg387-alex.wav",
+    "duration": 17.451,
+    "status": "synthesized"
+  },
+  {
+    "seq": 388,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg388-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 389,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Anchor this part on Mistake 8 - Inconsistent list markers. Why it matters: While most processors render this as one list, some treat different markers as separate lists, creating unexpected spacing and structure. This is the part to say slowly: Fix: Pick one marker and use it consistently. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes.",
+    "filename": "seg389-alex.wav",
+    "duration": 23.298,
+    "status": "synthesized"
+  },
+  {
+    "seq": 390,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Mistake 9 - Mermaid diagram without a text equivalent. What should a learner take away from it?",
+    "filename": "seg390-jamie.wav",
+    "duration": 6.21,
+    "status": "synthesized"
+  },
+  {
+    "seq": 391,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: why it matters: Screen reader users cannot access the visual diagram. The listener should be able to check this: They hear nothing or a generic SVG container message.",
+    "filename": "seg391-alex.wav",
+    "duration": 11.564,
+    "status": "synthesized"
+  },
+  {
+    "seq": 392,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Do not treat Mistake 10 - Alert block with wrong type as decoration. Why it matters: CAUTION (red) implies irreversible harm. That is not trivia. A suggestion to try a different approach is, at most, a TIP (green) or a NOTE (blue).",
+    "filename": "seg392-alex.wav",
+    "duration": 13.867,
+    "status": "synthesized"
+  },
+  {
+    "seq": 393,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg393-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 394,
+    "speaker": "JAMIE",
+    "text": "What makes this practice feel low-stakes but still real?",
+    "filename": "seg394-jamie.wav",
+    "duration": 3.437,
+    "status": "synthesized"
+  },
+  {
+    "seq": 395,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, 31. Your First Real Markdown Document - Guided Exercise is still useful because in this exercise, you will create a Markdown document that uses most of the elements covered in this guide. For someone navigating by keyboard or screen reader, this detail matters: This is structured as a hands-on exercise that you can do during the workshop.",
+    "filename": "seg395-alex.wav",
+    "duration": 21.165,
+    "status": "synthesized"
+  },
+  {
+    "seq": 396,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Setup. What should a learner take away from it?",
+    "filename": "seg396-jamie.wav",
+    "duration": 3.501,
+    "status": "synthesized"
+  },
+  {
+    "seq": 397,
+    "speaker": "ALEX",
+    "text": "Setup has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg397-alex.wav",
+    "duration": 5.441,
+    "status": "synthesized"
+  },
+  {
+    "seq": 398,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Open any repository where you have write access; Click New Issue (or create a new.md file in VS Code); and You will write a mini profile document about yourself. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg398-alex.wav",
+    "duration": 14.551,
+    "status": "synthesized"
+  },
+  {
+    "seq": 399,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Step 1 - Add a heading and introduction. What should a learner take away from it?",
+    "filename": "seg399-jamie.wav",
+    "duration": 5.335,
+    "status": "synthesized"
+  },
+  {
+    "seq": 400,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. Type the following, replacing the placeholder text with your own information. That is the difference between guessing and knowing: Use the Preview tab (or Ctrl+Shift+V in VS Code) to verify the heading renders as a large title.",
+    "filename": "seg400-alex.wav",
+    "duration": 16.172,
+    "status": "synthesized"
+  },
+  {
+    "seq": 401,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like About Me; Hi! My name is [your name] and I am participating in the; GIT Going with GitHub workshop. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg401-alex.wav",
+    "duration": 15.125,
+    "status": "synthesized"
+  },
+  {
+    "seq": 402,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg402-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 403,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. This part earns its place because verify the numbered list renders correctly.",
+    "filename": "seg403-alex.wav",
+    "duration": 6.231,
+    "status": "synthesized"
+  },
+  {
+    "seq": 404,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Step 3 - Add emphasis and inline code. What should a learner take away from it?",
+    "filename": "seg404-jamie.wav",
+    "duration": 5.463,
+    "status": "synthesized"
+  },
+  {
+    "seq": 405,
+    "speaker": "ALEX",
+    "text": "Step 3 - Add emphasis and inline code: Check that bold, italic, and inline code all render as expected.",
+    "filename": "seg405-alex.wav",
+    "duration": 6.636,
+    "status": "synthesized"
+  },
+  {
+    "seq": 406,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like My Setup; I use NVDA on Windows with Firefox. My terminal is; PowerShell and I am learning git commands. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg406-alex.wav",
+    "duration": 16.471,
+    "status": "synthesized"
+  },
+  {
+    "seq": 407,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Step 5 - Add a table. What should a learner take away from it?",
+    "filename": "seg407-jamie.wav",
+    "duration": 4.375,
+    "status": "synthesized"
+  },
+  {
+    "seq": 408,
+    "speaker": "ALEX",
+    "text": "Step 5 - Add a table has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg408-alex.wav",
+    "duration": 6.529,
+    "status": "synthesized"
+  },
+  {
+    "seq": 409,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Tools I Use; The following table lists the tools I use daily.; Tool Purpose Platform; --- --- ---; NVDA Screen reader Windows; Firefox Web browser Windows; VS Code Code editor Windows. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg409-alex.wav",
+    "duration": 20.885,
+    "status": "synthesized"
+  },
+  {
+    "seq": 410,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg410-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 411,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Step 7 - Add a collapsible section. What should a learner take away from it?",
+    "filename": "seg411-jamie.wav",
+    "duration": 5.378,
+    "status": "synthesized"
+  },
+  {
+    "seq": 412,
+    "speaker": "ALEX",
+    "text": "Step 7 - Add a collapsible section has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg412-alex.wav",
+    "duration": 7.041,
+    "status": "synthesized"
+  },
+  {
+    "seq": 413,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Additional Notes;; My accessibility testing experience; I have been using a screen reader for three years. I have tested; web applications with NVDA and I am learning how to contribute; accessibility bug reports to open source projects. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg413-alex.wav",
+    "duration": 23.447,
+    "status": "synthesized"
+  },
+  {
+    "seq": 414,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Anchor this part on You are done when. You just wrote a Markdown document that uses headings, paragraphs, emphasis, inline code, links, blockquotes, tables, task lists, and collapsible sections. This is the part to say slowly: Every one of these skills transfers directly to issues, pull requests, and documentation in this workshop.",
+    "filename": "seg414-alex.wav",
+    "duration": 19.799,
+    "status": "synthesized"
+  },
+  {
+    "seq": 415,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Your document renders with a clear heading hierarchy (H1, H2). Bold and italic text render correctly. The numbered list shows sequential numbers. The link is clickable.",
+    "filename": "seg415-alex.wav",
+    "duration": 11.458,
+    "status": "synthesized"
+  },
+  {
+    "seq": 416,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Learning Cards: Quick-Reference Card. What should a learner take away from it?",
+    "filename": "seg416-jamie.wav",
+    "duration": 4.951,
+    "status": "synthesized"
+  },
+  {
+    "seq": 417,
+    "speaker": "ALEX",
+    "text": "Learning Cards: Quick-Reference Card has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg417-alex.wav",
+    "duration": 7.02,
+    "status": "synthesized"
+  },
+  {
+    "seq": 418,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. This card shows raw Markdown syntax in code blocks -- read each block to hear the exact characters to type. Keep this section bookmarked as a daily reference when writing issues, PRs, and comments. Each code block is labeled by format type (headings, lists, links, etc.) in the heading above it. The card uses large monospace code blocks -- increase zoom and each syntax example stays on one or two lines. Print this section or save it as a separate file for quick side-by-side reference while writing. Syntax characters (,, -, []) are visually distinct in the code font.",
+    "filename": "seg418-alex.wav",
+    "duration": 32.171,
+    "status": "synthesized"
+  },
+  {
+    "seq": 419,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg419-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 420,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Do not treat 32. Quick-Reference Card as decoration. It shows the raw Markdown for every element covered in this guide. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg420-alex.wav",
+    "duration": 14.167,
+    "status": "synthesized"
+  },
+  {
+    "seq": 421,
+    "speaker": "JAMIE",
+    "text": "Let's pause on HTML in Markdown. What should a learner take away from it?",
+    "filename": "seg421-jamie.wav",
+    "duration": 4.653,
+    "status": "synthesized"
+  },
+  {
+    "seq": 422,
+    "speaker": "ALEX",
+    "text": "HTML in Markdown has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg422-alex.wav",
+    "duration": 6.551,
+    "status": "synthesized"
+  },
+  {
+    "seq": 423,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Press Ctrl + C to copy.; H 2 O; x 2; Line one Line two. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg423-alex.wav",
+    "duration": 14.444,
+    "status": "synthesized"
+  },
+  {
+    "seq": 424,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Put Mermaid diagram (with accessible text) into plain language. Next: Appendix D: Git Authentication Back: Appendix B: Screen Reader Cheat Sheet Teaching chapter: Chapter 06: Working with Pull Requests.",
+    "filename": "seg424-alex.wav",
+    "duration": 13.333,
+    "status": "synthesized"
+  },
+  {
+    "seq": 425,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg425-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 426,
+    "speaker": "JAMIE",
+    "text": "What should people carry with them after this?",
+    "filename": "seg426-jamie.wav",
+    "duration": 2.647,
+    "status": "synthesized"
+  },
+  {
+    "seq": 427,
+    "speaker": "ALEX",
+    "text": "Carry the map. Know what page or tool you are in, know which action you are taking, and know what confirmation should follow. If the confirmation is missing, pause. That pause is not wasted time; it is professional judgment.",
+    "filename": "seg427-alex.wav",
+    "duration": 11.799,
+    "status": "synthesized"
+  },
+  {
+    "seq": 428,
+    "speaker": "JAMIE",
+    "text": "That is a better way to say it than just follow the steps.",
+    "filename": "seg428-jamie.wav",
+    "duration": 3.394,
+    "status": "synthesized"
+  },
+  {
+    "seq": 429,
+    "speaker": "ALEX",
+    "text": "Right. Steps matter, but understanding wins. That is episode 22. Next in the series is episode 23, where we keep building the same contributor muscles.",
+    "filename": "seg429-alex.wav",
+    "duration": 9.167,
+    "status": "synthesized"
+  }
+]

@@ -1,0 +1,1458 @@
+[
+  {
+    "seq": 1,
+    "speaker": "ALEX",
+    "text": "Welcome to episode 23 of Git Going with GitHub: GitHub Gists. I am Alex, and today we are teaching this topic as a conversation you can carry into the workshop, not as a page you have to memorize.",
+    "filename": "seg001-alex.wav",
+    "duration": 11.97,
+    "status": "synthesized"
+  },
+  {
+    "seq": 2,
+    "speaker": "JAMIE",
+    "text": "And I am Jamie. I will keep pulling the lesson back to real learners, real repositories, and the evidence that proves the work happened.",
+    "filename": "seg002-jamie.wav",
+    "duration": 7.232,
+    "status": "synthesized"
+  },
+  {
+    "seq": 3,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg003-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 4,
+    "speaker": "ALEX",
+    "text": "The lesson focus is Lightweight code sharing: creating, editing, forking, and embedding Gists. We will treat every step as a teachable decision, because that is what makes the skill portable.",
+    "filename": "seg004-alex.wav",
+    "duration": 10.605,
+    "status": "synthesized"
+  },
+  {
+    "seq": 5,
+    "speaker": "JAMIE",
+    "text": "So we should explain the why clearly enough that the steps make sense when the learner meets them later.",
+    "filename": "seg005-jamie.wav",
+    "duration": 5.165,
+    "status": "synthesized"
+  },
+  {
+    "seq": 6,
+    "speaker": "ALEX",
+    "text": "That is it. If a listener only has audio right now, they should still get the complete concept and know what evidence would prove success.",
+    "filename": "seg006-alex.wav",
+    "duration": 7.403,
+    "status": "synthesized"
+  },
+  {
+    "seq": 7,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg007-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 8,
+    "speaker": "JAMIE",
+    "text": "Okay, set the room for us. What are we walking into?",
+    "filename": "seg008-jamie.wav",
+    "duration": 3.245,
+    "status": "synthesized"
+  },
+  {
+    "seq": 9,
+    "speaker": "ALEX",
+    "text": "Forum-Style Conversations Beyond Issues and Pull Requests: GitHub Discussions is a built-in community forum for repositories and organizations. The next useful detail is concrete: It's where open-ended conversations live - questions, ideas, announcements, polls, and community Q&A - separate from the action-oriented world of issues and pull requests.",
+    "filename": "seg009-alex.wav",
+    "duration": 19.564,
+    "status": "synthesized"
+  },
+  {
+    "seq": 10,
+    "speaker": "ALEX",
+    "text": "A solid issue habit is to read the title, the body, and the timeline before acting. You are listening for the requested action, the missing evidence, and the person who needs a response.",
+    "filename": "seg010-alex.wav",
+    "duration": 10.327,
+    "status": "synthesized"
+  },
+  {
+    "seq": 11,
+    "speaker": "JAMIE",
+    "text": "How would you walk the room through that step by step?",
+    "filename": "seg011-jamie.wav",
+    "duration": 3.01,
+    "status": "synthesized"
+  },
+  {
+    "seq": 12,
+    "speaker": "ALEX",
+    "text": "Here is the learner-facing version. For ongoing support after the workshop, use. Put another way, suggested first steps for students. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.",
+    "filename": "seg012-alex.wav",
+    "duration": 13.548,
+    "status": "synthesized"
+  },
+  {
+    "seq": 13,
+    "speaker": "ALEX",
+    "text": "Here are the anchors worth keeping. Support hub home: Community-Access/support. Q&A and community discussion: Support Hub Discussions. Trackable support requests: Support Hub Issues.",
+    "filename": "seg013-alex.wav",
+    "duration": 11.031,
+    "status": "synthesized"
+  },
+  {
+    "seq": 14,
+    "speaker": "ALEX",
+    "text": "Start here: Read the pinned Start Here resources in Discussions. Then: Search existing discussions before opening a new support thread. Next: Use issue templates for setup blockers or accessibility blockers so maintainers can help faster. The point is not speed; the point is never losing your place.",
+    "filename": "seg014-alex.wav",
+    "duration": 16.663,
+    "status": "synthesized"
+  },
+  {
+    "seq": 15,
+    "speaker": "JAMIE",
+    "text": "What is the one idea that makes the next few steps less mysterious?",
+    "filename": "seg015-jamie.wav",
+    "duration": 4.077,
+    "status": "synthesized"
+  },
+  {
+    "seq": 16,
+    "speaker": "ALEX",
+    "text": "Learning Cards: GitHub Discussions has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg016-alex.wav",
+    "duration": 7.191,
+    "status": "synthesized"
+  },
+  {
+    "seq": 17,
+    "speaker": "ALEX",
+    "text": "That shows up in the workshop in a few specific ways. The Discussions tab is in the repository's main navigation bar alongside Code, Issues, and Pull Requests -- press T to navigate tab items or K to find the \"Discussions\" link. Inside a discussion, replies are article elements -- in NVDA press A to jump between replies; in JAWS use A as well. The reply editor uses the same behavior as issue comments -- enter Focus Mode to type, then press Ctrl+Enter to submit. Discussion categories appear as a sidebar panel on the left or right depending on viewport width -- look for the category list with item counts. Answered discussions in the Q&A category display a green \"Answered\" badge next to the title, with the accepted answer pinned to the top. Polls show percentage bars next to each option after you vote -- the bars use color fill to indicate proportion.",
+    "filename": "seg017-alex.wav",
+    "duration": 48.407,
+    "status": "synthesized"
+  },
+  {
+    "seq": 18,
+    "speaker": "JAMIE",
+    "text": "That feels much more doable when you say it as one move.",
+    "filename": "seg018-jamie.wav",
+    "duration": 3.458,
+    "status": "synthesized"
+  },
+  {
+    "seq": 19,
+    "speaker": "ALEX",
+    "text": "Right. The magic is not speed. The magic is knowing what changed and why it matters.",
+    "filename": "seg019-alex.wav",
+    "duration": 4.629,
+    "status": "synthesized"
+  },
+  {
+    "seq": 20,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg020-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 21,
+    "speaker": "JAMIE",
+    "text": "What is the judgment call here?",
+    "filename": "seg021-jamie.wav",
+    "duration": 2.434,
+    "status": "synthesized"
+  },
+  {
+    "seq": 22,
+    "speaker": "ALEX",
+    "text": "Anchor this part on 1. Discussions vs. Issues: When to Use Which. Not every conversation belongs in an issue. This is the part to say slowly: GitHub Discussions exists for the conversations that don't fit.",
+    "filename": "seg022-alex.wav",
+    "duration": 12.545,
+    "status": "synthesized"
+  },
+  {
+    "seq": 23,
+    "speaker": "ALEX",
+    "text": "Use the comparison to make a decision, not to recite a table. The main contrasts are: Use Issues When means Use Discussions When. You found a bug means You have a question about how something works. You want to request a specific feature means You want to brainstorm ideas before filing a feature request.",
+    "filename": "seg023-alex.wav",
+    "duration": 16.749,
+    "status": "synthesized"
+  },
+  {
+    "seq": 24,
+    "speaker": "JAMIE",
+    "text": "What would you say to someone who is already bracing for this to be too much?",
+    "filename": "seg024-jamie.wav",
+    "duration": 4.055,
+    "status": "synthesized"
+  },
+  {
+    "seq": 25,
+    "speaker": "ALEX",
+    "text": "Common Discussions categories you'll encounter has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg025-alex.wav",
+    "duration": 7.447,
+    "status": "synthesized"
+  },
+  {
+    "seq": 26,
+    "speaker": "ALEX",
+    "text": "The parts worth keeping in working memory are these. Q&A - Support questions and answers (one answer can be marked correct). Ideas - Feature brainstorming before a formal feature request. Announcements - Maintainer posts about releases, breaking changes, roadmaps. General - Everything else. Show and Tell - Community members showing what they built.",
+    "filename": "seg026-alex.wav",
+    "duration": 17.964,
+    "status": "synthesized"
+  },
+  {
+    "seq": 27,
+    "speaker": "ALEX",
+    "text": "The useful habit is simple: orient, act, verify, then continue. That pause between action and trust is part of the work.",
+    "filename": "seg027-alex.wav",
+    "duration": 7.405,
+    "status": "synthesized"
+  },
+  {
+    "seq": 28,
+    "speaker": "JAMIE",
+    "text": "Give me the sequence, because order matters here.",
+    "filename": "seg028-jamie.wav",
+    "duration": 3.095,
+    "status": "synthesized"
+  },
+  {
+    "seq": 29,
+    "speaker": "ALEX",
+    "text": "Do not treat From a Repository as decoration. If the tab is missing: Discussions is an opt-in feature. That is not trivia. The repository maintainer must enable it in Settings. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg029-alex.wav",
+    "duration": 15.724,
+    "status": "synthesized"
+  },
+  {
+    "seq": 30,
+    "speaker": "ALEX",
+    "text": "First, navigate to the repository. Then, there is a Discussions tab in the main navigation (alongside Code, Issues, Pull Requests, Actions, Projects). After that, press T to navigate tab items, or K to navigate links and find \"Discussions\". Finally, press Enter to open. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg030-alex.wav",
+    "duration": 18.645,
+    "status": "synthesized"
+  },
+  {
+    "seq": 31,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg031-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 32,
+    "speaker": "JAMIE",
+    "text": "What does the learner do first, second, and then after that?",
+    "filename": "seg032-jamie.wav",
+    "duration": 3.33,
+    "status": "synthesized"
+  },
+  {
+    "seq": 33,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, From an Organization is still useful because large organizations can have organization-level Discussions separate from any individual repository.",
+    "filename": "seg033-alex.wav",
+    "duration": 10.113,
+    "status": "synthesized"
+  },
+  {
+    "seq": 34,
+    "speaker": "ALEX",
+    "text": "Start here: Navigate to the organization page. Then: Look for the Discussions tab at the organization level. Next: These are community-wide conversations, not repo-specific. The sequence works because every action has a confirmation.",
+    "filename": "seg034-alex.wav",
+    "duration": 13.655,
+    "status": "synthesized"
+  },
+  {
+    "seq": 35,
+    "speaker": "ALEX",
+    "text": "This is where the talk moves from concept to action. Put 3. Discussion Categories into plain language. The Discussions home page is organized by category. The useful version is: Each category is a section with its own heading.",
+    "filename": "seg035-alex.wav",
+    "duration": 13.186,
+    "status": "synthesized"
+  },
+  {
+    "seq": 36,
+    "speaker": "JAMIE",
+    "text": "Now it sounds like a workflow instead of a wall of instructions.",
+    "filename": "seg036-jamie.wav",
+    "duration": 3.863,
+    "status": "synthesized"
+  },
+  {
+    "seq": 37,
+    "speaker": "ALEX",
+    "text": "That is where confidence comes from: not from never getting lost, but from knowing how to recover.",
+    "filename": "seg037-alex.wav",
+    "duration": 5.485,
+    "status": "synthesized"
+  },
+  {
+    "seq": 38,
+    "speaker": "JAMIE",
+    "text": "Where do you want a learner to place their attention here?",
+    "filename": "seg038-jamie.wav",
+    "duration": 3.159,
+    "status": "synthesized"
+  },
+  {
+    "seq": 39,
+    "speaker": "ALEX",
+    "text": "The side panel (left or right depending on view width) shows has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg039-alex.wav",
+    "duration": 8.023,
+    "status": "synthesized"
+  },
+  {
+    "seq": 40,
+    "speaker": "ALEX",
+    "text": "These are the details that keep the idea from floating away. All categories with item counts. Pin/announcements section at top. Most active discussions. Tags (if the repo uses them).",
+    "filename": "seg040-alex.wav",
+    "duration": 10.475,
+    "status": "synthesized"
+  },
+  {
+    "seq": 41,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg041-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 42,
+    "speaker": "JAMIE",
+    "text": "What is the ordered workflow?",
+    "filename": "seg042-jamie.wav",
+    "duration": 2.199,
+    "status": "synthesized"
+  },
+  {
+    "seq": 43,
+    "speaker": "ALEX",
+    "text": "4. Creating a Discussion has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg043-alex.wav",
+    "duration": 6.508,
+    "status": "synthesized"
+  },
+  {
+    "seq": 44,
+    "speaker": "ALEX",
+    "text": "That becomes easier when you listen for these cues. Title - Clear and searchable. \"How do I use the daily-briefing agent?\" not \"Help\". Body - Use Markdown. Same editor as issues. For Q&A category: phrase the title as a question.",
+    "filename": "seg044-alex.wav",
+    "duration": 12.545,
+    "status": "synthesized"
+  },
+  {
+    "seq": 45,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is from the Discussions tab, activate \"New discussion\" button. Step two is select a category (required - affects which fields appear). Step three is fill in. Step four is activate \"Start discussion\". The point is not speed; the point is never losing your place.",
+    "filename": "seg045-alex.wav",
+    "duration": 16.813,
+    "status": "synthesized"
+  },
+  {
+    "seq": 46,
+    "speaker": "JAMIE",
+    "text": "Give me the version that sounds like an instructor, not a manual.",
+    "filename": "seg046-jamie.wav",
+    "duration": 3.842,
+    "status": "synthesized"
+  },
+  {
+    "seq": 47,
+    "speaker": "ALEX",
+    "text": "Screen reader path: Before posting a question: Search existing discussions first. The next useful detail is concrete: Use the search bar at the top of the Discussions page or GitHub's global search with repo:owner/name in:discussions.",
+    "filename": "seg047-alex.wav",
+    "duration": 13.932,
+    "status": "synthesized"
+  },
+  {
+    "seq": 48,
+    "speaker": "ALEX",
+    "text": "A solid navigation habit is to prove where you are before activating controls. Headings, landmarks, and the address bar are not trivia; they are your map.",
+    "filename": "seg048-alex.wav",
+    "duration": 8.983,
+    "status": "synthesized"
+  },
+  {
+    "seq": 49,
+    "speaker": "ALEX",
+    "text": "Now slow down for the part people usually miss. Learning Cards: Creating a Discussion has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg049-alex.wav",
+    "duration": 9.921,
+    "status": "synthesized"
+  },
+  {
+    "seq": 50,
+    "speaker": "ALEX",
+    "text": "Here is the part that makes the next action easier. Tab to the \"New discussion\" button from the Discussions tab, then press Enter -- the form loads with a category selector first; arrow through categories and press Enter to select. The title field comes after the category selector -- type a clear, searchable title; for Q&A category, phrase it as a question so it reads naturally in search results. The body editor is the same as the issue comment editor -- enter Focus Mode to type, use Markdown formatting, and press Ctrl+Enter to submit the discussion. The category selector appears as a list or grid of labeled options -- each category has a name and description; zoom in to read the descriptions and pick the right one. The title and body fields stack vertically in a single-column layout -- the form is the same width as the main content area, making it easy to scan at high zoom. After creating a discussion, a green success banner appears at the top -- scroll up if you do not see confirmation at your current zoom position.",
+    "filename": "seg050-alex.wav",
+    "duration": 54.421,
+    "status": "synthesized"
+  },
+  {
+    "seq": 51,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg051-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 52,
+    "speaker": "JAMIE",
+    "text": "If I am listening before the workshop starts, what should settle in my mind first?",
+    "filename": "seg052-jamie.wav",
+    "duration": 4.631,
+    "status": "synthesized"
+  },
+  {
+    "seq": 53,
+    "speaker": "ALEX",
+    "text": "This is the move inside Reading a Discussion: a discussion page is structured similarly to an issue.",
+    "filename": "seg053-alex.wav",
+    "duration": 5.953,
+    "status": "synthesized"
+  },
+  {
+    "seq": 54,
+    "speaker": "ALEX",
+    "text": "These are the pieces that turn the idea into a usable move. The original post at the top. Replies in chronological order. An \"Answered\" reply pinned to the top (Q&A category only). A reply editor at the bottom.",
+    "filename": "seg054-alex.wav",
+    "duration": 12.674,
+    "status": "synthesized"
+  },
+  {
+    "seq": 55,
+    "speaker": "JAMIE",
+    "text": "That is the kind of detail that keeps a screen reader user oriented.",
+    "filename": "seg055-jamie.wav",
+    "duration": 3.906,
+    "status": "synthesized"
+  },
+  {
+    "seq": 56,
+    "speaker": "ALEX",
+    "text": "Yes. The named thing - the heading, tab, field, branch, or button - is the handhold.",
+    "filename": "seg056-alex.wav",
+    "duration": 4.418,
+    "status": "synthesized"
+  },
+  {
+    "seq": 57,
+    "speaker": "JAMIE",
+    "text": "Turn that into a path someone can follow.",
+    "filename": "seg057-jamie.wav",
+    "duration": 2.733,
+    "status": "synthesized"
+  },
+  {
+    "seq": 58,
+    "speaker": "ALEX",
+    "text": "Replying to a Discussion has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg058-alex.wav",
+    "duration": 6.401,
+    "status": "synthesized"
+  },
+  {
+    "seq": 59,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Navigate to the bottom of the page (or use the \"Reply\" button on a specific comment); The reply text area behaves identically to issue comments; Focus Mode \u2192 type your reply; and Ctrl+Enter to submit. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg059-alex.wav",
+    "duration": 17.175,
+    "status": "synthesized"
+  },
+  {
+    "seq": 60,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Replying to a Specific Comment (Nested Reply). What should a learner take away from it?",
+    "filename": "seg060-jamie.wav",
+    "duration": 5.634,
+    "status": "synthesized"
+  },
+  {
+    "seq": 61,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: each comment has a Reply button below it.",
+    "filename": "seg061-alex.wav",
+    "duration": 4.267,
+    "status": "synthesized"
+  },
+  {
+    "seq": 62,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg062-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 63,
+    "speaker": "ALEX",
+    "text": "The next point gives the learner a handle. Do not treat Upvoting as decoration. Instead of leaving \"+1\" comments, use the thumbs-up reaction on the original post or replies. That is not trivia. Many maintainers sort discussion responses by upvotes to prioritize most-needed answers.",
+    "filename": "seg063-alex.wav",
+    "duration": 16.493,
+    "status": "synthesized"
+  },
+  {
+    "seq": 64,
+    "speaker": "JAMIE",
+    "text": "Let's pause on 6. Marking an Answer. What should a learner take away from it?",
+    "filename": "seg064-jamie.wav",
+    "duration": 4.269,
+    "status": "synthesized"
+  },
+  {
+    "seq": 65,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, 6. Marking an Answer is still useful because in the Q&A category, one reply can be marked as the accepted answer. For someone navigating by keyboard or screen reader, this detail matters: This is similar to Stack Overflow's \"accepted answer\" mechanic.",
+    "filename": "seg065-alex.wav",
+    "duration": 15.469,
+    "status": "synthesized"
+  },
+  {
+    "seq": 66,
+    "speaker": "JAMIE",
+    "text": "Let's pause on To mark an answer (as the discussion author). What should a learner take away from it?",
+    "filename": "seg066-jamie.wav",
+    "duration": 5.271,
+    "status": "synthesized"
+  },
+  {
+    "seq": 67,
+    "speaker": "ALEX",
+    "text": "Put To mark an answer (as the discussion author) into plain language. Why it matters: Marked answers make Q&A discussions into searchable documentation. The useful version is: Anyone who searches for the same question later immediately sees the correct answer without reading the whole thread. The interface gets easier when it becomes a set of named places instead of a wall of controls.",
+    "filename": "seg067-alex.wav",
+    "duration": 21.441,
+    "status": "synthesized"
+  },
+  {
+    "seq": 68,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Navigate to the reply you want to mark as the answer; Look for the \"Mark as answer\" button below the reply; and Activate it - the reply is pinned to the top and the discussion shows a green \"Answered\" badge. The point is not speed; the point is never losing your place.",
+    "filename": "seg068-alex.wav",
+    "duration": 14.935,
+    "status": "synthesized"
+  },
+  {
+    "seq": 69,
+    "speaker": "JAMIE",
+    "text": "So the learner is not behind if they stop there and check the page.",
+    "filename": "seg069-jamie.wav",
+    "duration": 3.863,
+    "status": "synthesized"
+  },
+  {
+    "seq": 70,
+    "speaker": "ALEX",
+    "text": "Yes. Pausing to verify is not a detour; it is how you keep control of the workflow.",
+    "filename": "seg070-alex.wav",
+    "duration": 4.651,
+    "status": "synthesized"
+  },
+  {
+    "seq": 71,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg071-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 72,
+    "speaker": "JAMIE",
+    "text": "Let's pause on 7. Polls. What should a learner take away from it?",
+    "filename": "seg072-jamie.wav",
+    "duration": 3.842,
+    "status": "synthesized"
+  },
+  {
+    "seq": 73,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. Some discussion categories support embedded polls. That is the difference between guessing and knowing: A poll lets you gather structured vote data from the community.",
+    "filename": "seg073-alex.wav",
+    "duration": 12.183,
+    "status": "synthesized"
+  },
+  {
+    "seq": 74,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Creating a poll. What should a learner take away from it?",
+    "filename": "seg074-jamie.wav",
+    "duration": 3.949,
+    "status": "synthesized"
+  },
+  {
+    "seq": 75,
+    "speaker": "ALEX",
+    "text": "Creating a poll has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg075-alex.wav",
+    "duration": 5.911,
+    "status": "synthesized"
+  },
+  {
+    "seq": 76,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is when creating a discussion, look for the \"Add a poll\" option below the body editor. Step two is type each poll option (up to 8 options). Step three is set poll duration (optional). Step four is submit the discussion - the poll appears inline. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg076-alex.wav",
+    "duration": 19.885,
+    "status": "synthesized"
+  },
+  {
+    "seq": 77,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Voting in a poll. What should a learner take away from it?",
+    "filename": "seg077-jamie.wav",
+    "duration": 3.991,
+    "status": "synthesized"
+  },
+  {
+    "seq": 78,
+    "speaker": "ALEX",
+    "text": "Voting in a poll: Poll results: After voting, percentages appear next to each option. The next useful detail is concrete: Screen readers announce the count and percentage per option.",
+    "filename": "seg078-alex.wav",
+    "duration": 10.411,
+    "status": "synthesized"
+  },
+  {
+    "seq": 79,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg079-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 80,
+    "speaker": "ALEX",
+    "text": "Here is the practical turn. NVDA note has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg080-alex.wav",
+    "duration": 7.617,
+    "status": "synthesized"
+  },
+  {
+    "seq": 81,
+    "speaker": "ALEX",
+    "text": "On the ground, that means a few things. Browse mode (NVDA+Space) to read the discussion. Enter application mode for the reply editor. Discussion replies are elements - NVDA announces \"article\" as you navigate with H.",
+    "filename": "seg081-alex.wav",
+    "duration": 13.293,
+    "status": "synthesized"
+  },
+  {
+    "seq": 82,
+    "speaker": "JAMIE",
+    "text": "Let's pause on JAWS note. What should a learner take away from it?",
+    "filename": "seg082-jamie.wav",
+    "duration": 3.821,
+    "status": "synthesized"
+  },
+  {
+    "seq": 83,
+    "speaker": "ALEX",
+    "text": "JAWS note has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg083-alex.wav",
+    "duration": 5.676,
+    "status": "synthesized"
+  },
+  {
+    "seq": 84,
+    "speaker": "ALEX",
+    "text": "Here is what that changes in practice. A key navigates elements - useful for jumping between replies. Use Forms Mode for the reply editor.",
+    "filename": "seg084-alex.wav",
+    "duration": 8.45,
+    "status": "synthesized"
+  },
+  {
+    "seq": 85,
+    "speaker": "JAMIE",
+    "text": "That is a useful checkpoint before anyone starts pressing keys.",
+    "filename": "seg085-jamie.wav",
+    "duration": 3.949,
+    "status": "synthesized"
+  },
+  {
+    "seq": 86,
+    "speaker": "ALEX",
+    "text": "Exactly. Checkpoints turn uncertainty into information.",
+    "filename": "seg086-alex.wav",
+    "duration": 3.457,
+    "status": "synthesized"
+  },
+  {
+    "seq": 87,
+    "speaker": "ALEX",
+    "text": "Keep the thread going. VoiceOver note has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg087-alex.wav",
+    "duration": 7.169,
+    "status": "synthesized"
+  },
+  {
+    "seq": 88,
+    "speaker": "ALEX",
+    "text": "The room should hear these as checkpoints. VO+Right to read through content. VO+Command+L to list all links (useful for navigating many replies quickly). VO+Space on the reply field to enter interaction mode.",
+    "filename": "seg088-alex.wav",
+    "duration": 12.971,
+    "status": "synthesized"
+  },
+  {
+    "seq": 89,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg089-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 90,
+    "speaker": "JAMIE",
+    "text": "Let's pause on 9. Organization-Level Discussions. What should a learner take away from it?",
+    "filename": "seg090-jamie.wav",
+    "duration": 5.378,
+    "status": "synthesized"
+  },
+  {
+    "seq": 91,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: some organizations enable Discussions at the organization level, separate from any repository. The listener should be able to check this: These work identically to repository discussions but span the whole organization.",
+    "filename": "seg091-alex.wav",
+    "duration": 14.38,
+    "status": "synthesized"
+  },
+  {
+    "seq": 92,
+    "speaker": "ALEX",
+    "text": "If someone is taking notes, this is the short list. Org-wide announcements. Community introductions (\"Introduce yourself\" pinned thread). Cross-repo feature brainstorming. Community spotlights and events.",
+    "filename": "seg092-alex.wav",
+    "duration": 10.903,
+    "status": "synthesized"
+  },
+  {
+    "seq": 93,
+    "speaker": "JAMIE",
+    "text": "Let's pause on 10. Accessibility Agents: What's Different Here. What should a learner take away from it?",
+    "filename": "seg093-jamie.wav",
+    "duration": 5.549,
+    "status": "synthesized"
+  },
+  {
+    "seq": 94,
+    "speaker": "ALEX",
+    "text": "Do not treat 10. Accessibility Agents: What's Different Here as decoration. Accessibility Agents prompts currently operate on issues, PRs, and code - not directly on Discussions. That is not trivia. If you want to respond to a discussion using Accessibility Agents. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg094-alex.wav",
+    "duration": 20.204,
+    "status": "synthesized"
+  },
+  {
+    "seq": 95,
+    "speaker": "ALEX",
+    "text": "First, copy the discussion URL or content. Then, use /issue-reply with the content pasted in: the agent will draft a thoughtful, accessible response. After that, paste the result back into the discussion reply editor. The point is not speed; the point is never losing your place.",
+    "filename": "seg095-alex.wav",
+    "duration": 16.023,
+    "status": "synthesized"
+  },
+  {
+    "seq": 96,
+    "speaker": "ALEX",
+    "text": "A solid pull request habit is to separate three questions: what changed, why it changed, and what still needs review. That keeps the conversation useful instead of noisy.",
+    "filename": "seg096-alex.wav",
+    "duration": 9.986,
+    "status": "synthesized"
+  },
+  {
+    "seq": 97,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Shareable Code Snippets and Notes. What should a learner take away from it?",
+    "filename": "seg097-jamie.wav",
+    "duration": 4.951,
+    "status": "synthesized"
+  },
+  {
+    "seq": 98,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Shareable Code Snippets and Notes is still useful because gists are a simple way to share code snippets, notes, or small files without creating a full repository. For someone navigating by keyboard or screen reader, this detail matters: Think of them as lightweight, version-controlled pastebins.",
+    "filename": "seg098-alex.wav",
+    "duration": 16.533,
+    "status": "synthesized"
+  },
+  {
+    "seq": 99,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg099-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 100,
+    "speaker": "ALEX",
+    "text": "This is the part worth saying out loud. Learning Cards: GitHub Gists has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg100-alex.wav",
+    "duration": 8.833,
+    "status": "synthesized"
+  },
+  {
+    "seq": 101,
+    "speaker": "ALEX",
+    "text": "Listen for the small confirmations in this list. On the Gist creation page at gist.github.com, press D to jump to the main landmark, then F to navigate form fields: Description, Filename, Content, and Visibility buttons. Your Gists page lists each gist as an H2 heading with its description -- press 2 or H to jump between gists. Gists are full Git repositories -- you can clone them with git clone and edit locally using your usual screen reader workflow in VS Code. Gist pages use syntax highlighting matching GitHub's current theme -- switch between light and dark mode for comfortable reading. Public and secret gists look identical on the page; the only difference is the URL visibility -- check the \"Create secret gist\" or \"Create public gist\" button label before submitting. The revision history link appears at the top of any gist -- click \"Revisions\" to see a diff view of every edit.",
+    "filename": "seg101-alex.wav",
+    "duration": 48.493,
+    "status": "synthesized"
+  },
+  {
+    "seq": 102,
+    "speaker": "JAMIE",
+    "text": "I like that because it gives people permission to slow down.",
+    "filename": "seg102-jamie.wav",
+    "duration": 3.671,
+    "status": "synthesized"
+  },
+  {
+    "seq": 103,
+    "speaker": "ALEX",
+    "text": "That is the goal. We want the page to feel explorable, not fragile.",
+    "filename": "seg103-alex.wav",
+    "duration": 3.949,
+    "status": "synthesized"
+  },
+  {
+    "seq": 104,
+    "speaker": "JAMIE",
+    "text": "Let's pause on What Is a Gist? What should a learner take away from it?",
+    "filename": "seg104-jamie.wav",
+    "duration": 3.885,
+    "status": "synthesized"
+  },
+  {
+    "seq": 105,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. A Gist is a Git repository that holds a single file or a small collection of files. That is the difference between guessing and knowing: Anyone with the URL can view a secret Gist.",
+    "filename": "seg105-alex.wav",
+    "duration": 13.676,
+    "status": "synthesized"
+  },
+  {
+    "seq": 106,
+    "speaker": "ALEX",
+    "text": "The useful version is not abstract; it sounds like this. Has its own URL (e.g., gist.github.com/username/a1b2c3d4). Is version-controlled (you can see edit history). Can be public (anyone can see) or secret (only people with the link can see). Supports Markdown rendering.",
+    "filename": "seg106-alex.wav",
+    "duration": 17.111,
+    "status": "synthesized"
+  },
+  {
+    "seq": 107,
+    "speaker": "JAMIE",
+    "text": "What decision is this helping them make?",
+    "filename": "seg107-jamie.wav",
+    "duration": 2.711,
+    "status": "synthesized"
+  },
+  {
+    "seq": 108,
+    "speaker": "ALEX",
+    "text": "When to Use a Gist vs a Repository has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg108-alex.wav",
+    "duration": 7.425,
+    "status": "synthesized"
+  },
+  {
+    "seq": 109,
+    "speaker": "ALEX",
+    "text": "Use the comparison to make a decision, not to recite a table. The main contrasts are: Use a Gist When. means Use a Repository When. Sharing a single code snippet means Building a full project. Posting configuration examples means Collaborating with multiple people.",
+    "filename": "seg109-alex.wav",
+    "duration": 15.04,
+    "status": "synthesized"
+  },
+  {
+    "seq": 110,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg110-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 111,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Via GitHub Web Interface. What should a learner take away from it?",
+    "filename": "seg111-jamie.wav",
+    "duration": 4.653,
+    "status": "synthesized"
+  },
+  {
+    "seq": 112,
+    "speaker": "ALEX",
+    "text": "Via GitHub Web Interface has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg112-alex.wav",
+    "duration": 6.465,
+    "status": "synthesized"
+  },
+  {
+    "seq": 113,
+    "speaker": "ALEX",
+    "text": "This is where the lesson becomes something you can check. Select \"Create public gist\" for openly shareable content. Select \"Create secret gist\" for link-only sharing.",
+    "filename": "seg113-alex.wav",
+    "duration": 9.431,
+    "status": "synthesized"
+  },
+  {
+    "seq": 114,
+    "speaker": "ALEX",
+    "text": "First, navigate to gist.github.com. Then, gist description: A short title (e.g., \"NVDA configuration for GitHub\"). After that, filename: Name your file with extension (e.g., nvda-config.txt, script.py, notes.md). Finally, content: Paste or type your code/text. The sequence works because every action has a confirmation.",
+    "filename": "seg114-alex.wav",
+    "duration": 19.181,
+    "status": "synthesized"
+  },
+  {
+    "seq": 115,
+    "speaker": "JAMIE",
+    "text": "Before we leave Via GitHub Web Interface, what is the practical point?",
+    "filename": "seg115-jamie.wav",
+    "duration": 4.162,
+    "status": "synthesized"
+  },
+  {
+    "seq": 116,
+    "speaker": "ALEX",
+    "text": "Start here: Visibility. Then: The Gist is created with a unique URL you can share. Keep it that plain: know where you are, make the move, check the result.",
+    "filename": "seg116-alex.wav",
+    "duration": 8.684,
+    "status": "synthesized"
+  },
+  {
+    "seq": 117,
+    "speaker": "ALEX",
+    "text": "Now shift from knowing the term to using it. Screen reader navigation has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg117-alex.wav",
+    "duration": 8.855,
+    "status": "synthesized"
+  },
+  {
+    "seq": 118,
+    "speaker": "ALEX",
+    "text": "A few details make that real. D to cycle landmarks to \"Main\". F to navigate form fields. Tab through: Description \u2192 Filename \u2192 Content textbox \u2192 Visibility buttons.",
+    "filename": "seg118-alex.wav",
+    "duration": 11.522,
+    "status": "synthesized"
+  },
+  {
+    "seq": 119,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Adding Multiple Files to a Gist. What should a learner take away from it?",
+    "filename": "seg119-jamie.wav",
+    "duration": 5.058,
+    "status": "synthesized"
+  },
+  {
+    "seq": 120,
+    "speaker": "ALEX",
+    "text": "This is the move inside Adding Multiple Files to a Gist: you can add multiple files to a single Gist. That matters in practice: Use case: Share related config files together (e.g.,.vscode/settings.json +.vscode/keybindings.json).",
+    "filename": "seg120-alex.wav",
+    "duration": 15.191,
+    "status": "synthesized"
+  },
+  {
+    "seq": 121,
+    "speaker": "ALEX",
+    "text": "Walk it in order: After typing the first filename and content, select \"Add file\" (button below the editor); Repeat for each additional file; and Create the Gist. Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg121-alex.wav",
+    "duration": 12.845,
+    "status": "synthesized"
+  },
+  {
+    "seq": 122,
+    "speaker": "JAMIE",
+    "text": "That is the part I would want someone to say out loud while they work.",
+    "filename": "seg122-jamie.wav",
+    "duration": 3.842,
+    "status": "synthesized"
+  },
+  {
+    "seq": 123,
+    "speaker": "ALEX",
+    "text": "Exactly. A learner should always know what they are trying to prove before they take the next action.",
+    "filename": "seg123-alex.wav",
+    "duration": 4.8,
+    "status": "synthesized"
+  },
+  {
+    "seq": 124,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg124-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 125,
+    "speaker": "ALEX",
+    "text": "This is where confidence starts to build. Learning Cards: Creating a Gist has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg125-alex.wav",
+    "duration": 8.833,
+    "status": "synthesized"
+  },
+  {
+    "seq": 126,
+    "speaker": "ALEX",
+    "text": "For a learner, the useful signals are concrete. On the Gist creation page at gist.github.com, press D to jump to the main landmark, then F to navigate form fields in order: Description, Filename, Content textarea, and visibility buttons. The visibility selector is a split button -- the main button creates a public gist; Tab to the dropdown arrow next to it and press Enter to reveal the \"Create secret gist\" option. Each filename field has a corresponding content textarea directly below it -- after filling one file, Tab to the \"Add file\" button to add another file to the same gist. The Gist editor uses the same syntax highlighting as regular GitHub files -- your current theme applies; increase font size in browser zoom for comfortable editing. The split button for public vs. secret visibility is at the bottom of the form -- the two options look nearly identical; read the button label carefully (\"Create public gist\" vs. \"Create secret gist\") before clicking. The \"Add file\" button appears below the first file editor as a small text link -- zoom in to find it; each additional file gets its own filename field and content textarea.",
+    "filename": "seg126-alex.wav",
+    "duration": 62.829,
+    "status": "synthesized"
+  },
+  {
+    "seq": 127,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Editing a Gist. What should a learner take away from it?",
+    "filename": "seg127-jamie.wav",
+    "duration": 4.013,
+    "status": "synthesized"
+  },
+  {
+    "seq": 128,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: click \"Revisions\" to see the full edit history.",
+    "filename": "seg128-alex.wav",
+    "duration": 4.844,
+    "status": "synthesized"
+  },
+  {
+    "seq": 129,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is navigate to your Gist's URL. Step two is select \"Edit\" (button in the top-right). Step three is make your changes. Step four is select \"Update public gist\" or \"Update secret gist\". Each step should leave a trace you can name.",
+    "filename": "seg129-alex.wav",
+    "duration": 15.575,
+    "status": "synthesized"
+  },
+  {
+    "seq": 130,
+    "speaker": "ALEX",
+    "text": "The next layer is this. Do not treat Embedding a Gist as decoration. You can embed Gists in web pages, blog posts, or documentation. That is not trivia. GitHub renders it as a formatted code block with syntax highlighting and a link back to the Gist.",
+    "filename": "seg130-alex.wav",
+    "duration": 14.165,
+    "status": "synthesized"
+  },
+  {
+    "seq": 131,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg131-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 132,
+    "speaker": "JAMIE",
+    "text": "What should they understand before typing anything?",
+    "filename": "seg132-jamie.wav",
+    "duration": 3.053,
+    "status": "synthesized"
+  },
+  {
+    "seq": 133,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Cloning a Gist is still useful because make changes locally, commit, and push just like a normal repo.",
+    "filename": "seg133-alex.wav",
+    "duration": 7.361,
+    "status": "synthesized"
+  },
+  {
+    "seq": 134,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like git clone https://gist.github.com/username/gist-id.git. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg134-alex.wav",
+    "duration": 16.237,
+    "status": "synthesized"
+  },
+  {
+    "seq": 135,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Forking a Gist. What should a learner take away from it?",
+    "filename": "seg135-jamie.wav",
+    "duration": 4.098,
+    "status": "synthesized"
+  },
+  {
+    "seq": 136,
+    "speaker": "ALEX",
+    "text": "Put Forking a Gist into plain language. You can fork someone else's Gist to create your own copy. The useful version is: Use case: Someone shares a useful script, you fork it, and customize it for your needs. The interface gets easier when it becomes a set of named places instead of a wall of controls.",
+    "filename": "seg136-alex.wav",
+    "duration": 15.98,
+    "status": "synthesized"
+  },
+  {
+    "seq": 137,
+    "speaker": "ALEX",
+    "text": "Walk it in order: View the Gist; Select \"Fork\" in the top-right; and GitHub creates a new Gist under your account. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg137-alex.wav",
+    "duration": 10.157,
+    "status": "synthesized"
+  },
+  {
+    "seq": 138,
+    "speaker": "JAMIE",
+    "text": "So this is less about memorizing and more about noticing.",
+    "filename": "seg138-jamie.wav",
+    "duration": 3.714,
+    "status": "synthesized"
+  },
+  {
+    "seq": 139,
+    "speaker": "ALEX",
+    "text": "Right. Once the learner can name the move, the interface becomes much less intimidating.",
+    "filename": "seg139-alex.wav",
+    "duration": 4.845,
+    "status": "synthesized"
+  },
+  {
+    "seq": 140,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Finding Your Gists. What should a learner take away from it?",
+    "filename": "seg140-jamie.wav",
+    "duration": 4.119,
+    "status": "synthesized"
+  },
+  {
+    "seq": 141,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. Your Gists page: gist.github.com/your-username. That is the difference between guessing and knowing: All your public and secret Gists are listed here.",
+    "filename": "seg141-alex.wav",
+    "duration": 11.649,
+    "status": "synthesized"
+  },
+  {
+    "seq": 142,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Search your Gists by filename or content. Star Gists you want to reference later. Delete old Gists.",
+    "filename": "seg142-alex.wav",
+    "duration": 7.296,
+    "status": "synthesized"
+  },
+  {
+    "seq": 143,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg143-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 144,
+    "speaker": "ALEX",
+    "text": "That matters because of the next idea. Screen reader navigation has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg144-alex.wav",
+    "duration": 8.62,
+    "status": "synthesized"
+  },
+  {
+    "seq": 145,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Each Gist appears as a heading (H2) with its description. Press 2 or H to jump between Gists. Each Gist has links: \"Edit,\" \"Delete,\" \"Star,\" \"Embed\".",
+    "filename": "seg145-alex.wav",
+    "duration": 10.221,
+    "status": "synthesized"
+  },
+  {
+    "seq": 146,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Discovering Public Gists. What should a learner take away from it?",
+    "filename": "seg146-jamie.wav",
+    "duration": 4.589,
+    "status": "synthesized"
+  },
+  {
+    "seq": 147,
+    "speaker": "ALEX",
+    "text": "Discovering Public Gists: Browse trending Gists: gist.github.com/discover.",
+    "filename": "seg147-alex.wav",
+    "duration": 5.271,
+    "status": "synthesized"
+  },
+  {
+    "seq": 148,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Useful scripts and utilities. Configuration examples. Code snippets for learning.",
+    "filename": "seg148-alex.wav",
+    "duration": 6.572,
+    "status": "synthesized"
+  },
+  {
+    "seq": 149,
+    "speaker": "ALEX",
+    "text": "Another way to ground it. Here is the learner-facing version. Anyone with a GitHub account can leave a comment, making Gists useful. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.",
+    "filename": "seg149-alex.wav",
+    "duration": 13.335,
+    "status": "synthesized"
+  },
+  {
+    "seq": 150,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Asking questions about a snippet. Suggesting improvements. Discussing implementation details.",
+    "filename": "seg150-alex.wav",
+    "duration": 6.891,
+    "status": "synthesized"
+  },
+  {
+    "seq": 151,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg151-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 152,
+    "speaker": "JAMIE",
+    "text": "Let's pause on To add a comment. What should a learner take away from it?",
+    "filename": "seg152-jamie.wav",
+    "duration": 3.927,
+    "status": "synthesized"
+  },
+  {
+    "seq": 153,
+    "speaker": "ALEX",
+    "text": "To add a comment has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg153-alex.wav",
+    "duration": 5.911,
+    "status": "synthesized"
+  },
+  {
+    "seq": 154,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Scroll to the bottom of the Gist page; F to navigate form fields \u2192 Find the comment textarea; Type your comment (Markdown supported); and Ctrl+Enter or activate \"Comment\" button. Each step should leave a trace you can name.",
+    "filename": "seg154-alex.wav",
+    "duration": 13.996,
+    "status": "synthesized"
+  },
+  {
+    "seq": 155,
+    "speaker": "ALEX",
+    "text": "Before the learner moves on. Public Gists has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg155-alex.wav",
+    "duration": 7.276,
+    "status": "synthesized"
+  },
+  {
+    "seq": 156,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Appear on your profile. Are indexed by search engines. Anyone can view, fork, and comment.",
+    "filename": "seg156-alex.wav",
+    "duration": 7.042,
+    "status": "synthesized"
+  },
+  {
+    "seq": 157,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Secret Gists. What should a learner take away from it?",
+    "filename": "seg157-jamie.wav",
+    "duration": 4.077,
+    "status": "synthesized"
+  },
+  {
+    "seq": 158,
+    "speaker": "ALEX",
+    "text": "Secret Gists has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg158-alex.wav",
+    "duration": 5.932,
+    "status": "synthesized"
+  },
+  {
+    "seq": 159,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Do not appear on your profile. Are not indexed by search engines. Anyone with the URL can view. Still version-controlled and can be starred.",
+    "filename": "seg159-alex.wav",
+    "duration": 9.536,
+    "status": "synthesized"
+  },
+  {
+    "seq": 160,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg160-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 161,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Never put sensitive data in Gists. What should a learner take away from it?",
+    "filename": "seg161-jamie.wav",
+    "duration": 5.207,
+    "status": "synthesized"
+  },
+  {
+    "seq": 162,
+    "speaker": "ALEX",
+    "text": "Do not treat Never put sensitive data in Gists as decoration. If you accidentally post sensitive data. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg162-alex.wav",
+    "duration": 11.671,
+    "status": "synthesized"
+  },
+  {
+    "seq": 163,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Passwords or API keys. Personal identifying information. Proprietary code you don't have permission to share.",
+    "filename": "seg163-alex.wav",
+    "duration": 8.364,
+    "status": "synthesized"
+  },
+  {
+    "seq": 164,
+    "speaker": "ALEX",
+    "text": "First, delete the Gist immediately. Then, revoke/regenerate any exposed credentials. After that, remember: Forks and clones may still exist. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg164-alex.wav",
+    "duration": 12.567,
+    "status": "synthesized"
+  },
+  {
+    "seq": 165,
+    "speaker": "JAMIE",
+    "text": "What is the safe way to learn from that example?",
+    "filename": "seg165-jamie.wav",
+    "duration": 3.053,
+    "status": "synthesized"
+  },
+  {
+    "seq": 166,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, 1. Sharing Screen Reader Config is still useful because share the Gist URL with other screen reader users.",
+    "filename": "seg166-alex.wav",
+    "duration": 7.916,
+    "status": "synthesized"
+  },
+  {
+    "seq": 167,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Filename: nvda-github-config.txt; Content:; NVDA Settings for GitHub Web Navigation; - Browse Mode: Use screen layout (enabled); - Verbosity: Most punctuation; - Rate: 65%; - Keyboard shortcuts: Use standard GitHub shortcuts (G+I, G+P, etc.). Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg167-alex.wav",
+    "duration": 25.196,
+    "status": "synthesized"
+  },
+  {
+    "seq": 168,
+    "speaker": "ALEX",
+    "text": "Here is the moment where the page starts to make sense. Put 2. Quick Markdown Note into plain language. Reference it later or share with workshop participants.",
+    "filename": "seg168-alex.wav",
+    "duration": 8.811,
+    "status": "synthesized"
+  },
+  {
+    "seq": 169,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg169-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 170,
+    "speaker": "JAMIE",
+    "text": "Let's pause on 3. Code Snippet for a StackOverflow Answer. What should a learner take away from it?",
+    "filename": "seg170-jamie.wav",
+    "duration": 5.805,
+    "status": "synthesized"
+  },
+  {
+    "seq": 171,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. When answering questions, paste your code as a Gist and link to it. That is the difference between guessing and knowing: Readers get syntax highlighting, version history, and the ability to fork your solution.",
+    "filename": "seg171-alex.wav",
+    "duration": 13.527,
+    "status": "synthesized"
+  },
+  {
+    "seq": 172,
+    "speaker": "JAMIE",
+    "text": "Can you translate that into plain choices?",
+    "filename": "seg172-jamie.wav",
+    "duration": 2.989,
+    "status": "synthesized"
+  },
+  {
+    "seq": 173,
+    "speaker": "ALEX",
+    "text": "Gists vs GitHub Repositories - Quick Comparison has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg173-alex.wav",
+    "duration": 8.023,
+    "status": "synthesized"
+  },
+  {
+    "seq": 174,
+    "speaker": "ALEX",
+    "text": "Use the comparison to make a decision, not to recite a table. The main contrasts are: Comments means Yes (on issues/PRs).",
+    "filename": "seg174-alex.wav",
+    "duration": 8.237,
+    "status": "synthesized"
+  },
+  {
+    "seq": 175,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Deleting a Gist. What should a learner take away from it?",
+    "filename": "seg175-jamie.wav",
+    "duration": 4.183,
+    "status": "synthesized"
+  },
+  {
+    "seq": 176,
+    "speaker": "ALEX",
+    "text": "Deleting a Gist: Next: Appendix V: GitHub Mobile Back: Appendix T: Community and Social Teaching chapter: Chapter 08: Open Source Culture.",
+    "filename": "seg176-alex.wav",
+    "duration": 8.641,
+    "status": "synthesized"
+  },
+  {
+    "seq": 177,
+    "speaker": "ALEX",
+    "text": "First, navigate to the Gist. Then, select \"Edit\". After that, select \"Delete\" (top-right, after Edit button). Finally, confirm deletion. Each step should leave a trace you can name.",
+    "filename": "seg177-alex.wav",
+    "duration": 9.749,
+    "status": "synthesized"
+  },
+  {
+    "seq": 178,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg178-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 179,
+    "speaker": "JAMIE",
+    "text": "What should people carry with them after this?",
+    "filename": "seg179-jamie.wav",
+    "duration": 2.647,
+    "status": "synthesized"
+  },
+  {
+    "seq": 180,
+    "speaker": "ALEX",
+    "text": "Carry the map. Know what page or tool you are in, know which action you are taking, and know what confirmation should follow. If the confirmation is missing, pause. That pause is not wasted time; it is professional judgment.",
+    "filename": "seg180-alex.wav",
+    "duration": 11.799,
+    "status": "synthesized"
+  },
+  {
+    "seq": 181,
+    "speaker": "JAMIE",
+    "text": "That is a better way to say it than just follow the steps.",
+    "filename": "seg181-jamie.wav",
+    "duration": 3.394,
+    "status": "synthesized"
+  },
+  {
+    "seq": 182,
+    "speaker": "ALEX",
+    "text": "Right. Steps matter, but understanding wins. That is episode 23. Next in the series is episode 24, where we keep building the same contributor muscles.",
+    "filename": "seg182-alex.wav",
+    "duration": 9.189,
+    "status": "synthesized"
+  }
+]

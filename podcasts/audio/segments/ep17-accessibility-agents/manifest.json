@@ -1,0 +1,3026 @@
+[
+  {
+    "seq": 1,
+    "speaker": "ALEX",
+    "text": "Welcome back to Git Going with GitHub. This is episode 17: Accessibility Agents. I am Alex, and today we are turning Accessibility Agents from a list of instructions into a working mental model.",
+    "filename": "seg001-alex.wav",
+    "duration": 12.034,
+    "status": "synthesized"
+  },
+  {
+    "seq": 2,
+    "speaker": "JAMIE",
+    "text": "And I am Jamie. I will stop us whenever the instructions sound simple on paper but might feel different with a keyboard and screen reader.",
+    "filename": "seg002-jamie.wav",
+    "duration": 7.467,
+    "status": "synthesized"
+  },
+  {
+    "seq": 3,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg003-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 4,
+    "speaker": "ALEX",
+    "text": "55 agents across 3 teams and 5 platforms, 54+ slash commands, custom agents, and agentic accessibility workflows. That is the surface description. Underneath it, we are building judgment: where to focus, what to ignore, and how to verify the result.",
+    "filename": "seg004-alex.wav",
+    "duration": 15.703,
+    "status": "synthesized"
+  },
+  {
+    "seq": 5,
+    "speaker": "JAMIE",
+    "text": "So we are not using the audio as a shortcut around learning. We are using it to make the learning easier to enter.",
+    "filename": "seg005-jamie.wav",
+    "duration": 6.381,
+    "status": "synthesized"
+  },
+  {
+    "seq": 6,
+    "speaker": "ALEX",
+    "text": "Yes. A good audio lesson gives someone enough context to try the work with confidence, even before they open the written material.",
+    "filename": "seg006-alex.wav",
+    "duration": 6.848,
+    "status": "synthesized"
+  },
+  {
+    "seq": 7,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg007-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 8,
+    "speaker": "JAMIE",
+    "text": "Okay, set the room for us. What are we walking into?",
+    "filename": "seg008-jamie.wav",
+    "duration": 3.245,
+    "status": "synthesized"
+  },
+  {
+    "seq": 9,
+    "speaker": "ALEX",
+    "text": "55 AI Agents Across 3 Teams and 5 Platforms: Day 2, Block 3 Material Before you read this guide: Accessibility Agents is a growing open source ecosystem: 55 AI-powered agents organized into three teams (Accessibility, GitHub Workflow, and Developer Tools), running on five platforms (GitHub Copilot,. The next useful detail is concrete: This chapter introduces the full landscape.",
+    "filename": "seg009-alex.wav",
+    "duration": 23.66,
+    "status": "synthesized"
+  },
+  {
+    "seq": 10,
+    "speaker": "ALEX",
+    "text": "The next layer is this. Core Prerequisites (Required for All Agents) has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg010-alex.wav",
+    "duration": 8.833,
+    "status": "synthesized"
+  },
+  {
+    "seq": 11,
+    "speaker": "ALEX",
+    "text": "Here are the anchors worth keeping. [ ] Chapter 0: Pre-Workshop Setup - Git, VS Code, and GitHub account. [ ] Chapter 16: GitHub Copilot - built-in Copilot features enabled and working in VS Code. [ ] GitHub Copilot access (Copilot Free tier is enough for this workshop). [ ].github/agents/ folder exists in your repository (or will create custom agents).",
+    "filename": "seg011-alex.wav",
+    "duration": 21.463,
+    "status": "synthesized"
+  },
+  {
+    "seq": 12,
+    "speaker": "ALEX",
+    "text": "A solid pull request habit is to separate three questions: what changed, why it changed, and what still needs review. That keeps the conversation useful instead of noisy.",
+    "filename": "seg012-alex.wav",
+    "duration": 9.986,
+    "status": "synthesized"
+  },
+  {
+    "seq": 13,
+    "speaker": "JAMIE",
+    "text": "What is the one idea that makes the next few steps less mysterious?",
+    "filename": "seg013-jamie.wav",
+    "duration": 4.077,
+    "status": "synthesized"
+  },
+  {
+    "seq": 14,
+    "speaker": "ALEX",
+    "text": "This is the move inside Agent Prerequisites (The \"Skill First\" Principle): every agent automates a skill you should already know by hand. That matters in practice: Before using any agent, verify you have done the corresponding manual work.",
+    "filename": "seg014-alex.wav",
+    "duration": 13.335,
+    "status": "synthesized"
+  },
+  {
+    "seq": 15,
+    "speaker": "JAMIE",
+    "text": "That feels much more doable when you say it as one move.",
+    "filename": "seg015-jamie.wav",
+    "duration": 3.458,
+    "status": "synthesized"
+  },
+  {
+    "seq": 16,
+    "speaker": "ALEX",
+    "text": "Right. The magic is not speed. The magic is knowing what changed and why it matters.",
+    "filename": "seg016-alex.wav",
+    "duration": 4.629,
+    "status": "synthesized"
+  },
+  {
+    "seq": 17,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg017-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 18,
+    "speaker": "ALEX",
+    "text": "Now bring the learner back to the room. Anchor this part on Workshop Recommendation (Chapter 19 / Challenge 15). Chapter 19 is the agent exploration and hands-on validation chapter - where students match agents to skills they already have and learn how to trust, evaluate, and improve AI-powered workflow automation. This is the part to say slowly: It supports Challenge 15: Meet the Agents.",
+    "filename": "seg018-alex.wav",
+    "duration": 21.868,
+    "status": "synthesized"
+  },
+  {
+    "seq": 19,
+    "speaker": "ALEX",
+    "text": "For a learner, the useful signals are concrete. There are 3 guided + 1-2 optional contribution challenges. Automation check: none (agent output requires human judgment before use). The evidence is issue comment showing agent output and your evaluation of it. The pattern is explore, validate, read internals, optionally contribute.",
+    "filename": "seg019-alex.wav",
+    "duration": 18.669,
+    "status": "synthesized"
+  },
+  {
+    "seq": 20,
+    "speaker": "JAMIE",
+    "text": "What is the ordered workflow?",
+    "filename": "seg020-jamie.wav",
+    "duration": 2.199,
+    "status": "synthesized"
+  },
+  {
+    "seq": 21,
+    "speaker": "ALEX",
+    "text": "Challenge 15 Set has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg021-alex.wav",
+    "duration": 6.295,
+    "status": "synthesized"
+  },
+  {
+    "seq": 22,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is agent Discovery Mapping - identify 3-5 agents that match skills you already have from Day 1. Step two is agent Skill Validation - run one agent and evaluate its output against your manual experience. Step three is agent Instructions Deep Dive - read one agent's source file and assess what it can and cannot do. Step four is improve an Existing Agent (optional hackathon) - find a gap in an agent's instructions and fix it via PR. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg022-alex.wav",
+    "duration": 31.81,
+    "status": "synthesized"
+  },
+  {
+    "seq": 23,
+    "speaker": "JAMIE",
+    "text": "Give me the sequence, because order matters here.",
+    "filename": "seg023-jamie.wav",
+    "duration": 3.095,
+    "status": "synthesized"
+  },
+  {
+    "seq": 24,
+    "speaker": "ALEX",
+    "text": "First, propose a New Agent (optional hackathon) - file an issue proposing an agent for an uncovered workflow. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg024-alex.wav",
+    "duration": 10.007,
+    "status": "synthesized"
+  },
+  {
+    "seq": 25,
+    "speaker": "ALEX",
+    "text": "The useful habit is simple: orient, act, verify, then continue. That pause between action and trust is part of the work.",
+    "filename": "seg025-alex.wav",
+    "duration": 7.405,
+    "status": "synthesized"
+  },
+  {
+    "seq": 26,
+    "speaker": "JAMIE",
+    "text": "How would you walk the room through that step by step?",
+    "filename": "seg026-jamie.wav",
+    "duration": 3.01,
+    "status": "synthesized"
+  },
+  {
+    "seq": 27,
+    "speaker": "ALEX",
+    "text": "Do not treat Challenge 15.1 Step-by-Step: Agent Discovery Mapping as decoration. Map your Day 1 manual skills to specific agents in the ecosystem so you know which agents you are ready to use. That is not trivia. GitHub.com - the accessibility-agents repository and your assigned Challenge 15 issue. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg027-alex.wav",
+    "duration": 22.209,
+    "status": "synthesized"
+  },
+  {
+    "seq": 28,
+    "speaker": "ALEX",
+    "text": "On the ground, that means a few things. @daily-briefing (maps to repository and issue awareness from Chapters 2-4). @issue-tracker (maps to Chapter 4 issue workflow). @pr-review (maps to Chapter 6 and Chapter 14 review workflow). Example: You filed issues manually (Ch 4) - you can use @issue-tracker.",
+    "filename": "seg028-alex.wav",
+    "duration": 17.729,
+    "status": "synthesized"
+  },
+  {
+    "seq": 29,
+    "speaker": "ALEX",
+    "text": "First, fork the accessibility-agents repository on GitHub.com. Then, open the repository and navigate to Section 3 of the README (or this chapter's Section 3 below) to see the full list of 55 agents organized by team. After that, read through the agent names and descriptions. For each one, ask yourself: \"Have I done this task manually during the workshop?\". Finally, identify 3-5 agents that match workflows you already practiced. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg029-alex.wav",
+    "duration": 29.613,
+    "status": "synthesized"
+  },
+  {
+    "seq": 30,
+    "speaker": "JAMIE",
+    "text": "What does the learner do first, second, and then after that?",
+    "filename": "seg030-jamie.wav",
+    "duration": 3.33,
+    "status": "synthesized"
+  },
+  {
+    "seq": 31,
+    "speaker": "ALEX",
+    "text": "Start here: Open your assigned Challenge 15 issue. Then: Post a discovery mapping comment using this format. The sequence works because every action has a confirmation.",
+    "filename": "seg031-alex.wav",
+    "duration": 9.451,
+    "status": "synthesized"
+  },
+  {
+    "seq": 32,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg032-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 33,
+    "speaker": "JAMIE",
+    "text": "Turn that into a path someone can follow.",
+    "filename": "seg033-jamie.wav",
+    "duration": 2.733,
+    "status": "synthesized"
+  },
+  {
+    "seq": 34,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Challenge 15.2 Step-by-Step: Agent Skill Validation is still useful because run one agent, read its output, and evaluate whether it matches your manual experience. For someone navigating by keyboard or screen reader, this detail matters: VS Code with the accessibility-agents repository cloned and Copilot Chat open.",
+    "filename": "seg034-alex.wav",
+    "duration": 18.945,
+    "status": "synthesized"
+  },
+  {
+    "seq": 35,
+    "speaker": "ALEX",
+    "text": "Here is what that changes in practice. @daily-briefing morning briefing. @issue-tracker find open issues labeled good-first-issue in accessibility-agents. @pr-review show open PRs in accessibility-agents.",
+    "filename": "seg035-alex.wav",
+    "duration": 13.036,
+    "status": "synthesized"
+  },
+  {
+    "seq": 36,
+    "speaker": "ALEX",
+    "text": "Start here: Clone your fork of accessibility-agents to VS Code (or open it in github.dev). Then: Open Copilot Chat: Ctrl+Alt+I, or run Chat: Open Chat from the Command Palette if your keymap differs. Next: Choose one agent from your discovery list. If unsure, start with @daily-briefing or @issue-tracker. Last: Run it with a simple prompt. The sequence works because every action has a confirmation.",
+    "filename": "seg036-alex.wav",
+    "duration": 22.551,
+    "status": "synthesized"
+  },
+  {
+    "seq": 37,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Challenge 15.2 Step-by-Step: Agent Skill Validation. What should a learner take away from it?",
+    "filename": "seg037-jamie.wav",
+    "duration": 6.893,
+    "status": "synthesized"
+  },
+  {
+    "seq": 38,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Read the agent's output carefully. Take a moment to think about what you expected; and Open your assigned Challenge 15 issue and post an evaluation comment. Keep it that plain: know where you are, make the move, check the result.",
+    "filename": "seg038-alex.wav",
+    "duration": 13.079,
+    "status": "synthesized"
+  },
+  {
+    "seq": 39,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Challenge 15.3 Step-by-Step: Agent Instructions Deep Dive. What should a learner take away from it?",
+    "filename": "seg039-jamie.wav",
+    "duration": 7.127,
+    "status": "synthesized"
+  },
+  {
+    "seq": 40,
+    "speaker": "ALEX",
+    "text": "Put Challenge 15.3 Step-by-Step: Agent Instructions Deep Dive into plain language. Read one agent's source file to understand what instructions it follows, what tools it can use, and what mistakes it could make. The useful version is: VS Code or GitHub.com - reading files in the accessibility-agents repository.",
+    "filename": "seg040-alex.wav",
+    "duration": 17.239,
+    "status": "synthesized"
+  },
+  {
+    "seq": 41,
+    "speaker": "ALEX",
+    "text": "The room should hear these as checkpoints. What is this agent trying to do? (its purpose). What tools does it have access to? (tool permissions). What constraints or guardrails are in the instructions?",
+    "filename": "seg041-alex.wav",
+    "duration": 10.284,
+    "status": "synthesized"
+  },
+  {
+    "seq": 42,
+    "speaker": "ALEX",
+    "text": "Walk it in order: In the accessibility-agents repository, navigate to the.github/ folder (or wherever agent definition files are stored); Open one.agent.md or.prompt.md file for an agent you used or are curious about; Read the file and identify; and Think critically: could this agent make a mistake? What kind? Keep it that plain: know where you are, make the move, check the result.",
+    "filename": "seg042-alex.wav",
+    "duration": 21.079,
+    "status": "synthesized"
+  },
+  {
+    "seq": 43,
+    "speaker": "JAMIE",
+    "text": "Before we leave Challenge 15.3 Step-by-Step: Agent Instructions Deep Dive, what is the practical point?",
+    "filename": "seg043-jamie.wav",
+    "duration": 6.658,
+    "status": "synthesized"
+  },
+  {
+    "seq": 44,
+    "speaker": "ALEX",
+    "text": "Think of this as 1 checks: Open your assigned Challenge 15 issue and post your analysis. Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg044-alex.wav",
+    "duration": 9.453,
+    "status": "synthesized"
+  },
+  {
+    "seq": 45,
+    "speaker": "JAMIE",
+    "text": "Now it sounds like a workflow instead of a wall of instructions.",
+    "filename": "seg045-jamie.wav",
+    "duration": 3.863,
+    "status": "synthesized"
+  },
+  {
+    "seq": 46,
+    "speaker": "ALEX",
+    "text": "That is where confidence comes from: not from never getting lost, but from knowing how to recover.",
+    "filename": "seg046-alex.wav",
+    "duration": 5.485,
+    "status": "synthesized"
+  },
+  {
+    "seq": 47,
+    "speaker": "JAMIE",
+    "text": "Where do you want a learner to place their attention here?",
+    "filename": "seg047-jamie.wav",
+    "duration": 3.159,
+    "status": "synthesized"
+  },
+  {
+    "seq": 48,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. Extension 15.4: Improve an Existing Agent (45 min). That is the difference between guessing and knowing: Extension 15.5: Propose a New Agent (60 min).",
+    "filename": "seg048-alex.wav",
+    "duration": 13.335,
+    "status": "synthesized"
+  },
+  {
+    "seq": 49,
+    "speaker": "ALEX",
+    "text": "These are the details that keep the idea from floating away. Find an agent whose instructions have a gap (use Section 6 suggestions or file an issue). Fork the repo, edit the agent's.agent.md file. Get a facilitator review. Open a PR with your improvement.",
+    "filename": "seg049-alex.wav",
+    "duration": 14.784,
+    "status": "synthesized"
+  },
+  {
+    "seq": 50,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg050-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 51,
+    "speaker": "ALEX",
+    "text": "Before the learner moves on. This part earns its place because your evidence is the Challenge 15 issue comments for 15.1, 15.2, and 15.3. That gives the learner a foothold: for optional extensions, your PR or proposal issue is the evidence. That is the difference between following directions and owning the workflow.",
+    "filename": "seg051-alex.wav",
+    "duration": 18.093,
+    "status": "synthesized"
+  },
+  {
+    "seq": 52,
+    "speaker": "JAMIE",
+    "text": "What would you say to someone who is already bracing for this to be too much?",
+    "filename": "seg052-jamie.wav",
+    "duration": 4.055,
+    "status": "synthesized"
+  },
+  {
+    "seq": 53,
+    "speaker": "ALEX",
+    "text": "Expected Outcomes has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg053-alex.wav",
+    "duration": 6.188,
+    "status": "synthesized"
+  },
+  {
+    "seq": 54,
+    "speaker": "ALEX",
+    "text": "If someone is taking notes, this is the short list. Student can map personal Day 1 skills to specific agents in the ecosystem. Student understands the Skill First, Agent Second principle and can articulate why agent output requires human judgment. Student can read agent instructions and evaluate what an agent can and cannot do. Student has used at least one agent and verified it against manual skills. (Optional) Student has contributed to the accessibility-agents ecosystem with a fix, improvement, or proposal.",
+    "filename": "seg054-alex.wav",
+    "duration": 29.357,
+    "status": "synthesized"
+  },
+  {
+    "seq": 55,
+    "speaker": "JAMIE",
+    "text": "Let's pause on If You Get Stuck. What should a learner take away from it?",
+    "filename": "seg055-jamie.wav",
+    "duration": 3.97,
+    "status": "synthesized"
+  },
+  {
+    "seq": 56,
+    "speaker": "ALEX",
+    "text": "Here is the learner-facing version. Continue learning: The GitHub Skills courses Build Applications with Copilot Agent Mode and Expand Your Team with Copilot explore agent-powered development workflows. Put another way, see Appendix Z for the full catalog.",
+    "filename": "seg056-alex.wav",
+    "duration": 14.935,
+    "status": "synthesized"
+  },
+  {
+    "seq": 57,
+    "speaker": "ALEX",
+    "text": "Start here: Cannot find an agent that matches your skills? Start with @daily-briefing or @issue-tracker - those build directly on Chapter 2-5 material. If you have not done those manual steps yet, go back to those chapters first. Then: Agent output does not make sense? That is the right response. Paste the output in an issue comment along with your confusion. That is valuable feedback - the agent may need better instructions or guardrails. Next: Cannot access the agents in Copilot Chat? Verify: Are built-in AI features enabled in VS Code? Are you signed in to GitHub in VS Code with Copilot access? Does.github/agents/ folder exist in your cloned repository? Last: Repository will not clone? Use the terminal: git clone https://github.com/[your-username]/accessibility-agents.git then open the folder in VS Code. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg057-alex.wav",
+    "duration": 51.373,
+    "status": "synthesized"
+  },
+  {
+    "seq": 58,
+    "speaker": "JAMIE",
+    "text": "Before we leave If You Get Stuck, what is the practical point?",
+    "filename": "seg058-jamie.wav",
+    "duration": 3.501,
+    "status": "synthesized"
+  },
+  {
+    "seq": 59,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Ask facilitator to show them what agent you wanted to run, what output you got, and what you expected; and Finished but not sure you did it right? Compare your work against the Challenge 15 reference solution. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg059-alex.wav",
+    "duration": 13.909,
+    "status": "synthesized"
+  },
+  {
+    "seq": 60,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg060-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 61,
+    "speaker": "JAMIE",
+    "text": "If I am listening before the workshop starts, what should settle in my mind first?",
+    "filename": "seg061-jamie.wav",
+    "duration": 4.631,
+    "status": "synthesized"
+  },
+  {
+    "seq": 62,
+    "speaker": "ALEX",
+    "text": "This is the move inside Learning Moment: the 55 agents exist because someone did the manual work first, then automated the repetitive parts. That matters in practice: As you explore agents, you are not just learning tools - you are learning what automation looks like when it is built on real expertise and real constraints.",
+    "filename": "seg062-alex.wav",
+    "duration": 17.175,
+    "status": "synthesized"
+  },
+  {
+    "seq": 63,
+    "speaker": "JAMIE",
+    "text": "That is the kind of detail that keeps a screen reader user oriented.",
+    "filename": "seg063-jamie.wav",
+    "duration": 3.906,
+    "status": "synthesized"
+  },
+  {
+    "seq": 64,
+    "speaker": "ALEX",
+    "text": "Yes. The named thing - the heading, tab, field, branch, or button - is the handhold.",
+    "filename": "seg064-alex.wav",
+    "duration": 4.418,
+    "status": "synthesized"
+  },
+  {
+    "seq": 65,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Learning Pattern Used in This Chapter. What should a learner take away from it?",
+    "filename": "seg065-jamie.wav",
+    "duration": 4.994,
+    "status": "synthesized"
+  },
+  {
+    "seq": 66,
+    "speaker": "ALEX",
+    "text": "Learning Pattern Used in This Chapter has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg066-alex.wav",
+    "duration": 6.892,
+    "status": "synthesized"
+  },
+  {
+    "seq": 67,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Map your existing skills to available tools (discovery before action); Run one tool and evaluate its output critically (trust but verify); Read the source to understand capabilities and limits (internals matter); and Contribute improvements based on your evaluation (close the feedback loop). That small check between steps is what makes the workflow reliable.",
+    "filename": "seg067-alex.wav",
+    "duration": 20.738,
+    "status": "synthesized"
+  },
+  {
+    "seq": 68,
+    "speaker": "JAMIE",
+    "text": "Give me the version that sounds like an instructor, not a manual.",
+    "filename": "seg068-jamie.wav",
+    "duration": 3.842,
+    "status": "synthesized"
+  },
+  {
+    "seq": 69,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: you have now explored the full agent ecosystem, completed the workshop, and have valuable perspective on what worked, what confused you, and what we should improve for the next cohort. The listener should be able to check this: Your feedback directly shapes the future of this project.",
+    "filename": "seg069-alex.wav",
+    "duration": 15.744,
+    "status": "synthesized"
+  },
+  {
+    "seq": 70,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg070-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 71,
+    "speaker": "ALEX",
+    "text": "The next point gives the learner a handle. Do not treat Submit Workshop Feedback as decoration. Use the Workshop Feedback form to share. That is not trivia. Answer as much or as little as you're comfortable sharing.",
+    "filename": "seg071-alex.wav",
+    "duration": 11.692,
+    "status": "synthesized"
+  },
+  {
+    "seq": 72,
+    "speaker": "ALEX",
+    "text": "This is where the lesson becomes something you can check. Which agents stood out? (Most useful or surprising). Which agents confused you? (What would make them better). Was the chapter progression logical? (Did earlier chapters prepare you for later ones). Accessibility experience (If applicable - did any assistive technology work/fail?).",
+    "filename": "seg072-alex.wav",
+    "duration": 16.514,
+    "status": "synthesized"
+  },
+  {
+    "seq": 73,
+    "speaker": "JAMIE",
+    "text": "Let's pause on 1. The Principle: Skill First, Agent Second. What should a learner take away from it?",
+    "filename": "seg073-jamie.wav",
+    "duration": 5.506,
+    "status": "synthesized"
+  },
+  {
+    "seq": 74,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, 1. The Principle: Skill First, Agent Second is still useful because accessibility Agents is not a way to skip learning GitHub. For someone navigating by keyboard or screen reader, this detail matters: It is a way to amplify skills you have already built through deliberate practice.",
+    "filename": "seg074-alex.wav",
+    "duration": 16.407,
+    "status": "synthesized"
+  },
+  {
+    "seq": 75,
+    "speaker": "ALEX",
+    "text": "A few details make that real. Verify that the agent's output is correct. Catch when the agent misses context that only you have. Edit the agent's drafts into something worth posting under your name. Know when the agent is confidently wrong.",
+    "filename": "seg075-alex.wav",
+    "duration": 13.441,
+    "status": "synthesized"
+  },
+  {
+    "seq": 76,
+    "speaker": "ALEX",
+    "text": "Hold that next to this. Put Every agent has a manual prerequisite. If you have not done the corresponding skill by hand, the agent is not ready for you yet - and you are not ready for it into plain language. This applies across all three teams and all 55 agents. The useful version is: Before running any agent, the facilitator asks the same question. The interface gets easier when it becomes a set of named places instead of a wall of controls.",
+    "filename": "seg076-alex.wav",
+    "duration": 23.468,
+    "status": "synthesized"
+  },
+  {
+    "seq": 77,
+    "speaker": "ALEX",
+    "text": "That shows up in the workshop in a few specific ways. GitHub Workflow agents automate repository navigation, issue triage, PR review, and contribution analytics - skills you practiced on Day 1. Accessibility agents automate WCAG auditing, contrast checking, keyboard navigation review, and document scanning - knowledge from your accessibility training and the standards in Appendix C. Developer Tools agents automate accessible coding patterns for Python, wxPython, and desktop applications - skills from your development experience.",
+    "filename": "seg077-alex.wav",
+    "duration": 30.829,
+    "status": "synthesized"
+  },
+  {
+    "seq": 78,
+    "speaker": "JAMIE",
+    "text": "So the learner is not behind if they stop there and check the page.",
+    "filename": "seg078-jamie.wav",
+    "duration": 3.863,
+    "status": "synthesized"
+  },
+  {
+    "seq": 79,
+    "speaker": "ALEX",
+    "text": "Yes. Pausing to verify is not a detour; it is how you keep control of the workflow.",
+    "filename": "seg079-alex.wav",
+    "duration": 4.651,
+    "status": "synthesized"
+  },
+  {
+    "seq": 80,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg080-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 81,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Learning Cards: Skill First, Agent Second. What should a learner take away from it?",
+    "filename": "seg081-jamie.wav",
+    "duration": 5.421,
+    "status": "synthesized"
+  },
+  {
+    "seq": 82,
+    "speaker": "ALEX",
+    "text": "Learning Cards: Skill First, Agent Second has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg082-alex.wav",
+    "duration": 7.383,
+    "status": "synthesized"
+  },
+  {
+    "seq": 83,
+    "speaker": "ALEX",
+    "text": "The parts worth keeping in working memory are these. Before using any agent, verify you can do the task manually -- for @daily-briefing, confirm you can navigate Issues and PRs on GitHub.com with keyboard shortcuts (j/k to move, Enter to open). Agent output appears in Copilot Chat -- press Alt+F2 to open Accessible View and read the full response with arrow keys before acting on it. If an agent produces something you do not understand, stop and learn the manual skill first from the relevant chapter. Agent responses appear in the Copilot Chat panel -- drag the panel wider or use Alt+F2 (Accessible View) for a larger, cleaner reading pane. Each agent's instructions are in a.agent.md file you can open in VS Code and read at your preferred zoom level before invoking the agent. The agent ecosystem table in Section 3 uses standard Markdown tables that scale with your editor font size.",
+    "filename": "seg083-alex.wav",
+    "duration": 52.417,
+    "status": "synthesized"
+  },
+  {
+    "seq": 84,
+    "speaker": "ALEX",
+    "text": "That connects to another useful point. This part earns its place because accessibility Agents now ships with a one-liner installer that sets up all 55 agents for your platform.",
+    "filename": "seg084-alex.wav",
+    "duration": 10.775,
+    "status": "synthesized"
+  },
+  {
+    "seq": 85,
+    "speaker": "JAMIE",
+    "text": "What should they understand before typing anything?",
+    "filename": "seg085-jamie.wav",
+    "duration": 3.053,
+    "status": "synthesized"
+  },
+  {
+    "seq": 86,
+    "speaker": "ALEX",
+    "text": "macOS / Linux has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg086-alex.wav",
+    "duration": 6.423,
+    "status": "synthesized"
+  },
+  {
+    "seq": 87,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like curl -fsSL https://raw.githubusercontent.com/Community-Access/accessibility-agents/main/install.sh bash. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg087-alex.wav",
+    "duration": 19.115,
+    "status": "synthesized"
+  },
+  {
+    "seq": 88,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg088-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 89,
+    "speaker": "ALEX",
+    "text": "Here is the practical turn. Here is the learner-facing version. The installer detects which AI tools you have installed (VS Code with Copilot, Claude Code, Gemini CLI, Claude Desktop, Codex CLI) and configures the appropriate agent files for each platform. Put another way, to uninstall, run the corresponding uninstall script from the repository. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.",
+    "filename": "seg089-alex.wav",
+    "duration": 25.879,
+    "status": "synthesized"
+  },
+  {
+    "seq": 90,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Workshop Setup (Fork and Clone). What should a learner take away from it?",
+    "filename": "seg090-jamie.wav",
+    "duration": 4.61,
+    "status": "synthesized"
+  },
+  {
+    "seq": 91,
+    "speaker": "ALEX",
+    "text": "This is the move inside Workshop Setup (Fork and Clone): for the workshop, you will also fork and clone the repository so you can make contributions. That matters in practice: If Copilot Chat works, the agents work.",
+    "filename": "seg091-alex.wav",
+    "duration": 12.097,
+    "status": "synthesized"
+  },
+  {
+    "seq": 92,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Fork accessibility-agents to your GitHub account (you did this on Day 1 or Day 2 morning); Clone your fork; Open in VS Code: navigate to the folder and run code. (or File, then Open Folder); and Open Copilot Chat: Ctrl+Alt+I, or run Chat: Open Chat from the Command Palette if your keymap differs. The sequence works because every action has a confirmation.",
+    "filename": "seg092-alex.wav",
+    "duration": 21.037,
+    "status": "synthesized"
+  },
+  {
+    "seq": 93,
+    "speaker": "JAMIE",
+    "text": "Before we leave Workshop Setup (Fork and Clone), what is the practical point?",
+    "filename": "seg093-jamie.wav",
+    "duration": 4.226,
+    "status": "synthesized"
+  },
+  {
+    "seq": 94,
+    "speaker": "ALEX",
+    "text": "Think of this as 1 checks: Test: type @daily-briefing morning briefing and press Enter. Keep it that plain: know where you are, make the move, check the result.",
+    "filename": "seg094-alex.wav",
+    "duration": 8.385,
+    "status": "synthesized"
+  },
+  {
+    "seq": 95,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like git clone https://github.com/[your-username]/accessibility-agents.git. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg095-alex.wav",
+    "duration": 16.386,
+    "status": "synthesized"
+  },
+  {
+    "seq": 96,
+    "speaker": "JAMIE",
+    "text": "That is a useful checkpoint before anyone starts pressing keys.",
+    "filename": "seg096-jamie.wav",
+    "duration": 3.949,
+    "status": "synthesized"
+  },
+  {
+    "seq": 97,
+    "speaker": "ALEX",
+    "text": "Exactly. Checkpoints turn uncertainty into information.",
+    "filename": "seg097-alex.wav",
+    "duration": 3.457,
+    "status": "synthesized"
+  },
+  {
+    "seq": 98,
+    "speaker": "ALEX",
+    "text": "Keep the thread going. Prerequisites has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg098-alex.wav",
+    "duration": 7.041,
+    "status": "synthesized"
+  },
+  {
+    "seq": 99,
+    "speaker": "ALEX",
+    "text": "That becomes easier when you listen for these cues. Built-in GitHub Copilot features enabled in current VS Code (see GitHub Copilot setup). Signed in to GitHub via VS Code. A workspace open containing.github/agents/ folder with.agent.md files.",
+    "filename": "seg099-alex.wav",
+    "duration": 16.171,
+    "status": "synthesized"
+  },
+  {
+    "seq": 100,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg100-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 101,
+    "speaker": "JAMIE",
+    "text": "Let's pause on How Agents Are Discovered. What should a learner take away from it?",
+    "filename": "seg101-jamie.wav",
+    "duration": 4.567,
+    "status": "synthesized"
+  },
+  {
+    "seq": 102,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: when you type @ in Copilot Chat, VS Code scans. The listener should be able to check this: The Accessibility Agents ecosystem installs agents appropriate to each platform.",
+    "filename": "seg102-alex.wav",
+    "duration": 12.311,
+    "status": "synthesized"
+  },
+  {
+    "seq": 103,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is.github/agents/.agent.md in your current workspace. Step two is any agents installed globally on your machine. Step three is agents defined by extensions. Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg103-alex.wav",
+    "duration": 17.132,
+    "status": "synthesized"
+  },
+  {
+    "seq": 104,
+    "speaker": "ALEX",
+    "text": "Another way to ground it. Do not treat Optional: Personalize Your Instance as decoration. Open preferences.md in VS Code and edit. That is not trivia. Commit preferences.md to your fork. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg104-alex.wav",
+    "duration": 16.983,
+    "status": "synthesized"
+  },
+  {
+    "seq": 105,
+    "speaker": "JAMIE",
+    "text": "Let's pause on How Agents Travel with Your Repo. What should a learner take away from it?",
+    "filename": "seg105-jamie.wav",
+    "duration": 4.973,
+    "status": "synthesized"
+  },
+  {
+    "seq": 106,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, How Agents Travel with Your Repo is still useful because when you fork accessibility-agents, the.github/agents/ folder comes with it.",
+    "filename": "seg106-alex.wav",
+    "duration": 9.836,
+    "status": "synthesized"
+  },
+  {
+    "seq": 107,
+    "speaker": "ALEX",
+    "text": "Here is the part that makes the next action easier. Any collaborator who clones your fork gets all 55 agents automatically. You can customize agents for your specific project by editing the.agent.md files in your fork. Any project can have agents - create a.github/agents/ folder in any repository and add.agent.md files using the same pattern. The one-liner installer can also set up agents globally, so they are available in every workspace you open.",
+    "filename": "seg107-alex.wav",
+    "duration": 26.283,
+    "status": "synthesized"
+  },
+  {
+    "seq": 108,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg108-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 109,
+    "speaker": "ALEX",
+    "text": "This is the part worth saying out loud. Put Invoking Agents on GitHub.com into plain language. Accessibility Agents agents run in VS Code. The useful version is: But the same.agent.md files can also be invoked directly on GitHub.com - no VS Code, no local clone required.",
+    "filename": "seg109-alex.wav",
+    "duration": 17.474,
+    "status": "synthesized"
+  },
+  {
+    "seq": 110,
+    "speaker": "JAMIE",
+    "text": "I like that because it gives people permission to slow down.",
+    "filename": "seg110-jamie.wav",
+    "duration": 3.671,
+    "status": "synthesized"
+  },
+  {
+    "seq": 111,
+    "speaker": "ALEX",
+    "text": "That is the goal. We want the page to feel explorable, not fragile.",
+    "filename": "seg111-alex.wav",
+    "duration": 3.949,
+    "status": "synthesized"
+  },
+  {
+    "seq": 112,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Option 1: Copilot Chat with Task mode. What should a learner take away from it?",
+    "filename": "seg112-jamie.wav",
+    "duration": 5.357,
+    "status": "synthesized"
+  },
+  {
+    "seq": 113,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. Screen reader users (NVDA / JAWS / VoiceOver).",
+    "filename": "seg113-alex.wav",
+    "duration": 7.063,
+    "status": "synthesized"
+  },
+  {
+    "seq": 114,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Open Copilot Chat on GitHub.com (icon in the top-right navigation bar); Click Task in the mode picker; Optionally click the agent picker to select a custom agent; and Type your request and click Send. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg114-alex.wav",
+    "duration": 15.789,
+    "status": "synthesized"
+  },
+  {
+    "seq": 115,
+    "speaker": "JAMIE",
+    "text": "Before we leave Option 1: Copilot Chat with Task mode, what is the practical point?",
+    "filename": "seg115-jamie.wav",
+    "duration": 5.037,
+    "status": "synthesized"
+  },
+  {
+    "seq": 116,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is Copilot analyzes the task and can create a branch and open a PR automatically. Step two is open Copilot Chat on GitHub.com (navigate to icon in top-right navigation \u2192 Enter). Step three is the mode picker (Task vs Chat) is a set of radio buttons - navigate with Arrow keys to select \"Task\". Step four is the agent picker is a listbox - Up/Down Arrow to navigate, Enter to select. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg116-alex.wav",
+    "duration": 29.591,
+    "status": "synthesized"
+  },
+  {
+    "seq": 117,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Option 2: Assign an issue to Copilot. What should a learner take away from it?",
+    "filename": "seg117-jamie.wav",
+    "duration": 5.399,
+    "status": "synthesized"
+  },
+  {
+    "seq": 118,
+    "speaker": "ALEX",
+    "text": "This part earns its place because screen reader users (NVDA / JAWS / VoiceOver). That gives the learner a foothold: this is the bridge to Section 6 (The Cloud Extension). That is the difference between following directions and owning the workflow.",
+    "filename": "seg118-alex.wav",
+    "duration": 14.167,
+    "status": "synthesized"
+  },
+  {
+    "seq": 119,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is open any issue (or create a new one describing the task). Step two is in the Assignees sidebar section, click the gear icon. Step three is in the dropdown, click Copilot as the assignee. Step four is a dialog opens - optionally provide additional instructions and select a custom agent. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg119-alex.wav",
+    "duration": 22.487,
+    "status": "synthesized"
+  },
+  {
+    "seq": 120,
+    "speaker": "JAMIE",
+    "text": "Before we leave Option 2: Assign an issue to Copilot, what is the practical point?",
+    "filename": "seg120-jamie.wav",
+    "duration": 4.93,
+    "status": "synthesized"
+  },
+  {
+    "seq": 121,
+    "speaker": "ALEX",
+    "text": "First, click Assign to confirm. Then, open any issue in the repository. After that, press B to navigate to the Assignees gear button \u2192 Enter to open the popup. Finally, navigate the popup with Arrow keys \u2192 find \"Copilot\" \u2192 Enter to select. The sequence works because every action has a confirmation.",
+    "filename": "seg121-alex.wav",
+    "duration": 17.921,
+    "status": "synthesized"
+  },
+  {
+    "seq": 122,
+    "speaker": "ALEX",
+    "text": "A solid issue habit is to read the title, the body, and the timeline before acting. You are listening for the requested action, the missing evidence, and the person who needs a response.",
+    "filename": "seg122-alex.wav",
+    "duration": 9.877,
+    "status": "synthesized"
+  },
+  {
+    "seq": 123,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg123-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 124,
+    "speaker": "JAMIE",
+    "text": "There are a lot of tools in play. How do we keep that from feeling like a contest?",
+    "filename": "seg124-jamie.wav",
+    "duration": 4.375,
+    "status": "synthesized"
+  },
+  {
+    "seq": 125,
+    "speaker": "ALEX",
+    "text": "Copilot on GitHub.com - Browser-Native Features: Beyond assigning Copilot to issues and using Task mode in Chat, GitHub.com now has several standalone Copilot features built directly into the web interface. The next useful detail is concrete: These work entirely in your browser - no VS Code, no local clone needed.",
+    "filename": "seg125-alex.wav",
+    "duration": 18.241,
+    "status": "synthesized"
+  },
+  {
+    "seq": 126,
+    "speaker": "ALEX",
+    "text": "Now shift from knowing the term to using it. Here is the learner-facing version. On any open pull request, GitHub adds a \"Summarize\" button in the PR description area. Put another way, selecting it generates a plain-language summary of what the PR changes, why, and what reviewers should focus on.",
+    "filename": "seg126-alex.wav",
+    "duration": 16.557,
+    "status": "synthesized"
+  },
+  {
+    "seq": 127,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Copilot PR Review. What should a learner take away from it?",
+    "filename": "seg127-jamie.wav",
+    "duration": 4.482,
+    "status": "synthesized"
+  },
+  {
+    "seq": 128,
+    "speaker": "ALEX",
+    "text": "This is the move inside Copilot PR Review: on open PRs you have write access to review, a \"Review\" button (or Copilot icon) appears in the Files changed tab. That matters in practice: Copilot generates inline review comments across the diff.",
+    "filename": "seg128-alex.wav",
+    "duration": 15.255,
+    "status": "synthesized"
+  },
+  {
+    "seq": 129,
+    "speaker": "JAMIE",
+    "text": "That is the part I would want someone to say out loud while they work.",
+    "filename": "seg129-jamie.wav",
+    "duration": 3.842,
+    "status": "synthesized"
+  },
+  {
+    "seq": 130,
+    "speaker": "ALEX",
+    "text": "Exactly. A learner should always know what they are trying to prove before they take the next action.",
+    "filename": "seg130-alex.wav",
+    "duration": 4.8,
+    "status": "synthesized"
+  },
+  {
+    "seq": 131,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg131-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 132,
+    "speaker": "ALEX",
+    "text": "This is where confidence starts to build. Anchor this part on Copilot in Issues. On any issue page, Copilot adds sidebar buttons that appear once the page loads. This is the part to say slowly: Look in the right sidebar on any issue page for a Copilot section with \"Explain\" and \"Suggest fix\" buttons. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes.",
+    "filename": "seg132-alex.wav",
+    "duration": 21.996,
+    "status": "synthesized"
+  },
+  {
+    "seq": 133,
+    "speaker": "ALEX",
+    "text": "These are the pieces that turn the idea into a usable move. \"Explain this issue\" - generates a plain-language explanation of a complex technical issue. \"Suggest fix\" - proposes an approach to resolving the issue (opens a task/PR workflow).",
+    "filename": "seg133-alex.wav",
+    "duration": 14.786,
+    "status": "synthesized"
+  },
+  {
+    "seq": 134,
+    "speaker": "JAMIE",
+    "text": "Let's pause on GitHub Models - Free AI Playground. What should a learner take away from it?",
+    "filename": "seg134-jamie.wav",
+    "duration": 5.271,
+    "status": "synthesized"
+  },
+  {
+    "seq": 135,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: github.com/marketplace/models is a free playground where you can test AI models (OpenAI GPT-4o, Meta Llama 3, Mistral, Phi-4 Mini, and others) directly in your browser. The listener should be able to check this: Why it matters for Accessibility Agents: When you build custom agents and prompts, you can test your system prompts and prompt templates in GitHub Models before adding them to your.prompt.md files - rapid iteration without burning API credits.",
+    "filename": "seg135-alex.wav",
+    "duration": 28.951,
+    "status": "synthesized"
+  },
+  {
+    "seq": 136,
+    "speaker": "ALEX",
+    "text": "Listen for the small confirmations in this list. Send prompts to any listed model and compare responses side by side. Adjust parameters (temperature, max tokens) without any setup. Use the code sample generator to get API code for your chosen model. All free with a GitHub account (rate-limited for free tier).",
+    "filename": "seg136-alex.wav",
+    "duration": 17.345,
+    "status": "synthesized"
+  },
+  {
+    "seq": 137,
+    "speaker": "ALEX",
+    "text": "That matters because of the next idea. Do not treat Copilot-Drafted Release Notes as decoration. When creating a release (Releases tab \u2192 Draft a new release), GitHub provides a \"Generate release notes\" button. That is not trivia. It scans merged PRs since the last release and drafts categorized release notes automatically.",
+    "filename": "seg137-alex.wav",
+    "duration": 18.197,
+    "status": "synthesized"
+  },
+  {
+    "seq": 138,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg138-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 139,
+    "speaker": "JAMIE",
+    "text": "What does someone need before they touch the keyboard?",
+    "filename": "seg139-jamie.wav",
+    "duration": 3.053,
+    "status": "synthesized"
+  },
+  {
+    "seq": 140,
+    "speaker": "ALEX",
+    "text": "Learning Cards: Setup and Configuration has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg140-alex.wav",
+    "duration": 7.319,
+    "status": "synthesized"
+  },
+  {
+    "seq": 141,
+    "speaker": "ALEX",
+    "text": "The useful version is not abstract; it sounds like this. Run the installer command in the VS Code terminal (Ctrl+\\) -- it announces progress as it copies agent files to.github/agents/`. After installation, press Ctrl+Shift+E to open the Explorer and navigate to.github/agents/ to verify agent files are present. Edit.github/agents/preferences.md to configure your username, repositories, and notification preferences -- it is a standard Markdown file. The installer creates files in.github/agents/ and.github/prompts/ -- verify in the Explorer sidebar that these folders appeared. Open preferences.md in the editor to set your configuration -- use Ctrl+= to zoom if the YAML frontmatter is hard to read. Agent files use.agent.md extension -- they appear alongside regular Markdown files in the Explorer but are distinguished by their extension.",
+    "filename": "seg141-alex.wav",
+    "duration": 54.145,
+    "status": "synthesized"
+  },
+  {
+    "seq": 142,
+    "speaker": "ALEX",
+    "text": "This is where the talk moves from concept to action. Put 3. The Ecosystem: 55 Agents, 3 Teams, 5 Platforms into plain language. Accessibility Agents is an ecosystem of 55 specialized agents organized into three teams, each addressing a different dimension of accessible software development. The useful version is: Browse all three teams below, then choose the agents that match your current skills and interests. The interface gets easier when it becomes a set of named places instead of a wall of controls.",
+    "filename": "seg142-alex.wav",
+    "duration": 30.061,
+    "status": "synthesized"
+  },
+  {
+    "seq": 143,
+    "speaker": "JAMIE",
+    "text": "So this is less about memorizing and more about noticing.",
+    "filename": "seg143-jamie.wav",
+    "duration": 3.714,
+    "status": "synthesized"
+  },
+  {
+    "seq": 144,
+    "speaker": "ALEX",
+    "text": "Right. Once the learner can name the move, the interface becomes much less intimidating.",
+    "filename": "seg144-alex.wav",
+    "duration": 4.845,
+    "status": "synthesized"
+  },
+  {
+    "seq": 145,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Team 1: Accessibility (26 agents). What should a learner take away from it?",
+    "filename": "seg145-jamie.wav",
+    "duration": 5.762,
+    "status": "synthesized"
+  },
+  {
+    "seq": 146,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. These agents audit, fix, and enforce accessibility across web, document, and mobile platforms.",
+    "filename": "seg146-alex.wav",
+    "duration": 8.512,
+    "status": "synthesized"
+  },
+  {
+    "seq": 147,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg147-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 148,
+    "speaker": "ALEX",
+    "text": "Now slow down for the part people usually miss. This part earns its place because these agents automate GitHub operations - issue triage, PR review, contribution analytics, and repository management.",
+    "filename": "seg148-alex.wav",
+    "duration": 12.077,
+    "status": "synthesized"
+  },
+  {
+    "seq": 149,
+    "speaker": "JAMIE",
+    "text": "What should someone listen for when a lesson offers more than one tool path?",
+    "filename": "seg149-jamie.wav",
+    "duration": 4.119,
+    "status": "synthesized"
+  },
+  {
+    "seq": 150,
+    "speaker": "ALEX",
+    "text": "Team 3: Developer Tools (6 agents): These agents support accessible application development across desktop and cross-platform frameworks.",
+    "filename": "seg150-alex.wav",
+    "duration": 8.343,
+    "status": "synthesized"
+  },
+  {
+    "seq": 151,
+    "speaker": "ALEX",
+    "text": "Put that beside the next piece. Here is the learner-facing version. The 55 agents are backed by additional resources in the repository. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.",
+    "filename": "seg151-alex.wav",
+    "duration": 13.995,
+    "status": "synthesized"
+  },
+  {
+    "seq": 152,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg152-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 153,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Hook-Based Enforcement (Claude Code). What should a learner take away from it?",
+    "filename": "seg153-jamie.wav",
+    "duration": 5.122,
+    "status": "synthesized"
+  },
+  {
+    "seq": 154,
+    "speaker": "ALEX",
+    "text": "This is the move inside Hook-Based Enforcement (Claude Code): on Claude Code, Accessibility Agents includes a hook system that enforces accessibility standards automatically. That matters in practice: This means accessibility enforcement happens whether or not the developer remembers to ask for it.",
+    "filename": "seg154-alex.wav",
+    "duration": 16.471,
+    "status": "synthesized"
+  },
+  {
+    "seq": 155,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Proactive detection hook - scans every file edit for accessibility regressions before they are committed; Edit gate hook - blocks commits that introduce WCAG violations until they are fixed; and Session marker hook - tracks which accessibility checks have run during the current session. Each step should leave a trace you can name.",
+    "filename": "seg155-alex.wav",
+    "duration": 18.028,
+    "status": "synthesized"
+  },
+  {
+    "seq": 156,
+    "speaker": "ALEX",
+    "text": "Here is the moment where the page starts to make sense. Anchor this part on What Would You Build? This is the question that matters most. This is the part to say slowly: The 55 agents that exist today were built by contributors who saw a gap and filled it.",
+    "filename": "seg156-alex.wav",
+    "duration": 13.932,
+    "status": "synthesized"
+  },
+  {
+    "seq": 157,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. \"Why is there no agent for [framework] accessibility patterns?\". \"I spend 30 minutes on [task] every week - could an agent do the repetitive part?\". \"This agent is good but it misses [specific edge case] - I could improve those instructions\". \"Mobile native accessibility testing has no agent coverage yet - I could start one\".",
+    "filename": "seg157-alex.wav",
+    "duration": 18.157,
+    "status": "synthesized"
+  },
+  {
+    "seq": 158,
+    "speaker": "JAMIE",
+    "text": "Let's pause on The contribution paths are. What should a learner take away from it?",
+    "filename": "seg158-jamie.wav",
+    "duration": 4.461,
+    "status": "synthesized"
+  },
+  {
+    "seq": 159,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: see the Accessibility Agents CONTRIBUTING guide for detailed instructions on each path.",
+    "filename": "seg159-alex.wav",
+    "duration": 7.148,
+    "status": "synthesized"
+  },
+  {
+    "seq": 160,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is report an agent gap - file an issue describing what is missing and why it matters. Step two is improve existing agent instructions - make an agent smarter about edge cases it misses. Step three is add framework-specific patterns - teach agents about React, Vue, Angular, Svelte, or other framework accessibility patterns. Step four is fix installer issues - improve the one-liner scripts for different OS configurations. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg160-alex.wav",
+    "duration": 30.21,
+    "status": "synthesized"
+  },
+  {
+    "seq": 161,
+    "speaker": "JAMIE",
+    "text": "Before we leave The contribution paths are, what is the practical point?",
+    "filename": "seg161-jamie.wav",
+    "duration": 4.077,
+    "status": "synthesized"
+  },
+  {
+    "seq": 162,
+    "speaker": "ALEX",
+    "text": "First, write documentation - help others understand how to use and contribute to agents. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg162-alex.wav",
+    "duration": 8.725,
+    "status": "synthesized"
+  },
+  {
+    "seq": 163,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg163-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 164,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Do not treat Roadmap: What Is Coming Next as decoration. Your contribution could be the next item that ships. That is not trivia. Every agent started as one person's idea and one pull request. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg164-alex.wav",
+    "duration": 17.153,
+    "status": "synthesized"
+  },
+  {
+    "seq": 165,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Mobile native agents - agents specialized for iOS (VoiceOver) and Android (TalkBack) native app accessibility. Anthropic Connectors listing - making agents discoverable through the Anthropic marketplace. veraPDF integration - automated PDF/UA validation for the PDF accessibility agent. Document remediation agents - agents that fix accessibility issues in documents, not just find them.",
+    "filename": "seg165-alex.wav",
+    "duration": 25.773,
+    "status": "synthesized"
+  },
+  {
+    "seq": 166,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Learning Cards: The Agent Ecosystem. What should a learner take away from it?",
+    "filename": "seg166-jamie.wav",
+    "duration": 5.25,
+    "status": "synthesized"
+  },
+  {
+    "seq": 167,
+    "speaker": "ALEX",
+    "text": "Learning Cards: The Agent Ecosystem has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg167-alex.wav",
+    "duration": 7.319,
+    "status": "synthesized"
+  },
+  {
+    "seq": 168,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. The three team tables use standard Markdown table format -- navigate with T (NVDA/JAWS) to jump between tables, then Arrow keys to read cells. Agent names start with @ -- type @ followed by the agent name in Copilot Chat to invoke it (e.g., @daily-briefing). Use Ctrl+Shift+O (symbol outline) in any agent file to navigate between its YAML frontmatter sections (Purpose, Responsibilities, Guardrails). The agent tables are dense -- use Ctrl+= to increase font size or open the file in Markdown Preview (Ctrl+Shift+V) for cleaner rendering. Each team has a distinct table: Team 1 (Accessibility, 26 agents), Team 2 (GitHub Workflow, 15 agents), Team 3 (Developer Tools, 14 agents). Agent files in.github/agents/ have descriptive filenames that match the @agent-name -- browse them in the Explorer to find specific agents.",
+    "filename": "seg168-alex.wav",
+    "duration": 51.5,
+    "status": "synthesized"
+  },
+  {
+    "seq": 169,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Put 4. Agents in Detail - Hands-On Reference into plain language. This section walks through several agents in depth so you can see how they work, what they produce, and how to evaluate their output. The useful version is: These examples use GitHub Workflow agents because they build directly on Day 1 skills - but the same patterns apply to every agent in the ecosystem.",
+    "filename": "seg169-alex.wav",
+    "duration": 22.571,
+    "status": "synthesized"
+  },
+  {
+    "seq": 170,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg170-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 171,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Two Types of Agents. What should a learner take away from it?",
+    "filename": "seg171-jamie.wav",
+    "duration": 4.226,
+    "status": "synthesized"
+  },
+  {
+    "seq": 172,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. Before diving in, it helps to know that custom agents fall into two categories - this distinction affects what tool permissions they need and what they can do. That is the difference between guessing and knowing: Informational agents search, analyze, and report.",
+    "filename": "seg172-alex.wav",
+    "duration": 16.407,
+    "status": "synthesized"
+  },
+  {
+    "seq": 173,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. This part earns its place because file.github/agents/daily-briefing.agent.md. That gives the learner a foothold: before you run this agent: You should have manually navigated a repository's Issues tab, read your GitHub Notifications page, understood what a pull request waiting for review looks like, and know the difference between subscribed and participating. That is the difference between following directions and owning the workflow.",
+    "filename": "seg173-alex.wav",
+    "duration": 26.903,
+    "status": "synthesized"
+  },
+  {
+    "seq": 174,
+    "speaker": "JAMIE",
+    "text": "Let's pause on What it does. What should a learner take away from it?",
+    "filename": "seg174-jamie.wav",
+    "duration": 3.735,
+    "status": "synthesized"
+  },
+  {
+    "seq": 175,
+    "speaker": "ALEX",
+    "text": "What it does: Sweeps every repository you have access to and builds a prioritized dashboard.",
+    "filename": "seg175-alex.wav",
+    "duration": 5.505,
+    "status": "synthesized"
+  },
+  {
+    "seq": 176,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Issues opened in the last 24 hours. Pull requests waiting for your review. CI failures on your branches. Security and Dependabot alerts. Community reactions to your recent comments.",
+    "filename": "seg176-alex.wav",
+    "duration": 12.139,
+    "status": "synthesized"
+  },
+  {
+    "seq": 177,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg177-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 178,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Here is the learner-facing version. The briefing output uses heading level 2 for each section. Put another way, use H key (NVDA/JAWS virtual mode) or VO+Command+H (VoiceOver) to jump between: Open Issues, Review Requests, CI Status, Security Alerts, Community Activity.",
+    "filename": "seg178-alex.wav",
+    "duration": 17.965,
+    "status": "synthesized"
+  },
+  {
+    "seq": 179,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Agent 2: @issue-tracker - Issue Management. What should a learner take away from it?",
+    "filename": "seg179-jamie.wav",
+    "duration": 5.762,
+    "status": "synthesized"
+  },
+  {
+    "seq": 180,
+    "speaker": "ALEX",
+    "text": "This is the move inside Agent 2: @issue-tracker - Issue Management: file.github/agents/issue-tracker.agent.md. That matters in practice: Before you run this agent: You should have filed at least one issue using the full manual process - writing a title, description, and reproduction steps; applying labels and a milestone; and reading at least five existing issues to understand what a.",
+    "filename": "seg180-alex.wav",
+    "duration": 22.615,
+    "status": "synthesized"
+  },
+  {
+    "seq": 181,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Anchor this part on What it does. Finds, prioritizes, and helps you manage issues across all your repositories. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes.",
+    "filename": "seg181-alex.wav",
+    "duration": 14.145,
+    "status": "synthesized"
+  },
+  {
+    "seq": 182,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Cross-repository priority scoring with community sentiment. Batch-reply capability (draft replies to multiple issues at once). Saved search support. Release-awareness (flags issues that affect upcoming releases).",
+    "filename": "seg182-alex.wav",
+    "duration": 13.888,
+    "status": "synthesized"
+  },
+  {
+    "seq": 183,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg183-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 184,
+    "speaker": "JAMIE",
+    "text": "How should a learner choose a tool without feeling judged by the choice?",
+    "filename": "seg184-jamie.wav",
+    "duration": 3.927,
+    "status": "synthesized"
+  },
+  {
+    "seq": 185,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: the agent can draft a reply. The listener should be able to check this: You review the tone against the Culture & Etiquette guide before posting.",
+    "filename": "seg185-alex.wav",
+    "duration": 9.922,
+    "status": "synthesized"
+  },
+  {
+    "seq": 186,
+    "speaker": "JAMIE",
+    "text": "What should happen before anyone copies and runs it?",
+    "filename": "seg186-jamie.wav",
+    "duration": 3.159,
+    "status": "synthesized"
+  },
+  {
+    "seq": 187,
+    "speaker": "ALEX",
+    "text": "Output example has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg187-alex.wav",
+    "duration": 5.996,
+    "status": "synthesized"
+  },
+  {
+    "seq": 188,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Open Issues Labeled \"good-first-issue\"; High Priority; - 45 [accessibility-agents] Add NVDA-specific navigation tips (3 comments, opened 5 days ago); - Priority Score: 8/10 (high community interest, clear scope, no assignee); - Recommended for: First-time. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg188-alex.wav",
+    "duration": 25.047,
+    "status": "synthesized"
+  },
+  {
+    "seq": 189,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Agent 3: @pr-review - Pull Request Review. What should a learner take away from it?",
+    "filename": "seg189-jamie.wav",
+    "duration": 5.805,
+    "status": "synthesized"
+  },
+  {
+    "seq": 190,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Agent 3: @pr-review - Pull Request Review is still useful because file.github/agents/pr-review.agent.md. For someone navigating by keyboard or screen reader, this detail matters: Before you run this agent: You should have manually reviewed at least one pull request diff in the GitHub browser interface - navigating the Files Changed tab with your screen reader, reading added and removed lines, leaving at least one inline comment, and.",
+    "filename": "seg190-alex.wav",
+    "duration": 26.432,
+    "status": "synthesized"
+  },
+  {
+    "seq": 191,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg191-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 192,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Put What it does into plain language. Generates full review documents for pull requests. The interface gets easier when it becomes a set of named places instead of a wall of controls.",
+    "filename": "seg192-alex.wav",
+    "duration": 11.927,
+    "status": "synthesized"
+  },
+  {
+    "seq": 193,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Line-numbered diffs with change maps. Risk assessment (what could break, what is high-impact). Before-and-after snapshots. CI results and test coverage information. Suggested inline review comments with line number references.",
+    "filename": "seg193-alex.wav",
+    "duration": 14.359,
+    "status": "synthesized"
+  },
+  {
+    "seq": 194,
+    "speaker": "JAMIE",
+    "text": "How do we make tool choice feel like access, not pressure?",
+    "filename": "seg194-jamie.wav",
+    "duration": 3.565,
+    "status": "synthesized"
+  },
+  {
+    "seq": 195,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. Critical rule: Read the agent's review. That is the difference between guessing and knowing: The agent produces a starting point - it does not know the project's history, the contributor's background, or the community's implicit standards the way you do.",
+    "filename": "seg195-alex.wav",
+    "duration": 15.767,
+    "status": "synthesized"
+  },
+  {
+    "seq": 196,
+    "speaker": "JAMIE",
+    "text": "How do you keep commands from becoming magic words?",
+    "filename": "seg196-jamie.wav",
+    "duration": 3.266,
+    "status": "synthesized"
+  },
+  {
+    "seq": 197,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like PR Review: 14 - Improve screen reader navigation guide; Summary; This PR adds 3 new sections to the screen reader navigation guide and updates 2 existing sections with NVDA-specific keyboard shortcuts.; Files Changed: 1; Lines Added: 127; Lines Removed: 18. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg197-alex.wav",
+    "duration": 25.664,
+    "status": "synthesized"
+  },
+  {
+    "seq": 198,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg198-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 199,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Agent 4: @analytics - Team Analytics. What should a learner take away from it?",
+    "filename": "seg199-jamie.wav",
+    "duration": 5.57,
+    "status": "synthesized"
+  },
+  {
+    "seq": 200,
+    "speaker": "ALEX",
+    "text": "Agent 4: @analytics - Team Analytics: File.github/agents/analytics.agent.md. The next useful detail is concrete: Before you run this agent: You should have explored the Insights tab of at least one repository - looked at the contribution graph, understood what commit frequency means, and thought about what \"high-churn files\" implies for a project's stability.",
+    "filename": "seg200-alex.wav",
+    "duration": 21.1,
+    "status": "synthesized"
+  },
+  {
+    "seq": 201,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Here is the learner-facing version. Surfaces team contribution patterns, velocity metrics, and bottleneck detection. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.",
+    "filename": "seg201-alex.wav",
+    "duration": 14.572,
+    "status": "synthesized"
+  },
+  {
+    "seq": 202,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Contribution velocity over time. Review turnaround time by reviewer. Code hotspot detection (files with the most churn). Workload distribution across contributors.",
+    "filename": "seg202-alex.wav",
+    "duration": 11.415,
+    "status": "synthesized"
+  },
+  {
+    "seq": 203,
+    "speaker": "JAMIE",
+    "text": "What stays the same when the tool changes?",
+    "filename": "seg203-jamie.wav",
+    "duration": 2.925,
+    "status": "synthesized"
+  },
+  {
+    "seq": 204,
+    "speaker": "ALEX",
+    "text": "This is the move inside Example commands: accessibility use case: After Day 2's contribution wave, run @analytics team velocity in accessibility-agents today to see the hackathon's collective output. That matters in practice: A moment of real-time team celebration.",
+    "filename": "seg204-alex.wav",
+    "duration": 15.445,
+    "status": "synthesized"
+  },
+  {
+    "seq": 205,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg205-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 206,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Anchor this part on Agent 5: @insiders-a11y-tracker - Accessibility Change Monitoring. File.github/agents/insiders-a11y-tracker.agent.md. This is the part to say slowly: Before you run this agent: You should have filed at least one accessibility bug report using the workshop's issue template, applied a WCAG label to an issue, and manually reviewed a Markdown file for heading hierarchy - knowing what H1 means, what H2 means,.",
+    "filename": "seg206-alex.wav",
+    "duration": 29.335,
+    "status": "synthesized"
+  },
+  {
+    "seq": 207,
+    "speaker": "JAMIE",
+    "text": "Before we leave What it does, what is the practical point?",
+    "filename": "seg207-jamie.wav",
+    "duration": 3.373,
+    "status": "synthesized"
+  },
+  {
+    "seq": 208,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: monitors accessibility-sensitive changes across configured repositories.",
+    "filename": "seg208-alex.wav",
+    "duration": 6.636,
+    "status": "synthesized"
+  },
+  {
+    "seq": 209,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. WCAG/ARIA cross-referenced change tracking. Flags changes to keyboard navigation, ARIA attributes, focus management, color usage. Monitors for heading hierarchy violations in Markdown. Tracks link text quality (flags bare URLs, non-descriptive labels).",
+    "filename": "seg209-alex.wav",
+    "duration": 17.153,
+    "status": "synthesized"
+  },
+  {
+    "seq": 210,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Do not treat Example commands as decoration. Day 2 workflow: Run this before submitting any PR. That is not trivia. If the agent flags an issue, fix it before requesting review - not after. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg210-alex.wav",
+    "duration": 16.917,
+    "status": "synthesized"
+  },
+  {
+    "seq": 211,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg211-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 212,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Agent 6: @template-builder - Interactive Issue Template Wizard. What should a learner take away from it?",
+    "filename": "seg212-jamie.wav",
+    "duration": 6.893,
+    "status": "synthesized"
+  },
+  {
+    "seq": 213,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Agent 6: @template-builder - Interactive Issue Template Wizard is still useful because file.github/agents/template-builder.agent.md. For someone navigating by keyboard or screen reader, this detail matters: Before you run this agent: You should have read Issue Templates thoroughly - understanding YAML field types, creating a template manually (Exercise B), and designing your own template (Exercise D).",
+    "filename": "seg213-alex.wav",
+    "duration": 25.708,
+    "status": "synthesized"
+  },
+  {
+    "seq": 214,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Put What it does into plain language. An interactive wizard that guides you through building GitHub issue templates step-by-step using VS Code's Ask Questions feature. The useful version is: Instead of writing YAML syntax, answer simple questions and the agent generates production-ready templates.",
+    "filename": "seg214-alex.wav",
+    "duration": 17.41,
+    "status": "synthesized"
+  },
+  {
+    "seq": 215,
+    "speaker": "JAMIE",
+    "text": "What is the common workflow underneath the different interfaces?",
+    "filename": "seg215-jamie.wav",
+    "duration": 3.799,
+    "status": "synthesized"
+  },
+  {
+    "seq": 216,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. Manual YAML template creation takes 15-20 minutes and is error-prone. That is the difference between guessing and knowing: The Template Builder generates correct, tested templates in 2-3 minutes via guided questions.",
+    "filename": "seg216-alex.wav",
+    "duration": 15.061,
+    "status": "synthesized"
+  },
+  {
+    "seq": 217,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg217-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 218,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. This part earns its place because the repository includes 54+ slash commands defined as.prompt.md files in.github/prompts/. That gives the learner a foothold: type / in Copilot Chat to see the full command menu. That is the difference between following directions and owning the workflow.",
+    "filename": "seg218-alex.wav",
+    "duration": 19.33,
+    "status": "synthesized"
+  },
+  {
+    "seq": 219,
+    "speaker": "JAMIE",
+    "text": "How should they picture the shape of the workshop?",
+    "filename": "seg219-jamie.wav",
+    "duration": 2.882,
+    "status": "synthesized"
+  },
+  {
+    "seq": 220,
+    "speaker": "ALEX",
+    "text": "Workshop Slash Command Quick Reference: The commands listed below are the ones most relevant to this workshop. The next useful detail is concrete: The full repository contains 54+ commands covering accessibility auditing, document scanning, framework-specific checks, and more.",
+    "filename": "seg220-alex.wav",
+    "duration": 15.873,
+    "status": "synthesized"
+  },
+  {
+    "seq": 221,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Here is the learner-facing version. Each /command corresponds to a.prompt.md file in.github/prompts/. Put another way, open any of them in VS Code to read what instructions it gives Copilot.",
+    "filename": "seg221-alex.wav",
+    "duration": 13.653,
+    "status": "synthesized"
+  },
+  {
+    "seq": 222,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg222-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 223,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Example: /a11y-update. What should a learner take away from it?",
+    "filename": "seg223-jamie.wav",
+    "duration": 5.143,
+    "status": "synthesized"
+  },
+  {
+    "seq": 224,
+    "speaker": "ALEX",
+    "text": "This is the move inside Example: /a11y-update: file.github/prompts/a11y-update.prompt.md. That matters in practice: This is how you learn to write your own.",
+    "filename": "seg224-alex.wav",
+    "duration": 11.18,
+    "status": "synthesized"
+  },
+  {
+    "seq": 225,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Learning Cards: Slash Commands and Prompts has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg225-alex.wav",
+    "duration": 8.812,
+    "status": "synthesized"
+  },
+  {
+    "seq": 226,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Type / in Copilot Chat to see all available slash commands -- your screen reader announces each command name as you arrow through the list. Slash commands are defined in.github/prompts/ as.prompt.md files -- open them in the Explorer to read what each command does before using it. Create your own command by copying an existing.prompt.md file, renaming it, and editing the instructions -- no code required. The / command menu appears as a dropdown list in Copilot Chat -- it scales with VS Code's font and zoom settings. Each command has a short description visible in the dropdown; use Ctrl+= to zoom if the text is too small. Open the.prompt.md file in the editor to read the full command definition at your preferred zoom level.",
+    "filename": "seg226-alex.wav",
+    "duration": 43.501,
+    "status": "synthesized"
+  },
+  {
+    "seq": 227,
+    "speaker": "JAMIE",
+    "text": "Let's pause on 6. Contributing to the Ecosystem. What should a learner take away from it?",
+    "filename": "seg227-jamie.wav",
+    "duration": 5.271,
+    "status": "synthesized"
+  },
+  {
+    "seq": 228,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: the 55 Accessibility Agents and 54+ slash commands are starting points. The listener should be able to check this: The.agent.md format is open - you can create your own agents for any repeatable workflow, and contribute them back to the project.",
+    "filename": "seg228-alex.wav",
+    "duration": 16.107,
+    "status": "synthesized"
+  },
+  {
+    "seq": 229,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg229-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 230,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Do not treat Two Types of Custom Agents as decoration. Informational agents - conversational; search, analyze, and present results. That is not trivia. Task-oriented agents - active; edit files, run commands, submit PRs.",
+    "filename": "seg230-alex.wav",
+    "duration": 14.7,
+    "status": "synthesized"
+  },
+  {
+    "seq": 231,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Perform GitHub searches with predefined scopes and filters. Present results in specific structured formats. Query GitHub API tools to answer questions. Execute external tools (linters, test suites, axe-core).",
+    "filename": "seg231-alex.wav",
+    "duration": 14.231,
+    "status": "synthesized"
+  },
+  {
+    "seq": 232,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Agent File Structure. What should a learner take away from it?",
+    "filename": "seg232-jamie.wav",
+    "duration": 4.333,
+    "status": "synthesized"
+  },
+  {
+    "seq": 233,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Agent File Structure is still useful because see also: Appendix L: Agents Reference has the complete agent.md format specification and examples. For someone navigating by keyboard or screen reader, this detail matters: Every.agent.md file has two parts: YAML frontmatter (metadata) and a system prompt (markdown body).",
+    "filename": "seg233-alex.wav",
+    "duration": 19.649,
+    "status": "synthesized"
+  },
+  {
+    "seq": 234,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Put Frontmatter fields into plain language. Restricting tool access is a security best practice - only grant what the agent actually needs. The interface gets easier when it becomes a set of named places instead of a wall of controls.",
+    "filename": "seg234-alex.wav",
+    "duration": 14.272,
+    "status": "synthesized"
+  },
+  {
+    "seq": 235,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg235-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 236,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Example: Informational Agent - @insiders-a11y-tracker. What should a learner take away from it?",
+    "filename": "seg236-jamie.wav",
+    "duration": 7.213,
+    "status": "synthesized"
+  },
+  {
+    "seq": 237,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. This agent monitors VS Code Insiders releases for accessibility improvements. That is the difference between guessing and knowing: It searches the microsoft/vscode repository using predefined GitHub query syntax, so you never have to remember the exact filter parameters.",
+    "filename": "seg237-alex.wav",
+    "duration": 18.754,
+    "status": "synthesized"
+  },
+  {
+    "seq": 238,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Use it. What should a learner take away from it?",
+    "filename": "seg238-jamie.wav",
+    "duration": 3.479,
+    "status": "synthesized"
+  },
+  {
+    "seq": 239,
+    "speaker": "ALEX",
+    "text": "This part earns its place because prerequisite: GitHub MCP server installed (github.com/github/github-mcp-server).",
+    "filename": "seg239-alex.wav",
+    "duration": 8.684,
+    "status": "synthesized"
+  },
+  {
+    "seq": 240,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is select @insiders-a11y-tracker from the agent picker. Step two is ask: what shipped this month? or any keyboard navigation improvements in January? Step three is the agent searches with repo:microsoft/vscode is:closed milestone:\"[Month] [Year]\" label:accessibility label:insiders-released and returns formatted results. Keep it that plain: know where you are, make the move, check the result.",
+    "filename": "seg240-alex.wav",
+    "duration": 25.517,
+    "status": "synthesized"
+  },
+  {
+    "seq": 241,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Example: Task-Oriented Agent - The Markdown Accessibility Assistant. What should a learner take away from it?",
+    "filename": "seg241-jamie.wav",
+    "duration": 7.042,
+    "status": "synthesized"
+  },
+  {
+    "seq": 242,
+    "speaker": "ALEX",
+    "text": "Example: Task-Oriented Agent - The Markdown Accessibility Assistant: The GitHub Accessibility team published a complete walkthrough for building a Markdown Accessibility Assistant - a task-oriented agent that reviews Markdown files for accessibility issues and makes direct fixes. The next useful detail is concrete: This agent is the automated version of the accessibility review skills you built during Day 1.",
+    "filename": "seg242-alex.wav",
+    "duration": 23.596,
+    "status": "synthesized"
+  },
+  {
+    "seq": 243,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Runs markdownlint-cli2 to catch structural problems (heading skips, bare URLs, missing blank lines). Reviews link text for descriptiveness. Flags missing or inadequate alt text and waits for your approval before changing it (alt text requires human judgment). Fixes heading hierarchy, list structure, and bare URL formatting directly.",
+    "filename": "seg243-alex.wav",
+    "duration": 20.416,
+    "status": "synthesized"
+  },
+  {
+    "seq": 244,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg244-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 245,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Here is the learner-facing version. This tiered approach - automate what can be objectively evaluated, flag what needs human judgment - is the right model for any accessibility agent. Put another way, it maximizes the agent's value while keeping humans in control of decisions that require context. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.",
+    "filename": "seg245-alex.wav",
+    "duration": 24.301,
+    "status": "synthesized"
+  },
+  {
+    "seq": 246,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Required Prerequisites for the Markdown Accessibility Assistant. What should a learner take away from it?",
+    "filename": "seg246-jamie.wav",
+    "duration": 6.615,
+    "status": "synthesized"
+  },
+  {
+    "seq": 247,
+    "speaker": "ALEX",
+    "text": "Required Prerequisites for the Markdown Accessibility Assistant has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg247-alex.wav",
+    "duration": 8.684,
+    "status": "synthesized"
+  },
+  {
+    "seq": 248,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. GitHub MCP server installed and configured (github.com/github/github-mcp-server). Node.js installed (for npx markdownlint-cli2).",
+    "filename": "seg248-alex.wav",
+    "duration": 12.333,
+    "status": "synthesized"
+  },
+  {
+    "seq": 249,
+    "speaker": "JAMIE",
+    "text": "Let's pause on From VS Code. What should a learner take away from it?",
+    "filename": "seg249-jamie.wav",
+    "duration": 3.991,
+    "status": "synthesized"
+  },
+  {
+    "seq": 250,
+    "speaker": "ALEX",
+    "text": "From VS Code has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg250-alex.wav",
+    "duration": 6.124,
+    "status": "synthesized"
+  },
+  {
+    "seq": 251,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Open Copilot Chat (Ctrl+Alt+I) or run Chat: Open Chat from the Command Palette; In the Chat input toolbar, select the Set Agent button; Select your custom agent from the agent picker; and Type your request - the agent executes in your local workspace. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg251-alex.wav",
+    "duration": 18.389,
+    "status": "synthesized"
+  },
+  {
+    "seq": 252,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg252-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 253,
+    "speaker": "JAMIE",
+    "text": "Let's pause on From GitHub.com (Task mode). What should a learner take away from it?",
+    "filename": "seg253-jamie.wav",
+    "duration": 4.759,
+    "status": "synthesized"
+  },
+  {
+    "seq": 254,
+    "speaker": "ALEX",
+    "text": "From GitHub.com (Task mode) has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg254-alex.wav",
+    "duration": 6.743,
+    "status": "synthesized"
+  },
+  {
+    "seq": 255,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is open Copilot Chat on GitHub.com. Step two is select Task from the mode picker. Step three is optionally select a custom agent from the agent picker. Step four is submit your request - the agent can create a PR automatically. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg255-alex.wav",
+    "duration": 19.053,
+    "status": "synthesized"
+  },
+  {
+    "seq": 256,
+    "speaker": "JAMIE",
+    "text": "Let's pause on From an issue (Issue Assignment). What should a learner take away from it?",
+    "filename": "seg256-jamie.wav",
+    "duration": 4.674,
+    "status": "synthesized"
+  },
+  {
+    "seq": 257,
+    "speaker": "ALEX",
+    "text": "From an issue (Issue Assignment) has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg257-alex.wav",
+    "duration": 6.529,
+    "status": "synthesized"
+  },
+  {
+    "seq": 258,
+    "speaker": "ALEX",
+    "text": "First, open any issue \u2192 Assignees \u2192 assign Copilot. Then, in the dialog, optionally select a custom agent. After that, select Assign - Copilot creates a branch, makes changes, and opens a PR. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg258-alex.wav",
+    "duration": 16.322,
+    "status": "synthesized"
+  },
+  {
+    "seq": 259,
+    "speaker": "JAMIE",
+    "text": "What is the pre-flight check here?",
+    "filename": "seg259-jamie.wav",
+    "duration": 2.327,
+    "status": "synthesized"
+  },
+  {
+    "seq": 260,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Environment Setup for GitHub (Cloud Agents) is still useful because when agents run on GitHub (not locally), they may need additional tools. For someone navigating by keyboard or screen reader, this detail matters: Create a workflow file at.github/workflows/copilot-setup-steps.yml with a single job named copilot-setup-steps.",
+    "filename": "seg260-alex.wav",
+    "duration": 21.077,
+    "status": "synthesized"
+  },
+  {
+    "seq": 261,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg261-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 262,
+    "speaker": "JAMIE",
+    "text": "Let's pause on To Create Your Own Agent. What should a learner take away from it?",
+    "filename": "seg262-jamie.wav",
+    "duration": 4.503,
+    "status": "synthesized"
+  },
+  {
+    "seq": 263,
+    "speaker": "ALEX",
+    "text": "To Create Your Own Agent has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg263-alex.wav",
+    "duration": 6.487,
+    "status": "synthesized"
+  },
+  {
+    "seq": 264,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Create.github/agents/your-agent-name.agent.md; Write YAML frontmatter (name, description, tools); Write the system prompt - identity, capabilities, domain knowledge, behavioral rules, output format; and Save and reload VS Code (Ctrl+Shift+P \u2192 \"Reload Window\"). Keep it that plain: know where you are, make the move, check the result.",
+    "filename": "seg264-alex.wav",
+    "duration": 19.586,
+    "status": "synthesized"
+  },
+  {
+    "seq": 265,
+    "speaker": "JAMIE",
+    "text": "Before we leave To Create Your Own Agent, what is the practical point?",
+    "filename": "seg265-jamie.wav",
+    "duration": 3.991,
+    "status": "synthesized"
+  },
+  {
+    "seq": 266,
+    "speaker": "ALEX",
+    "text": "Think of this as 1 checks: Type @your-agent-name in Copilot Chat. Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg266-alex.wav",
+    "duration": 8.429,
+    "status": "synthesized"
+  },
+  {
+    "seq": 267,
+    "speaker": "JAMIE",
+    "text": "What makes this practice feel low-stakes but still real?",
+    "filename": "seg267-jamie.wav",
+    "duration": 3.437,
+    "status": "synthesized"
+  },
+  {
+    "seq": 268,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. You've built templates manually (Chapters 15-16) and seen them in action. That is the difference between guessing and knowing: Now see how to harness AI to generate templates interactively, and learn to customize agents for your own projects.",
+    "filename": "seg268-alex.wav",
+    "duration": 15.959,
+    "status": "synthesized"
+  },
+  {
+    "seq": 269,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Complete Chapters 15-16 (especially Exercise D - designing your own template). VS Code is installed and GitHub Copilot is active. You have forked accessibility-agents to your GitHub account. You have cloned your fork locally: git clone https://github.com/[your-username]/accessibility-agents.git.",
+    "filename": "seg269-alex.wav",
+    "duration": 19.415,
+    "status": "synthesized"
+  },
+  {
+    "seq": 270,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Exercise 1: Generate a Template with the Agent. What should a learner take away from it?",
+    "filename": "seg270-jamie.wav",
+    "duration": 6.082,
+    "status": "synthesized"
+  },
+  {
+    "seq": 271,
+    "speaker": "ALEX",
+    "text": "This part earns its place because your Mission: Use the @template-builder agent to generate an accessibility bug report template interactively. That gives the learner a foothold: you'll experience the agent as an end-user and see what production-ready agent output looks like. That is the difference between following directions and owning the workflow.",
+    "filename": "seg271-alex.wav",
+    "duration": 18.369,
+    "status": "synthesized"
+  },
+  {
+    "seq": 272,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Left sidebar showing.github/, docs/, learning-room/, README.md, etc. The status bar at the bottom shows your current git branch (probably main). Alternative: Use menu: View \u2192 Copilot Chat. Copilot is now ready to receive instructions.",
+    "filename": "seg272-alex.wav",
+    "duration": 16.897,
+    "status": "synthesized"
+  },
+  {
+    "seq": 273,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is open VS Code. Step two is file \u2192 Open Folder \u2192 select your locally cloned accessibility-agents folder. Step three is the folder tree appears on the left showing the repository structure. Step four is verify you're in the right place: The folder name should be accessibility-agents at the top of the sidebar. The point is not speed; the point is never losing your place.",
+    "filename": "seg273-alex.wav",
+    "duration": 24.919,
+    "status": "synthesized"
+  },
+  {
+    "seq": 274,
+    "speaker": "JAMIE",
+    "text": "Before we leave Exercise 1: Generate a Template with the Agent, what is the practical point?",
+    "filename": "seg274-jamie.wav",
+    "duration": 5.591,
+    "status": "synthesized"
+  },
+  {
+    "seq": 275,
+    "speaker": "ALEX",
+    "text": "First, keyboard shortcut: Press Ctrl+Alt+I, or run Chat: Open Chat from the Command Palette if your keymap differs. Then, a chat panel opens on the right side of VS Code. After that, at the top, you see \"Copilot Chat\" and probably a text input at the bottom saying \"Ask Copilot.\". Finally, click in the chat input box (bottom of Copilot Chat panel). Each step should leave a trace you can name.",
+    "filename": "seg275-alex.wav",
+    "duration": 21.399,
+    "status": "synthesized"
+  },
+  {
+    "seq": 276,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Q: Template name?; A: Accessibility Bug Report; Q: What's it for?; A: Report screen reader and keyboard navigation issues; Q: First field name?; A: Screen Reader; Q: Field type?; A: dropdown; Q: Dropdown options? (comma-separated); A: NVDA, JAWS, VoiceOver,. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg276-alex.wav",
+    "duration": 23.936,
+    "status": "synthesized"
+  },
+  {
+    "seq": 277,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg277-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 278,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Exercise 2: Extend the Agent for Your Project. What should a learner take away from it?",
+    "filename": "seg278-jamie.wav",
+    "duration": 5.975,
+    "status": "synthesized"
+  },
+  {
+    "seq": 279,
+    "speaker": "ALEX",
+    "text": "Exercise 2: Extend the Agent for Your Project: Your Mission: Customize the Template Builder agent to recognize and guide a Security Vulnerability Report template. The next useful detail is concrete: This teaches you how to tailor agents for project-specific needs.",
+    "filename": "seg279-alex.wav",
+    "duration": 15.425,
+    "status": "synthesized"
+  },
+  {
+    "seq": 280,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. The file starts with YAML frontmatter (name, description, topics). Below that, sections like \" How to Use\", \" Pre-Built Workflow\". Search for the text \"Pre-Built Workflow: Guided Accessibility Template\".",
+    "filename": "seg280-alex.wav",
+    "duration": 12.311,
+    "status": "synthesized"
+  },
+  {
+    "seq": 281,
+    "speaker": "ALEX",
+    "text": "First, in VS Code, navigate to.github/agents/. Then, file: template-builder.agent.md. After that, double-click to open it in the editor. Finally, you see the agent's instructions in Markdown format. Each step should leave a trace you can name.",
+    "filename": "seg281-alex.wav",
+    "duration": 15.255,
+    "status": "synthesized"
+  },
+  {
+    "seq": 282,
+    "speaker": "JAMIE",
+    "text": "Before we leave Exercise 2: Extend the Agent for Your Project, what is the practical point?",
+    "filename": "seg282-jamie.wav",
+    "duration": 5.591,
+    "status": "synthesized"
+  },
+  {
+    "seq": 283,
+    "speaker": "ALEX",
+    "text": "Start here: Use Ctrl+F to open Find. Then: Search for: Pre-Built Workflow. Next: Press Enter to jump to the first match. Last: You should land on the \"Pre-Built Workflow: Guided Accessibility Template\" section. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg283-alex.wav",
+    "duration": 15.362,
+    "status": "synthesized"
+  },
+  {
+    "seq": 284,
+    "speaker": "JAMIE",
+    "text": "Let's pause on What you're adding. What should a learner take away from it?",
+    "filename": "seg284-jamie.wav",
+    "duration": 3.714,
+    "status": "synthesized"
+  },
+  {
+    "seq": 285,
+    "speaker": "ALEX",
+    "text": "Here is the learner-facing version. If the agent doesn't recognize your new workflow.",
+    "filename": "seg285-alex.wav",
+    "duration": 4.887,
+    "status": "synthesized"
+  },
+  {
+    "seq": 286,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. A clear label for the new workflow. Instructions on how to invoke it. Pre-defined fields that make sense for security reports. Specific options for severity and vulnerability type. The agent recognizes your new workflow. Next time you invoke @template-builder with \"create security template\", it will follow your new guidance.",
+    "filename": "seg286-alex.wav",
+    "duration": 18.476,
+    "status": "synthesized"
+  },
+  {
+    "seq": 287,
+    "speaker": "ALEX",
+    "text": "Start here: Save the file: Ctrl+S. Then: You should see no error messages. Next: The agent file now includes your new Pre-Built Workflow. Last: Open Copilot Chat again: Ctrl+Alt+I, or run Chat: Open Chat from the Command Palette. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg287-alex.wav",
+    "duration": 17.602,
+    "status": "synthesized"
+  },
+  {
+    "seq": 288,
+    "speaker": "JAMIE",
+    "text": "Before we leave What you're adding, what is the practical point?",
+    "filename": "seg288-jamie.wav",
+    "duration": 3.373,
+    "status": "synthesized"
+  },
+  {
+    "seq": 289,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Press Enter; The agent should now ask vulnerability-specific questions; Commit your agent change; and The extended agent is now in your fork. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg289-alex.wav",
+    "duration": 11.799,
+    "status": "synthesized"
+  },
+  {
+    "seq": 290,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like git add.github/agents/template-builder.agent.md; git commit -m \"feat: add security vulnerability template workflow to template-builder agent\"; git push origin main. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg290-alex.wav",
+    "duration": 19.437,
+    "status": "synthesized"
+  },
+  {
+    "seq": 291,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Exercise 3: Iterative Refinement with Agents. What should a learner take away from it?",
+    "filename": "seg291-jamie.wav",
+    "duration": 6.167,
+    "status": "synthesized"
+  },
+  {
+    "seq": 292,
+    "speaker": "ALEX",
+    "text": "This is the move inside Exercise 3: Iterative Refinement with Agents: your Mission: Generate a template, then ask the agent to modify it incrementally. That matters in practice: This teaches you the iterative pattern that scales to all agent-assisted workflows.",
+    "filename": "seg292-alex.wav",
+    "duration": 15.063,
+    "status": "synthesized"
+  },
+  {
+    "seq": 293,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Running a complete template generation (same as Exercise 1). The agent modifies the YAML it generated. The new checkbox appears in the YAML with proper formatting and indentation. It doesn't regenerate from scratch - just adds your change.",
+    "filename": "seg293-alex.wav",
+    "duration": 15.148,
+    "status": "synthesized"
+  },
+  {
+    "seq": 294,
+    "speaker": "ALEX",
+    "text": "Walk it in order: In Copilot Chat, type: @template-builder create a feature request template; Answer the agent's questions to build a feature request form; Let the agent generate the YAML; and Copy it to a file.github/ISSUE TEMPLATE/feature-request.yml. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg294-alex.wav",
+    "duration": 17.389,
+    "status": "synthesized"
+  },
+  {
+    "seq": 295,
+    "speaker": "JAMIE",
+    "text": "Before we leave Exercise 3: Iterative Refinement with Agents, what is the practical point?",
+    "filename": "seg295-jamie.wav",
+    "duration": 5.57,
+    "status": "synthesized"
+  },
+  {
+    "seq": 296,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Once the template is generated, while still in the same chat conversation, ask; The agent regenerates the YAML with your new checkbox added in the right place (usually as required field pre-validation); Follow up; and The agent modifies the textarea field's attributes to enable code highlighting. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg296-alex.wav",
+    "duration": 21.461,
+    "status": "synthesized"
+  },
+  {
+    "seq": 297,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg297-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 298,
+    "speaker": "JAMIE",
+    "text": "Let's pause on What Comes Next. What should a learner take away from it?",
+    "filename": "seg298-jamie.wav",
+    "duration": 3.906,
+    "status": "synthesized"
+  },
+  {
+    "seq": 299,
+    "speaker": "ALEX",
+    "text": "Anchor this part on What Comes Next. Your next step: explore the broader ecosystem. This is the part to say slowly: That is Accessibility Agents' promise: not to replace your thinking, but to amplify your skills across all 55 agents - and to grow through the contributions of everyone who uses it. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes.",
+    "filename": "seg299-alex.wav",
+    "duration": 21.655,
+    "status": "synthesized"
+  },
+  {
+    "seq": 300,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Browse the full agent list - which agents solve problems you face regularly? Try an Accessibility team agent: @contrast-master check this page or @alt-text-headings review this file. Try a Developer Tools agent: @python-specialist review this module for accessibility or @desktop-a11y-specialist audit this dialog. Think about what is missing: what agent would you build if you could?",
+    "filename": "seg300-alex.wav",
+    "duration": 23.404,
+    "status": "synthesized"
+  },
+  {
+    "seq": 301,
+    "speaker": "ALEX",
+    "text": "Think of this as 3 checks: Generated a template using an agent (Exercise 1); Customized an agent for your domain (Exercise 2); and Refined iteratively with agent help (Exercise 3). That small check between steps is what makes the workflow reliable.",
+    "filename": "seg301-alex.wav",
+    "duration": 14.935,
+    "status": "synthesized"
+  },
+  {
+    "seq": 302,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Learning Cards: Contributing to the Ecosystem. What should a learner take away from it?",
+    "filename": "seg302-jamie.wav",
+    "duration": 5.805,
+    "status": "synthesized"
+  },
+  {
+    "seq": 303,
+    "speaker": "ALEX",
+    "text": "Learning Cards: Contributing to the Ecosystem has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg303-alex.wav",
+    "duration": 7.745,
+    "status": "synthesized"
+  },
+  {
+    "seq": 304,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Agent.agent.md files use YAML frontmatter at the top (between --- delimiters) followed by Markdown body; in VS Code, use Ctrl+G to jump to line 1 and arrow through the frontmatter fields (name, description, tools) before reading the body instructions. When writing your own.agent.md, use VS Code's Outline view (Ctrl+Shift+O) to verify that your Markdown headings (Purpose, Capabilities, Responsibilities) are correctly nested -- malformed headings will not appear in the outline. Before submitting a PR with a new agent file, run the file through a YAML linter (install the YAML extension, or use yamllint from the terminal) -- frontmatter syntax errors silently break agent registration. YAML frontmatter fields are densely packed with colons and quotes; increase your editor font size or use a monospaced font with wide character spacing so name:, description:, and tools: are clearly distinct. The.agent.md files in the agents/ directory follow a consistent structure -- use the file explorer's icon theme or file nesting feature to visually group agent files separately from regular documentation. When reviewing existing agents for contribution ideas, use VS Code's split editor to place the agent file and the README side by side so you can cross-reference the agent's instructions with its documented capabilities.",
+    "filename": "seg304-alex.wav",
+    "duration": 78.423,
+    "status": "synthesized"
+  },
+  {
+    "seq": 305,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Do not treat 7. The Bigger Picture: Teams, Orchestration, and Beyond VS Code as decoration. The 55 agents are not 55 independent tools. That is not trivia. They are organized into three teams that work together, and several orchestrator agents exist specifically to coordinate multi-agent workflows.",
+    "filename": "seg305-alex.wav",
+    "duration": 18.944,
+    "status": "synthesized"
+  },
+  {
+    "seq": 306,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg306-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 307,
+    "speaker": "JAMIE",
+    "text": "Let's pause on How the Three Teams Connect. What should a learner take away from it?",
+    "filename": "seg307-jamie.wav",
+    "duration": 4.482,
+    "status": "synthesized"
+  },
+  {
+    "seq": 308,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, How the Three Teams Connect is still useful because in practice, a single task often spans multiple teams. For someone navigating by keyboard or screen reader, this detail matters: No single agent covers the entire workflow.",
+    "filename": "seg308-alex.wav",
+    "duration": 14.316,
+    "status": "synthesized"
+  },
+  {
+    "seq": 309,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. You ask @daily-briefing (GitHub Workflow) for your morning report. It flags a PR that changes ARIA attributes. You ask @pr-review (GitHub Workflow) to generate a structured review of that PR. The review notes potential accessibility impact. You invoke @aria-specialist (Accessibility) to deep-check the ARIA changes. It identifies a missing aria-expanded state on a disclosure widget. You fix the issue using patterns from @desktop-a11y-specialist (Developer Tools) if it is a desktop application, or directly in the HTML if it is a web project.",
+    "filename": "seg309-alex.wav",
+    "duration": 33.196,
+    "status": "synthesized"
+  },
+  {
+    "seq": 310,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Learning Cards: Teams and Orchestration has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg310-alex.wav",
+    "duration": 8.94,
+    "status": "synthesized"
+  },
+  {
+    "seq": 311,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Orchestrator agents like @accessibility-lead coordinate multi-agent workflows -- invoke one and it delegates to specialists, announcing which agent it is calling. Multi-agent output appears in sequence in Copilot Chat -- press Alt+F2 after each response to read it in Accessible View before the next agent responds. The three teams are GitHub Workflow (what happened), Accessibility (is it correct), and Developer Tools (fix it) -- choose your entry point based on your current task. Orchestrator responses can be long -- use Accessible View (Alt+F2) or widen the Chat panel to read comfortably at high zoom. The workflow diagrams in this section are described in text -- no visual-only content is required to understand the agent coordination pattern. Each team's agents are listed in the tables in Section 3 -- refer back there to find the right specialist agent.",
+    "filename": "seg311-alex.wav",
+    "duration": 49.986,
+    "status": "synthesized"
+  },
+  {
+    "seq": 312,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Orchestrator Agents. What should a learner take away from it?",
+    "filename": "seg312-jamie.wav",
+    "duration": 4.397,
+    "status": "synthesized"
+  },
+  {
+    "seq": 313,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. Four agents are specifically designed to coordinate others. That is the difference between guessing and knowing: You do not need to use orchestrators to get value from individual agents.",
+    "filename": "seg313-alex.wav",
+    "duration": 12.949,
+    "status": "synthesized"
+  },
+  {
+    "seq": 314,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg314-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 315,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. This part earns its place because rather than exploring all 55 agents at once, start with the ones that deliver immediate value based on Day 1 skills you already have.",
+    "filename": "seg315-alex.wav",
+    "duration": 11.714,
+    "status": "synthesized"
+  },
+  {
+    "seq": 316,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Slash Commands That Save the Most Time. What should a learner take away from it?",
+    "filename": "seg316-jamie.wav",
+    "duration": 5.314,
+    "status": "synthesized"
+  },
+  {
+    "seq": 317,
+    "speaker": "ALEX",
+    "text": "Slash Commands That Save the Most Time: These commands work without invoking a full agent - type them directly in Copilot Chat. The next useful detail is concrete: The full list of 54+ commands is in Appendix L, and Episode 39 walks through all of them with examples.",
+    "filename": "seg317-alex.wav",
+    "duration": 16.257,
+    "status": "synthesized"
+  },
+  {
+    "seq": 318,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. /my-issues and /my-prs - Instant dashboard of your open work across all repos. /review-pr 14 - Full AI-generated review with inline suggestions, replacing manual line-by-line reading. /triage 22 - Label, priority, and assignment suggestions for any new issue. /daily-briefing - Morning snapshot of repository activity, PRs needing review, and stale issues.",
+    "filename": "seg318-alex.wav",
+    "duration": 25.111,
+    "status": "synthesized"
+  },
+  {
+    "seq": 319,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Here is the learner-facing version. Accessibility Agents' agents run on your machine, in your editor, when you ask for them. Put another way, the same Markdown-authored pattern extends further. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.",
+    "filename": "seg319-alex.wav",
+    "duration": 16.939,
+    "status": "synthesized"
+  },
+  {
+    "seq": 320,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg320-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 321,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Scope 1: Your Editor (Accessibility Agents). What should a learner take away from it?",
+    "filename": "seg321-jamie.wav",
+    "duration": 5.826,
+    "status": "synthesized"
+  },
+  {
+    "seq": 322,
+    "speaker": "ALEX",
+    "text": "Scope 1: Your Editor (Accessibility Agents) has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg322-alex.wav",
+    "duration": 7.532,
+    "status": "synthesized"
+  },
+  {
+    "seq": 323,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. File lives in.github/agents/[name].agent.md in your workspace. Triggered by: You, when you type @[agent-name] in Copilot Chat. Runs on: Your machine, using your Copilot subscription. Scale: All 55 agents available when the workspace is open.",
+    "filename": "seg323-alex.wav",
+    "duration": 16.641,
+    "status": "synthesized"
+  },
+  {
+    "seq": 324,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Anchor this part on Scope 2: Your Repository (Travels with Forks). When you fork accessibility-agents, all 55 agents come with it. This is the part to say slowly: You can edit them for your project's context.",
+    "filename": "seg324-alex.wav",
+    "duration": 13.868,
+    "status": "synthesized"
+  },
+  {
+    "seq": 325,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. File lives in.github/agents/[name].agent.md in the repo. Triggered by: Any contributor who has Copilot and opens the repo as a VS Code workspace. Runs on: Their machine, using their Copilot subscription. Reaches: Their GitHub account's repositories.",
+    "filename": "seg325-alex.wav",
+    "duration": 17.367,
+    "status": "synthesized"
+  },
+  {
+    "seq": 326,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Scope 3: The Cloud (GitHub Agentic Workflows). What should a learner take away from it?",
+    "filename": "seg326-jamie.wav",
+    "duration": 6.103,
+    "status": "synthesized"
+  },
+  {
+    "seq": 327,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: the workflow runs whether or not anyone is watching - when an issue is opened at 3am, the agentic response fires. The listener should be able to check this: The link between Accessibility Agents and Agentic Workflows: Both use Markdown-authored instructions.",
+    "filename": "seg327-alex.wav",
+    "duration": 16.641,
+    "status": "synthesized"
+  },
+  {
+    "seq": 328,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. File lives in.github/workflows/[name].md (same folder as standard Actions YAML). Triggered by: Any GitHub event - issues: opened, pull request: created, schedule. Runs on: GitHub Actions infrastructure, serverlessly. Reaches: The repository where the workflow is defined.",
+    "filename": "seg328-alex.wav",
+    "duration": 16.789,
+    "status": "synthesized"
+  },
+  {
+    "seq": 329,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg329-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 330,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Do not treat Go Deeper as decoration. For full documentation on every agent, all 54+ slash commands, customization formats, and troubleshooting, see Appendix L: Accessibility Agents Reference. That is not trivia. For the audio version, listen to Episode 39: Accessibility Agents - Complete Reference. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg330-alex.wav",
+    "duration": 24.557,
+    "status": "synthesized"
+  },
+  {
+    "seq": 331,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Example: Auto-triage accessibility issues. What should a learner take away from it?",
+    "filename": "seg331-jamie.wav",
+    "duration": 5.783,
+    "status": "synthesized"
+  },
+  {
+    "seq": 332,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Example: Auto-triage accessibility issues is still useful because file.github/workflows/auto-triage-a11y.md. For someone navigating by keyboard or screen reader, this detail matters: This runs automatically on every new issue.",
+    "filename": "seg332-alex.wav",
+    "duration": 16.449,
+    "status": "synthesized"
+  },
+  {
+    "seq": 333,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Put 8. GitHub Desktop, GitHub CLI, and Copilot CLI into plain language. These tools are not required for this workshop, but are worth knowing as options for different workflows.",
+    "filename": "seg333-alex.wav",
+    "duration": 12.309,
+    "status": "synthesized"
+  },
+  {
+    "seq": 334,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg334-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 335,
+    "speaker": "JAMIE",
+    "text": "Let's pause on GitHub Desktop. What should a learner take away from it?",
+    "filename": "seg335-jamie.wav",
+    "duration": 4.055,
+    "status": "synthesized"
+  },
+  {
+    "seq": 336,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. A graphical Git application with an accessible interface. That is the difference between guessing and knowing: When to use: If command-line Git feels overwhelming, GitHub Desktop provides a GUI alternative.",
+    "filename": "seg336-alex.wav",
+    "duration": 14.529,
+    "status": "synthesized"
+  },
+  {
+    "seq": 337,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Download: desktop.github.com. Useful for: Visual diff review, simpler branch management. Screen reader support: Partial - keyboard navigation works for core flows.",
+    "filename": "seg337-alex.wav",
+    "duration": 11.5,
+    "status": "synthesized"
+  },
+  {
+    "seq": 338,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. This part earns its place because a command-line interface for GitHub operations. That is the difference between following directions and owning the workflow.",
+    "filename": "seg338-alex.wav",
+    "duration": 10.583,
+    "status": "synthesized"
+  },
+  {
+    "seq": 339,
+    "speaker": "JAMIE",
+    "text": "What is the safe way to learn from that example?",
+    "filename": "seg339-jamie.wav",
+    "duration": 3.053,
+    "status": "synthesized"
+  },
+  {
+    "seq": 340,
+    "speaker": "ALEX",
+    "text": "Authenticate has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg340-alex.wav",
+    "duration": 5.74,
+    "status": "synthesized"
+  },
+  {
+    "seq": 341,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like gh auth login. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg341-alex.wav",
+    "duration": 11.776,
+    "status": "synthesized"
+  },
+  {
+    "seq": 342,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg342-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 343,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Common commands. What should a learner take away from it?",
+    "filename": "seg343-jamie.wav",
+    "duration": 4.034,
+    "status": "synthesized"
+  },
+  {
+    "seq": 344,
+    "speaker": "ALEX",
+    "text": "Here is the learner-facing version. Screen reader advantage: gh output is plain text with no dynamic regions - more predictable than the browser for certain operations.",
+    "filename": "seg344-alex.wav",
+    "duration": 9.964,
+    "status": "synthesized"
+  },
+  {
+    "seq": 345,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like gh issue list List issues in current repo; gh issue view 42 Read issue 42; gh pr list List pull requests; gh pr view 14 Read PR 14; gh pr create Create a new PR interactively; gh pr merge 14 Merge PR 14; gh repo clone owner/repo Clone a repository; gh repo. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg345-alex.wav",
+    "duration": 30.551,
+    "status": "synthesized"
+  },
+  {
+    "seq": 346,
+    "speaker": "JAMIE",
+    "text": "Let's pause on GitHub Copilot CLI (gh copilot). What should a learner take away from it?",
+    "filename": "seg346-jamie.wav",
+    "duration": 5.911,
+    "status": "synthesized"
+  },
+  {
+    "seq": 347,
+    "speaker": "ALEX",
+    "text": "This is the move inside GitHub Copilot CLI (gh copilot): an extension that adds Copilot to the terminal.",
+    "filename": "seg347-alex.wav",
+    "duration": 7.597,
+    "status": "synthesized"
+  },
+  {
+    "seq": 348,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Install. What should a learner take away from it?",
+    "filename": "seg348-jamie.wav",
+    "duration": 3.586,
+    "status": "synthesized"
+  },
+  {
+    "seq": 349,
+    "speaker": "ALEX",
+    "text": "Install has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg349-alex.wav",
+    "duration": 5.569,
+    "status": "synthesized"
+  },
+  {
+    "seq": 350,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like gh extension install github/gh-copilot. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg350-alex.wav",
+    "duration": 13.867,
+    "status": "synthesized"
+  },
+  {
+    "seq": 351,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg351-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 352,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Commands. What should a learner take away from it?",
+    "filename": "seg352-jamie.wav",
+    "duration": 3.565,
+    "status": "synthesized"
+  },
+  {
+    "seq": 353,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: use case: When you know what you want to do but are unsure of the exact git command syntax.",
+    "filename": "seg353-alex.wav",
+    "duration": 7.191,
+    "status": "synthesized"
+  },
+  {
+    "seq": 354,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Ask Copilot to explain a command; gh copilot explain \"git rebase -i HEAD 3\"; Ask Copilot to suggest a command; gh copilot suggest \"undo my last commit but keep the changes\"; Ask Copilot to write a shell script; gh copilot suggest \"create a script that finds. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg354-alex.wav",
+    "duration": 25.495,
+    "status": "synthesized"
+  },
+  {
+    "seq": 355,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Example session. What should a learner take away from it?",
+    "filename": "seg355-jamie.wav",
+    "duration": 4.077,
+    "status": "synthesized"
+  },
+  {
+    "seq": 356,
+    "speaker": "ALEX",
+    "text": "Example session has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg356-alex.wav",
+    "duration": 6.06,
+    "status": "synthesized"
+  },
+  {
+    "seq": 357,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like $ gh copilot suggest \"show me all commits from last week\"; Suggestion: git log --since=\"1 week ago\" --oneline; Run this command? (Y/n). Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg357-alex.wav",
+    "duration": 18.434,
+    "status": "synthesized"
+  },
+  {
+    "seq": 358,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Learning Cards: GitHub Desktop, GitHub CLI, and Copilot CLI. What should a learner take away from it?",
+    "filename": "seg358-jamie.wav",
+    "duration": 7.341,
+    "status": "synthesized"
+  },
+  {
+    "seq": 359,
+    "speaker": "ALEX",
+    "text": "Learning Cards: GitHub Desktop, GitHub CLI, and Copilot CLI has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg359-alex.wav",
+    "duration": 9.345,
+    "status": "synthesized"
+  },
+  {
+    "seq": 360,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. GitHub Desktop is a native application -- on Windows it uses UI Automation, not a browser DOM; your screen reader's object navigation (NVDA: Insert+Numpad) rather than browse mode is the correct approach for navigating its interface. GitHub CLI (gh) is entirely terminal-based; all output is plain text that your screen reader reads line by line -- pipe verbose output through head -20 or Select-Object -First 20 to avoid overwhelming your speech buffer. Copilot CLI (gh copilot suggest and gh copilot explain) presents interactive prompts in the terminal; listen for the \"Run this command? (Y/n)\" confirmation before pressing Enter to avoid executing unreviewed commands. GitHub Desktop inherits your Windows display scaling -- if text appears small, increase system-level scaling (Settings Display Scale) rather than looking for an in-app zoom option. Terminal output from gh and gh copilot uses your terminal's font and color settings; configure your terminal profile (Windows Terminal settings or iTerm2 preferences) with a high-contrast color scheme and large font for comfortable reading. Copilot CLI suggestions appear as plain text in the terminal, not in a styled panel -- they are easy to miss among other output; look for the indented suggestion block immediately after your prompt.",
+    "filename": "seg360-alex.wav",
+    "duration": 77.867,
+    "status": "synthesized"
+  },
+  {
+    "seq": 361,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg361-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 362,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Put \"Agent not found\" into plain language. Issue: Typing @agent-name shows \"No agent found.\". The interface gets easier when it becomes a set of named places instead of a wall of controls.",
+    "filename": "seg362-alex.wav",
+    "duration": 12.482,
+    "status": "synthesized"
+  },
+  {
+    "seq": 363,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Solutions. What should a learner take away from it?",
+    "filename": "seg363-jamie.wav",
+    "duration": 3.735,
+    "status": "synthesized"
+  },
+  {
+    "seq": 364,
+    "speaker": "ALEX",
+    "text": "Solutions has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg364-alex.wav",
+    "duration": 5.676,
+    "status": "synthesized"
+  },
+  {
+    "seq": 365,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Verify.github/agents/[name].agent.md exists in your workspace; Reload VS Code window: Ctrl+Shift+P \u2192 \"Reload Window\"; Check file naming: must end with.agent.md; and Verify YAML frontmatter is valid (no syntax errors). The sequence works because every action has a confirmation.",
+    "filename": "seg365-alex.wav",
+    "duration": 19.713,
+    "status": "synthesized"
+  },
+  {
+    "seq": 366,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. This part earns its place because issue: Agent's response is wrong or misses context.",
+    "filename": "seg366-alex.wav",
+    "duration": 6.805,
+    "status": "synthesized"
+  },
+  {
+    "seq": 367,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg367-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 368,
+    "speaker": "JAMIE",
+    "text": "Before we leave Solutions, what is the practical point?",
+    "filename": "seg368-jamie.wav",
+    "duration": 3.415,
+    "status": "synthesized"
+  },
+  {
+    "seq": 369,
+    "speaker": "ALEX",
+    "text": "First, provide more context in your prompt: Be specific about what you need. Then, use @ mentions: Reference specific files or selections (@filename.md, selection). After that, check the agent's prerequisites: Did you do the manual work first? Finally, review the agent's instructions: Open.github/agents/[name].agent.md and read what it's supposed to do. Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg369-alex.wav",
+    "duration": 25.559,
+    "status": "synthesized"
+  },
+  {
+    "seq": 370,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Here is the learner-facing version. Issue: /command shows \"Command not found.\". A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.",
+    "filename": "seg370-alex.wav",
+    "duration": 12.525,
+    "status": "synthesized"
+  },
+  {
+    "seq": 371,
+    "speaker": "JAMIE",
+    "text": "What is the teaching move inside Solutions?",
+    "filename": "seg371-jamie.wav",
+    "duration": 3.01,
+    "status": "synthesized"
+  },
+  {
+    "seq": 372,
+    "speaker": "ALEX",
+    "text": "This is the move inside Solutions: next: Chapter 20: Build Your Agent Back: Chapter 18: Fork and Contribute Related appendices: Appendix L: Agents Reference Appendix K: Copilot Reference.",
+    "filename": "seg372-alex.wav",
+    "duration": 11.564,
+    "status": "synthesized"
+  },
+  {
+    "seq": 373,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Verify.github/prompts/[name].md exists; Reload window: Ctrl+Shift+P \u2192 \"Reload Window\"; Check file naming: must be a.md file in.github/prompts/; and Try typing the full command name (autocomplete may be incomplete). Each step should leave a trace you can name.",
+    "filename": "seg373-alex.wav",
+    "duration": 17.088,
+    "status": "synthesized"
+  },
+  {
+    "seq": 374,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg374-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 375,
+    "speaker": "JAMIE",
+    "text": "What should people carry with them after this?",
+    "filename": "seg375-jamie.wav",
+    "duration": 2.647,
+    "status": "synthesized"
+  },
+  {
+    "seq": 376,
+    "speaker": "ALEX",
+    "text": "Carry the map. Know what page or tool you are in, know which action you are taking, and know what confirmation should follow. If the confirmation is missing, pause. That pause is not wasted time; it is professional judgment.",
+    "filename": "seg376-alex.wav",
+    "duration": 11.799,
+    "status": "synthesized"
+  },
+  {
+    "seq": 377,
+    "speaker": "JAMIE",
+    "text": "That is a better way to say it than just follow the steps.",
+    "filename": "seg377-jamie.wav",
+    "duration": 3.394,
+    "status": "synthesized"
+  },
+  {
+    "seq": 378,
+    "speaker": "ALEX",
+    "text": "Right. Steps matter, but understanding wins. That is episode 17. Next in the series is episode 18, where we keep building the same contributor muscles.",
+    "filename": "seg378-alex.wav",
+    "duration": 9.125,
+    "status": "synthesized"
+  }
+]

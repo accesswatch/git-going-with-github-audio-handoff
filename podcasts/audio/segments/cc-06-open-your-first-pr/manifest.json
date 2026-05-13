@@ -1,0 +1,2642 @@
+[
+  {
+    "seq": 1,
+    "speaker": "ALEX",
+    "text": "Welcome back to Challenge Coach. Today we are taking on Open Your First Pull Request, one careful step at a time.",
+    "filename": "seg001-alex.wav",
+    "duration": 7.085,
+    "status": "synthesized"
+  },
+  {
+    "seq": 2,
+    "speaker": "JAMIE",
+    "text": "And I am Jamie. I am listening for the confusing parts: where to start, what to submit, and how to tell whether it worked.",
+    "filename": "seg002-jamie.wav",
+    "duration": 6.037,
+    "status": "synthesized"
+  },
+  {
+    "seq": 3,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg003-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 4,
+    "speaker": "ALEX",
+    "text": "In this challenge, the learner is practicing opening a pull request, comparing branches, and using closing keywords. The point is not to rush. The point is to leave a clear trace of good work.",
+    "filename": "seg004-alex.wav",
+    "duration": 10.775,
+    "status": "synthesized"
+  },
+  {
+    "seq": 5,
+    "speaker": "JAMIE",
+    "text": "So we should name what success sounds like before the learner starts clicking or typing.",
+    "filename": "seg005-jamie.wav",
+    "duration": 4.738,
+    "status": "synthesized"
+  },
+  {
+    "seq": 6,
+    "speaker": "ALEX",
+    "text": "Yes. When the checkpoint is clear, the learner can tell the difference between being stuck and simply not being finished yet.",
+    "filename": "seg006-alex.wav",
+    "duration": 5.973,
+    "status": "synthesized"
+  },
+  {
+    "seq": 7,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg007-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 8,
+    "speaker": "JAMIE",
+    "text": "What makes this practice feel low-stakes but still real?",
+    "filename": "seg008-jamie.wav",
+    "duration": 3.437,
+    "status": "synthesized"
+  },
+  {
+    "seq": 9,
+    "speaker": "ALEX",
+    "text": "Challenge 6: Open Your First Pull Request: What you will do: Open a pull request from your learn/YOUR-USERNAME branch to main, connecting it to the issue you filed in Challenge 2.",
+    "filename": "seg009-alex.wav",
+    "duration": 10.177,
+    "status": "synthesized"
+  },
+  {
+    "seq": 10,
+    "speaker": "ALEX",
+    "text": "A solid pull request habit is to separate three questions: what changed, why it changed, and what still needs review. That keeps the conversation useful instead of noisy.",
+    "filename": "seg010-alex.wav",
+    "duration": 9.986,
+    "status": "synthesized"
+  },
+  {
+    "seq": 11,
+    "speaker": "JAMIE",
+    "text": "How would you walk the room through that step by step?",
+    "filename": "seg011-jamie.wav",
+    "duration": 3.01,
+    "status": "synthesized"
+  },
+  {
+    "seq": 12,
+    "speaker": "ALEX",
+    "text": "Instructions has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg012-alex.wav",
+    "duration": 5.783,
+    "status": "synthesized"
+  },
+  {
+    "seq": 13,
+    "speaker": "ALEX",
+    "text": "Start here: Go to the Pull requests tab. Then: Select New pull request. Next: Set base to main and compare to learn/YOUR-USERNAME. Last: Write a descriptive PR title. The point is not speed; the point is never losing your place.",
+    "filename": "seg013-alex.wav",
+    "duration": 13.101,
+    "status": "synthesized"
+  },
+  {
+    "seq": 14,
+    "speaker": "JAMIE",
+    "text": "What does the learner do first, second, and then after that?",
+    "filename": "seg014-jamie.wav",
+    "duration": 3.33,
+    "status": "synthesized"
+  },
+  {
+    "seq": 15,
+    "speaker": "ALEX",
+    "text": "Walk it in order: In the PR description, include Closes XX (replace XX with your Challenge 2 issue number). This automatically links and closes the issue when the PR is merged; and Submit the pull request. Each step should leave a trace you can name.",
+    "filename": "seg015-alex.wav",
+    "duration": 14.765,
+    "status": "synthesized"
+  },
+  {
+    "seq": 16,
+    "speaker": "JAMIE",
+    "text": "What is the one idea that makes the next few steps less mysterious?",
+    "filename": "seg016-jamie.wav",
+    "duration": 4.077,
+    "status": "synthesized"
+  },
+  {
+    "seq": 17,
+    "speaker": "ALEX",
+    "text": "This is the move inside PR description template: use this structure for your PR description.",
+    "filename": "seg017-alex.wav",
+    "duration": 5.869,
+    "status": "synthesized"
+  },
+  {
+    "seq": 18,
+    "speaker": "JAMIE",
+    "text": "That feels much more doable when you say it as one move.",
+    "filename": "seg018-jamie.wav",
+    "duration": 3.458,
+    "status": "synthesized"
+  },
+  {
+    "seq": 19,
+    "speaker": "ALEX",
+    "text": "Right. The magic is not speed. The magic is knowing what changed and why it matters.",
+    "filename": "seg019-alex.wav",
+    "duration": 4.629,
+    "status": "synthesized"
+  },
+  {
+    "seq": 20,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg020-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 21,
+    "speaker": "ALEX",
+    "text": "Now bring the learner back to the room. Anchor this part on The magic of Closes XX. When you write Closes 12 in a PR description, GitHub automatically. This is the part to say slowly: This is one of GitHub's most powerful workflow features.",
+    "filename": "seg021-alex.wav",
+    "duration": 14.081,
+    "status": "synthesized"
+  },
+  {
+    "seq": 22,
+    "speaker": "ALEX",
+    "text": "For a learner, the useful signals are concrete. Links the PR to issue 12. Closes issue 12 when the PR is merged.",
+    "filename": "seg022-alex.wav",
+    "duration": 7.682,
+    "status": "synthesized"
+  },
+  {
+    "seq": 23,
+    "speaker": "JAMIE",
+    "text": "What would you say to someone who is already bracing for this to be too much?",
+    "filename": "seg023-jamie.wav",
+    "duration": 4.055,
+    "status": "synthesized"
+  },
+  {
+    "seq": 24,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: find the Peer Simulation: Improve contribution guidance PR and leave an encouraging comment. The listener should be able to check this: If you have access to a real buddy's PR, you may comment there too.",
+    "filename": "seg024-alex.wav",
+    "duration": 13.292,
+    "status": "synthesized"
+  },
+  {
+    "seq": 25,
+    "speaker": "ALEX",
+    "text": "The useful habit is simple: orient, act, verify, then continue. That pause between action and trust is part of the work.",
+    "filename": "seg025-alex.wav",
+    "duration": 7.255,
+    "status": "synthesized"
+  },
+  {
+    "seq": 26,
+    "speaker": "ALEX",
+    "text": "That matters because of the next idea. Example PR has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg026-alex.wav",
+    "duration": 8.0,
+    "status": "synthesized"
+  },
+  {
+    "seq": 27,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg027-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 28,
+    "speaker": "JAMIE",
+    "text": "Okay, set the room for us. What are we walking into?",
+    "filename": "seg028-jamie.wav",
+    "duration": 3.245,
+    "status": "synthesized"
+  },
+  {
+    "seq": 29,
+    "speaker": "ALEX",
+    "text": "Title has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg029-alex.wav",
+    "duration": 5.441,
+    "status": "synthesized"
+  },
+  {
+    "seq": 30,
+    "speaker": "ALEX",
+    "text": "Here is what that changes in practice. Describes the change clearly: someone reading just the title understands what happened. Short enough to scan in a list.",
+    "filename": "seg030-alex.wav",
+    "duration": 8.705,
+    "status": "synthesized"
+  },
+  {
+    "seq": 31,
+    "speaker": "ALEX",
+    "text": "This is where the talk moves from concept to action. Body has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg031-alex.wav",
+    "duration": 8.129,
+    "status": "synthesized"
+  },
+  {
+    "seq": 32,
+    "speaker": "ALEX",
+    "text": "The room should hear these as checkpoints. What: Summarizes the change. Why: Explains the motivation. Closes N: Links to the issue this PR resolves -- GitHub automatically closes the issue when the PR merges.",
+    "filename": "seg032-alex.wav",
+    "duration": 12.909,
+    "status": "synthesized"
+  },
+  {
+    "seq": 33,
+    "speaker": "JAMIE",
+    "text": "Now it sounds like a workflow instead of a wall of instructions.",
+    "filename": "seg033-jamie.wav",
+    "duration": 3.863,
+    "status": "synthesized"
+  },
+  {
+    "seq": 34,
+    "speaker": "ALEX",
+    "text": "That is where confidence comes from: not from never getting lost, but from knowing how to recover.",
+    "filename": "seg034-alex.wav",
+    "duration": 5.485,
+    "status": "synthesized"
+  },
+  {
+    "seq": 35,
+    "speaker": "JAMIE",
+    "text": "Where do you want a learner to place their attention here?",
+    "filename": "seg035-jamie.wav",
+    "duration": 3.159,
+    "status": "synthesized"
+  },
+  {
+    "seq": 36,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. The Closes 3 line creates a two-way link. That is the difference between guessing and knowing: The issue shows \"referenced by PR 5\" and the PR shows \"Closes 3.\" When the PR merges, issue 3 closes automatically.",
+    "filename": "seg036-alex.wav",
+    "duration": 15.361,
+    "status": "synthesized"
+  },
+  {
+    "seq": 37,
+    "speaker": "ALEX",
+    "text": "A solid issue habit is to read the title, the body, and the timeline before acting. You are listening for the requested action, the missing evidence, and the person who needs a response.",
+    "filename": "seg037-alex.wav",
+    "duration": 9.877,
+    "status": "synthesized"
+  },
+  {
+    "seq": 38,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg038-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 39,
+    "speaker": "ALEX",
+    "text": "Before the learner moves on. This part earns its place because if the repository has automated checks (the PR validation bot), a green checkmark appears. That gives the learner a foothold: if checks fail, read the bot's feedback comment for specific guidance. That is the difference between following directions and owning the workflow.",
+    "filename": "seg039-alex.wav",
+    "duration": 17.431,
+    "status": "synthesized"
+  },
+  {
+    "seq": 40,
+    "speaker": "JAMIE",
+    "text": "Give me the version that sounds like an instructor, not a manual.",
+    "filename": "seg040-jamie.wav",
+    "duration": 3.842,
+    "status": "synthesized"
+  },
+  {
+    "seq": 41,
+    "speaker": "ALEX",
+    "text": "Alternate linking syntax has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg041-alex.wav",
+    "duration": 6.423,
+    "status": "synthesized"
+  },
+  {
+    "seq": 42,
+    "speaker": "ALEX",
+    "text": "If someone is taking notes, this is the short list. Closes 3. Resolves 3.",
+    "filename": "seg042-alex.wav",
+    "duration": 4.673,
+    "status": "synthesized"
+  },
+  {
+    "seq": 43,
+    "speaker": "ALEX",
+    "text": "Now slow down for the part people usually miss. Here is the learner-facing version. The learning objective is connecting a change (PR) to a reason (issue) through GitHub's linking system. Put another way, if your PR has a clear title, a description, and references an issue number, you completed this challenge.",
+    "filename": "seg043-alex.wav",
+    "duration": 15.808,
+    "status": "synthesized"
+  },
+  {
+    "seq": 44,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg044-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 45,
+    "speaker": "JAMIE",
+    "text": "If I am listening before the workshop starts, what should settle in my mind first?",
+    "filename": "seg045-jamie.wav",
+    "duration": 4.631,
+    "status": "synthesized"
+  },
+  {
+    "seq": 46,
+    "speaker": "ALEX",
+    "text": "This is the move inside Creating, Reviewing, and Merging Pull Requests with a Screen Reader: see also: Chapter 15: Code Review covers the full review workflow including multi-file diffs and suggested changes. That matters in practice: Pull requests are where your work becomes a contribution.",
+    "filename": "seg046-alex.wav",
+    "duration": 16.941,
+    "status": "synthesized"
+  },
+  {
+    "seq": 47,
+    "speaker": "JAMIE",
+    "text": "That is the kind of detail that keeps a screen reader user oriented.",
+    "filename": "seg047-jamie.wav",
+    "duration": 3.906,
+    "status": "synthesized"
+  },
+  {
+    "seq": 48,
+    "speaker": "ALEX",
+    "text": "Yes. The named thing - the heading, tab, field, branch, or button - is the handhold.",
+    "filename": "seg048-alex.wav",
+    "duration": 4.268,
+    "status": "synthesized"
+  },
+  {
+    "seq": 49,
+    "speaker": "ALEX",
+    "text": "Here is the moment where the page starts to make sense. Anchor this part on Workshop Recommendation (Chapter 6). Chapter 6 is the first PR-validated chapter where students convert issue work into merge-ready contributions. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes.",
+    "filename": "seg049-alex.wav",
+    "duration": 17.836,
+    "status": "synthesized"
+  },
+  {
+    "seq": 50,
+    "speaker": "ALEX",
+    "text": "Listen for the small confirmations in this list. There are 3. Each challenge should take under 10 minutes each. The evidence is PR metadata, bot checks, and merged issue linkage. The pattern is small change - linked PR - green checks.",
+    "filename": "seg050-alex.wav",
+    "duration": 12.994,
+    "status": "synthesized"
+  },
+  {
+    "seq": 51,
+    "speaker": "JAMIE",
+    "text": "What is the ordered workflow?",
+    "filename": "seg051-jamie.wav",
+    "duration": 2.199,
+    "status": "synthesized"
+  },
+  {
+    "seq": 52,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: this is the first chapter where you edit files and create branches. The listener should be able to check this: Use one of these two paths: - Web editor (recommended for beginners): When you edit a file on GitHub.com and click \"Propose changes,\" GitHub creates a branch for you automatically.",
+    "filename": "seg052-alex.wav",
+    "duration": 16.129,
+    "status": "synthesized"
+  },
+  {
+    "seq": 53,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is create one small branch change - edit a practice file on a new branch. Step two is open a linked PR - use the PR template and include Closes XX. Step three is pass required checks - respond to bot feedback until all required checks pass. The sequence works because every action has a confirmation.",
+    "filename": "seg053-alex.wav",
+    "duration": 19.456,
+    "status": "synthesized"
+  },
+  {
+    "seq": 54,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg054-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 55,
+    "speaker": "JAMIE",
+    "text": "Give me the sequence, because order matters here.",
+    "filename": "seg055-jamie.wav",
+    "duration": 3.095,
+    "status": "synthesized"
+  },
+  {
+    "seq": 56,
+    "speaker": "ALEX",
+    "text": "Do not treat Challenge 6.1 Step-by-Step: Create One Small Branch Change as decoration. Edit one of the practice files and save your change on a new branch. That is not trivia. your Learning Room repository on GitHub.com, using the web editor.",
+    "filename": "seg056-alex.wav",
+    "duration": 13.975,
+    "status": "synthesized"
+  },
+  {
+    "seq": 57,
+    "speaker": "ALEX",
+    "text": "This is where the lesson becomes something you can check. Screen reader users (NVDA/JAWS): Press B to navigate buttons, find \"Edit this file,\" and press Enter. VoiceOver users: Press VO+U, open Buttons rotor, find \"Edit this file,\" and press VO+Space. If your issue is about a [TODO] section: replace the [TODO] placeholder with the requested content (one to three sentences). If your issue is about a broken link: find and correct the URL.",
+    "filename": "seg057-alex.wav",
+    "duration": 25.9,
+    "status": "synthesized"
+  },
+  {
+    "seq": 58,
+    "speaker": "ALEX",
+    "text": "First, in your Learning Room repository, navigate to the file specified in your issue. Use the file tree or the \"Go to file\" button (T keyboard shortcut). Then, open the file and activate the pencil icon (Edit this file) button. After that, the file opens in the web editor. Make your change. For. Finally, keep your change small and focused. Edit only what the issue asks for. Keep it that plain: know where you are, make the move, check the result.",
+    "filename": "seg058-alex.wav",
+    "duration": 23.191,
+    "status": "synthesized"
+  },
+  {
+    "seq": 59,
+    "speaker": "JAMIE",
+    "text": "Turn that into a path someone can follow.",
+    "filename": "seg059-jamie.wav",
+    "duration": 2.733,
+    "status": "synthesized"
+  },
+  {
+    "seq": 60,
+    "speaker": "ALEX",
+    "text": "Start here: After editing, activate the Commit changes button (green button above the editor). Then: A dialog appears. In the Branch name field, type: fix/yourname-issueXX (replace yourname with your GitHub username, and XX with the issue number). Next: Select Create a new branch for this commit and start a pull request. Last: Activate Propose changes. Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg060-alex.wav",
+    "duration": 22.572,
+    "status": "synthesized"
+  },
+  {
+    "seq": 61,
+    "speaker": "ALEX",
+    "text": "A solid Git habit is to know which branch you are on, what changed, and what confirmation you expect before you run the next command.",
+    "filename": "seg061-alex.wav",
+    "duration": 7.554,
+    "status": "synthesized"
+  },
+  {
+    "seq": 62,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Challenge 6.2 Step-by-Step: Open a Linked PR. What should a learner take away from it?",
+    "filename": "seg062-jamie.wav",
+    "duration": 6.189,
+    "status": "synthesized"
+  },
+  {
+    "seq": 63,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Challenge 6.2 Step-by-Step: Open a Linked PR is still useful because AI agents do not just deploy code directly; they submit pull requests. For someone navigating by keyboard or screen reader, this detail matters: Learning to edit a file, format it in Markdown, and review a PR today prepares you to audit and approve AI-generated changes tomorrow.",
+    "filename": "seg063-alex.wav",
+    "duration": 22.572,
+    "status": "synthesized"
+  },
+  {
+    "seq": 64,
+    "speaker": "ALEX",
+    "text": "A few details make that real. \"Complete the Who Can Contribute section in welcome.md\". \"Fix broken accessibility settings link in setup-guide.md\". \"Correct NVDA modifier key in keyboard-shortcuts.md\". A summary of what you changed and why (at least 50 characters).",
+    "filename": "seg064-alex.wav",
+    "duration": 16.215,
+    "status": "synthesized"
+  },
+  {
+    "seq": 65,
+    "speaker": "ALEX",
+    "text": "Start here: In the Title field, write a short description of your change. Then: In the Body field, use the PR template if one is provided. Make sure to. Next: Verify the base branch is main and the compare branch is your fix/yourname-issueXX branch. Last: Activate the Create pull request button. Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg065-alex.wav",
+    "duration": 20.29,
+    "status": "synthesized"
+  },
+  {
+    "seq": 66,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Challenge 6.3 Step-by-Step: Pass Required Checks. What should a learner take away from it?",
+    "filename": "seg066-jamie.wav",
+    "duration": 6.295,
+    "status": "synthesized"
+  },
+  {
+    "seq": 67,
+    "speaker": "ALEX",
+    "text": "Put Challenge 6.3 Step-by-Step: Pass Required Checks into plain language. Read bot feedback, fix any issues it finds, and get all required checks to pass. The useful version is: the Conversation tab of your open pull request. The interface gets easier when it becomes a set of named places instead of a wall of controls.",
+    "filename": "seg067-alex.wav",
+    "duration": 17.985,
+    "status": "synthesized"
+  },
+  {
+    "seq": 68,
+    "speaker": "ALEX",
+    "text": "Here are the anchors worth keeping. That your PR references an issue with Closes XX. That your PR description is detailed enough (50+ characters). That your changed files are in the learning-room/ folder. Accessibility checks: heading hierarchy, descriptive link text, valid alt text.",
+    "filename": "seg068-alex.wav",
+    "duration": 16.492,
+    "status": "synthesized"
+  },
+  {
+    "seq": 69,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Wait approximately 30 seconds after opening the PR. The bot posts a validation comment; Read the bot comment carefully. It checks; If the bot reports failures; and Repeat step 3 until all required checks show a green checkmark. The point is not speed; the point is never losing your place.",
+    "filename": "seg069-alex.wav",
+    "duration": 16.962,
+    "status": "synthesized"
+  },
+  {
+    "seq": 70,
+    "speaker": "JAMIE",
+    "text": "Before we leave Challenge 6.3 Step-by-Step: Pass Required Checks, what is the practical point?",
+    "filename": "seg070-jamie.wav",
+    "duration": 6.018,
+    "status": "synthesized"
+  },
+  {
+    "seq": 71,
+    "speaker": "ALEX",
+    "text": "Think of this as 1 checks: When all checks pass, request a review from a peer or the facilitator. Each step should leave a trace you can name.",
+    "filename": "seg071-alex.wav",
+    "duration": 7.959,
+    "status": "synthesized"
+  },
+  {
+    "seq": 72,
+    "speaker": "JAMIE",
+    "text": "So the learner is not behind if they stop there and check the page.",
+    "filename": "seg072-jamie.wav",
+    "duration": 3.863,
+    "status": "synthesized"
+  },
+  {
+    "seq": 73,
+    "speaker": "ALEX",
+    "text": "Yes. Pausing to verify is not a detour; it is how you keep control of the workflow.",
+    "filename": "seg073-alex.wav",
+    "duration": 4.651,
+    "status": "synthesized"
+  },
+  {
+    "seq": 74,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg074-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 75,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Expected Outcomes. What should a learner take away from it?",
+    "filename": "seg075-jamie.wav",
+    "duration": 4.29,
+    "status": "synthesized"
+  },
+  {
+    "seq": 76,
+    "speaker": "ALEX",
+    "text": "Expected Outcomes has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg076-alex.wav",
+    "duration": 6.188,
+    "status": "synthesized"
+  },
+  {
+    "seq": 77,
+    "speaker": "ALEX",
+    "text": "That shows up in the workshop in a few specific ways. Student opens a focused PR that maps to one issue. Student uses Closes XX correctly. Student can interpret bot feedback and improve the PR.",
+    "filename": "seg077-alex.wav",
+    "duration": 12.333,
+    "status": "synthesized"
+  },
+  {
+    "seq": 78,
+    "speaker": "JAMIE",
+    "text": "Let's pause on If You Get Stuck. What should a learner take away from it?",
+    "filename": "seg078-jamie.wav",
+    "duration": 3.97,
+    "status": "synthesized"
+  },
+  {
+    "seq": 79,
+    "speaker": "ALEX",
+    "text": "If You Get Stuck has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg079-alex.wav",
+    "duration": 5.783,
+    "status": "synthesized"
+  },
+  {
+    "seq": 80,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is confirm your PR includes Closes XX in title or body. Step two is check that changed files are only in learning-room/. Step three is open the bot validation comment and resolve one required check at a time. Step four is if checks still fail, ask for peer or facilitator review with the exact error message. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg080-alex.wav",
+    "duration": 25.815,
+    "status": "synthesized"
+  },
+  {
+    "seq": 81,
+    "speaker": "JAMIE",
+    "text": "Before we leave If You Get Stuck, what is the practical point?",
+    "filename": "seg081-jamie.wav",
+    "duration": 3.501,
+    "status": "synthesized"
+  },
+  {
+    "seq": 82,
+    "speaker": "ALEX",
+    "text": "First, finished but not sure you did it right? Compare your work against the Challenge 6 reference solution. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg082-alex.wav",
+    "duration": 8.642,
+    "status": "synthesized"
+  },
+  {
+    "seq": 83,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Learning Moment. What should a learner take away from it?",
+    "filename": "seg083-jamie.wav",
+    "duration": 3.842,
+    "status": "synthesized"
+  },
+  {
+    "seq": 84,
+    "speaker": "ALEX",
+    "text": "Learning Moment: A great PR is small, linked to an issue, and easy to review. The next useful detail is concrete: Faster feedback builds confidence and momentum.",
+    "filename": "seg084-alex.wav",
+    "duration": 9.28,
+    "status": "synthesized"
+  },
+  {
+    "seq": 85,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg085-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 86,
+    "speaker": "ALEX",
+    "text": "Here is the practical turn. Why this feels achievable has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg086-alex.wav",
+    "duration": 8.001,
+    "status": "synthesized"
+  },
+  {
+    "seq": 87,
+    "speaker": "ALEX",
+    "text": "On the ground, that means a few things. Scope is intentionally small. Feedback is immediate and specific. Success is visible (green checks + closed issue).",
+    "filename": "seg087-alex.wav",
+    "duration": 9.026,
+    "status": "synthesized"
+  },
+  {
+    "seq": 88,
+    "speaker": "JAMIE",
+    "text": "Let's pause on About Learning Cards in This Chapter. What should a learner take away from it?",
+    "filename": "seg088-jamie.wav",
+    "duration": 4.909,
+    "status": "synthesized"
+  },
+  {
+    "seq": 89,
+    "speaker": "ALEX",
+    "text": "This is the move inside About Learning Cards in This Chapter: this chapter provides learning cards: expandable blocks that offer perspective-specific guidance for different ways of working. That matters in practice: Not every card appears at every step.",
+    "filename": "seg089-alex.wav",
+    "duration": 13.997,
+    "status": "synthesized"
+  },
+  {
+    "seq": 90,
+    "speaker": "JAMIE",
+    "text": "That is a useful checkpoint before anyone starts pressing keys.",
+    "filename": "seg090-jamie.wav",
+    "duration": 3.949,
+    "status": "synthesized"
+  },
+  {
+    "seq": 91,
+    "speaker": "ALEX",
+    "text": "Exactly. Checkpoints turn uncertainty into information.",
+    "filename": "seg091-alex.wav",
+    "duration": 3.607,
+    "status": "synthesized"
+  },
+  {
+    "seq": 92,
+    "speaker": "JAMIE",
+    "text": "What should happen before anyone copies and runs it?",
+    "filename": "seg092-jamie.wav",
+    "duration": 3.159,
+    "status": "synthesized"
+  },
+  {
+    "seq": 93,
+    "speaker": "ALEX",
+    "text": "Anchor this part on Local Git Alternative: The Full Branch-Edit-PR Workflow. If you cloned the learning-room in Block 0 and prefer working locally. This is the part to say slowly: The web editor workflow (pencil button, \"Propose changes\") is the primary path taught in this chapter.",
+    "filename": "seg093-alex.wav",
+    "duration": 15.596,
+    "status": "synthesized"
+  },
+  {
+    "seq": 94,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like cd /Documents/learning-room; git checkout main; git pull origin main; git checkout -b fix/welcome-todos. code docs/welcome.md. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg094-alex.wav",
+    "duration": 18.581,
+    "status": "synthesized"
+  },
+  {
+    "seq": 95,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg095-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 96,
+    "speaker": "JAMIE",
+    "text": "Let's pause on What Is a Pull Request? What should a learner take away from it?",
+    "filename": "seg096-jamie.wav",
+    "duration": 4.183,
+    "status": "synthesized"
+  },
+  {
+    "seq": 97,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: a pull request (PR) is a proposal to merge changes from one branch into another. The listener should be able to check this.you open a PR to request that those changes be merged into the target branch (usually main).",
+    "filename": "seg097-alex.wav",
+    "duration": 14.06,
+    "status": "synthesized"
+  },
+  {
+    "seq": 98,
+    "speaker": "ALEX",
+    "text": "These are the details that keep the idea from floating away. Edited a file directly on GitHub (web editor). Made changes in your fork. Made changes on a feature branch. What changed - a diff of every file.",
+    "filename": "seg098-alex.wav",
+    "duration": 12.141,
+    "status": "synthesized"
+  },
+  {
+    "seq": 99,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Navigating to Pull Requests. What should a learner take away from it?",
+    "filename": "seg099-jamie.wav",
+    "duration": 4.802,
+    "status": "synthesized"
+  },
+  {
+    "seq": 100,
+    "speaker": "ALEX",
+    "text": "Do not treat Navigating to Pull Requests as decoration. Global pull requests dashboard: GitHub now shows a global pull requests page at github.com/pulls listing all open PRs across every repository you have access to. That is not trivia. This is now the default landing page when you click \"Pull requests\" in the top navigation bar (the one above the repository content, not inside a repository). The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg100-alex.wav",
+    "duration": 29.591,
+    "status": "synthesized"
+  },
+  {
+    "seq": 101,
+    "speaker": "ALEX",
+    "text": "That becomes easier when you listen for these cues. In Windows High Contrast mode, the active tab is indicated by a system-colored underline, not just a color change. At high magnification, use Tab to move through the repository navigation links if the tab bar is hard to target with a pointer. Once in the PR list, PR titles are links with standard hover underlines. They remain clickable at any zoom level.",
+    "filename": "seg101-alex.wav",
+    "duration": 23.255,
+    "status": "synthesized"
+  },
+  {
+    "seq": 102,
+    "speaker": "ALEX",
+    "text": "First, d \u2192 \"Repository navigation\" landmark. Then, k to navigate tabs \u2192 \"Pull requests, [N] open\". After that, enter to open. Finally, vO+U \u2192 Landmarks \u2192 navigate to \"Repository navigation\". The point is not speed; the point is never losing your place.",
+    "filename": "seg102-alex.wav",
+    "duration": 17.389,
+    "status": "synthesized"
+  },
+  {
+    "seq": 103,
+    "speaker": "JAMIE",
+    "text": "Before we leave Navigating to Pull Requests, what is the practical point?",
+    "filename": "seg103-jamie.wav",
+    "duration": 4.333,
+    "status": "synthesized"
+  },
+  {
+    "seq": 104,
+    "speaker": "ALEX",
+    "text": "Start here: Quick Nav K or VO+Right to navigate tabs \u2192 \"Pull requests\". Then: VO+Space to open. Each step should leave a trace you can name.",
+    "filename": "seg104-alex.wav",
+    "duration": 9.73,
+    "status": "synthesized"
+  },
+  {
+    "seq": 105,
+    "speaker": "JAMIE",
+    "text": "What is the safe way to learn from that example?",
+    "filename": "seg105-jamie.wav",
+    "duration": 3.053,
+    "status": "synthesized"
+  },
+  {
+    "seq": 106,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, From a PR notification is still useful because if you received a notification about a PR, follow the notification link directly to the PR page. For someone navigating by keyboard or screen reader, this detail matters: List and view pull requests from your terminal.",
+    "filename": "seg106-alex.wav",
+    "duration": 16.087,
+    "status": "synthesized"
+  },
+  {
+    "seq": 107,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like List open PRs; gh pr list; Filter by review status; gh pr list --search \"review-requested:@me\"; View a specific PR in the terminal; gh pr view 42; Open a PR in your browser; gh pr view 42 --web. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg107-alex.wav",
+    "duration": 23.616,
+    "status": "synthesized"
+  },
+  {
+    "seq": 108,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg108-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 109,
+    "speaker": "ALEX",
+    "text": "This is the part worth saying out loud. Learning Cards: Navigating to Pull Requests has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg109-alex.wav",
+    "duration": 9.751,
+    "status": "synthesized"
+  },
+  {
+    "seq": 110,
+    "speaker": "ALEX",
+    "text": "Here is the part that makes the next action easier. Press D to jump to the \"Repository navigation\" landmark, then K to reach the \"Pull requests\" tab link -- this is faster than arrowing through the entire page. The tab link announces the open PR count (\"Pull requests, 7 open\"), giving you a quick triage number without opening the list. From any GitHub page, press G then P (two sequential key presses in Focus Mode) to jump directly to the repository's Pull Requests tab. The Pull requests tab is in the repository navigation bar near the page top; at 200%+ zoom the tab bar may wrap to a second line, but each tab remains a distinct clickable link. The open PR count appears in parentheses next to the tab text; zoom into the tab area to read it without opening the list. Use Tab key navigation to step through the repository nav links if pointer targeting is difficult at high magnification.",
+    "filename": "seg110-alex.wav",
+    "duration": 49.645,
+    "status": "synthesized"
+  },
+  {
+    "seq": 111,
+    "speaker": "JAMIE",
+    "text": "I like that because it gives people permission to slow down.",
+    "filename": "seg111-jamie.wav",
+    "duration": 3.671,
+    "status": "synthesized"
+  },
+  {
+    "seq": 112,
+    "speaker": "ALEX",
+    "text": "That is the goal. We want the page to feel explorable, not fragile.",
+    "filename": "seg112-alex.wav",
+    "duration": 3.949,
+    "status": "synthesized"
+  },
+  {
+    "seq": 113,
+    "speaker": "JAMIE",
+    "text": "Let's pause on The Pull Request List Page. What should a learner take away from it?",
+    "filename": "seg113-jamie.wav",
+    "duration": 4.653,
+    "status": "synthesized"
+  },
+  {
+    "seq": 114,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. The PR list works identically to the Issues list. That is the difference between guessing and knowing: for screen reader users, - PR list semantics: The PR list does not have individual ARIA item containers with per-item semantics.",
+    "filename": "seg114-alex.wav",
+    "duration": 15.959,
+    "status": "synthesized"
+  },
+  {
+    "seq": 115,
+    "speaker": "ALEX",
+    "text": "These are the pieces that turn the idea into a usable move. 3 to navigate PR titles (they are h3 headings). I to navigate list items. F or E / Shift+E to reach the search/filter field. Filters work the same as Issues: is:open, author:@me, review-requested:@me, etc.",
+    "filename": "seg115-alex.wav",
+    "duration": 16.557,
+    "status": "synthesized"
+  },
+  {
+    "seq": 116,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Navigating the PR Tab Bar. What should a learner take away from it?",
+    "filename": "seg116-jamie.wav",
+    "duration": 4.845,
+    "status": "synthesized"
+  },
+  {
+    "seq": 117,
+    "speaker": "ALEX",
+    "text": "This part earns its place because the Conversation, Commits, and Files changed tabs are in a \"Pull request navigation tabs\" landmark. That gives the learner a foothold: the three tabs - Conversation, Commits, and Files changed - appear just below the PR title. That is the difference between following directions and owning the workflow.",
+    "filename": "seg117-alex.wav",
+    "duration": 17.388,
+    "status": "synthesized"
+  },
+  {
+    "seq": 118,
+    "speaker": "ALEX",
+    "text": "The useful version is not abstract; it sounds like this. The three tabs ( Conversation, Commits, Files changed ) may stack or wrap. Each tab remains a distinct clickable link. The active tab is distinguished by an underline. In Windows High Contrast mode, the underline uses a system accent color for visibility. The Files changed tab includes a count (for example, \"Files changed 3\"). This count is part of the link text, not a separate element. If the tabs are hard to click at high magnification, use Tab key navigation from the PR title area to reach each tab link sequentially.",
+    "filename": "seg118-alex.wav",
+    "duration": 31.745,
+    "status": "synthesized"
+  },
+  {
+    "seq": 119,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is press D \u2192 navigate to \"Pull request navigation tabs\". Step two is press \u2190 or \u2192 arrow keys to move between tab options. Step three is press Enter to activate a tab. Step four is vO+U \u2192 Landmarks \u2192 \"Pull request navigation tabs\". That small check between steps is what makes the workflow reliable.",
+    "filename": "seg119-alex.wav",
+    "duration": 21.271,
+    "status": "synthesized"
+  },
+  {
+    "seq": 120,
+    "speaker": "JAMIE",
+    "text": "Before we leave Navigating the PR Tab Bar, what is the practical point?",
+    "filename": "seg120-jamie.wav",
+    "duration": 4.418,
+    "status": "synthesized"
+  },
+  {
+    "seq": 121,
+    "speaker": "ALEX",
+    "text": "First, vO+Right to move between tabs. Then, vO+Space to activate. The sequence works because every action has a confirmation.",
+    "filename": "seg121-alex.wav",
+    "duration": 8.085,
+    "status": "synthesized"
+  },
+  {
+    "seq": 122,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg122-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 123,
+    "speaker": "JAMIE",
+    "text": "Let's pause on PR Description. What should a learner take away from it?",
+    "filename": "seg123-jamie.wav",
+    "duration": 4.269,
+    "status": "synthesized"
+  },
+  {
+    "seq": 124,
+    "speaker": "ALEX",
+    "text": "PR Description has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg124-alex.wav",
+    "duration": 6.081,
+    "status": "synthesized"
+  },
+  {
+    "seq": 125,
+    "speaker": "ALEX",
+    "text": "First, 2 \u2192 navigate to \"Description\" h2 heading. Then, \u2193 to read the description. After that, markdown renders as semantic HTML - headings, lists, code blocks are fully accessible. The sequence works because every action has a confirmation.",
+    "filename": "seg125-alex.wav",
+    "duration": 15.277,
+    "status": "synthesized"
+  },
+  {
+    "seq": 126,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Status Checks Section. What should a learner take away from it?",
+    "filename": "seg126-jamie.wav",
+    "duration": 4.29,
+    "status": "synthesized"
+  },
+  {
+    "seq": 127,
+    "speaker": "ALEX",
+    "text": "Here is the learner-facing version. Below the description, the status checks summary shows whether automated tests passed. Put another way, status checks appear as a coloured banner below the PR description - green tick for passed, red X for failed, yellow spinner for running.",
+    "filename": "seg127-alex.wav",
+    "duration": 14.551,
+    "status": "synthesized"
+  },
+  {
+    "seq": 128,
+    "speaker": "ALEX",
+    "text": "The parts worth keeping in working memory are these. \"All checks have passed\" / \"Some checks failed\" / \"Checks pending\". A \"Show all checks\" button or link.",
+    "filename": "seg128-alex.wav",
+    "duration": 8.684,
+    "status": "synthesized"
+  },
+  {
+    "seq": 129,
+    "speaker": "ALEX",
+    "text": "Start here: Press H or 2 to find the \"Checks\" or \"Status checks\" heading. Then: Press K to navigate links for individual check names. Next: Press Enter on a check to see its details. Last: Quick Nav H or VO+Cmd+H to jump to the \"Checks\" or \"Status checks\" heading. Keep it that plain: know where you are, make the move, check the result.",
+    "filename": "seg129-alex.wav",
+    "duration": 18.05,
+    "status": "synthesized"
+  },
+  {
+    "seq": 130,
+    "speaker": "JAMIE",
+    "text": "Before we leave Status Checks Section, what is the practical point?",
+    "filename": "seg130-jamie.wav",
+    "duration": 3.842,
+    "status": "synthesized"
+  },
+  {
+    "seq": 131,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Quick Nav K to navigate check name links; and VO+Space on a check to see its details. Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg131-alex.wav",
+    "duration": 10.626,
+    "status": "synthesized"
+  },
+  {
+    "seq": 132,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Review Comments. What should a learner take away from it?",
+    "filename": "seg132-jamie.wav",
+    "duration": 4.013,
+    "status": "synthesized"
+  },
+  {
+    "seq": 133,
+    "speaker": "ALEX",
+    "text": "This is the move inside Review Comments: each review comment thread is an h3.",
+    "filename": "seg133-alex.wav",
+    "duration": 5.015,
+    "status": "synthesized"
+  },
+  {
+    "seq": 134,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Hear the reviewer's username, timestamp, and their review verdict (\"approved\" or \"requested changes\"). Then the body of their review comment. Then any replies to that comment.",
+    "filename": "seg134-alex.wav",
+    "duration": 10.903,
+    "status": "synthesized"
+  },
+  {
+    "seq": 135,
+    "speaker": "JAMIE",
+    "text": "That is the part I would want someone to say out loud while they work.",
+    "filename": "seg135-jamie.wav",
+    "duration": 3.842,
+    "status": "synthesized"
+  },
+  {
+    "seq": 136,
+    "speaker": "ALEX",
+    "text": "Exactly. A learner should always know what they are trying to prove before they take the next action.",
+    "filename": "seg136-alex.wav",
+    "duration": 4.8,
+    "status": "synthesized"
+  },
+  {
+    "seq": 137,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg137-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 138,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Resolving conversations. What should a learner take away from it?",
+    "filename": "seg138-jamie.wav",
+    "duration": 4.674,
+    "status": "synthesized"
+  },
+  {
+    "seq": 139,
+    "speaker": "ALEX",
+    "text": "Anchor this part on Resolving conversations. When a review comment has been addressed, you can mark the conversation as resolved. This is the part to say slowly: Resolved conversations are still accessible - they collapse but can be expanded again. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes.",
+    "filename": "seg139-alex.wav",
+    "duration": 18.967,
+    "status": "synthesized"
+  },
+  {
+    "seq": 140,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Navigate to the conversation thread (3 to jump between comment headings); Tab to the end of the thread to find the \"Resolve conversation\" button; Press Enter to mark it resolved; and The conversation collapses and shows as \"Resolved\". The point is not speed; the point is never losing your place.",
+    "filename": "seg140-alex.wav",
+    "duration": 16.962,
+    "status": "synthesized"
+  },
+  {
+    "seq": 141,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Learning Cards: Reading the Conversation Tab. What should a learner take away from it?",
+    "filename": "seg141-jamie.wav",
+    "duration": 5.442,
+    "status": "synthesized"
+  },
+  {
+    "seq": 142,
+    "speaker": "ALEX",
+    "text": "Learning Cards: Reading the Conversation Tab has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg142-alex.wav",
+    "duration": 7.596,
+    "status": "synthesized"
+  },
+  {
+    "seq": 143,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Press 2 to jump between H2 headings: \"Description\" (the PR body) and \"Activity\" (the comment thread). Press 3 to jump between individual review comments (each is an H3); each announces the reviewer's username, timestamp, and verdict. Press D to jump to the \"Add a comment\" landmark at the bottom to skip directly to the reply box. Status checks below the description show green checkmarks (passed), red X marks (failed), or yellow spinners (running); zoom in on this area after opening a PR. Review comments have a colored left border: green for \"Approved,\" red for \"Request changes,\" grey for \"Comment\". The merge button section at the bottom turns green when all checks pass; it is disabled (greyed out) when checks are pending or reviews are missing.",
+    "filename": "seg143-alex.wav",
+    "duration": 42.093,
+    "status": "synthesized"
+  },
+  {
+    "seq": 144,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Reading the Checks Tab. What should a learner take away from it?",
+    "filename": "seg144-jamie.wav",
+    "duration": 4.141,
+    "status": "synthesized"
+  },
+  {
+    "seq": 145,
+    "speaker": "ALEX",
+    "text": "Do not treat Reading the Checks Tab as decoration. The Checks tab shows the status of automated tests, CI workflows, and other verification processes running on your PR. That is not trivia. It helps you verify whether your changes pass all required tests before merging.",
+    "filename": "seg145-alex.wav",
+    "duration": 15.681,
+    "status": "synthesized"
+  },
+  {
+    "seq": 146,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Navigate through the check steps with K or Tab. Activate a step for more details.",
+    "filename": "seg146-alex.wav",
+    "duration": 6.551,
+    "status": "synthesized"
+  },
+  {
+    "seq": 147,
+    "speaker": "ALEX",
+    "text": "First, navigate to the \"Pull request tabs\" landmark (D). Then, navigate between tab links (K or Tab) and activate \"Checks\". After that, press D to jump to the \"check suites\" section - this moves focus to the collapsed details button of the first check. Finally, press B or Tab to navigate between check buttons; each button is labeled with the check's name. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg147-alex.wav",
+    "duration": 21.847,
+    "status": "synthesized"
+  },
+  {
+    "seq": 148,
+    "speaker": "JAMIE",
+    "text": "Before we leave Reading the Checks Tab, what is the practical point?",
+    "filename": "seg148-jamie.wav",
+    "duration": 3.757,
+    "status": "synthesized"
+  },
+  {
+    "seq": 149,
+    "speaker": "ALEX",
+    "text": "Start here: Press Enter or Space to expand a check and reveal its logs. Then: For a summary view: press D to navigate to the \"check run summary\" section. Next: VO+U - Landmarks - \"Pull request tabs\" - activate \"Checks\". Last: VO+U - Landmarks - navigate to \"check suites\" section. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg149-alex.wav",
+    "duration": 17.813,
+    "status": "synthesized"
+  },
+  {
+    "seq": 150,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg150-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 151,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Learning Cards: Reading the Checks Tab. What should a learner take away from it?",
+    "filename": "seg151-jamie.wav",
+    "duration": 4.93,
+    "status": "synthesized"
+  },
+  {
+    "seq": 152,
+    "speaker": "ALEX",
+    "text": "Learning Cards: Reading the Checks Tab has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg152-alex.wav",
+    "duration": 7.084,
+    "status": "synthesized"
+  },
+  {
+    "seq": 153,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Each check button is labeled with the check's name and its pass/fail state; listen for \"success\" or \"failure\" in the ARIA label before expanding the details. Press D to jump between the \"check suites\" and \"check run summary\" landmarks to get a high-level pass/fail overview without expanding every check. If a check fails, expand it and press K to navigate step links inside the log -- the failing step is usually labeled with a red X icon described in the accessible name. Passed checks show a green checkmark icon; failed checks show a red X icon; pending checks show a yellow dot -- in Windows High Contrast mode these map to system success/error/warning colors. At high zoom, each check row may wrap; the icon and check name stay on the first line, while the duration and \"Details\" link may appear on a second line. Click the \"Details\" link next to a failed check to jump to the CI log; failed steps are highlighted with a red background that remains visible in high-contrast themes.",
+    "filename": "seg153-alex.wav",
+    "duration": 53.868,
+    "status": "synthesized"
+  },
+  {
+    "seq": 154,
+    "speaker": "ALEX",
+    "text": "Keep the thread going. Put Reading the Files Changed Tab into plain language. the learner will read diffs - the before/after state of every file that changed. The useful version is: This guide uses GitHub's improved Files Changed experience. The interface gets easier when it becomes a set of named places instead of a wall of controls.",
+    "filename": "seg154-alex.wav",
+    "duration": 18.114,
+    "status": "synthesized"
+  },
+  {
+    "seq": 155,
+    "speaker": "JAMIE",
+    "text": "So this is less about memorizing and more about noticing.",
+    "filename": "seg155-jamie.wav",
+    "duration": 3.714,
+    "status": "synthesized"
+  },
+  {
+    "seq": 156,
+    "speaker": "ALEX",
+    "text": "Right. Once the learner can name the move, the interface becomes much less intimidating.",
+    "filename": "seg156-alex.wav",
+    "duration": 4.845,
+    "status": "synthesized"
+  },
+  {
+    "seq": 157,
+    "speaker": "JAMIE",
+    "text": "Let's pause on File Tree (left panel). What should a learner take away from it?",
+    "filename": "seg157-jamie.wav",
+    "duration": 4.119,
+    "status": "synthesized"
+  },
+  {
+    "seq": 158,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. The file tree lists every changed file. That is the difference between guessing and knowing: Use it to jump directly to a specific file's diff.",
+    "filename": "seg158-alex.wav",
+    "duration": 11.009,
+    "status": "synthesized"
+  },
+  {
+    "seq": 159,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. The panel may collapse into a toggle button or hamburger menu. Look for a sidebar toggle icon in the top-left area of the Files Changed tab. File names in the tree may be truncated. Hover over a truncated name to see the full path in a tooltip. The filter box at the top of the file tree lets you type a filename to narrow the list. This is faster than scrolling through a long file list at high magnification. Each file entry shows an icon indicating the change type (added, modified, deleted). In high-contrast themes, these icons use distinct system colors rather than relying on green/red alone.",
+    "filename": "seg159-alex.wav",
+    "duration": 34.327,
+    "status": "synthesized"
+  },
+  {
+    "seq": 160,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: D \u2192 navigate to \"File tree\" region; \u2191/\u2193 to navigate the file list; Enter to jump to that file's diff; and VO+U \u2192 Landmarks \u2192 navigate to \"File tree\" region. The sequence works because every action has a confirmation.",
+    "filename": "seg160-alex.wav",
+    "duration": 16.322,
+    "status": "synthesized"
+  },
+  {
+    "seq": 161,
+    "speaker": "JAMIE",
+    "text": "Before we leave File Tree (left panel), what is the practical point?",
+    "filename": "seg161-jamie.wav",
+    "duration": 3.842,
+    "status": "synthesized"
+  },
+  {
+    "seq": 162,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is vO+Down to move through the file list. Step two is vO+Space to jump to that file's diff. Keep it that plain: know where you are, make the move, check the result.",
+    "filename": "seg162-alex.wav",
+    "duration": 12.117,
+    "status": "synthesized"
+  },
+  {
+    "seq": 163,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg163-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 164,
+    "speaker": "ALEX",
+    "text": "Another way to ground it. The Diff for a File has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg164-alex.wav",
+    "duration": 7.447,
+    "status": "synthesized"
+  },
+  {
+    "seq": 165,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. A file heading (its path, e.g., \"src/index.html\") - navigable with 3 or H. A stats line (\"24 additions, 6 deletions\"). The diff content - a table where each row is one line of code.",
+    "filename": "seg165-alex.wav",
+    "duration": 14.082,
+    "status": "synthesized"
+  },
+  {
+    "seq": 166,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Lines in a diff are read as. What should a learner take away from it?",
+    "filename": "seg166-jamie.wav",
+    "duration": 4.482,
+    "status": "synthesized"
+  },
+  {
+    "seq": 167,
+    "speaker": "ALEX",
+    "text": "Lines in a diff are read as has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg167-alex.wav",
+    "duration": 6.487,
+    "status": "synthesized"
+  },
+  {
+    "seq": 168,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. + Added line - line that was added. Removed line - line that was removed. Context line - unchanged line shown for context.",
+    "filename": "seg168-alex.wav",
+    "duration": 9.09,
+    "status": "synthesized"
+  },
+  {
+    "seq": 169,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Navigating the diff with a screen reader. What should a learner take away from it?",
+    "filename": "seg169-jamie.wav",
+    "duration": 5.165,
+    "status": "synthesized"
+  },
+  {
+    "seq": 170,
+    "speaker": "ALEX",
+    "text": "Here is the learner-facing version. Each file's diff shows added lines in green and removed lines in red. Put another way, scroll the page to read through changes. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.",
+    "filename": "seg170-alex.wav",
+    "duration": 15.255,
+    "status": "synthesized"
+  },
+  {
+    "seq": 171,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Enable Split diff view (dropdown at the top of Files Changed tab) to see old and new versions side-by-side. At very high zoom, Unified diff may be more comfortable because it uses a single column. Each line has a + or - prefix in addition to the color. In Windows High Contrast mode, the color backgrounds are replaced with system contrast colors and the +/- prefixes remain visible. Use Ctrl+F (browser Find) to search for specific text within the visible diffs. This is often faster than scrolling through long diffs at high zoom. Line numbers appear on the left margin. At extreme zoom levels, these may overlap the code text. Hover over a line number to see the full number in a tooltip.",
+    "filename": "seg171-alex.wav",
+    "duration": 39.767,
+    "status": "synthesized"
+  },
+  {
+    "seq": 172,
+    "speaker": "ALEX",
+    "text": "Start here: T to jump to the next diff table. Then: Switch to Focus Mode: Insert+Space (NVDA) or Insert+Z (JAWS). Next: Ctrl+Alt+\u2193 to move down one row (next diff line), Ctrl+Alt+\u2191 to move up. Last: Ctrl+Alt+\u2192 to read across columns (line number change type content). The point is not speed; the point is never losing your place.",
+    "filename": "seg172-alex.wav",
+    "duration": 20.055,
+    "status": "synthesized"
+  },
+  {
+    "seq": 173,
+    "speaker": "JAMIE",
+    "text": "Before we leave Navigating the diff with a screen reader, what is the practical point?",
+    "filename": "seg173-jamie.wav",
+    "duration": 4.589,
+    "status": "synthesized"
+  },
+  {
+    "seq": 174,
+    "speaker": "ALEX",
+    "text": "Walk it in order: The screen reader reads: \"+ Add accessible name to submit button\"; Collapsed sections contain unchanged code. Focus the expand/disclosure control and activate it (Enter or Space) to reveal the hidden lines; T or VO+U \u2192 Tables \u2192 select the diff table; and VO+Shift+Down to enter the table. Each step should leave a trace you can name.",
+    "filename": "seg174-alex.wav",
+    "duration": 20.224,
+    "status": "synthesized"
+  },
+  {
+    "seq": 175,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg175-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 176,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Placing an inline comment on a diff line. What should a learner take away from it?",
+    "filename": "seg176-jamie.wav",
+    "duration": 5.442,
+    "status": "synthesized"
+  },
+  {
+    "seq": 177,
+    "speaker": "ALEX",
+    "text": "This is the move inside Placing an inline comment on a diff line: hover over any line in the diff - a blue + button appears on the left margin. That matters in practice: Click it to open a comment box for that line.",
+    "filename": "seg177-alex.wav",
+    "duration": 12.055,
+    "status": "synthesized"
+  },
+  {
+    "seq": 178,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. The + button can be small and hard to target. Keyboard alternative: Tab into the diff line area, then press Enter on the focused line to open the comment box. Once the comment box opens, it spans the full width of the diff area. At 200% zoom, you may need to scroll down to see the Add single comment and Start a review buttons below the text area. In Windows High Contrast mode, the + button uses the system link color rather than blue, and the comment box border uses the system window frame color.",
+    "filename": "seg178-alex.wav",
+    "duration": 29.676,
+    "status": "synthesized"
+  },
+  {
+    "seq": 179,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Navigate to the specific line in the diff (using the table navigation above); While focused on that line, a comment button appears - press Enter or Space to activate it; A comment box opens below the line; and Focus Mode \u2192 type your comment. Each step should leave a trace you can name.",
+    "filename": "seg179-alex.wav",
+    "duration": 16.578,
+    "status": "synthesized"
+  },
+  {
+    "seq": 180,
+    "speaker": "JAMIE",
+    "text": "Before we leave Placing an inline comment on a diff line, what is the practical point?",
+    "filename": "seg180-jamie.wav",
+    "duration": 4.845,
+    "status": "synthesized"
+  },
+  {
+    "seq": 181,
+    "speaker": "ALEX",
+    "text": "Think of this as 1 checks: Tab to Add single comment button (instant comment) OR Start a review (to batch comments). If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg181-alex.wav",
+    "duration": 10.093,
+    "status": "synthesized"
+  },
+  {
+    "seq": 182,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Multi-line comment (Windows). What should a learner take away from it?",
+    "filename": "seg182-jamie.wav",
+    "duration": 4.823,
+    "status": "synthesized"
+  },
+  {
+    "seq": 183,
+    "speaker": "ALEX",
+    "text": "Anchor this part on Multi-line comment (Windows). Screen reader users (VoiceOver - macOS).",
+    "filename": "seg183-alex.wav",
+    "duration": 5.697,
+    "status": "synthesized"
+  },
+  {
+    "seq": 184,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Focus the first line you want to comment on; Press Shift+\u2193 to extend the selection to additional lines; A comment button appears - activate it; and The comment applies to the full range of selected lines. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg184-alex.wav",
+    "duration": 16.109,
+    "status": "synthesized"
+  },
+  {
+    "seq": 185,
+    "speaker": "JAMIE",
+    "text": "Before we leave Multi-line comment (Windows), what is the practical point?",
+    "filename": "seg185-jamie.wav",
+    "duration": 4.29,
+    "status": "synthesized"
+  },
+  {
+    "seq": 186,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is navigate to the specific line in the diff (using the table navigation above). Step two is while focused on that line, VO+Space on the comment button that appears. Step three is a comment box opens below the line. Step four is vO+Shift+Down to interact with the text area, then type your comment. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg186-alex.wav",
+    "duration": 22.445,
+    "status": "synthesized"
+  },
+  {
+    "seq": 187,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Multi-line comment (macOS). What should a learner take away from it?",
+    "filename": "seg187-jamie.wav",
+    "duration": 4.909,
+    "status": "synthesized"
+  },
+  {
+    "seq": 188,
+    "speaker": "ALEX",
+    "text": "Multi-line comment (macOS) has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg188-alex.wav",
+    "duration": 6.828,
+    "status": "synthesized"
+  },
+  {
+    "seq": 189,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is focus the first line and Shift+\u2193 to extend the selection. Step two is vO+Space on the comment button that appears. Step three is the comment applies to the full range of selected lines. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg189-alex.wav",
+    "duration": 16.704,
+    "status": "synthesized"
+  },
+  {
+    "seq": 190,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg190-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 191,
+    "speaker": "ALEX",
+    "text": "Put that beside the next piece. Do not treat Viewing comments within the diff as decoration. Inline comments appear as expandable threads within the diff table. That is not trivia. Navigate to them with 3 (they are h3 headings). The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg191-alex.wav",
+    "duration": 17.367,
+    "status": "synthesized"
+  },
+  {
+    "seq": 192,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Learning Cards: Reading the Files Changed Tab. What should a learner take away from it?",
+    "filename": "seg192-jamie.wav",
+    "duration": 5.527,
+    "status": "synthesized"
+  },
+  {
+    "seq": 193,
+    "speaker": "ALEX",
+    "text": "Learning Cards: Reading the Files Changed Tab has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg193-alex.wav",
+    "duration": 7.639,
+    "status": "synthesized"
+  },
+  {
+    "seq": 194,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Press D to jump to the \"File tree\" landmark on the left; use Up/Down Arrow to navigate files, Enter to jump to that file's diff. Press T to jump to the next diff table; use Ctrl+Alt+Down Arrow to walk through diff lines row by row. Each line is announced with its change type: + for additions, - for deletions, and context lines with no prefix. Added lines have a green background; removed lines have a red background; in high-contrast themes, these use bolder system-color shading. Toggle between Split diff (two-column) and Unified diff (single-column) using the dropdown at the top of the Files Changed tab; Unified is easier at high zoom. Each file heading shows the path and a summary like \"+24 -6\"; zoom in on this to quickly assess the scope of changes per file.",
+    "filename": "seg194-alex.wav",
+    "duration": 45.293,
+    "status": "synthesized"
+  },
+  {
+    "seq": 195,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Tool Cards: Open a Pull Request. What should a learner take away from it?",
+    "filename": "seg195-jamie.wav",
+    "duration": 5.058,
+    "status": "synthesized"
+  },
+  {
+    "seq": 196,
+    "speaker": "ALEX",
+    "text": "Put Tool Cards: Open a Pull Request into plain language. VS Code Desktop (GitHub Pull Requests extension).",
+    "filename": "seg196-alex.wav",
+    "duration": 6.807,
+    "status": "synthesized"
+  },
+  {
+    "seq": 197,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Push your branch, then click the Compare & pull request banner (or go to Pull requests New pull request ); Set base branch to main, compare branch to yours; Fill in the title and description, then click Create pull request; and After committing changes, click the Source Control icon. Keep it that plain: know where you are, make the move, check the result.",
+    "filename": "seg197-alex.wav",
+    "duration": 18.775,
+    "status": "synthesized"
+  },
+  {
+    "seq": 198,
+    "speaker": "JAMIE",
+    "text": "Before we leave Tool Cards: Open a Pull Request, what is the practical point?",
+    "filename": "seg198-jamie.wav",
+    "duration": 4.567,
+    "status": "synthesized"
+  },
+  {
+    "seq": 199,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Click Create Pull Request in the Source Control panel header; Fill in details and submit; Press Ctrl+Shift+P, type GitHub Pull Requests: Create Pull Request; and Select base and compare branches. Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg199-alex.wav",
+    "duration": 16.62,
+    "status": "synthesized"
+  },
+  {
+    "seq": 200,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like git push -u origin your-branch; gh pr create --title \"Your title\" --body \"Description\". Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg200-alex.wav",
+    "duration": 14.997,
+    "status": "synthesized"
+  },
+  {
+    "seq": 201,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg201-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 202,
+    "speaker": "JAMIE",
+    "text": "Let's pause on From the web editor workflow (editing a file on GitHub). What should a learner take away from it?",
+    "filename": "seg202-jamie.wav",
+    "duration": 6.146,
+    "status": "synthesized"
+  },
+  {
+    "seq": 203,
+    "speaker": "ALEX",
+    "text": "From the web editor workflow (editing a file on GitHub) has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg203-alex.wav",
+    "duration": 7.98,
+    "status": "synthesized"
+  },
+  {
+    "seq": 204,
+    "speaker": "ALEX",
+    "text": "Think of this as 3 checks: You edited a file \u2192 GitHub showed a \"Propose changes\" form; You named your branch and activated \"Propose changes\"; and GitHub redirected you to the \"Open a pull request\" page. Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg204-alex.wav",
+    "duration": 15.746,
+    "status": "synthesized"
+  },
+  {
+    "seq": 205,
+    "speaker": "JAMIE",
+    "text": "Let's pause on From a fork or feature branch. What should a learner take away from it?",
+    "filename": "seg205-jamie.wav",
+    "duration": 4.802,
+    "status": "synthesized"
+  },
+  {
+    "seq": 206,
+    "speaker": "ALEX",
+    "text": "This part earns its place because screen reader users (NVDA / JAWS - Windows). That gives the learner a foothold: screen reader users (VoiceOver - macOS). That is the difference between following directions and owning the workflow.",
+    "filename": "seg206-alex.wav",
+    "duration": 13.164,
+    "status": "synthesized"
+  },
+  {
+    "seq": 207,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is navigate to the repository on GitHub. Step two is if you recently pushed, a yellow banner \"Compare & pull request\" appears at the top - click it. Step three is if no banner appears: click the Pull requests tab \u2192 click the green New pull request button. Step four is use the branch dropdowns to choose your base branch (what to merge into) and your compare branch (your changes). The point is not speed; the point is never losing your place.",
+    "filename": "seg207-alex.wav",
+    "duration": 27.117,
+    "status": "synthesized"
+  },
+  {
+    "seq": 208,
+    "speaker": "JAMIE",
+    "text": "Before we leave From a fork or feature branch, what is the practical point?",
+    "filename": "seg208-jamie.wav",
+    "duration": 4.247,
+    "status": "synthesized"
+  },
+  {
+    "seq": 209,
+    "speaker": "ALEX",
+    "text": "First, click Create pull request. Then, navigate to the repository. After that, a \"Compare & pull request\" banner may appear (if you recently pushed) - activate it. Finally, oR: Navigate to Pull Requests tab \u2192 \"New pull request\". Each step should leave a trace you can name.",
+    "filename": "seg209-alex.wav",
+    "duration": 15.618,
+    "status": "synthesized"
+  },
+  {
+    "seq": 210,
+    "speaker": "JAMIE",
+    "text": "What should they understand before typing anything?",
+    "filename": "seg210-jamie.wav",
+    "duration": 3.053,
+    "status": "synthesized"
+  },
+  {
+    "seq": 211,
+    "speaker": "ALEX",
+    "text": "Description field: Copilot can write your PR description: If your account has Copilot access, a \"Copilot actions\" button appears in the description toolbar. The next useful detail is concrete: Activate it to open a menu with options to generate a summary of your changes or an outline of the most important changes in the PR.",
+    "filename": "seg211-alex.wav",
+    "duration": 17.9,
+    "status": "synthesized"
+  },
+  {
+    "seq": 212,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Step 1: Tab to the body text area; Step 2: Focus Mode \u2192 type using the PR template (if provided). Summary; What does this PR change and why?; Changes; - Added aria-label to the search button; - Fixed keyboard trap in the modal dialog; - Replaced with for the dismiss control; Related Issues; Closes 42; Testing; - Tested with NVDA + Chrome on Windows 11; -. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg212-alex.wav",
+    "duration": 31.893,
+    "status": "synthesized"
+  },
+  {
+    "seq": 213,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg213-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 214,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Setting a Draft PR. What should a learner take away from it?",
+    "filename": "seg214-jamie.wav",
+    "duration": 4.29,
+    "status": "synthesized"
+  },
+  {
+    "seq": 215,
+    "speaker": "ALEX",
+    "text": "Here is the learner-facing version. If your work is not finished, open as a Draft.",
+    "filename": "seg215-alex.wav",
+    "duration": 4.737,
+    "status": "synthesized"
+  },
+  {
+    "seq": 216,
+    "speaker": "ALEX",
+    "text": "Start here: After filling in the form, find the dropdown arrow next to \"Create pull request\". Then: Select \"Create draft pull request\". Next: This signals to reviewers that it is not ready for formal review yet. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg216-alex.wav",
+    "duration": 14.722,
+    "status": "synthesized"
+  },
+  {
+    "seq": 217,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Draft Pull Requests - Full Lifecycle. What should a learner take away from it?",
+    "filename": "seg217-jamie.wav",
+    "duration": 5.122,
+    "status": "synthesized"
+  },
+  {
+    "seq": 218,
+    "speaker": "ALEX",
+    "text": "This is the move inside Draft Pull Requests - Full Lifecycle: a draft pull request is a PR explicitly marked as a work in progress. That matters in practice: It is visible to the team, can receive comments, and runs CI - but is blocked from being merged until you mark it ready.",
+    "filename": "seg218-alex.wav",
+    "duration": 15.767,
+    "status": "synthesized"
+  },
+  {
+    "seq": 219,
+    "speaker": "ALEX",
+    "text": "That connects to another useful point. When to use a draft has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg219-alex.wav",
+    "duration": 8.215,
+    "status": "synthesized"
+  },
+  {
+    "seq": 220,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. You want to show your approach and get early feedback before finishing. You need CI to run but don't want accidental merges. You are working across multiple days and want your progress visible. You want to pair with a collaborator on the work.",
+    "filename": "seg220-alex.wav",
+    "duration": 13.739,
+    "status": "synthesized"
+  },
+  {
+    "seq": 221,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg221-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 222,
+    "speaker": "JAMIE",
+    "text": "Let's pause on What a draft PR does differently. What should a learner take away from it?",
+    "filename": "seg222-jamie.wav",
+    "duration": 4.845,
+    "status": "synthesized"
+  },
+  {
+    "seq": 223,
+    "speaker": "ALEX",
+    "text": "What a draft PR does differently has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg223-alex.wav",
+    "duration": 6.828,
+    "status": "synthesized"
+  },
+  {
+    "seq": 224,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. The merge button is disabled - even an authorized maintainer cannot merge a draft. The PR header shows a grey \"Draft\" badge instead of the green \"Open\" badge. Reviewers are not auto-notified (no review requests are sent until ready). CI workflows still run normally.",
+    "filename": "seg224-alex.wav",
+    "duration": 16.45,
+    "status": "synthesized"
+  },
+  {
+    "seq": 225,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Mark a draft ready for review. What should a learner take away from it?",
+    "filename": "seg225-jamie.wav",
+    "duration": 4.695,
+    "status": "synthesized"
+  },
+  {
+    "seq": 226,
+    "speaker": "ALEX",
+    "text": "Mark a draft ready for review has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg226-alex.wav",
+    "duration": 6.615,
+    "status": "synthesized"
+  },
+  {
+    "seq": 227,
+    "speaker": "ALEX",
+    "text": "First, open the PR. Then, navigate to the \"Reviewers\" sidebar or scroll to bottom of the Conversation tab. After that, find and activate the \"Ready for review\" button. Finally, the draft badge changes to \"Open\" and reviewers are notified. Keep it that plain: know where you are, make the move, check the result.",
+    "filename": "seg227-alex.wav",
+    "duration": 16.407,
+    "status": "synthesized"
+  },
+  {
+    "seq": 228,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Convert an open PR to draft (after opening). What should a learner take away from it?",
+    "filename": "seg228-jamie.wav",
+    "duration": 6.018,
+    "status": "synthesized"
+  },
+  {
+    "seq": 229,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Convert an open PR to draft (after opening) is still useful because GitHub CLI (gh) alternative - draft PR lifecycle. For someone navigating by keyboard or screen reader, this detail matters: Manage draft PRs from your terminal.",
+    "filename": "seg229-alex.wav",
+    "duration": 15.468,
+    "status": "synthesized"
+  },
+  {
+    "seq": 230,
+    "speaker": "ALEX",
+    "text": "Start here: In the right sidebar, find the \"Reviewers\" section. Then: Look for the \"Convert to draft\" link (below the review status). Next: Confirm in the dialog - this removes merge eligibility until you mark it ready again. Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg230-alex.wav",
+    "duration": 15.788,
+    "status": "synthesized"
+  },
+  {
+    "seq": 231,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Create a draft PR; gh pr create --draft --title \"WIP: Add carousel keyboard nav\"; Mark a draft ready for review; gh pr ready 42; Check PR status (shows draft state); gh pr view 42; List only draft PRs; gh pr list --draft. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg231-alex.wav",
+    "duration": 24.384,
+    "status": "synthesized"
+  },
+  {
+    "seq": 232,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg232-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 233,
+    "speaker": "ALEX",
+    "text": "Now shift from knowing the term to using it. Learning Cards: Opening a Pull Request has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg233-alex.wav",
+    "duration": 9.601,
+    "status": "synthesized"
+  },
+  {
+    "seq": 234,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. After editing a file on GitHub, the \"Propose changes\" form has a branch name field and a commit message field; press Tab to move between them. On the \"Open a pull request\" page, press F to jump to the Title field; Tab moves to the Description text area. Press Ctrl+Enter from inside the description text area to submit the PR without finding the Create button. The \"Compare & pull request\" yellow banner appears at the top of the repo after a recent push; at high zoom it may span the full width of the page. The branch comparison dropdowns (base and compare) use small text; zoom in on the area above the diff preview to read them. Draft PR: look for the dropdown arrow next to the green \"Create pull request\" button to switch to \"Create draft pull request\".",
+    "filename": "seg234-alex.wav",
+    "duration": 43.437,
+    "status": "synthesized"
+  },
+  {
+    "seq": 235,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Requesting reviewers. What should a learner take away from it?",
+    "filename": "seg235-jamie.wav",
+    "duration": 4.205,
+    "status": "synthesized"
+  },
+  {
+    "seq": 236,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. From the sidebar Reviewers section. That is the difference between guessing and knowing: Why some reviews are requested automatically: A file called CODEOWNERS in many repositories maps file paths to specific people or teams.",
+    "filename": "seg236-alex.wav",
+    "duration": 15.703,
+    "status": "synthesized"
+  },
+  {
+    "seq": 237,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Navigate to \"Reviewers\" heading (3 or H); Activate the gear button; Type a username in the search field; and Select from the dropdown. Each step should leave a trace you can name.",
+    "filename": "seg237-alex.wav",
+    "duration": 11.266,
+    "status": "synthesized"
+  },
+  {
+    "seq": 238,
+    "speaker": "JAMIE",
+    "text": "Before we leave Requesting reviewers, what is the practical point?",
+    "filename": "seg238-jamie.wav",
+    "duration": 3.863,
+    "status": "synthesized"
+  },
+  {
+    "seq": 239,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is escape to save. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg239-alex.wav",
+    "duration": 7.745,
+    "status": "synthesized"
+  },
+  {
+    "seq": 240,
+    "speaker": "ALEX",
+    "text": "The next point gives the learner a handle. This part earns its place because when you are asked to review a PR, you have three options.",
+    "filename": "seg240-alex.wav",
+    "duration": 7.148,
+    "status": "synthesized"
+  },
+  {
+    "seq": 241,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Comment - leave feedback without a verdict; does not block merging. Approve - signal you are satisfied; often required before merge. Request changes - indicate changes must be addressed; blocks merge until resolved.",
+    "filename": "seg241-alex.wav",
+    "duration": 13.099,
+    "status": "synthesized"
+  },
+  {
+    "seq": 242,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg242-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 243,
+    "speaker": "JAMIE",
+    "text": "What does someone need before they touch the keyboard?",
+    "filename": "seg243-jamie.wav",
+    "duration": 3.053,
+    "status": "synthesized"
+  },
+  {
+    "seq": 244,
+    "speaker": "ALEX",
+    "text": "Starting a review: On the Files Changed tab, when you add inline comments, choose \"Start a review\" instead of \"Add single comment.\" This batches all your comments into one review submission.",
+    "filename": "seg244-alex.wav",
+    "duration": 10.391,
+    "status": "synthesized"
+  },
+  {
+    "seq": 245,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Completing and submitting a review. What should a learner take away from it?",
+    "filename": "seg245-jamie.wav",
+    "duration": 4.759,
+    "status": "synthesized"
+  },
+  {
+    "seq": 246,
+    "speaker": "ALEX",
+    "text": "Here is the learner-facing version. After adding your inline comments via \"Start a review,\" you must submit the review to notify the PR author. Put another way, the review is pending until you submit it. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.",
+    "filename": "seg246-alex.wav",
+    "duration": 16.705,
+    "status": "synthesized"
+  },
+  {
+    "seq": 247,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. The button may scroll off-screen to the right. Use horizontal scrolling or press Tab from the page top to cycle through focusable elements until you reach it. When clicked, a popover appears with a summary text area and three radio buttons ( Comment, Approve, Request changes ). At 200%+ zoom, the popover may extend below the visible viewport. Scroll down within the popover to see the Submit review button. The radio buttons are standard HTML radio buttons. In Windows High Contrast mode, the selected radio button uses the system highlight color. Keyboard shortcut: If the button is hard to find visually, press Ctrl+Shift+Enter from within any review comment text area to open the submit review dialog directly.",
+    "filename": "seg247-alex.wav",
+    "duration": 42.369,
+    "status": "synthesized"
+  },
+  {
+    "seq": 248,
+    "speaker": "ALEX",
+    "text": "Start here: Look for the Finish your review button in the top-right area of the Files Changed tab (it shows the number of pending comments). Then: Click it - a popover appears with a summary text area and three radio buttons: Comment, Approve, Request changes. Next: Optionally type a summary comment. Last: Select your verdict by clicking the radio button. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg248-alex.wav",
+    "duration": 21.122,
+    "status": "synthesized"
+  },
+  {
+    "seq": 249,
+    "speaker": "JAMIE",
+    "text": "Before we leave Completing and submitting a review, what is the practical point?",
+    "filename": "seg249-jamie.wav",
+    "duration": 4.311,
+    "status": "synthesized"
+  },
+  {
+    "seq": 250,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Click Submit review; Press 1 to go to the h1 (PR title); Press B (or Tab) to navigate to the \"Submit review\" button and activate it (Enter/Space); and A \"Submit review\" dialog/panel appears. The sequence works because every action has a confirmation.",
+    "filename": "seg250-alex.wav",
+    "duration": 15.681,
+    "status": "synthesized"
+  },
+  {
+    "seq": 251,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like View the PR diff in your terminal; gh pr diff 42; Approve a PR; gh pr review 42 --approve; Approve with a comment; gh pr review 42 --approve --body \"Looks good - heading hierarchy is correct.\"; Request changes; gh pr review 42 --request-changes --body \"The alt. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg251-alex.wav",
+    "duration": 26.221,
+    "status": "synthesized"
+  },
+  {
+    "seq": 252,
+    "speaker": "JAMIE",
+    "text": "Let's pause on GitHub shortcuts for pull requests. What should a learner take away from it?",
+    "filename": "seg252-jamie.wav",
+    "duration": 5.122,
+    "status": "synthesized"
+  },
+  {
+    "seq": 253,
+    "speaker": "ALEX",
+    "text": "This is the move inside GitHub shortcuts for pull requests: these are the GitHub built-in shortcuts for PR pages. That matters in practice: Enable Focus Mode first (NVDA: NVDA+Space, JAWS: Insert+Z) before using single-key shortcuts.",
+    "filename": "seg253-alex.wav",
+    "duration": 14.72,
+    "status": "synthesized"
+  },
+  {
+    "seq": 254,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg254-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 255,
+    "speaker": "ALEX",
+    "text": "This is where confidence starts to build. Anchor this part on On the PR list page. Shortcut note: For G P, press G, release it, then press P (two sequential key presses, not simultaneous).",
+    "filename": "seg255-alex.wav",
+    "duration": 11.245,
+    "status": "synthesized"
+  },
+  {
+    "seq": 256,
+    "speaker": "JAMIE",
+    "text": "Let's pause on On the Files Changed tab. What should a learner take away from it?",
+    "filename": "seg256-jamie.wav",
+    "duration": 4.311,
+    "status": "synthesized"
+  },
+  {
+    "seq": 257,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: for the full shortcut system, see Screen Reader Cheat Sheet - GitHub Shortcuts section.",
+    "filename": "seg257-alex.wav",
+    "duration": 6.551,
+    "status": "synthesized"
+  },
+  {
+    "seq": 258,
+    "speaker": "ALEX",
+    "text": "Hold that next to this. Learning Cards: Submitting a Review has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg258-alex.wav",
+    "duration": 8.129,
+    "status": "synthesized"
+  },
+  {
+    "seq": 259,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. The review verdict controls are inside a popover triggered by the \"Finish your review\" button; press 1 to return to the h1 (PR title), then B or Tab forward to find the button -- it is easy to miss because it is not a landmark. Inside the popover, Tab past the summary text area to reach a radio group labeled \"Review Event\"; use Up/Down Arrow to switch between Comment, Approve, and Request Changes. Shortcut: press Ctrl+Shift+Enter from any review comment text area to open the submit review dialog directly, bypassing the search for the button. The \"Finish your review\" button sits in the top-right corner of the Files Changed tab with a small badge showing your pending comment count; at 200%+ zoom it may scroll off-screen to the right. Inside the submit popover, the three radio buttons (Comment, Approve, Request changes) are small standard HTML radios; zoom in on the popover area or use Tab to step between them. After submitting, your review verdict appears as a colored banner in the Conversation timeline: green for Approve, red for Request Changes, grey for Comment.",
+    "filename": "seg259-alex.wav",
+    "duration": 60.224,
+    "status": "synthesized"
+  },
+  {
+    "seq": 260,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg260-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 261,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Suggested Changes. What should a learner take away from it?",
+    "filename": "seg261-jamie.wav",
+    "duration": 4.311,
+    "status": "synthesized"
+  },
+  {
+    "seq": 262,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Suggested Changes is still useful because a suggested change is a special form of inline review comment where the reviewer proposes exact replacement text. For someone navigating by keyboard or screen reader, this detail matters: The PR author can apply the suggestion directly from GitHub - no copy-paste or separate commit needed.",
+    "filename": "seg262-alex.wav",
+    "duration": 19.671,
+    "status": "synthesized"
+  },
+  {
+    "seq": 263,
+    "speaker": "JAMIE",
+    "text": "Let's pause on As a reviewer - inserting a suggestion. What should a learner take away from it?",
+    "filename": "seg263-jamie.wav",
+    "duration": 5.335,
+    "status": "synthesized"
+  },
+  {
+    "seq": 264,
+    "speaker": "ALEX",
+    "text": "Put As a reviewer - inserting a suggestion into plain language. The suggestion block is plain Markdown text in the comment editor. The useful version is: (Three backticks, the word suggestion, Enter, your text, Enter, three backticks.).",
+    "filename": "seg264-alex.wav",
+    "duration": 12.588,
+    "status": "synthesized"
+  },
+  {
+    "seq": 265,
+    "speaker": "ALEX",
+    "text": "Walk it in order: On the Files Changed tab, navigate to the line you want to propose a change; Activate the line comment button for that line (the + that appears on hover, or Tab to navigate to it); In the comment text area that opens, press Ctrl+G (Windows) or Cmd+G (Mac); and GitHub wraps a suggestion block around the current line content. If one step does not match what you hear, stop there and re-orient.",
+    "filename": "seg265-alex.wav",
+    "duration": 22.338,
+    "status": "synthesized"
+  },
+  {
+    "seq": 266,
+    "speaker": "JAMIE",
+    "text": "Before we leave As a reviewer - inserting a suggestion, what is the practical point?",
+    "filename": "seg266-jamie.wav",
+    "duration": 4.567,
+    "status": "synthesized"
+  },
+  {
+    "seq": 267,
+    "speaker": "ALEX",
+    "text": "Think of this as 3 checks: Edit the text inside the suggestion block to show your proposed change; Add context above the block if helpful: \"This makes the alt text more descriptive:\"; and Submit as part of your review (\"Start a review\" \u2192 batch with other comments). That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg267-alex.wav",
+    "duration": 16.941,
+    "status": "synthesized"
+  },
+  {
+    "seq": 268,
+    "speaker": "JAMIE",
+    "text": "Let's pause on As an author - applying a suggestion. What should a learner take away from it?",
+    "filename": "seg268-jamie.wav",
+    "duration": 5.122,
+    "status": "synthesized"
+  },
+  {
+    "seq": 269,
+    "speaker": "ALEX",
+    "text": "As an author - applying a suggestion has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg269-alex.wav",
+    "duration": 6.956,
+    "status": "synthesized"
+  },
+  {
+    "seq": 270,
+    "speaker": "ALEX",
+    "text": "Think of this as 4 checks: Open the PR Conversation or Files Changed tab; Navigate to the inline comment containing a suggestion (it shows a diff-style preview); Find and activate the \"Apply suggestion\" button below the suggestion block; and GitHub creates a commit automatically that applies the change - no file editing required. That is the rhythm: orient, act, verify, continue.",
+    "filename": "seg270-alex.wav",
+    "duration": 21.527,
+    "status": "synthesized"
+  },
+  {
+    "seq": 271,
+    "speaker": "JAMIE",
+    "text": "Before we leave As an author - applying a suggestion, what is the practical point?",
+    "filename": "seg271-jamie.wav",
+    "duration": 4.482,
+    "status": "synthesized"
+  },
+  {
+    "seq": 272,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is the conversation thread is marked as resolved. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg272-alex.wav",
+    "duration": 9.515,
+    "status": "synthesized"
+  },
+  {
+    "seq": 273,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg273-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 274,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Batching multiple suggestions into one commit. What should a learner take away from it?",
+    "filename": "seg274-jamie.wav",
+    "duration": 5.826,
+    "status": "synthesized"
+  },
+  {
+    "seq": 275,
+    "speaker": "ALEX",
+    "text": "Batching multiple suggestions into one commit has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg275-alex.wav",
+    "duration": 7.553,
+    "status": "synthesized"
+  },
+  {
+    "seq": 276,
+    "speaker": "ALEX",
+    "text": "The path is straightforward once it is named. Step one is for each suggestion you want to apply, activate \"Add suggestion to batch\" instead of \"Apply suggestion\". Step two is after selecting all suggestions, activate the \"Commit suggestions\" button that appears at the top. Step three is GitHub applies all batched suggestions in a single commit. That small check between steps is what makes the workflow reliable.",
+    "filename": "seg276-alex.wav",
+    "duration": 22.146,
+    "status": "synthesized"
+  },
+  {
+    "seq": 277,
+    "speaker": "JAMIE",
+    "text": "Let's pause on When to use suggestions vs. comments. What should a learner take away from it?",
+    "filename": "seg277-jamie.wav",
+    "duration": 5.549,
+    "status": "synthesized"
+  },
+  {
+    "seq": 278,
+    "speaker": "ALEX",
+    "text": "When to use suggestions vs. comments has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg278-alex.wav",
+    "duration": 7.212,
+    "status": "synthesized"
+  },
+  {
+    "seq": 279,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Use a suggestion when you know the exact text that would fix the issue. Use a plain comment when the change requires judgment from the author (e.g., \"this alt text isn't descriptive - can you describe what the image shows?\"). A summary text area for overall comments. Radio buttons for Comment / Approve / Request changes.",
+    "filename": "seg279-alex.wav",
+    "duration": 18.369,
+    "status": "synthesized"
+  },
+  {
+    "seq": 280,
+    "speaker": "ALEX",
+    "text": "First, after adding all your inline comments, navigate to the review summary button. Then, on Files Changed tab: find the \"Review changes\" button (B to navigate buttons). After that, press Enter to open the review dialog. Finally, a panel opens. The sequence works because every action has a confirmation.",
+    "filename": "seg280-alex.wav",
+    "duration": 16.919,
+    "status": "synthesized"
+  },
+  {
+    "seq": 281,
+    "speaker": "JAMIE",
+    "text": "Before we leave When to use suggestions vs. comments, what is the practical point?",
+    "filename": "seg281-jamie.wav",
+    "duration": 4.845,
+    "status": "synthesized"
+  },
+  {
+    "seq": 282,
+    "speaker": "ALEX",
+    "text": "Start here: Switch to Focus Mode \u2192 type your summary comment. Then: Navigate to the radio buttons with arrow keys \u2192 select your verdict. Next: Tab to \"Submit review\" button \u2192 Enter. Keep it that plain: know where you are, make the move, check the result.",
+    "filename": "seg282-alex.wav",
+    "duration": 14.423,
+    "status": "synthesized"
+  },
+  {
+    "seq": 283,
+    "speaker": "ALEX",
+    "text": "The next layer is this. Learning Cards: Suggested Changes has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg283-alex.wav",
+    "duration": 8.343,
+    "status": "synthesized"
+  },
+  {
+    "seq": 284,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. To insert a suggestion block, press Ctrl+G (Windows) or Cmd+G (Mac) in the comment text area; the screen reader announces the inserted fence -- arrow down to edit the text between the backtick lines. Alternatively type the block manually: three backticks, the word suggestion, Enter, your replacement text, Enter, three backticks -- this avoids relying on the keyboard shortcut. As a PR author, navigate to a suggestion comment with 3, then Tab to the \"Apply suggestion\" button; GitHub commits the change automatically with no file editing required. Suggestion blocks render as a mini inline diff: the original line in red/pink background and your proposed replacement in green background; in high-contrast mode these use system diff colors. The \"Apply suggestion\" button is small and sits below the suggestion diff preview; zoom into the comment area to find it, or Tab from the suggestion text to reach it. When batching multiple suggestions, a floating \"Commit suggestions\" bar appears at the top of the page; at high zoom scroll up or press Home to find it.",
+    "filename": "seg284-alex.wav",
+    "duration": 59.456,
+    "status": "synthesized"
+  },
+  {
+    "seq": 285,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg285-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 286,
+    "speaker": "JAMIE",
+    "text": "How do you keep commands from becoming magic words?",
+    "filename": "seg286-jamie.wav",
+    "duration": 3.266,
+    "status": "synthesized"
+  },
+  {
+    "seq": 287,
+    "speaker": "ALEX",
+    "text": "This is the move inside Understanding Merge Options (for Maintainers): when a PR is approved and checks pass, a maintainer can merge it. That matters in practice: The merge button section appears at the bottom of the Conversation tab.",
+    "filename": "seg287-alex.wav",
+    "duration": 13.036,
+    "status": "synthesized"
+  },
+  {
+    "seq": 288,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Merge with default strategy (merge commit); gh pr merge 42; Squash and merge; gh pr merge 42 --squash; Rebase and merge; gh pr merge 42 --rebase; Delete the branch after merging; gh pr merge 42 --squash --delete-branch; Enable auto-merge (merges when checks. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg288-alex.wav",
+    "duration": 26.604,
+    "status": "synthesized"
+  },
+  {
+    "seq": 289,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Anchor this part on After a PR is merged. for screen reader users, - deleting the branch after merge: Navigate to the \"Add a comment\" section (D), then press Shift+B to navigate backwards to the \"Delete branch\" button and activate it. This is the part to say slowly: This keeps your repository clean by removing the now-merged feature branch. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes.",
+    "filename": "seg289-alex.wav",
+    "duration": 26.028,
+    "status": "synthesized"
+  },
+  {
+    "seq": 290,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. The PR status badge changes to \"Merged\" (purple). The source branch can be deleted - a \"Delete branch\" button appears. Any linked issues with Closes N in the description are automatically closed.",
+    "filename": "seg290-alex.wav",
+    "duration": 12.589,
+    "status": "synthesized"
+  },
+  {
+    "seq": 291,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Auto-Merge - Merging When You Can't Wait Around. What should a learner take away from it?",
+    "filename": "seg291-jamie.wav",
+    "duration": 5.506,
+    "status": "synthesized"
+  },
+  {
+    "seq": 292,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: auto-merge lets you pre-authorize a PR to merge automatically the moment all branch protection requirements are satisfied - required reviews approved, all status checks passing, and the branch up to date.",
+    "filename": "seg292-alex.wav",
+    "duration": 13.42,
+    "status": "synthesized"
+  },
+  {
+    "seq": 293,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. You've addressed all review comments and are waiting for CI to finish. A maintainer has approved the PR but a required check is still running. You're in a different time zone from the reviewers.",
+    "filename": "seg293-alex.wav",
+    "duration": 11.819,
+    "status": "synthesized"
+  },
+  {
+    "seq": 294,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg294-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 295,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. What happens next has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg295-alex.wav",
+    "duration": 7.617,
+    "status": "synthesized"
+  },
+  {
+    "seq": 296,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. The PR merge box changes to show \"Auto-merge enabled - merge will happen automatically\". When the last required check passes (or last required review arrives), GitHub merges the PR silently. You receive a notification: \"Your PR was automatically merged\". If a reviewer requests changes after auto-merge is enabled, auto-merge is automatically cancelled (a new approval is required before it re-enables).",
+    "filename": "seg296-alex.wav",
+    "duration": 25.325,
+    "status": "synthesized"
+  },
+  {
+    "seq": 297,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Cancelling Auto-Merge. What should a learner take away from it?",
+    "filename": "seg297-jamie.wav",
+    "duration": 4.397,
+    "status": "synthesized"
+  },
+  {
+    "seq": 298,
+    "speaker": "ALEX",
+    "text": "If the interface shifts, Cancelling Auto-Merge is still useful because auto-merge is only available if the repository administrator has enabled it in Settings \u2192 General. For someone navigating by keyboard or screen reader, this detail matters: Many open source repos have it on; some do not.",
+    "filename": "seg298-alex.wav",
+    "duration": 17.047,
+    "status": "synthesized"
+  },
+  {
+    "seq": 299,
+    "speaker": "ALEX",
+    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Merge box \u2192 Tab \u2192 \"Disable auto-merge\" button \u2192 Enter. Read the command, understand what it changes, then run it only when the repository state matches the lesson.",
+    "filename": "seg299-alex.wav",
+    "duration": 15.596,
+    "status": "synthesized"
+  },
+  {
+    "seq": 300,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Put Scenario A: \"I want to review an assigned PR\" into plain language. Example: You are assigned to review a PR titled \"Add missing NVDA shortcut to keyboard-shortcuts.md.\" The PR modifies docs/keyboard-shortcuts.md in the Learning Room repository and references Challenge 2. The interface gets easier when it becomes a set of named places instead of a wall of controls.",
+    "filename": "seg300-alex.wav",
+    "duration": 23.125,
+    "status": "synthesized"
+  },
+  {
+    "seq": 301,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg301-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 302,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Scenario B: \"I want to respond to review feedback on my PR\". What should a learner take away from it?",
+    "filename": "seg302-jamie.wav",
+    "duration": 6.871,
+    "status": "synthesized"
+  },
+  {
+    "seq": 303,
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. Example: Your PR for Challenge 3 (Complete Welcome Guide) received a review comment: \"The [TODO] about evaluating issues is good, but the paragraph could mention checking if the issue is already assigned.\" The validation bot also flagged a link text issue.",
+    "filename": "seg303-alex.wav",
+    "duration": 16.983,
+    "status": "synthesized"
+  },
+  {
+    "seq": 304,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. This part earns its place because see also: Appendix C: Markdown Reference for formatting your PR description with headings, lists, and task lists. That gives the learner a foothold: a pull request is only as useful as its description.",
+    "filename": "seg304-alex.wav",
+    "duration": 14.829,
+    "status": "synthesized"
+  },
+  {
+    "seq": 305,
+    "speaker": "JAMIE",
+    "text": "Let's pause on What Reviewers Look For. What should a learner take away from it?",
+    "filename": "seg305-jamie.wav",
+    "duration": 4.098,
+    "status": "synthesized"
+  },
+  {
+    "seq": 306,
+    "speaker": "ALEX",
+    "text": "What Reviewers Look For: When a reviewer opens your PR, they are asking four questions before they ever look at the diff. The next useful detail is concrete: If your description answers all four, the reviewer can jump straight into the code with context.",
+    "filename": "seg306-alex.wav",
+    "duration": 13.633,
+    "status": "synthesized"
+  },
+  {
+    "seq": 307,
+    "speaker": "ALEX",
+    "text": "First, why does this change exist? -- What problem does it solve, or what goal does it advance? Then, what is the scope? -- Which files changed, and roughly how big is the change? After that, how was it tested? -- Did you verify that the change works, and how? Finally, what should I pay attention to? -- Are there tricky parts, trade-offs, or areas where you want a second opinion? Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg307-alex.wav",
+    "duration": 21.867,
+    "status": "synthesized"
+  },
+  {
+    "seq": 308,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg308-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 309,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Here is the learner-facing version. GitHub recognizes special keywords in PR descriptions that automatically close linked issues when the PR merges. Put another way, you do not need to close issues by hand -- just include the right keyword followed by the issue number. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.",
+    "filename": "seg309-alex.wav",
+    "duration": 22.893,
+    "status": "synthesized"
+  },
+  {
+    "seq": 310,
+    "speaker": "JAMIE",
+    "text": "What is the pre-flight check here?",
+    "filename": "seg310-jamie.wav",
+    "duration": 2.327,
+    "status": "synthesized"
+  },
+  {
+    "seq": 311,
+    "speaker": "ALEX",
+    "text": "This is the move inside Before/After Structure: one of the most effective patterns for PR descriptions is showing the state before your change and the state after. That matters in practice: This gives the reviewer an instant mental model of what changed without reading the diff line by line.",
+    "filename": "seg311-alex.wav",
+    "duration": 15.959,
+    "status": "synthesized"
+  },
+  {
+    "seq": 312,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Anchor this part on A PR Description Template. Here is a template you can copy into your PR descriptions. This is the part to say slowly: Not every section applies to every PR, but filling in even a few sentences per section makes a meaningful difference.",
+    "filename": "seg312-alex.wav",
+    "duration": 15.573,
+    "status": "synthesized"
+  },
+  {
+    "seq": 313,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg313-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 314,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Common Description Mistakes. What should a learner take away from it?",
+    "filename": "seg314-jamie.wav",
+    "duration": 4.695,
+    "status": "synthesized"
+  },
+  {
+    "seq": 315,
+    "speaker": "ALEX",
+    "text": "The reason this matters is simple: even experienced contributors make these mistakes. The listener should be able to check this: Knowing what to avoid is half the battle.",
+    "filename": "seg315-alex.wav",
+    "duration": 9.153,
+    "status": "synthesized"
+  },
+  {
+    "seq": 316,
+    "speaker": "ALEX",
+    "text": "Keep the teaching thread moving. Do not treat Good vs. Bad: Side by Side as decoration. No context, no linked issue, no explanation of what file or what was wrong with it. That is not trivia. A reviewer seeing this has to open the diff, figure out which file changed, read every line, and guess at the intent. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.",
+    "filename": "seg316-alex.wav",
+    "duration": 21.57,
+    "status": "synthesized"
+  },
+  {
+    "seq": 317,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Learning Cards: Writing PR Descriptions That Get Reviewed. What should a learner take away from it?",
+    "filename": "seg317-jamie.wav",
+    "duration": 6.445,
+    "status": "synthesized"
+  },
+  {
+    "seq": 318,
+    "speaker": "ALEX",
+    "text": "Learning Cards: Writing PR Descriptions That Get Reviewed has three jobs: name the idea, give the learner a move, and show what counts as evidence.",
+    "filename": "seg318-alex.wav",
+    "duration": 8.364,
+    "status": "synthesized"
+  },
+  {
+    "seq": 319,
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. Use Markdown headings ( ) in your description (Summary, Changes, Related Issues, Testing) so reviewers can press H to jump between sections. Type Closes followed by the issue number to auto-close the linked issue on merge; GitHub autocompletes when you type. Press Ctrl+Shift+P in the description text area to toggle between Write and Preview modes; Preview renders your Markdown so you can check structure before submitting. Use the Preview tab to verify your Markdown renders correctly; headings, bullet lists, and code blocks are easier to proofread in rendered form. Keep bullet points short (one line each) so the description is scannable at high zoom without excessive horizontal scrolling. When including screenshots, add alt text in the Markdown image syntax: so every reader gets the same information.",
+    "filename": "seg319-alex.wav",
+    "duration": 45.333,
+    "status": "synthesized"
+  },
+  {
+    "seq": 320,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg320-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 321,
+    "speaker": "JAMIE",
+    "text": "Let's pause on Try It: Read a Real Pull Request. What should a learner take away from it?",
+    "filename": "seg321-jamie.wav",
+    "duration": 5.015,
+    "status": "synthesized"
+  },
+  {
+    "seq": 322,
+    "speaker": "ALEX",
+    "text": "Put Try It: Read a Real Pull Request into plain language. Time: 3 minutes What you need: Browser, signed in to GitHub. The useful version is: Go to the Learning Room repository's Pull Requests tab and find any open or recently closed PR.",
+    "filename": "seg322-alex.wav",
+    "duration": 13.441,
+    "status": "synthesized"
+  },
+  {
+    "seq": 323,
+    "speaker": "ALEX",
+    "text": "Walk it in order: Navigate to Pull Requests (G then P in Focus Mode); Open the first PR in the list (press Enter on its title); Read the description - press 2 to jump to the first section heading, then arrow down to read. Look for: which file was changed (docs/welcome.md, docs/keyboard-shortcuts.md, or docs/setup-guide.md)? Which challenge was this PR solving? Does the description; and Check the conversation - press 3 to jump between comments. Read what the validation bot reported - did the bot find any accessibility issues like broken headings or non-descriptive links? How did the author respond? Keep it that plain: know where you are, make the move, check the result.",
+    "filename": "seg323-alex.wav",
+    "duration": 35.479,
+    "status": "synthesized"
+  },
+  {
+    "seq": 324,
+    "speaker": "JAMIE",
+    "text": "Before we leave Try It: Read a Real Pull Request, what is the practical point?",
+    "filename": "seg324-jamie.wav",
+    "duration": 4.567,
+    "status": "synthesized"
+  },
+  {
+    "seq": 325,
+    "speaker": "ALEX",
+    "text": "Think of this as 1 checks: Look at the diff - press D to the \"Pull request tabs\" landmark, then navigate to \"Files changed\" and press Enter. Press H to scan the changed file headings. If the PR touched docs/welcome.md, you should see + lines where the [TODO] sections were filled in. If. Pause after each step and listen for the confirmation before moving on.",
+    "filename": "seg325-alex.wav",
+    "duration": 19.541,
+    "status": "synthesized"
+  },
+  {
+    "seq": 326,
+    "speaker": "PAUSE",
+    "text": "",
+    "filename": "seg326-pause.wav",
+    "duration": 1.3,
+    "status": "pause"
+  },
+  {
+    "seq": 327,
+    "speaker": "JAMIE",
+    "text": "What is the final checkpoint?",
+    "filename": "seg327-jamie.wav",
+    "duration": 2.285,
+    "status": "synthesized"
+  },
+  {
+    "seq": 328,
+    "speaker": "ALEX",
+    "text": "You should be able to point to the evidence, explain the action, and describe what you would do next if this were a real open source project. If you can teach the move back, you have learned it.",
+    "filename": "seg328-alex.wav",
+    "duration": 9.815,
+    "status": "synthesized"
+  },
+  {
+    "seq": 329,
+    "speaker": "JAMIE",
+    "text": "And if they get stuck?",
+    "filename": "seg329-jamie.wav",
+    "duration": 1.879,
+    "status": "synthesized"
+  },
+  {
+    "seq": 330,
+    "speaker": "ALEX",
+    "text": "Read the latest message, not the loudest worry. Check the issue, the branch, the pull request, the status check, or the bot comment. Then ask for help with those facts in hand. That is how professionals collaborate.",
+    "filename": "seg330-alex.wav",
+    "duration": 11.151,
+    "status": "synthesized"
+  }
+]
