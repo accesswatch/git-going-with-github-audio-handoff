@@ -1,273 +1,444 @@
 [ALEX]
-Welcome to Git Going with GitHub, episode 0: Welcome to Git Going with GitHub. I am Alex. Today we are going to make the shape of the workshop something you can explain, practice, and recover from when the interface surprises you.
+Welcome to Git Going with GitHub. I’m Alex.
 
 [JAMIE]
-And I am Jamie. I will be the voice of the learner who is willing to ask, what is this for, where am I, and how do I know I did it right?
+And I’m Jamie. If you’re arriving with a workshop link, a little uncertainty, or that feeling of, wait, what am I supposed to do first, this is for you.
+
+[ALEX]
+Exactly. This opening lesson is your orientation. We’re going to make the path clear from the start: what this workshop is, how the two days fit together, how your private Learning Room works, how to get into it through GitHub Classroom, what to do when tools change, how to choose the right tool for the moment, what to listen for with a screen reader, and where to go for help.
+
+[JAMIE]
+So this is not just a welcome message. It’s the map.
+
+[ALEX]
+Yes. And one of the most important promises in this course is that you are not being asked to do pretend work. This workshop is built around a real contribution path in real tools: GitHub, VS Code, Git, GitHub Copilot, and accessibility-focused contribution workflows.
 
 [PAUSE]
 
 [ALEX]
-The big idea today: A tour of the workshop structure, the two-day arc, and what you will accomplish. We will name the concept, explain why it matters, practice the move, and point out the checks that tell you the work is real.
+Let’s start with the big picture. This course guide describes the GitHub Learning Room as your workshop companion. Think of it as your base camp and table of contents for the whole experience.
 
 [JAMIE]
-So the episode should work even if someone has not read the chapter yet.
+And there’s a note learners should hear early: the materials are actively refined.
 
 [ALEX]
-Exactly. The transcript has to stand on its own. It can point toward practice, but it should teach the concept right here in the conversation.
+Right. Content may be updated leading up to and even during the course. That’s not a warning that things are broken. It’s a reminder that this is a living curriculum built around living platforms.
+
+[JAMIE]
+Which leads to the other big reminder: tools and websites change.
+
+[ALEX]
+They do. GitHub.com changes. GitHub Classroom changes. VS Code changes. Copilot changes. Browser extensions change. Agent features change. Labels move, buttons get renamed, preview features appear or disappear, account policies differ, and model availability can shift.
+
+[JAMIE]
+That can feel stressful, especially if you’re using a screen reader and following instructions carefully.
+
+[ALEX]
+Absolutely. So the course teaches a durable strategy, not just a frozen screenshot. If the docs and your screen differ, orient yourself by the URL, the browser tab title, the page heading, landmarks, tab names, button labels, keyboard help, and in VS Code, the Command Palette.
+
+[JAMIE]
+So instead of thinking, the page changed, I’m lost, you think, what signals tell me where I am now?
+
+[ALEX]
+Exactly. That skill matters more than memorizing one version of a page. And if you find a mismatch, report it so the curriculum can be corrected.
 
 [PAUSE]
 
 [JAMIE]
-How should they picture the shape of the workshop?
+Okay, so what is the workshop structure?
 
 [ALEX]
-GitHub Learning Room - Your Complete Workshop Companion: the learner is about to begin a two-day journey into open source collaboration using GitHub, VS Code, and GitHub Copilot - all designed for screen reader and keyboard-only navigation. The next useful detail is concrete: This guide is your starting point and table of contents for everything in this workshop.
-
-[ALEX]
-The next layer is this. Here is the learner-facing version. This is a two-day workshop built around one idea: you will make real contributions to a real open source project. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.
+It’s a two-day workshop with one central idea: you will make real contributions to a real open source project. Not simulated. Not practice in a fake interface. Real collaboration skills in real environments.
 
 [JAMIE]
-What should feel predictable before the first live session starts?
+But the live event and the written curriculum are not exactly the same size, right?
 
 [ALEX]
-This is the move inside Live Agenda and Self-Paced Curriculum: the live hackathon agenda is intentionally smaller than the full curriculum. That matters in practice: Live sessions prioritize the core contribution path, while the complete chapter set remains available for self-paced preparation, catch-up, remote participation, and post-event continuation.
-
-[ALEX]
-That shows up in the workshop in a few specific ways. Live core: The facilitator chooses the minimum path needed for participants to make and understand a real contribution. Async follow-up: Chapters and challenges not covered live can be completed after the session using the Learning Room, solutions, podcasts, and Slack channel. Remote participation: Remote cohorts should use the same checkpoints and evidence prompts, with written instructions available before each live block.
+Correct. The live agenda is intentionally smaller than the full self-paced curriculum. In the live sessions, facilitators prioritize the minimum core path needed for you to make and understand a real contribution. Then the rest remains available for preparation, catch-up, remote participation, and continued work after the event.
 
 [JAMIE]
-That feels much more doable when you say it as one move.
+So there’s a live core, and then there’s asynchronous follow-up.
 
 [ALEX]
-Right. The magic is not speed. The magic is knowing what changed and why it matters.
-
-[PAUSE]
-
-[ALEX]
-Now bring the learner back to the room. Anchor this part on Day 1 - GitHub Foundations (Browser). You learn GitHub's web interface using only your keyboard and screen reader. This is the part to say slowly: The live Day 1 core path gets you through repository navigation, issues, branches, commits, and a first pull request.
-
-[JAMIE]
-Where is the promise of the workshop, underneath all the logistics?
-
-[ALEX]
-The reason this matters is simple: you move to Visual Studio Code, learn GitHub Copilot, and activate the Accessibility Agents ecosystem - 55 AI agents across 3 teams and 5 platforms that amplify every skill you built on Day 1. The listener should be able to check this: The live Day 2 core path prepares you to make a real contribution, and the async continuation path gives you time to polish and submit it well.
-
-[ALEX]
-The useful habit is simple: orient, act, verify, then continue. That pause between action and trust is part of the work.
-
-[ALEX]
-That matters because of the next idea. Do not treat The Journey Arc as decoration. The key principle: Learn the manual skill first, then see how it is automated. That is not trivia. The agents only make sense when you already understand what they are doing. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.
+Yes. If something isn’t covered live, that doesn’t mean it’s optional in the sense of unimportant. It means the full chapter set, challenge flow, solutions, podcast episodes, and Slack support are there so you can keep going. Remote participants also use the same checkpoints and evidence prompts, with written instructions available before each live block.
 
 [PAUSE]
 
 [JAMIE]
-What is the pre-flight check here?
+Walk us through the two days.
 
 [ALEX]
-If the interface shifts, Before You Begin is still useful because start with Get Going with GitHub if you want the most guided path. For someone navigating by keyboard or screen reader, this detail matters: It explains how GitHub Classroom creates your private Learning Room repository, how Challenge 1 appears, how evidence prompts work, and how to choose between browser, github.dev, VS Code, GitHub Desktop, and command-line paths.
-
-[ALEX]
-Here is what that changes in practice. Creating a GitHub account. Installing Git. Setting up VS Code (optional for Day 1, required for Day 2). Configuring your screen reader for GitHub.
-
-[ALEX]
-This is where the talk moves from concept to action. Put Companion Audio Series into plain language. The audio track is a standalone teaching companion for the same concepts. The useful version is: Use the episode whenever audio helps you enter or revisit the topic.
-
-[ALEX]
-The room should hear these as checkpoints. Browse the podcast episodes with HTML5 audio players. Subscribe via RSS in your preferred podcast app. Episodes are 8-18 minutes each - perfect for commutes, walks, or screen reader breaks.
+Day 1 stays in the browser. You learn GitHub’s web interface using only your keyboard and screen reader. The live Day 1 core path gets you through repository navigation, issues, branches, commits, and a first pull request.
 
 [JAMIE]
-Now it sounds like a workflow instead of a wall of instructions.
+And then there’s more beyond the minimum live path.
 
 [ALEX]
-That is where confidence comes from: not from never getting lost, but from knowing how to recover.
+Right. Review practice, merge conflicts, labels, notifications, and open source culture can be stretch goals during the live event or completed later asynchronously.
 
 [JAMIE]
-Where does the workshop stop being a tour and start becoming contribution?
+Then Day 2 moves to the desktop.
 
 [ALEX]
-The teaching point here is not the label; it is the move. These chapters are designed to be read and practiced in order. That is the difference between guessing and knowing: The live Day 1 agenda covers the core path in a shorter Pacific-time event day and treats later challenges as stretch or async follow-up.
-
-[PAUSE]
-
-[ALEX]
-Before the learner moves on. This part earns its place because day 2 moves you from the browser to the desktop. That gives the learner a foothold: every skill maps directly to what you learned on Day 1. That is the difference between following directions and owning the workflow.
+Yes. Day 2 is Visual Studio Code plus accessibility agents. You move from the browser into VS Code, learn GitHub Copilot, and work with the Accessibility Agents ecosystem. The live core prepares you to make a real contribution, and the async continuation gives you time to improve and submit that contribution well.
 
 [JAMIE]
-What would you say to someone who is already bracing for this to be too much?
+I like that there’s a progression here, not a leap.
 
 [ALEX]
-Appendices - Reference Material: Open these at any time during the workshop. The next useful detail is concrete: They are not part of the chapter sequence - use them when you need them.
-
-[ALEX]
-Now slow down for the part people usually miss. Here is the learner-facing version. The workshop includes structured exercises across the curriculum. Put another way, every exercise is designed to be completed in 1-5 minutes, is impossible to fail, and follows the same pattern: Try It - You're done when - What success feels like.
-
-[PAUSE]
+That progression is very intentional. First you learn the skill manually in the browser. Navigate a repository. Work with an issue. Open a pull request. Review. Merge.
 
 [JAMIE]
-What do you want them to do when the plan breaks?
+Then there’s a bridge.
 
 [ALEX]
-This is the move inside Getting Help: if you get stuck at any point during the workshop, these resources are always available. That matters in practice: Open a support issue at https://github.com/Community-Access/support/issues describing what you tried, what happened, and what you expected.
+Exactly. On many GitHub repositories, you can press the period key to open github.dev, which is VS Code in your browser. It uses familiar keyboard patterns and a VS Code-style editor without installation.
 
 [JAMIE]
-That is the kind of detail that keeps a screen reader user oriented.
+But it has limits.
 
 [ALEX]
-Yes. The named thing - the heading, tab, field, branch, or button - is the handhold.
-
-[ALEX]
-Here is the moment where the page starts to make sense. Anchor this part on Workshop at a Glance. Start with Chapter 00: Pre-Workshop Setup. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes.
+It does. No local terminal, no debugger in the full desktop sense, only web-compatible extensions, and not the complete desktop agent workflow.
 
 [JAMIE]
-What is the one idea that makes the next few steps less mysterious?
+So github.dev is a bridge, not the finish line.
 
 [ALEX]
-The reason this matters is simple: this workshop is designed so you are never left guessing what comes next. The listener should be able to check this: The goal is to build confidence one checkable step at a time.
+Well said. Once you understand the workflow in the browser, the desktop version makes more sense. Then on Day 2 you deepen the work: VS Code basics, Copilot inline suggestions, Copilot Chat, and agent-supported workflows like daily briefings, issue tracking, pull request review, analytics, and preparing an upstream contribution.
+
+[JAMIE]
+And there’s a principle underneath all that.
 
 [ALEX]
-The useful version is not abstract; it sounds like this. A GitHub Classroom assignment link from the facilitator. Your own private Learning Room repository. Challenge issues that tell you exactly what to do. Evidence prompts that tell you what to post when you finish.
+Yes. Learn the manual skill first. Then learn what automation is doing for you. Agents are helpful only if you understand the workflow they’re accelerating.
 
 [PAUSE]
 
 [JAMIE]
-Give me the sequence, because order matters here.
+Before learners even begin Day 1, what should already be done?
 
 [ALEX]
-Do not treat When Tools or Pages Change as decoration. GitHub.com, GitHub Classroom, VS Code, GitHub Copilot, github.dev, browser extensions, and agent tools change often. That is not trivia. This course is actively maintained, and we use official sources and live checks wherever possible, but your screen may not always match the exact wording in a step.
-
-[ALEX]
-First, check the URL and browser tab title. Then, move by headings, landmarks, tabs, and button names instead of relying only on visual order. After that, open keyboard shortcut help (? on GitHub) or the VS Code Command Palette when a shortcut or control differs. Finally, read the surrounding labels before activating a control. Keep it that plain: know where you are, make the move, check the result.
+Two things matter here. First, if you want the most guided path, start with the Get Going with GitHub guide. That’s the step-by-step onboarding path from getting the assignment link to knowing where to click, what challenge to open, and how to ask for help.
 
 [JAMIE]
-How would you walk the room through that step by step?
+And second?
 
 [ALEX]
-Start here: Ask a facilitator or file a curriculum issue with the page link, the step that differed, and what you heard or observed. Pause after each step and listen for the confirmation before moving on.
+Complete the pre-workshop setup chapter before Day 1. That includes creating a GitHub account, installing Git, setting up VS Code — optional for Day 1, required for Day 2 — configuring your screen reader for GitHub, and verifying that everything works.
 
 [JAMIE]
-What does someone need before they touch the keyboard?
+How long should that setup take?
 
 [ALEX]
-If the interface shifts, Step 1 - Know Your Starting Place is still useful because before Day 1 starts, complete Chapter 00: Pre-Workshop Setup. For someone navigating by keyboard or screen reader, this detail matters: That chapter helps you create or verify your GitHub account, configure accessibility settings, choose a browser, install Git and VS Code, and confirm your screen reader setup.
-
-[JAMIE]
-What does the learner do first, second, and then after that?
-
-[ALEX]
-Put Step 2 - Accept the GitHub Classroom Assignment into plain language. At the start of Day 1, the facilitator gives you a GitHub Classroom assignment link. The useful version is: It usually starts with https://classroom.github.com/a/. The interface gets easier when it becomes a set of named places instead of a wall of controls.
-
-[ALEX]
-Walk it in order: Open the assignment link in the browser where you are signed in to GitHub; If GitHub asks you to authorize GitHub Classroom, activate Authorize GitHub Classroom; If you are asked to choose your name from a roster, find your name and select it. If your name is missing, use the skip option and tell the facilitator; and Activate Accept this assignment. The point is not speed; the point is never losing your place.
-
-[JAMIE]
-Turn that into a path someone can follow.
-
-[ALEX]
-Think of this as 3 checks: Wait while GitHub Classroom creates your private repository; Refresh the page until the repository link appears; and Open the repository link and bookmark it. Each step should leave a trace you can name.
-
-[JAMIE]
-So the learner is not behind if they stop there and check the page.
-
-[ALEX]
-Yes. Pausing to verify is not a detour; it is how you keep control of the workflow.
+About thirty minutes, though support is available if it takes longer. And if you can’t finish every setup step before the workshop, tell a facilitator early. Setup problems are normal.
 
 [PAUSE]
 
 [JAMIE]
-Okay, set the room for us. What are we walking into?
+There’s also an audio layer to the course itself, which is fitting, since we are currently in it.
 
 [ALEX]
-The teaching point here is not the label; it is the move. The Learning Room is a private repository created from a template. That is the difference between guessing and knowing: Everyone starts from the same materials, but your work belongs to you.
-
-[ALEX]
-For a learner, the useful signals are concrete. You have your own issues, branches, commits, and pull requests. Other students do not see your work unless the facilitator intentionally pairs you. Mistakes are expected and recoverable. Bot feedback is educational, not punitive.
+Exactly. Every chapter and appendix has a companion podcast episode. You can listen before reading to preview the concepts, or after reading to reinforce them. There’s a browseable podcast page with HTML5 players, and there’s an RSS feed if you prefer a podcast app.
 
 [JAMIE]
-What is the ordered workflow?
+And the episodes are short enough to fit into real life.
 
 [ALEX]
-This part earns its place because after your Learning Room repository is created, the Student Progression Bot creates your first challenge issue. That gives the learner a foothold: when you close a challenge issue, the next challenge opens.
-
-[ALEX]
-The path is straightforward once it is named. Step one is open your Learning Room repository. Step two is navigate to the Issues tab. On GitHub, the keyboard shortcut is G then I. Step three is find an issue titled Challenge 1: Find Your Way Around. Step four is open the issue and read the body from top to bottom. If one step does not match what you hear, stop there and re-orient.
-
-[JAMIE]
-Let's pause on Step 4 - Find Challenge 1. What should a learner take away from it?
-
-[ALEX]
-First, follow the checklist in the issue. Then, post your evidence in the evidence field or as the requested comment. After that, close the challenge issue when the instructions tell you to close it. That is the rhythm: orient, act, verify, continue.
-
-[JAMIE]
-What stays the same when the tool changes?
-
-[ALEX]
-Step 5 - Choose the Tool That Fits the Moment: There is no single correct way to use GitHub. The next useful detail is concrete: The workshop teaches the workflow first, then offers tool paths.
-
-[ALEX]
-The parts worth keeping in working memory are these. GitHub.com in the browser: Best for Day 1, issues, pull requests, repository navigation, and reviews. github.dev: Best when you want a VS Code-style editor in the browser without installing anything. Press the period key from many repository pages to open it. VS Code desktop: Best for Day 2, local Git, Copilot, extensions, and deeper editing work. GitHub Desktop: Best if you want a desktop Git workflow without typing Git commands.
-
-[PAUSE]
-
-[ALEX]
-Here is the practical turn. Here is the learner-facing version. When you feel lost, listen for structure before you take action. Put another way, if you are not sure where you are, pause and navigate by headings or landmarks. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.
-
-[ALEX]
-On the ground, that means a few things. Page title. Repository name heading. Landmark names such as main content or repository navigation. Tab names such as Code, Issues, and Pull requests.
-
-[ALEX]
-A solid navigation habit is to prove where you are before activating controls. Headings, landmarks, and the address bar are not trivia; they are your map.
-
-[JAMIE]
-How do the two days connect instead of feeling like separate courses?
-
-[ALEX]
-This is the move inside Step 7 - Use the Support Built into the Course: if something does not work, do not start over silently. That matters in practice: Read the latest bot message, check the challenge issue, and ask for help with the link to the page where you are stuck.
-
-[ALEX]
-These are the details that keep the idea from floating away. Every challenge issue includes instructions and evidence prompts. Every chapter has an If You Get Stuck section. Every challenge has a reference solution in the solutions folder. Aria posts feedback on pull requests.
-
-[JAMIE]
-That is a useful checkpoint before anyone starts pressing keys.
-
-[ALEX]
-Exactly. Checkpoints turn uncertainty into information.
-
-[JAMIE]
-Let's pause on Step 8 - Your First Success Check. What should a learner take away from it?
-
-[ALEX]
-Anchor this part on Step 8 - Your First Success Check. You are ready to continue when you can say these four things. This is the part to say slowly: You do not need to understand every GitHub feature before you begin.
-
-[ALEX]
-Think of this as 4 checks: I can open my Learning Room repository; I can find the Issues tab; I can open Challenge 1; and I know where to post my evidence and how to ask for help. Keep it that plain: know where you are, make the move, check the result.
+Yes, usually about eight to eighteen minutes. Good for a walk, a commute, or just a break from intensive screen reader navigation.
 
 [PAUSE]
 
 [JAMIE]
-Let's pause on Where to Go Next. What should a learner take away from it?
+Let’s make the curriculum concrete. What does Day 1 cover?
 
 [ALEX]
-The reason this matters is simple: use this order if you want the gentlest path. The listener should be able to check this: We will keep the path explicit, and we will keep giving you the next step.
-
-[ALEX]
-The path is straightforward once it is named. Step one is chapter 00: Pre-Workshop Setup. Step two is chapter 01: Choose Your Tools. Step three is chapter 02: Understanding GitHub. Step four is chapter 03: Navigating Repositories. Pause after each step and listen for the confirmation before moving on.
+Day 1 begins with the getting-started path and pre-workshop setup, then moves into choosing your tools, understanding GitHub’s web structure, navigating repositories, understanding the Learning Room, working with issues, working with pull requests, handling merge conflicts, open source culture, labels and milestones and projects, and finally notifications and a Day 1 close.
 
 [JAMIE]
-Before we leave Where to Go Next, what is the practical point?
+So by the end of Day 1, a learner should be able to use GitHub’s web interface independently.
 
 [ALEX]
-First, chapter 04: The Learning Room. Then, your Challenge 1: Find Your Way Around issue in your Learning Room repository. The point is not speed; the point is never losing your place.
+Yes. The Day 1 self-paced total is about eight hours, but the live agenda focuses on the core path and may leave some chapters as async follow-up.
+
+[JAMIE]
+And Day 2?
+
+[ALEX]
+Day 2 covers the VS Code interface and setup, accessibility features in VS Code, the mental model of Git, Git in practice, code review with pull requests and diffs, GitHub Copilot, issue templates, fork-based contribution, accessibility agents, a capstone project, and next steps.
+
+[JAMIE]
+Which is a lot.
+
+[ALEX]
+It is. About ten hours self-paced. Live Day 2 focuses on VS Code, Git, Copilot, agent discovery, and supported contribution work, with the deeper capstone often continuing afterward.
 
 [PAUSE]
 
 [JAMIE]
-What should people carry with them after this?
+I also don’t want to skip the reference materials, because those are a real accessibility support feature, not an afterthought.
 
 [ALEX]
-Carry the map. Know what page or tool you are in, know which action you are taking, and know what confirmation should follow. If the confirmation is missing, pause. That pause is not wasted time; it is professional judgment.
+I agree. The appendices are there to stay open while you work. They are not part of the linear chapter sequence. They’re meant to be used at the moment you need them.
 
 [JAMIE]
-That is a better way to say it than just follow the steps.
+What are the big ones learners should keep handy?
 
 [ALEX]
-Right. Steps matter, but understanding wins. That is episode 0. Next in the series is episode 1, where we keep building the same contributor muscles.
+Always-open resources include the glossary and the screen reader cheat sheet. Beyond that, the guide also points you to the FAQ, troubleshooting guide, quick reference, glossary, screen reader cheat sheet, and a broader resources collection.
+
+[JAMIE]
+So if you hit jargon, use the glossary. If you forget a command, use quick reference. If something breaks, use troubleshooting.
+
+[ALEX]
+Exactly. And if you are still stuck, open a support issue at the Community Access support repository. Describe what you tried, what happened, what you expected, and include your screen reader and operating system.
+
+[JAMIE]
+That detail matters because support is much easier when the context is clear.
+
+[ALEX]
+Yes. “It doesn’t work” is hard to diagnose. “I’m using NVDA on Windows, I activated this control, I expected a repository page, and instead I heard this” is actionable.
+
+[PAUSE]
+
+[JAMIE]
+Before we leave the course guide, can we do a compact workshop-at-a-glance recap?
+
+[ALEX]
+Sure. Day 1 focuses on the GitHub web interface using a browser and screen reader. The core skills are navigate, issue, pull request, review, and merge. The outcome is that you can use GitHub independently.
+
+[JAMIE]
+And Day 2 focuses on VS Code plus accessibility agents.
+
+[ALEX]
+Right. The tools include VS Code, Copilot, and the accessibility agent ecosystem. The core skills are Git, Copilot, agents, fork-based contribution, and the capstone path. The outcome is that you have a real contribution workflow and review process you can keep using.
+
+[JAMIE]
+And if someone wants the official source of truth?
+
+[ALEX]
+Use GitHub Docs and the GitHub Changelog. The course also includes section-level source maps so learners can verify facts by topic.
+
+[PAUSE]
+
+[JAMIE]
+All right. Let’s shift into the guided onboarding path: getting going with GitHub.
+
+[ALEX]
+This guide starts with a reassuring premise: if you are new, unsure, or joining from a workshop link, you do not need prior knowledge of Git, GitHub, VS Code, or the command line to begin.
+
+[JAMIE]
+That’s important to say out loud, because many learners assume everyone else already knows the basics.
+
+[ALEX]
+Exactly. The course is designed so you are not left guessing what comes next.
+
+[JAMIE]
+What specifically will learners have?
+
+[ALEX]
+You’ll have a GitHub Classroom assignment link from the facilitator, your own private Learning Room repository, challenge issues with explicit instructions, evidence prompts telling you what to post when you finish, Gandalf bot feedback on pull requests, reference solutions you can compare against after you try, and multiple tool paths so you can work in the browser, VS Code, GitHub Desktop, or the command line when appropriate.
+
+[JAMIE]
+So the goal isn’t speed.
+
+[ALEX]
+No. The goal is confidence through small, checkable steps.
+
+[PAUSE]
+
+[JAMIE]
+Let’s return to something you mentioned earlier, because it appears here too: what should learners do when tools or pages change?
+
+[ALEX]
+First, do not assume that a difference means you failed. Instead, use an exploration pattern. Check the URL and browser tab title. Move by headings, landmarks, tabs, and button names instead of relying on visual order. Open keyboard shortcut help — on GitHub that’s question mark — or use the VS Code Command Palette if shortcuts differ. Read nearby labels before activating a control. And if needed, ask a facilitator or file a curriculum issue including the page link, the step that differed, and what you heard or observed.
+
+[JAMIE]
+So the durable skill is orient, verify, continue.
+
+[ALEX]
+Perfectly said.
+
+[PAUSE]
+
+[JAMIE]
+Now we get to the actual starting sequence. Step one: know your starting place.
+
+[ALEX]
+Yes. Before Day 1, complete the pre-workshop setup chapter. That chapter helps you create or verify your GitHub account, configure accessibility settings, choose a browser, install Git and VS Code, and confirm your screen reader setup.
+
+[JAMIE]
+And if setup is incomplete?
+
+[ALEX]
+Tell a facilitator early. Recovery time and support are built into the workshop.
+
+[PAUSE]
+
+[JAMIE]
+Step two is accepting the GitHub Classroom assignment. Can you walk us through that in plain language?
+
+[ALEX]
+Absolutely. At the start of Day 1, the facilitator gives you a GitHub Classroom assignment link. It usually begins with classroom dot github dot com slash a slash.
+
+[JAMIE]
+And you should open it in the browser where you’re already signed in to GitHub.
+
+[ALEX]
+Correct. Then, if GitHub asks you to authorize GitHub Classroom, activate the authorize button. If you’re asked to choose your name from a roster, select your name. If your name is missing, use the skip option and tell the facilitator. Then activate Accept this assignment.
+
+[JAMIE]
+And then wait.
+
+[ALEX]
+Yes. GitHub Classroom needs a moment to create your private repository. Refresh until the repository link appears, open it, and bookmark it.
+
+[JAMIE]
+And the repository name usually follows a pattern.
+
+[ALEX]
+Something like learning-room-your-username. That repository is your personal practice space.
+
+[PAUSE]
+
+[JAMIE]
+Which takes us to step three: understanding the Learning Room itself.
+
+[ALEX]
+The Learning Room is a private repository created from a template. Everyone begins with the same materials, but your work belongs to you.
+
+[JAMIE]
+Why is that such a useful design?
+
+[ALEX]
+Because it gives you a safe place to practice real GitHub workflows. You have your own issues, branches, commits, and pull requests. Other students do not see your work unless pairing is intentional. Mistakes are expected and recoverable. Bot feedback is educational, not punitive. And challenge issues unlock in sequence, so you always know the next step.
+
+[JAMIE]
+I love the phrase guided practice studio.
+
+[ALEX]
+That’s exactly what it is. Real GitHub, but with scaffolding.
+
+[PAUSE]
+
+[JAMIE]
+Step four is finding Challenge 1.
+
+[ALEX]
+Once the Learning Room is created, the Student Progression Bot opens your first challenge issue.
+
+[JAMIE]
+So what does the learner do?
+
+[ALEX]
+Open your Learning Room repository. Go to the Issues tab — on GitHub the shortcut is G then I. Find the issue titled Challenge 1: Find Your Way Around. Open it and read the issue body from top to bottom. Follow the checklist. Post your evidence in the requested place, either in the evidence field or as a comment. Then close the challenge issue when the instructions tell you to close it.
+
+[JAMIE]
+And closing one challenge triggers the next.
+
+[ALEX]
+Exactly. You do not have to hunt through the whole course wondering what comes next. The sequence is designed to reveal the next step when you finish the current one.
+
+[PAUSE]
+
+[JAMIE]
+Step five is tool choice, and I think this is where learners sometimes get anxious. They worry there’s one right tool.
+
+[ALEX]
+There isn’t. The workshop teaches the workflow first, then gives you multiple tool paths.
+
+[JAMIE]
+Can we do the plain-language version?
+
+[ALEX]
+Yes. GitHub.com in the browser is best for Day 1, issues, pull requests, repository navigation, and reviews. github.dev is best when you want a VS Code-style editor in the browser without installing anything; on many repository pages, press period to open it. VS Code desktop is best for Day 2, local Git, Copilot, extensions, and deeper editing. GitHub Desktop is best if you want a desktop Git workflow without typing Git commands. GitHub CLI is best if you prefer terminal workflows or want automation later.
+
+[JAMIE]
+And whichever tool you use, the important thing is understanding the contribution workflow.
+
+[ALEX]
+Yes: issue, branch, change, commit, pull request, review, merge. Tools may differ, but that conceptual path stays consistent.
+
+[PAUSE]
+
+[JAMIE]
+Step six is especially for screen reader users: what to listen for.
+
+[ALEX]
+When you feel lost, listen for structure before taking action. Useful signals include the page title, the repository name heading, landmark names like main content or repository navigation, tab names like Code, Issues, and Pull requests, the issue title, the pull request title, the branch name, button names, field labels, and bot comments or check results.
+
+[JAMIE]
+So if I’m unsure where I am, I shouldn’t panic. I should pause and navigate by headings or landmarks.
+
+[ALEX]
+Exactly. Re-orienting is part of the workflow. It is not evidence that you’re doing something wrong.
+
+[PAUSE]
+
+[JAMIE]
+Step seven is using the support built into the course.
+
+[ALEX]
+And there’s quite a lot of it. Every challenge issue includes instructions and evidence prompts. Every chapter has an If You Get Stuck section. Every challenge has a reference solution in the solutions folder. Gandalf bot posts feedback on pull requests. The Student Progression Bot opens the next challenge when you finish the current one. Facilitators and peers are part of the support system too.
+
+[JAMIE]
+So the advice is: don’t silently restart from scratch.
+
+[ALEX]
+Exactly. Read the latest bot message, check the challenge issue, and ask for help with the link to the page where you got stuck.
+
+[PAUSE]
+
+[JAMIE]
+And then step eight is a first success check.
+
+[ALEX]
+Yes. You are ready to continue when you can say four things: I can open my Learning Room repository. I can find the Issues tab. I can open Challenge 1. And I know where to post my evidence and how to ask for help.
+
+[JAMIE]
+That’s such a healthy checkpoint, because it doesn’t require mastery of everything.
+
+[ALEX]
+Exactly. You do not need to understand every GitHub feature before beginning. You just need enough orientation to take the next step.
+
+[PAUSE]
+
+[JAMIE]
+So where should learners go next if they want the gentlest path?
+
+[ALEX]
+Use this order: pre-workshop setup, choose your tools, understand GitHub, navigate repositories, understand the Learning Room, and then complete your Challenge 1 issue in your own repository.
+
+[JAMIE]
+And I think the final line of that guide is worth repeating in spirit.
+
+[ALEX]
+Yes. You belong here. The path is meant to stay explicit, and the course keeps giving you the next step.
+
+[PAUSE]
+
+[JAMIE]
+Before we wrap, let’s make sure we include the administrative details learners may need later.
+
+[ALEX]
+Good idea. For current factual reference, use GitHub Docs and the GitHub Changelog. The course materials also include section-level source maps showing which official sources back which sections.
+
+[JAMIE]
+And if a learner needs immediate practical backup during the workshop?
+
+[ALEX]
+Keep the reference materials nearby: glossary, screen reader cheat sheet, troubleshooting, quick reference, FAQ, and the resources collection. If you’re still stuck, open a support issue with clear details about what you tried, what happened, what you expected, and which screen reader and operating system you’re using.
+
+[JAMIE]
+So the through line of this whole episode is: this workshop is real, but it is also structured.
+
+[ALEX]
+Exactly. Real tools, real workflows, real contributions, but also clear guidance, private practice space, progressive challenges, bot feedback, accessible orientation strategies, and multiple ways to continue when something changes.
+
+[JAMIE]
+That feels like a good place to land. You do not have to know everything. You do need a starting place.
+
+[ALEX]
+And now you have one. Open your setup chapter if you haven’t completed it yet. Accept your GitHub Classroom assignment when your facilitator provides it. Bookmark your Learning Room. Find Challenge 1. And keep moving one checkable step at a time.
+
+[JAMIE]
+We’ll meet you in the next part.

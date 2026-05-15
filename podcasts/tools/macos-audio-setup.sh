@@ -11,6 +11,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r podcasts/tts/requirements.txt
+npm ci
 python -m podcasts.tts.download_kokoro_samples --english-high-quality-only
 npm run validate:podcasts
 npm run podcast:audio:queue

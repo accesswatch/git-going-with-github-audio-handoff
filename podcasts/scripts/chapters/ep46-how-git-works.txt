@@ -1,343 +1,416 @@
 [ALEX]
-This is Git Going with GitHub, episode 46: How Git Works: The Mental Model. I am Alex. By the end of this episode, How Git Works: The Mental Model should feel less like a wall of GitHub words and more like a set of moves you can trust.
+Welcome back. Before we get into Git commands, we need the picture in our heads that makes those commands make sense. Today is all about that mental model: what Git is storing, where your changes live, what a commit really is, what a branch really is, how your computer relates to GitHub, and why conflicts happen.
 
 [JAMIE]
-And I am Jamie. I am here for the practical questions: what should I listen for, what can go wrong, and what is the next calm move?
+I like that framing, because a lot of learners can follow a recipe right up until something unexpected happens. Then suddenly every word in the terminal feels mysterious.
+
+[ALEX]
+Exactly. And this lesson is designed to prevent that. On GitHub's website, you may have edited files without thinking about Git underneath. The site handled the commit creation, branch management, and history tracking for you. Locally, you do those operations yourself. The commands are learnable, but the real goal is understanding what each one changes.
+
+[JAMIE]
+So this is not really a memorization lesson. It's a how-to-think lesson.
+
+[ALEX]
+That's right. And one practical note: later Git practice depends on this model. If you understand the three areas, branches, and the difference between local and remote, Day 2 Git work becomes much more predictable. There's also a learning principle here that matters for accessibility and confidence: first understand local Git mechanics, then connect them to GitHub workflows and tools like the GitHub CLI. That order makes terminal work easier to recover from.
+
+[JAMIE]
+And if someone wants deeper documentation after this episode?
+
+[ALEX]
+The core ideas here line up with the Pro Git book, Git SCM documentation, GitHub Docs, and the GitHub Accessibility Lab CLI guide. There are also related appendices on advanced Git, authentication, and Git security for later.
 
 [PAUSE]
-
 [ALEX]
-Today we are working on this: Commits, branches, staging, local versus remote, push, pull, fetch, and why conflicts happen. I want the learner to leave with a mental map, not just a remembered path through buttons.
+Let's start with the most important concept in this whole lesson: Git has three main areas.
 
 [JAMIE]
-So the goal is understanding first, then action, then confirmation.
+This is the part people hear about, but often only vaguely. Working tree, staging, repository, something like that?
 
 [ALEX]
-Right. We are building a rhythm: orient yourself, take one intentional action, then verify what changed before moving on.
+Yes, and we want it to be concrete. First, the working directory. That's the folder on your computer where the files actually live. If you open a project in VS Code and browse files in the Explorer, you're looking at the working directory. These are ordinary files on disk. You can edit them, rename them, delete them, create new ones.
+
+[JAMIE]
+So if I type in a Markdown file and save it, I've changed the working directory.
+
+[ALEX]
+Exactly. Git notices that change, but Git does not automatically preserve it in history. Noticing is not the same as recording.
+
+[JAMIE]
+And that's where the staging area comes in.
+
+[ALEX]
+Right. The staging area, also called the index, is a holding zone. When you decide a particular change belongs in your next save point, you stage it. You're telling Git, include this in the next commit.
+
+[JAMIE]
+So staging is like selecting what counts.
+
+[ALEX]
+Perfect phrasing. You can stage one file and leave another unstaged. You can group related changes together. That's one of Git's big strengths: your commit can reflect a meaningful unit of work instead of every edit you've made that afternoon.
+
+[JAMIE]
+And then the repository is the permanent record.
+
+[ALEX]
+Yes. The repository is where Git stores committed history. Inside your project is a hidden folder named dot git, written as .git. That's where Git keeps its metadata and history. When you commit, Git takes the staged content and stores it in the repository as a snapshot.
+
+[JAMIE]
+Let's connect the flow clearly.
+
+[ALEX]
+Always: edit in the working directory, stage the changes you want, then commit the staged changes into the repository.
+
+[JAMIE]
+Edit, stage, commit.
+
+[ALEX]
+Yes. In command terms, that often looks like: edit a file, run git add on the file, then run git commit with a message. But focus on the idea, not just the syntax.
+
+[JAMIE]
+And I want to call out something accessibility-related from the source material. A lot of visual Git tutorials use arrows and diagrams. But the actual information is just that three-step flow.
+
+[ALEX]
+Exactly. You do not need a diagram to understand it. The text sequence is the same content. Edit in the working directory. Stage into the index. Commit into the repository.
+
+[JAMIE]
+Can we use the packing analogy?
+
+[ALEX]
+Definitely. Imagine your desk is covered with papers and objects. That's the working directory. An open box on the floor is the staging area. You choose what goes into that box. When you're satisfied, you seal the box, label it, and put it on the shelf. That's the commit. The sealed, stored box is now part of the permanent record.
+
+[JAMIE]
+And before sealing it, I can add things or remove things from the box.
+
+[ALEX]
+Yes. You can stage and unstage as much as needed before committing.
+
+[JAMIE]
+Let's make this practical for different learners in VS Code and the terminal.
+
+[ALEX]
+For screen reader users, git status is extremely helpful. Run it in the terminal and Git tells you which files are changed, which are staged, and which are untracked. In VS Code Source Control, usually opened with Control Shift G, files are grouped into Changes and Staged Changes, and you can move through them with arrow keys. Press Enter on a file to hear the diff, with added and removed lines announced.
+
+[JAMIE]
+And for low vision learners?
+
+[ALEX]
+In Source Control, staged files appear in a separate Staged Changes group, often with a green plus icon. Unstaged files appear under Changes, often with an orange modified indicator. If the panel is hard to read, increase zoom or font size. In the editor gutter, added lines and modified lines are also marked by color.
+
+[JAMIE]
+And for sighted users, the Source Control badge count and the file status letters like M, U, A, and D give a fast visual summary.
+
+[ALEX]
+Exactly.
 
 [PAUSE]
+[ALEX]
+Now let's talk about commits.
 
 [JAMIE]
-Okay, set the room for us. What are we walking into?
+People often say a commit is a save point. That's helpful, but a little incomplete.
 
 [ALEX]
-1. Why a Mental Model Matters: On Day 1, you edited files on GitHub.com using the web editor. The next useful detail is concrete: GitHub handled Git for you behind the scenes -- creating commits, managing branches, and tracking changes.
-
-[ALEX]
-The next layer is this. Here is the learner-facing version. Git organizes your work into three areas. Put another way, understanding these three areas is the single most important concept in this chapter. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.
+Agreed. A commit is a snapshot of your project at a moment in time. Importantly, it's not just a loose note saying what changed. Git records the state of the staged files as they are at commit time.
 
 [JAMIE]
-What is the one idea that makes the next few steps less mysterious?
+So a commit contains more than a message.
 
 [ALEX]
-This is the move inside Working directory: the working directory is the folder on your computer where the files live. That matters in practice: When you open a project in VS Code, everything you see in the file explorer is the working directory.
+Much more. Four key parts matter here. First, the snapshot: the recorded state of the staged files. Second, the message: a human-readable description, like fix broken link in setup guide. Third, the author information: who made the commit, typically name and email. Fourth, a parent pointer: a reference to the commit that came before it.
 
 [JAMIE]
-That feels much more doable when you say it as one move.
+That parent pointer is what turns separate save points into a timeline.
 
 [ALEX]
-Right. The magic is not speed. The magic is knowing what changed and why it matters.
+Exactly. Each commit knows what came before, so Git can follow history backward.
+
+[JAMIE]
+And every commit gets an ID.
+
+[ALEX]
+Yes. A unique identifier called a hash, specifically a SHA hash. The full form is a 40-character string. In practice, you'll often see just the first seven characters because that short form is usually enough to identify the commit in a given repository.
+
+[JAMIE]
+So learners do not need to memorize long strings of random-looking characters.
+
+[ALEX]
+Not at all. You usually copy, tab-complete, or use the short form.
+
+[JAMIE]
+What about permanence? People hear that Git never forgets, then later hear about rewriting history and get confused.
+
+[ALEX]
+A good way to phrase it is: commits are permanent, mostly. Once a commit is part of the repository history, it exists in that timeline. You can create later commits that reverse its effects, but the original commit is still part of history. That stability is one reason Git feels safe. You can usually get back to earlier states. There are advanced history-rewriting tools, but for this mental model, think of commits as durable recorded points.
+
+[JAMIE]
+And this connects directly back to Day 1 on GitHub.com.
+
+[ALEX]
+Yes. When you clicked Commit changes in the web editor, GitHub handled staging and committing in one web action. Locally, those steps are separated. That separation gives you more control.
+
+[JAMIE]
+Accessibility tips here too?
+
+[ALEX]
+For screen reader users, after committing, git log dash dash oneline dash 5 is a great command to hear the last five commits as short hashes and messages. In VS Code Source Control, move to the commit message box, type your message, then use the commit shortcut, often Control Enter. And remember, the short hash is enough for most commands.
+
+[JAMIE]
+For low vision users, widening the Source Control panel can make the message field easier to read, and after a successful commit the Source Control badge count usually drops to zero.
+
+[ALEX]
+Right. And the Timeline view in VS Code can also help learners inspect file history.
 
 [PAUSE]
-
 [ALEX]
-Now bring the learner back to the room. Anchor this part on Staging area (also called the index). The staging area is a holding zone. This is the part to say slowly: When you are happy with a change in the working directory, you add it to the staging area.
+Next up: branches.
 
 [JAMIE]
-What would you say to someone who is already bracing for this to be too much?
+This is another word people use constantly, and beginners sometimes imagine branches as separate folders or duplicate repositories.
 
 [ALEX]
-The reason this matters is simple: the repository is Git's permanent record. The listener should be able to check this: When you commit, Git takes everything in the staging area and stores it as a snapshot -- a permanent record of what those files looked like at that moment.
-
-[ALEX]
-A solid Git habit is to know which branch you are on, what changed, and what confirmation you expect before you run the next command.
+That's a very common misconception. A branch is best understood as a movable pointer to a commit. It marks the tip of a line of development. When you make a new commit on that branch, the branch label moves forward to point to the new commit.
 
 [JAMIE]
-Give me the sequence, because order matters here.
+So the branch name is not the work itself. It's a label pointing to the latest commit in that line.
 
 [ALEX]
-Do not treat How the three areas connect as decoration. Many visual Git tutorials use diagrams with arrows to show this flow. That is not trivia. The text description above and the three-step sequence are the same information without requiring a visual representation. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.
+Exactly. And the default branch in many repositories is called main. That's usually the primary line of development.
+
+[JAMIE]
+What happens when I create a new branch?
 
 [ALEX]
-First, edit files in the working directory. Then, stage the changes you want to keep (add to the staging area). After that, commit the staged changes (save to the repository). That small check between steps is what makes the workflow reliable.
+Git creates a new pointer that starts at your current commit. At first, the new branch and the old branch point to the same place. Then, once you make commits on the new branch, that branch moves forward while the other stays where it was.
+
+[JAMIE]
+So branches let timelines diverge without interfering with each other.
 
 [ALEX]
-The useful habit is simple: orient, act, verify, then continue. That pause between action and trust is part of the work.
+Precisely. That's why they're so useful for features, fixes, experiments, and pull request workflows.
+
+[JAMIE]
+Let's define HEAD, because learners see it everywhere.
+
+[ALEX]
+HEAD tells you what you're currently on. More precisely, it identifies the current checked-out branch or commit. In everyday use, think of HEAD as Git's answer to the question, where am I right now? If HEAD is on your feature branch, new commits go there.
+
+[JAMIE]
+And when you switch branches, your working directory updates to reflect that branch's files, as much as Git can safely do.
+
+[ALEX]
+Correct.
+
+[JAMIE]
+Can we turn that into a simple mental card?
+
+[ALEX]
+Sure. Main is the usual default branch. Creating a branch does not duplicate the whole project in a clumsy way; it creates a new pointer from the current commit. Commits made while HEAD is on that branch advance that branch. HEAD tells you your current position.
+
+[JAMIE]
+And in tools, learners can often check the current branch in the VS Code status bar or with git branch or git status in the terminal.
+
+[ALEX]
+Exactly.
 
 [PAUSE]
+[ALEX]
+Now let's widen the picture from one computer to two locations: local and remote.
 
 [JAMIE]
-If I am listening before the workshop starts, what should settle in my mind first?
+This is where Git and GitHub get tangled in people's minds.
 
 [ALEX]
-If the interface shifts, An analogy: packing a box is still useful because think of it like packing a box to mail. For someone navigating by keyboard or screen reader, this detail matters: You can put items in and take them out of the box (stage and unstage) as many times as you want before sealing it (committing).
-
-[ALEX]
-Here is what that changes in practice. The working directory is your desk with papers and items scattered on it. The staging area is the open box on the floor -- you put items into it as you decide what to ship. The commit is sealing the box, labeling it, and putting it on the shelf -- once sealed, its contents are recorded permanently.
-
-[ALEX]
-This is where the talk moves from concept to action. Learning Cards: The Three Areas has three jobs: name the idea, give the learner a move, and show what counts as evidence.
-
-[ALEX]
-The room should hear these as checkpoints. Run git status in the terminal (Ctrl+\`) -- it announces which files are in each area (working directory, staging, committed) with clear labels. In VS Code Source Control (Ctrl+Shift+G), files are grouped under "Changes" (working directory) and "Staged Changes" (staging area) -- navigate with arrow keys. Press Enter on any file in the Source Control panel to hear the diff -- added and removed lines are announced with change-type prefixes. In Source Control (Ctrl+Shift+G), staged files appear under a separate "Staged Changes" heading with a green + icon; unstaged files are under "Changes" with an orange M icon. Use Ctrl+= to increase editor font size if the Source Control file list is hard to read at default zoom. The gutter indicator (colored bar on the left edge of the editor) shows green for added lines and blue for modified lines.
+Right. Git is the version control system on your machine. GitHub is a hosting service for remote repositories. Your local repository is the Git history stored on your computer, inside that hidden .git folder in the project. The remote repository is a copy hosted somewhere else, often on GitHub.
 
 [JAMIE]
-Now it sounds like a workflow instead of a wall of instructions.
+So when people say, I committed my work, that might only mean locally.
 
 [ALEX]
-That is where confidence comes from: not from never getting lost, but from knowing how to recover.
+Exactly. A local commit records history on your computer. It does not automatically publish anything to GitHub.
 
 [JAMIE]
-Where do you want a learner to place their attention here?
+That is such an important distinction.
 
 [ALEX]
-The teaching point here is not the label; it is the move. A commit is a snapshot of your project at a specific moment in time. That is the difference between guessing and knowing: It is not a diff (a list of changes).
+It really is. Think in terms of a two-copy model. You usually have one repository copy on your computer and another on the remote host. They are related, but they are not magically identical every second. You must intentionally sync them.
+
+[JAMIE]
+And sync goes in both directions.
+
+[ALEX]
+Yes. You push local commits to share them with the remote. You fetch or pull remote changes to bring them to your local environment.
+
+[JAMIE]
+So local is where I work and experiment. Remote is where I share and collaborate.
+
+[ALEX]
+That's a solid basic model. Also, the remote is especially important in open source because it becomes the shared reference point for collaborators, issues, pull requests, code review, and CI workflows.
+
+[JAMIE]
+Any learning card version of this?
+
+[ALEX]
+Sure. Local repository: on your computer. Remote repository: hosted elsewhere, often GitHub. They start related but can drift apart. Syncing them requires explicit operations. And a commit is not the same thing as a push.
 
 [PAUSE]
-
 [ALEX]
-Before the learner moves on. This part earns its place because every commit gets a unique identifier -- a 40-character string called a SHA hash. That gives the learner a foothold: in practice, you usually see only the first 7 characters: a1b2c3d. That is the difference between following directions and owning the workflow.
+That brings us directly to push, pull, and fetch.
 
 [JAMIE]
-Give me the version that sounds like an instructor, not a manual.
+These three get mashed together in beginners' minds.
 
 [ALEX]
-Commits are permanent (mostly): Once a commit is made, it is part of the repository's history. The next useful detail is concrete: You can make new commits that undo the changes, but the original commit still exists in the timeline.
+Let's separate them clearly. Push means send your local commits to the remote repository. It's how you share work you've already committed locally.
+
+[JAMIE]
+So if I edit a file and push without committing, nothing meaningful happens because the change never became a local commit.
 
 [ALEX]
-Now slow down for the part people usually miss. Learning Cards: Commits has three jobs: name the idea, give the learner a move, and show what counts as evidence.
+Exactly. Push shares commits, not loose unstaged edits in your working directory.
+
+[JAMIE]
+What about pull?
 
 [ALEX]
-Here is the part that makes the next action easier. After committing, run git log --oneline -5 in the terminal to hear the last 5 commit hashes and messages read aloud. In VS Code, press Ctrl+Shift+G then navigate to the commit message input box -- your screen reader announces "Message" -- type your description and press Ctrl+Enter to commit. The 7-character short hash (e.g., a1b2c3d) is what Git commands accept -- you do not need the full 40 characters. The Source Control commit input box is at the top of the Source Control panel -- increase panel width by dragging the panel edge if the text is truncated. After committing, the file count badge on the Source Control icon drops to zero, confirming the commit succeeded. Use Timeline view (Ctrl+Shift+P then "Focus on Timeline View") to see a chronological list of commits for the current file.
+Pull means get changes from the remote and integrate them into your local branch. In everyday usage, pull is often thought of as fetch plus merge, or fetch plus rebase depending on configuration, but for this mental model the key point is that pull brings remote work down and combines it with your local state.
+
+[JAMIE]
+And fetch is the quieter one.
+
+[ALEX]
+Yes. Fetch checks the remote for updates and downloads information about new commits, but it does not merge them into your current branch. It's a safe way to see what's changed before integrating anything.
+
+[JAMIE]
+So if I want awareness without immediate change to my current branch, fetch is the cautious choice.
+
+[ALEX]
+Exactly. Push shares your work. Pull gets others' work and updates your branch. Fetch gets the information first without merging.
+
+[JAMIE]
+That distinction is great for learners who want to stay oriented.
 
 [PAUSE]
+[ALEX]
+Now, one of the most emotionally charged Git topics: merge conflicts.
 
 [JAMIE]
-Let's pause on 4. What Is a Branch? What should a learner take away from it?
+Because people often read the word conflict as failure.
 
 [ALEX]
-This is the move inside 4. What Is a Branch?: see also: Chapter 14: Git in Practice shows how to create and switch branches hands-on in VS Code. That matters in practice: A branch is a name that points to a specific commit.
+Right, but conflicts are normal. A merge conflict usually happens when Git cannot automatically decide how to combine competing changes. The classic case is two different edits to the same part of the same file.
 
 [JAMIE]
-That is the kind of detail that keeps a screen reader user oriented.
+So if I changed line 20 one way and someone else changed line 20 another way, Git may need a human decision.
 
 [ALEX]
-Yes. The named thing - the heading, tab, field, branch, or button - is the handhold.
-
-[ALEX]
-Here is the moment where the page starts to make sense. Anchor this part on The default branch: main. Every repository has a default branch, usually called main. This is the part to say slowly: When you clone a repository, Git checks out the main branch, which means it loads the files from the commit that main points to into your working directory. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes.
+Exactly. Git is very good at auto-merging non-overlapping changes. But when the same region was changed in incompatible ways, Git stops and asks you to resolve it.
 
 [JAMIE]
-Let's pause on Creating a branch. What should a learner take away from it?
+What does that look like?
 
 [ALEX]
-The reason this matters is simple: when you create a new branch, Git creates a new pointer that starts at the same commit you are currently on. The listener should be able to check this: Both branches point to the same commit.
+In a conflicted file, Git inserts conflict markers that show the competing versions. One section represents your current branch's content, another represents the incoming change, and markers divide them. Your job is to edit the file into the final correct version, removing the markers and choosing or combining the content as needed.
+
+[JAMIE]
+So the goal is not to pick a side automatically. The goal is to produce the right final text.
+
+[ALEX]
+Exactly. Sometimes you keep your version. Sometimes the other version. Sometimes a blend of both. After editing the file so it's correct, you stage the resolved file and complete the merge process with a commit if needed.
+
+[JAMIE]
+And the important emotional lesson is that conflicts are not evidence you've broken Git.
+
+[ALEX]
+Yes. They are a normal consequence of collaborative editing. In fact, a conflict is Git being careful. Instead of guessing and possibly damaging content, Git pauses for your decision.
+
+[JAMIE]
+Any accessibility note here?
+
+[ALEX]
+Very much so. Screen reader users may find conflict markers easier to understand in a plain text editor or VS Code diff view because the markers are literal text in the file. Listening carefully to marker boundaries and surrounding lines can make the structure clear. Low vision and sighted users may benefit from VS Code's merge editor, but the underlying plain-text markers are the essential concept for everyone.
+
+[JAMIE]
+Let's make the learning card version concise.
+
+[ALEX]
+Conflicts happen when Git cannot safely combine changes by itself. A conflicted file contains markers showing the competing edits. You resolve by editing the file into the correct final form, removing markers, then staging the resolution. And conflicts are normal.
 
 [PAUSE]
-
 [ALEX]
-The next point gives the learner a handle. Do not treat Making commits on a branch as decoration. When you make a new commit while on the fix/typo branch, the fix/typo pointer moves forward to the new commit. That is not trivia. The main pointer stays where it was.
+Let's zoom out to the Git timeline.
 
 [JAMIE]
-Let's pause on HEAD: which branch are you on? What should a learner take away from it?
+This is where the parent pointers and branches start to feel like a map.
 
 [ALEX]
-If the interface shifts, HEAD: which branch are you on? is still useful because Git uses a special pointer called HEAD to track which branch you are currently working on. For someone navigating by keyboard or screen reader, this detail matters: When you switch branches (checkout), Git moves HEAD to point to the new branch and updates the files in your working directory to match.
-
-[ALEX]
-Hold that next to this. Learning Cards: Branches has three jobs: name the idea, give the learner a move, and show what counts as evidence.
-
-[ALEX]
-Here are the anchors worth keeping. Press Ctrl+Shift+G then Tab to reach the branch name in the Source Control panel -- your screen reader announces the current branch. The Status Bar at the bottom of VS Code shows the current branch name -- navigate to it with F6 to cycle through Status Bar items. To switch branches, press Ctrl+Shift+P then type "Git: Checkout to" and arrow through the branch list. The current branch name appears in the bottom-left of the Status Bar -- click it to see a dropdown of all branches. Branch names in the Status Bar use the same font size as the rest of the bar; zoom the entire window with Ctrl+= if it is too small. In the Source Control panel, the branch name is shown above the commit input -- verify it before committing.
+Exactly. Because each commit points back to its parent, Git history forms a timeline. Reading the timeline means understanding that commits are connected in sequence. If you look at a log, you're seeing points in that history, usually newest first.
 
 [JAMIE]
-So the learner is not behind if they stop there and check the page.
+And branching creates parallel timelines.
 
 [ALEX]
-Yes. Pausing to verify is not a detour; it is how you keep control of the workflow.
+Right. If you create a branch and commit on it, you now have a line of development that moves separately from main. Both lines share earlier history, then diverge.
+
+[JAMIE]
+And merging reconnects those timelines.
+
+[ALEX]
+Yes. When you merge, Git creates a commit that brings the lines back together, preserving the fact that parallel work existed. So the history is not just one straight line forever. It can branch and reconnect.
+
+[JAMIE]
+That helps explain why Git feels more like a graph than a stack of files.
+
+[ALEX]
+Exactly, though for beginners it's often enough to picture a timeline with occasional side paths that later rejoin.
 
 [PAUSE]
+[ALEX]
+So let's put the whole model together.
 
 [JAMIE]
-Let's pause on 5. Local vs Remote. What should a learner take away from it?
+A checklist would help.
 
 [ALEX]
-The teaching point here is not the label; it is the move. See also: Appendix D: Git Authentication covers how to set up credentials so push and pull work without password prompts. That is the difference between guessing and knowing: So far, we have talked about one repository.
-
-[ALEX]
-That connects to another useful point. This part earns its place because the remote repository is the one on GitHub.com. That gives the learner a foothold: when you see a repository URL like github.com/Community-Access/git-going-with-github, that is the remote.
+Here's a compact one. Your files live in the working directory. You choose what belongs in the next snapshot by staging it. A commit records the staged state in the repository with a message, author, and link to previous history. A branch is a movable pointer to the latest commit in one line of work. HEAD tells you your current position. Your local repository on your computer and the remote repository on GitHub are separate copies that must be synced intentionally. Push sends your commits up. Pull brings remote changes down and integrates them. Fetch checks for updates without merging. Conflicts happen when Git needs human help combining overlapping changes. And the overall history is a timeline that can branch and merge.
 
 [JAMIE]
-Let's pause on The local repository. What should a learner take away from it?
+That is the kind of checklist a learner can rehearse before typing commands.
 
 [ALEX]
-The local repository: The local repository is the copy on your computer. The next useful detail is concrete: When you run git clone, Git downloads the entire repository -- all files, all branches, all history -- to your machine.
+Exactly. If a command seems confusing, ask: which area am I changing, which copy am I changing, and which branch am I on?
+
+[JAMIE]
+That's a great recovery framework.
 
 [PAUSE]
-
 [ALEX]
-Here is the practical turn. Here is the learner-facing version. The text diagram above shows two boxes side by side connected by arrows. Put another way, the left box is labeled "Your computer (local)" and contains working directory, staging area, and repository. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.
+And if you do get stuck, here's the reassuring part. Most Git confusion becomes manageable when you slow down and inspect your state.
 
 [JAMIE]
-Let's pause on Learning Cards: Local vs Remote. What should a learner take away from it?
+Meaning, don't panic and start pasting random commands from the internet.
 
 [ALEX]
-Learning Cards: Local vs Remote has three jobs: name the idea, give the learner a move, and show what counts as evidence.
-
-[ALEX]
-These are the details that keep the idea from floating away. Run git remote -v in the terminal to hear which remote URLs are configured -- typically origin pointing to your GitHub repository. After git push, your screen reader announces the output including the branch name and commit count sent -- listen for "Everything up-to-date" if nothing new to push. Run git status to hear whether your local branch is ahead of, behind, or in sync with the remote tracking branch. The Status Bar sync indicator (bottom-left, next to the branch name) shows up/down arrow counts: up-arrows = commits to push, down-arrows = commits to pull. Click the sync icon in the Status Bar to push and pull in one action -- the arrows disappear when local and remote are in sync. The Source Control panel heading shows the repository name and branch so you can confirm which remote you are working.
+Please don't. Instead, check where you are and what Git thinks is happening. Commands like git status are often the best first step. Look at the current branch. Look at which files are changed, staged, or untracked. Check whether your commits are only local or also pushed. Think in terms of the mental model you built today.
 
 [JAMIE]
-That is a useful checkpoint before anyone starts pressing keys.
+And if the issue involves authentication, advanced history editing, or security concerns, that's where those related appendices come in.
 
 [ALEX]
-Exactly. Checkpoints turn uncertainty into information.
-
-[ALEX]
-Keep the thread going. Anchor this part on 6. Push, Pull, and Fetch. These three operations keep your local and remote repositories synchronized.
-
-[ALEX]
-A solid pull request habit is to separate three questions: what changed, why it changed, and what still needs review. That keeps the conversation useful instead of noisy.
-
-[PAUSE]
+Yes. Use the right source for the right problem. For trusted references, lean on Git SCM docs, GitHub Docs, the Pro Git book, GitHub flow guidance, pull request documentation, and accessibility-focused CLI guidance from GitHub's Accessibility Lab.
 
 [JAMIE]
-What should they understand before typing anything?
+So the big takeaway is not just Git stores history. It's that Git has a structure: areas, snapshots, pointers, copies, and sync actions.
 
 [ALEX]
-The reason this matters is simple: git push sends your local commits to the remote. The listener should be able to check this: After pushing, anyone who looks at the repository on GitHub.com will see your changes.
-
-[ALEX]
-Treat examples as spoken recipes, not decorations. You may hear something like git push origin fix/typo. git push -u origin fix/typo. Read the command, understand what it changes, then run it only when the repository state matches the lesson.
+Exactly. Once you understand that structure, Git stops feeling like magic and starts feeling like a system you can reason about.
 
 [JAMIE]
-How do you keep commands from becoming magic words?
+And that's when commands become less scary, because they each have a place in the model.
 
 [ALEX]
-Do not treat Pull: get other people's work as decoration. git pull downloads new commits from the remote and immediately merges them into your current branch. That is not trivia. This is how you get changes that other people (or you on another computer) have pushed. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.
-
-[ALEX]
-Treat examples as spoken recipes, not decorations. You may hear something like git pull origin main. Read the command, understand what it changes, then run it only when the repository state matches the lesson.
+Well said. In the next practice-oriented work, you'll use this model directly while cloning, staging, committing, branching, and syncing with GitHub. Keep the mental picture active while you work, and every command will have a why behind it.
 
 [JAMIE]
-What is the safe way to learn from that example?
+That's it for this lesson. Take a breath, maybe repeat the flow out loud: edit, stage, commit; local and remote; push, pull, fetch.
 
 [ALEX]
-If the interface shifts, Fetch: check for updates without merging is still useful because git fetch downloads new commits from the remote but does not change your working directory or current branch. For someone navigating by keyboard or screen reader, this detail matters: It just updates your local knowledge of what the remote looks like.
-
-[ALEX]
-Treat examples as spoken recipes, not decorations. You may hear something like git fetch origin. git log main.origin/main --oneline. Read the command, understand what it changes, then run it only when the repository state matches the lesson.
-
-[PAUSE]
-
-[ALEX]
-This is the part worth saying out loud. Put 7. Why Merge Conflicts Happen into plain language. A merge conflict happens when Git cannot automatically combine two sets of changes.
-
-[JAMIE]
-I like that because it gives people permission to slow down.
-
-[ALEX]
-That is the goal. We want the page to feel explorable, not fragile.
-
-[JAMIE]
-Let's pause on When conflicts occur. What should a learner take away from it?
-
-[ALEX]
-The teaching point here is not the label; it is the move. Conflicts happen when two branches modify the same lines in the same file. That is the difference between guessing and knowing: Git knows how to merge changes to different files, and even different parts of the same file.
-
-[ALEX]
-Put that beside the next piece. This part earns its place because when a conflict occurs, Git marks the conflicting section in the file with special markers. That is the difference between following directions and owning the workflow.
-
-[PAUSE]
-
-[JAMIE]
-How would you walk the room through that step by step?
-
-[ALEX]
-How to resolve a conflict: The Day 1 connection: In Chapter 7, you resolved a merge conflict on GitHub.com using the web editor. The next useful detail is concrete: On Day 2, you will resolve conflicts in VS Code, where the editor highlights the markers and offers buttons to accept one side or the other.
-
-[ALEX]
-First, open the file with the conflict markers. Then, read both versions and decide which text to keep (or write a new version that combines both). After that, delete the conflict markers ( ). Finally, save the file. The sequence works because every action has a confirmation.
-
-[JAMIE]
-What does the learner do first, second, and then after that?
-
-[ALEX]
-Start here: Stage and commit the resolved file. Keep it that plain: know where you are, make the move, check the result.
-
-[ALEX]
-Now shift from knowing the term to using it. Here is the learner-facing version. They happen in every project where more than one person works at the same time. Put another way, the fact that Git stops and asks is a safety feature -- it prevents data loss by never silently choosing one version over another.
-
-[JAMIE]
-Let's pause on Learning Cards: Merge Conflicts. What should a learner take away from it?
-
-[ALEX]
-Learning Cards: Merge Conflicts has three jobs: name the idea, give the learner a move, and show what counts as evidence.
-
-[ALEX]
-A few details make that real. When a conflict occurs, VS Code announces "Merge conflict" and the file appears in Source Control under "Merge Changes" -- navigate with arrow keys. Use F7 in the diff viewer to step through conflict hunks; each hunk announces the line range and both versions of the conflicting text. After resolving, stage the file (Ctrl+Shift+G, navigate to the file, press +) then commit to complete the merge. Conflict markers ( ) appear as highlighted blocks in the editor -- look for colored backgrounds (green for current, blue for incoming). VS Code places "Accept Current Change", "Accept Incoming Change", and "Accept Both" buttons inline above each conflict -- they are large enough to click at high zoom. Increase editor zoom with Ctrl+= to make the conflict marker labels easier to read.
-
-[JAMIE]
-That is the part I would want someone to say out loud while they work.
-
-[ALEX]
-Exactly. A learner should always know what they are trying to prove before they take the next action.
-
-[PAUSE]
-
-[ALEX]
-This is where confidence starts to build. Anchor this part on 8. The Git Timeline. Every commit has a parent pointer (except the very first commit). This is the part to say slowly: This creates a chain -- a timeline of the project's history. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes.
-
-[JAMIE]
-Let's pause on Reading the timeline. What should a learner take away from it?
-
-[ALEX]
-The reason this matters is simple: the timeline reads backward: the most recent commit points to the one before it, which points to the one before that, all the way back to the first commit. The listener should be able to check this: When you run git log, Git follows these pointers from the current commit backward and shows you each commit's message, author, date, and hash.
-
-[ALEX]
-That matters because of the next idea. Do not treat Branching creates parallel timelines as decoration. When two branches diverge (both have commits that the other does not), the timeline splits into two parallel paths. That is not trivia. Both branches share commits A and B (their common history).
-
-[PAUSE]
-
-[JAMIE]
-Let's pause on Merging reconnects timelines. What should a learner take away from it?
-
-[ALEX]
-If the interface shifts, Merging reconnects timelines is still useful because when you merge fix/typo into main, Git creates a new merge commit that has two parents: the latest commit on main and the latest commit on fix/typo. For someone navigating by keyboard or screen reader, this detail matters: The two timelines join back together.
-
-[ALEX]
-Another way to ground it. Put 9. Putting It All Together into plain language. Here is the complete workflow that you will practice in Chapter 14, translated through the mental model. The useful version is: Everything in this table maps directly to the three areas (Section 2), the two copies (Section 5), and the timeline (Section 8). The interface gets easier when it becomes a set of named places instead of a wall of controls.
-
-[JAMIE]
-So this is less about memorizing and more about noticing.
-
-[ALEX]
-Right. Once the learner can name the move, the interface becomes much less intimidating.
-
-[JAMIE]
-Let's pause on Quick mental model checklist. What should a learner take away from it?
-
-[ALEX]
-The teaching point here is not the label; it is the move. Before running a Git command, ask yourself. That is the difference between guessing and knowing: If you can answer these four questions, you can troubleshoot almost any Git situation.
-
-[ALEX]
-That becomes easier when you listen for these cues. Where am I? Which branch is HEAD on? (git status tells you). What has changed? Are there modifications in the working directory? Staged changes? (git status tells you). Which direction? Am I pushing (local to remote) or pulling (remote to local)? What could conflict? Has anyone else changed the same files on the same branch?
-
-[PAUSE]
-
-[ALEX]
-Keep the teaching thread moving. This part earns its place because next: Chapter 14: Git in Practice Back: Chapter 12: VS Code Accessibility Related appendices: Appendix E: Advanced Git Appendix D: Git Authentication.
-
-[PAUSE]
-
-[JAMIE]
-What should people carry with them after this?
-
-[ALEX]
-Carry the map. Know what page or tool you are in, know which action you are taking, and know what confirmation should follow. If the confirmation is missing, pause. That pause is not wasted time; it is professional judgment.
-
-[JAMIE]
-That is a better way to say it than just follow the steps.
-
-[ALEX]
-Right. Steps matter, but understanding wins. That is episode 46. Next in the series is episode 47, where we keep building the same contributor muscles.
+And remember: confusion usually means you need to inspect state, not that you've failed. We'll see you next time.

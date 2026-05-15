@@ -1,0 +1,130 @@
+{
+  "version": "1.2.0",
+  "title": "Episode 79: What Comes Next",
+  "chapters": [
+    {
+      "startTime": 0,
+      "title": "What Comes Next: Graduation and the Practical Work You've Done"
+    },
+    {
+      "startTime": 30,
+      "title": "Real Work vs. Memorization: What the Workshop Proved"
+    },
+    {
+      "startTime": 90,
+      "title": "Local Workflow: VS Code, Terminal, Git Fundamentals"
+    },
+    {
+      "startTime": 150,
+      "title": "Advanced Skills: Copilot, Code Review, Open Source Workflow"
+    },
+    {
+      "startTime": 210,
+      "title": "The Big Picture: What Skills Transfer Beyond the Workshop"
+    },
+    {
+      "startTime": 270,
+      "title": "Hidden Skills You Practiced: Documentation, Asking for Help, Learning by Doing"
+    },
+    {
+      "startTime": 360,
+      "title": "From Beginner to Beginner with Real Skills"
+    },
+    {
+      "startTime": 420,
+      "title": "Portfolio Building: GitHub Profile as Your Evidence"
+    },
+    {
+      "startTime": 480,
+      "title": "Pinned Repositories and Profile README"
+    },
+    {
+      "startTime": 540,
+      "title": "Your Profile README: A Concise, Honest Introduction"
+    },
+    {
+      "startTime": 630,
+      "title": "Accessibility Guidance: Screen Readers, High Contrast, Low Vision"
+    },
+    {
+      "startTime": 720,
+      "title": "The Contribution Graph: Consistency Over Volume"
+    },
+    {
+      "startTime": 810,
+      "title": "What Comes Next: Structured Learning Paths"
+    },
+    {
+      "startTime": 900,
+      "title": "Git Deep Dive: Pro Git Book and Advanced Concepts"
+    },
+    {
+      "startTime": 950,
+      "title": "GitHub Docs, GitHub Skills, and VS Code Documentation"
+    },
+    {
+      "startTime": 1020,
+      "title": "Accessibility and WCAG 2.2 as Learning Paths"
+    },
+    {
+      "startTime": 1080,
+      "title": "AI-Assisted Development: Copilot and Accessibility Agents"
+    },
+    {
+      "startTime": 1140,
+      "title": "Programming Languages: Choose Based on Your Interests"
+    },
+    {
+      "startTime": 1200,
+      "title": "GitHub Skills: Learn by Doing with Interactive Courses"
+    },
+    {
+      "startTime": 1290,
+      "title": "Staying Connected: Community, Open Source, and Accessibility Spaces"
+    },
+    {
+      "startTime": 1380,
+      "title": "Contributing Back to the Workshop: Improve It for Future Learners"
+    },
+    {
+      "startTime": 1440,
+      "title": "The Workflow for Contributing Back"
+    },
+    {
+      "startTime": 1500,
+      "title": "Contributing Is Also a Portfolio Artifact"
+    },
+    {
+      "startTime": 1560,
+      "title": "Getting Stuck After the Workshop: Normal and Recoverable"
+    },
+    {
+      "startTime": 1620,
+      "title": "Why This Episode Is the Final Stop"
+    },
+    {
+      "startTime": 1680,
+      "title": "What Comes Next: Build in Public, Contribute, Keep Learning"
+    },
+    {
+      "startTime": 1740,
+      "title": "Your Evidence: Commits, Issues, Pull Requests, and Capstone Work"
+    },
+    {
+      "startTime": 1800,
+      "title": "The Authoritative Sources: GitHub Docs and Official References"
+    },
+    {
+      "startTime": 1860,
+      "title": "One Thing to Remember: You're Not Leaving with Exposure, You're Leaving with Evidence"
+    },
+    {
+      "startTime": 1920,
+      "title": "Concrete Next Steps: Pin, Write, Course, Read, Issue, PR"
+    },
+    {
+      "startTime": 1980,
+      "title": "What Comes Next: Congratulations and Go Build"
+    }
+  ]
+}

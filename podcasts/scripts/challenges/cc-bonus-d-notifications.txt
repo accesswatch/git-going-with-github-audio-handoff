@@ -1,514 +1,531 @@
 [ALEX]
-Welcome to Challenge Coach: Notifications. I am Alex. Before you do the task, we are going to make the skill feel concrete enough to practice.
+Welcome back. Today we’re talking about GitHub notifications, which sounds small until your inbox starts shouting at you from six directions at once.
 
 [JAMIE]
-And I am Jamie. I will keep asking what the learner should do, what evidence counts, and how to recover if the page does something unexpected.
+And that is exactly when people either miss something important, like a review request, or they give up and ignore everything.
+
+[ALEX]
+Exactly. So the goal here is not to get more notifications. It’s to build a notification system that keeps you informed about what matters and filters out noise.
 
 [PAUSE]
 
 [ALEX]
-The skill focus is Notification hygiene, mentions, subscriptions, and avoiding overload. This is rehearsal for real contribution, so the evidence matters because it proves the move happened.
+GitHub notifications are how GitHub tells you that something may need your attention. That might be a mention, a review request, an assignment, activity on a thread you joined, a failing CI check on your pull request, or sometimes a release from a repository you watch closely.
 
 [JAMIE]
-So the challenge has to leave the learner with both confidence and a trail of evidence.
+So this is really about attention management.
 
 [ALEX]
-Exactly. Evidence is not busywork. It is how a learner, a facilitator, and a future maintainer can understand what changed and why.
-
-[PAUSE]
+Yes. And for this workshop, this part is guided practice, not an automated check. Notification settings are account-level, so the Learning Room bot can’t validate them for you. Instead, you practice configuring, filtering, and acting.
 
 [JAMIE]
-Okay, set the room for us. What are we walking into?
+That matters because learners sometimes think, if a bot isn’t checking it, maybe it’s optional.
 
 [ALEX]
-Bonus D: Notification Mastery: For students who: Want to practice inbox management and notification configuration. The next useful detail is concrete: What you will do: Configure your GitHub notification settings for a productive workflow, then demonstrate your setup.
-
-[ALEX]
-A solid project habit is to treat metadata as decision support. Labels, status, assignees, and notifications tell you what kind of attention the work needs.
-
-[ALEX]
-The next layer is this. Here is the learner-facing version. Go to github.com/settings/notifications and configure. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.
-
-[ALEX]
-Here are the anchors worth keeping. [ ] Email notifications: Choose which events trigger emails. [ ] Web notifications: Configure the notification inbox on GitHub.com. [ ] Watching: Review which repositories you are watching and adjust. [ ] Custom routing: If you have multiple email addresses, set up routing rules. [ ] GitHub Mobile: If you use the mobile app, configure push notification preferences.
+Not optional. Just not auto-graded. The evidence here is a structured completion comment on your assigned challenge issue.
 
 [JAMIE]
-What does the learner do first, second, and then after that?
-
-[ALEX]
-This is the move inside Demonstrate your setup: after configuring, answer these questions. That matters in practice: I am watching repositories because.
-
-[ALEX]
-Walk it in order: How will you know when someone requests your review?; How will you avoid being overwhelmed by notifications from busy repositories?; and What is your strategy for the GitHub notification inbox (read all, triage, filter)? Each step should leave a trace you can name.
-
-[JAMIE]
-That feels much more doable when you say it as one move.
-
-[ALEX]
-Right. The magic is not speed. The magic is knowing what changed and why it matters.
+And the practical goal is a useful workflow: set a watch level, use filters, and perform at least one inbox action.
 
 [PAUSE]
 
 [ALEX]
-Now bring the learner back to the room. Anchor this part on Before: Default settings. With default settings, GitHub sends email notifications. This is the part to say slowly: Most people start ignoring all GitHub emails.
-
-[ALEX]
-For a learner, the useful signals are concrete. Every issue and PR in every repository you watch. Every comment on any thread you have participated in. Every CI status update.
+Let’s anchor this in the guided walkthrough. The recommended practice is simple.
+Open your Learning Room repository on GitHub.com. Find the Watch button near the top right, close to Star and Fork. Open that menu and set the repository to Participating and @mentions.
 
 [JAMIE]
-What would you say to someone who is already bracing for this to be too much?
+Why that choice?
 
 [ALEX]
-Notification settings (github.com/settings/notifications) has three jobs: name the idea, give the learner a move, and show what counts as evidence.
-
-[ALEX]
-The parts worth keeping in working memory are these. Participating: Email ON, Web ON -- you want to know when someone replies to your conversations. Watching: Email OFF, Web ON -- browse these when you have time, not in your inbox. GitHub Actions: Email OFF for successful runs, Email ON for failed runs only.
-
-[ALEX]
-That matters because of the next idea. Repository watching has three jobs: name the idea, give the learner a move, and show what counts as evidence.
-
-[ALEX]
-On the ground, that means a few things. Repositories you actively contribute to: Watch (all activity). Repositories you read occasionally: Custom (issues and PRs only). Repositories you finished with: Unwatch.
-
-[ALEX]
-The useful habit is simple: orient, act, verify, then continue. That pause between action and trust is part of the work.
-
-[PAUSE]
+Because it’s usually the sweet spot. You’ll hear about conversations that directly involve you without getting every single issue and comment from the whole repository.
 
 [JAMIE]
-If I am listening before the workshop starts, what should settle in my mind first?
+Then you go to the notifications inbox.
 
 [ALEX]
-Custom routing (if you use multiple emails) has three jobs: name the idea, give the learner a move, and show what counts as evidence.
-
-[ALEX]
-Here is what that changes in practice. Route Community-Access organization notifications to your workshop email. Route personal project notifications to your personal email.
-
-[ALEX]
-This is where the talk moves from concept to action. Key decisions explained has three jobs: name the idea, give the learner a move, and show what counts as evidence.
-
-[ALEX]
-The room should hear these as checkpoints. Why email off for watching: You can check the notification bell on github.com when you choose. Email notifications for watched repos create constant interruption for low-priority updates. Why Actions failures only: A green checkmark in the PR is enough. You only need an email when something breaks. Why unwatch finished repos: Your notification feed stays relevant to current work.
+Right. You can browse to github dot com slash notifications, or use the bell in the GitHub header. If you use GitHub keyboard shortcuts, you can press G, then N. Sequentially, not at the same time.
 
 [JAMIE]
-Now it sounds like a workflow instead of a wall of instructions.
+That sequence detail matters, especially for screen reader users.
 
 [ALEX]
-That is where confidence comes from: not from never getting lost, but from knowing how to recover.
-
-[JAMIE]
-What is the one idea that makes the next few steps less mysterious?
-
-[ALEX]
-The teaching point here is not the label; it is the move. The learning objective is intentional notification management. That is the difference between guessing and knowing: If you changed at least one setting from the default and can explain why that change reduces noise while keeping you informed about what matters, you completed this bonus.
+It does. In browse mode, press G, release it, then press N.
 
 [PAUSE]
 
 [ALEX]
-Before the learner moves on. This part earns its place because see also: Appendix V: GitHub Mobile for managing notifications on your phone. That gives the learner a foothold: GitHub notifications are how GitHub tells you when something needs your attention. That is the difference between following directions and owning the workflow.
+Once you’re in the inbox, practice using filters. First try Review requested. That shows notifications where someone asked you to review a pull request. Then clear it and try Assigned, which shows issues and pull requests assigned to you.
 
 [JAMIE]
-How should they picture the shape of the workshop?
+So the lesson is not just, here is a big list. It’s, learn to shrink the list to the kind of work you need right now.
 
 [ALEX]
-Workshop Recommendation (Chapter 10): For this workshop, Chapter 10 is a guided practice chapter, not a graded automation chapter.
-
-[ALEX]
-If someone is taking notes, this is the short list. There are 1 guided walkthrough. Automation check: none - notification settings are account-level and cannot be validated by the Learning Room PR bot. The evidence is structured completion comment on your assigned challenge issue. The pattern is configure, filter, act.
+Exactly. Then open one notification, read it briefly, go back, and perform one inbox action on a non-critical thread. Either mute it or mark it done.
 
 [JAMIE]
-How would you walk the room through that step by step?
+Let’s define those carefully because they sound similar.
 
 [ALEX]
-Chapter 10 Challenge Set has three jobs: name the idea, give the learner a move, and show what counts as evidence.
-
-[ALEX]
-Start here: Configure notifications and practice inbox management - set your watch level, use filters to find relevant notifications, and perform one inbox action. If one step does not match what you hear, stop there and re-orient.
-
-[PAUSE]
+Good instinct. Mark done removes the item from your inbox for now, but future activity can bring it back if it still involves you. Mute is stronger. It tells GitHub you do not want future updates from that thread.
 
 [JAMIE]
-Turn that into a path someone can follow.
+So mark done is more like, I handled this for now. Mute is, please stop notifying me about this conversation.
 
 [ALEX]
-This is the move inside Challenge 10.1 Step-by-Step: Notification Inbox Walkthrough: set up a useful notification workflow so you can keep up with reviews, mentions, and assignments without inbox overload. That matters in practice: the GitHub.com notifications page and your Learning Room repository settings.
-
-[ALEX]
-These are the pieces that turn the idea into a usable move. Press M to mute the thread (you will not receive future updates),. Press E to mark done (removes it from inbox but you can still get future updates).
-
-[ALEX]
-Walk it in order: Open your Learning Room repository on GitHub.com; Find the Watch button near the top-right of the repository page (next to Star and Fork); Activate the Watch dropdown and select Participating and @mentions. This means you only get notified when someone @mentions you or you are directly participating in a thread; and Open the notifications inbox by navigating to https://github.com/notifications (or activate the bell icon in the GitHub header). That is the rhythm: orient, act, verify, continue.
-
-[JAMIE]
-What is the ordered workflow?
-
-[ALEX]
-Think of this as 4 checks: In the notification filters, activate the Review requested filter. This shows only notifications where someone has asked you to review their PR; Clear that filter and activate the Assigned filter. This shows notifications for issues and PRs assigned to you; Open one notification by activating its title link. Read it briefly, then navigate back to the inbox; and Perform one inbox action on a non-critical notification thread. That small check between steps is what makes the workflow reliable.
-
-[JAMIE]
-That is the kind of detail that keeps a screen reader user oriented.
-
-[ALEX]
-Yes. The named thing - the heading, tab, field, branch, or button - is the handhold.
-
-[ALEX]
-Here is the moment where the page starts to make sense. Anchor this part on Completing Chapter 10: Submit Your Evidence. Open your assigned Chapter 10 challenge issue and post a completion comment. This is the part to say slowly: Close your Chapter 10 challenge issue when done. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes.
-
-[JAMIE]
-Where do you want a learner to place their attention here?
-
-[ALEX]
-Expected Outcomes has three jobs: name the idea, give the learner a move, and show what counts as evidence.
-
-[ALEX]
-The useful version is not abstract; it sounds like this. Student can configure repository watch levels to reduce noise. Student can find review requests and assigned work quickly using filters. Student can reduce notification noise with mute or done actions.
-
-[PAUSE]
-
-[JAMIE]
-Give me the sequence, because order matters here.
-
-[ALEX]
-If You Get Stuck has three jobs: name the idea, give the learner a move, and show what counts as evidence.
-
-[ALEX]
-First, can't find the Watch button? It is near the top-right of the repository page, in the same row as Star and Fork. Then, notification inbox is empty? You may not have any notifications yet - that is fine. Switch to the Done tab and practice the mute/done action flow on an older notification. After that, keyboard shortcuts not working? If your screen reader intercepts M or E, click on the notification row first to give it focus, then press the shortcut. Finally, filters not showing results? Clear all filters first (click the X next to each active filter), then apply one filter at a time. Keep it that plain: know where you are, make the move, check the result.
-
-[JAMIE]
-Let's pause on If You Get Stuck. What should a learner take away from it?
-
-[ALEX]
-Start here: Ask facilitator to model one inbox action live, then repeat the steps yourself. Then: Finished but not sure you did it right? Compare your work against the Challenge 9 reference solution. Pause after each step and listen for the confirmation before moving on.
-
-[JAMIE]
-Give me the version that sounds like an instructor, not a manual.
-
-[ALEX]
-If the interface shifts, Learning Moment is still useful because notification management protects focus. For someone navigating by keyboard or screen reader, this detail matters: You can stay responsive to your team without drowning in updates.
-
-[JAMIE]
-Let's pause on Learning Pattern Used in This Chapter. What should a learner take away from it?
-
-[ALEX]
-Learning Pattern Used in This Chapter has three jobs: name the idea, give the learner a move, and show what counts as evidence.
-
-[ALEX]
-Walk it in order: Configure settings proactively (watch level) before work generates noise; Use filters to find signal in noise (review requests, assignments); Take decisive action on each notification (mute, done, or respond); and Build a daily routine that keeps your inbox manageable. The point is not speed; the point is never losing your place.
-
-[JAMIE]
-So the learner is not behind if they stop there and check the page.
-
-[ALEX]
-Yes. Pausing to verify is not a detour; it is how you keep control of the workflow.
-
-[PAUSE]
-
-[JAMIE]
-Let's pause on What Generates a Notification? What should a learner take away from it?
-
-[ALEX]
-The teaching point here is not the label; it is the move. GitHub sends you a notification when.
-
-[ALEX]
-That connects to another useful point. This part earns its place because for each repository, you choose how many notifications to receive.
-
-[JAMIE]
-Let's pause on Changing your watch settings for a repo. What should a learner take away from it?
-
-[ALEX]
-Changing your watch settings for a repo: At the top of any repository page, find the Watch button (near Star and Fork). The next useful detail is concrete: Click it to open a dropdown with levels: Participating and @mentions, All Activity, Custom, and Ignore.
-
-[ALEX]
-First, find the Watch button in the repo header (B to navigate buttons → find "Watch [N]" or "Unwatch" button). Then, press Enter to open the dropdown. After that, press ↑/↓ to navigate the subscription options. Finally, press Enter to select your preferred level. That is the rhythm: orient, act, verify, continue.
-
-[JAMIE]
-Before we leave Changing your watch settings for a repo, what is the practical point?
-
-[ALEX]
-Start here: The button label updates to confirm your choice. Then: Quick Nav B to find the Watch button in the repo header (listen for "Watch" or "Unwatch"). Next: VO+Space to open the dropdown. Last: VO+Down or arrow keys to navigate subscription options. That small check between steps is what makes the workflow reliable.
-
-[PAUSE]
-
-[JAMIE]
-Let's pause on Tool Cards: Manage Notifications. What should a learner take away from it?
-
-[ALEX]
-Here is the learner-facing version. VS Code Desktop (GitHub Pull Requests extension). Put another way, GitHub Desktop: GitHub Desktop does not manage notifications. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.
-
-[ALEX]
-Start here: Go to github.com/notifications (or press G then N). Then: Use E to mark done, I to mark read/unread, Shift+M to mute a thread. Next: The Notifications view in the GitHub sidebar shows items needing attention. Last: Click a notification to open the related issue or PR directly in VS Code. That small check between steps is what makes the workflow reliable.
-
-[ALEX]
-Treat examples as spoken recipes, not decorations. You may hear something like List PRs requesting your review (most common notification); gh search prs --review-requested @me --state open; Open the notifications page in your browser; gh browse notifications. Check your notification status (opens the GitHub notification inbox); gh api notifications --jq '.[].subject.title' head -20; View PRs that need your review (most common notification reason); gh search prs --review-requested @me --state open; View issues. Read the command, understand what it changes, then run it only when the repository state matches the lesson.
-
-[JAMIE]
-Let's pause on Navigating the notification list. What should a learner take away from it?
-
-[ALEX]
-This is the move inside Navigating the notification list: the inbox shows notifications grouped by date (Today, Yesterday, This week, Older). That matters in practice: Each row shows the repository, the issue or PR title, the event type, and the time.
-
-[ALEX]
-Walk it in order: D → main content landmark; H to navigate group headings (Today / Yesterday / This week / Older); Tab through individual notifications - each row announces: repo name, issue/PR title, event type, time; and Enter to open the notification (goes to the issue/PR page). The sequence works because every action has a confirmation.
-
-[JAMIE]
-Before we leave Navigating the notification list, what is the practical point?
-
-[ALEX]
-Think of this as 3 checks: VO+U → Main → navigate to notification list; VO+Down to move through notifications; and VO+Space to open a notification. Keep it that plain: know where you are, make the move, check the result.
-
-[JAMIE]
-That is a useful checkpoint before anyone starts pressing keys.
-
-[ALEX]
-Exactly. Checkpoints turn uncertainty into information.
-
-[ALEX]
-Keep the thread going. Anchor this part on What is announced per notification. "microsoft/vscode - Add keyboard shortcut for accessible view - @username mentioned you - 2 hours ago". This is the part to say slowly: Components: repo/org thread title event type timestamp.
-
-[PAUSE]
-
-[JAMIE]
-Let's pause on Learning Cards: The Notifications Inbox. What should a learner take away from it?
-
-[ALEX]
-Learning Cards: The Notifications Inbox has three jobs: name the idea, give the learner a move, and show what counts as evidence.
-
-[ALEX]
-These are the details that keep the idea from floating away. Press G N (two sequential keys, not simultaneous) from any GitHub page to jump directly to your notifications inbox. Press H to navigate date-group headings (Today, Yesterday, This Week, Older), then Tab through individual notification rows within each group. Each notification row announces: repository name, issue/PR title, event type (mentioned, review requested, assigned), and relative timestamp. The inbox has a three-panel layout: filters on the left, notification list in the center, and an optional detail preview on the right; at high zoom the detail pane may collapse. Unread notifications have a blue dot on the left edge of the row; read notifications do not, which is the primary visual distinction. The left sidebar filter labels (Inbox, Unread, Saved, Done) are text links that remain readable at any zoom level.
-
-[ALEX]
-Another way to ground it. Do not treat Inbox Actions - Keyboard Shortcuts as decoration. These shortcuts work when a notification is focused in the inbox. That is not trivia. These are GitHub's own keyboard shortcuts. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.
-
-[ALEX]
-A solid navigation habit is to prove where you are before activating controls. Headings, landmarks, and the address bar are not trivia; they are your map.
-
-[JAMIE]
-Let's pause on Filtering the Inbox. What should a learner take away from it?
-
-[ALEX]
-If the interface shifts, Filtering the Inbox is still useful because the left sidebar has quick filters.
-
-[PAUSE]
-
-[JAMIE]
-Let's pause on Filtering by repository or organization. What should a learner take away from it?
-
-[ALEX]
-Put Filtering by repository or organization into plain language. At the top of the notification list there is a filter/search field. The useful version is: Click the filter/search box at the top of the notification list and type a repository or organization name.
-
-[ALEX]
-Walk it in order: Press F or E to reach the filter input; Focus Mode → type repo name or org name; Results filter in real time; and Press Esc to clear the filter. If one step does not match what you hear, stop there and re-orient.
-
-[JAMIE]
-Before we leave Filtering by repository or organization, what is the practical point?
-
-[ALEX]
-Think of this as 3 checks: Quick Nav F to reach the filter input; VO+Shift+Down to interact → type repo or org name; and Press Esc to clear the filter and VO+Shift+Up to stop interacting. That is the rhythm: orient, act, verify, continue.
-
-[JAMIE]
-I like that because it gives people permission to slow down.
-
-[ALEX]
-That is the goal. We want the page to feel explorable, not fragile.
-
-[JAMIE]
-Let's pause on The "mark all as done" workflow. What should a learner take away from it?
-
-[ALEX]
-The teaching point here is not the label; it is the move. After a busy day or coming back from time away, clear your inbox methodically.
-
-[ALEX]
-Think of this as 3 checks: Open Notifications inbox; Tab to "Mark all as done" button → Enter (clears everything at once); and Then use the "Done" filter to retrieve any you want to revisit. That is the rhythm: orient, act, verify, continue.
-
-[JAMIE]
-Let's pause on Muting a noisy thread. What should a learner take away from it?
-
-[ALEX]
-This part earns its place because if a thread generates too many notifications. That gives the learner a foothold: screen reader users (NVDA / JAWS - Windows). That is the difference between following directions and owning the workflow.
-
-[ALEX]
-The path is straightforward once it is named. Step one is open the issue or PR page. Step two is in the right sidebar, scroll to the Notifications section. Step three is click Unsubscribe - you will stop receiving notifications from this thread. Step four is alternatively, from the inbox: hover over the notification row and click the mute icon (or the … menu). That small check between steps is what makes the workflow reliable.
-
-[JAMIE]
-Before we leave Muting a noisy thread, what is the practical point?
-
-[ALEX]
-First, open the notification. Then, on the issue/PR page, navigate the sidebar to the Notifications section (H or D). After that, activate the Unsubscribe button. Finally, or from the inbox: focus the notification → press M to mute. The sequence works because every action has a confirmation.
-
-[PAUSE]
-
-[JAMIE]
-Let's pause on Dealing with @mentions you didn't expect. What should a learner take away from it?
-
-[ALEX]
-Dealing with @mentions you didn't expect: If you were @mentioned in an unfamiliar thread.
-
-[ALEX]
-First, read the thread for context before responding. Then, if it seems like a mistake, a simple "I don't think this mention was meant for me - feel free to remove it!" is enough. After that, unsubscribe after reading if you don't need to stay in the loop. The sequence works because every action has a confirmation.
-
-[ALEX]
-Now shift from knowing the term to using it. Learning Cards: Managing Notifications at Scale has three jobs: name the idea, give the learner a move, and show what counts as evidence.
-
-[ALEX]
-This is where the lesson becomes something you can check. To mute a noisy thread from the inbox, focus the notification row with Tab and press M; you will stop receiving updates from that thread. Press E to mark a focused notification as done (archived); focus automatically moves to the next notification for rapid triage. To bulk-clear, Tab to the "Mark all as done" button at the top of the inbox and press Enter; then use the "Done" filter to retrieve anything you need later. The "Mark all as done" button is at the top of the notification list, above the first notification group; it clears the entire inbox at once. After marking notifications as done, switch to the "Done" filter in the left sidebar to review archived items; this filter persists until you switch back. On an issue or PR page, the "Unsubscribe" button is in the right sidebar under a "Notifications" heading; it prevents future notifications from that thread.
-
-[JAMIE]
-Let's pause on Notification Settings - Per Your Account. What should a learner take away from it?
-
-[ALEX]
-This is the move inside Notification Settings - Per Your Account: global notification preferences are at https://github.com/settings/notifications.
-
-[JAMIE]
-That is the part I would want someone to say out loud while they work.
-
-[ALEX]
-Exactly. A learner should always know what they are trying to prove before they take the next action.
+Perfectly said.
 
 [PAUSE]
 
 [ALEX]
-This is where confidence starts to build. Anchor this part on Starring vs. Watching - What Is the Difference? New contributors often confuse these two. This is the part to say slowly: They appear next to each other on every repository page and do completely different things. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes.
-
-[ALEX]
-A solid pull request habit is to separate three questions: what changed, why it changed, and what still needs review. That keeps the conversation useful instead of noisy.
+If you’re completing the workshop evidence, your completion comment should state three things: the watch level you set, the filters you tested, and the inbox action you performed.
 
 [JAMIE]
-Let's pause on Starring a Repository. What should a learner take away from it?
+Such as: watch level set to Participating and @mentions, filters tested Review requested and Assigned, inbox action performed mute on some thread.
 
 [ALEX]
-The reason this matters is simple: starring is GitHub's equivalent of a bookmark + public endorsement. The listener should be able to check this: The star count on a repository is a community signal of popularity.
+Exactly. And then close your Chapter 10 challenge issue.
+
+[JAMIE]
+What are the expected outcomes here?
 
 [ALEX]
-Here is the practical turn. Do not treat Common Mistake: Accidental Watching as decoration. When you comment on an issue or PR in a repository, GitHub automatically subscribes you to that thread - but not the whole repository. That is not trivia. However, if you once click "Watch" on a busy repository (say, a popular open source project), you will receive a notification for every issue opened and every comment posted - potentially hundreds per day.
+You should be able to configure repository watch levels to reduce noise, find review requests and assigned work quickly using filters, and reduce notification overload with mute or done.
 
 [PAUSE]
 
 [JAMIE]
-Let's pause on How to silence a repository you accidentally over-subscribed to. What should a learner take away from it?
+Let’s talk about getting stuck, because notifications can be weirdly slippery.
 
 [ALEX]
-If the interface shifts, How to silence a repository you accidentally over-subscribed to is still useful because this immediately reduces notifications from that repository to only threads you personally participated in.
-
-[ALEX]
-This is the part worth saying out loud. Learning Cards: Starring vs. Watching has three jobs: name the idea, give the learner a move, and show what counts as evidence.
-
-[ALEX]
-That becomes easier when you listen for these cues. The Star and Watch buttons are adjacent in the repository header; press B to navigate buttons and listen for "Star" or "Watch" (or "Unstar" / "Unwatch" if already active). Star: press Enter on the Star button to bookmark; this generates zero notifications and is purely a bookmark to github.com/stars. Watch: press Enter on the Watch button to open a dropdown; use Up/Down Arrow to choose a subscription level and Enter to confirm. The Star button shows a star icon and a count (e.g., "Star 1.2k"); the Watch button shows an eye icon and a count; both are in the top-right area of the repository page. After starring, the button changes to "Unstar" with a filled yellow star; after watching, it changes to "Unwatch" with a filled eye icon. At 200%+ zoom, these buttons may wrap below the repository title; they remain functional at any zoom level.
+Yes. Common problems include not finding the Watch button, having an empty inbox, shortcuts not working, or filters showing nothing.
 
 [JAMIE]
-So this is less about memorizing and more about noticing.
+If someone can’t find Watch?
 
 [ALEX]
-Right. Once the learner can name the move, the interface becomes much less intimidating.
+Look near the top right of the repository page, in the same row as Star and Fork.
 
 [JAMIE]
-Let's pause on NVDA. What should a learner take away from it?
+If the inbox is empty?
 
 [ALEX]
-NVDA has three jobs: name the idea, give the learner a move, and show what counts as evidence.
+That’s okay. You may not have any new notifications yet. Switch to the Done tab and practice there on an older notification.
+
+[JAMIE]
+If keyboard shortcuts like M or E don’t work?
 
 [ALEX]
-Here is the part that makes the next action easier. The notification list is complex - use Tab to navigate individual rows rather than Browse Mode arrow keys. After marking notifications done (press E), the next notification automatically receives focus. Use NVDA+F7 → Links to get a filtered list of notification titles to scan quickly.
+Your screen reader may be intercepting them. Click or otherwise focus the notification row first, then try the shortcut.
+
+[JAMIE]
+And if filters appear broken?
+
+[ALEX]
+Clear all active filters first, then apply one at a time.
+
+[JAMIE]
+I also like the human fallback.
+
+[ALEX]
+Absolutely. Ask a facilitator to model one inbox action live, then repeat it yourself.
 
 [PAUSE]
 
 [ALEX]
-Now slow down for the part people usually miss. JAWS has three jobs: name the idea, give the learner a move, and show what counts as evidence.
-
-[ALEX]
-Listen for the small confirmations in this list. Like NVDA, use Tab for row navigation in the inbox. Insert+F6 (Headings list) to jump between date group headings (Today, This Week, etc.). The inbox updates in real time - JAWS will announce new notifications as they arrive.
+Now let’s step back and answer the basic question: what generates a notification?
 
 [JAMIE]
-Let's pause on VoiceOver. What should a learner take away from it?
+Because once you understand the causes, the inbox makes more sense.
 
 [ALEX]
-VoiceOver has three jobs: name the idea, give the learner a move, and show what counts as evidence.
+You get notifications when someone @mentions your username in an issue, pull request, or discussion. You get them when a pull request is assigned to you for review. You get them when an issue or PR is assigned to you. You also get them when there’s activity on a thread you’re subscribed to, which can happen because you commented, were mentioned, or chose to subscribe. A CI or Actions failure on your PR can generate a notification. And if you are watching a repository broadly enough, a published release can also notify you.
+
+[JAMIE]
+So GitHub is combining direct involvement, explicit assignment, and repository-level subscriptions.
 
 [ALEX]
-A few details make that real. Use VO+U → Landmarks → Main to reach the notification list quickly. VO+Space to activate a row, VO+Escape to return to the list. With Quick Nav on, H navigates the date group headings.
-
-[ALEX]
-Put that beside the next piece. Here is the learner-facing version. GitHub has an iOS and Android app that supports push notifications. Put another way, while the app itself is not covered as a primary tool in this workshop, it is worth knowing. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor.
-
-[ALEX]
-That shows up in the workshop in a few specific ways. Push notifications can alert you to review requests even when you're away from your computer. The mobile app does work with iOS VoiceOver and Android TalkBack. For primary contribution work, the desktop browser experience remains more fully featured.
+Exactly. And that is why notification management matters. If you subscribe too broadly, the signal gets buried.
 
 [PAUSE]
 
 [JAMIE]
-Let's pause on Try It: Tame Your Inbox. What should a learner take away from it?
+Let’s unpack subscription levels, because this is where many learners accidentally create chaos.
 
 [ALEX]
-This is the move inside Try It: Tame Your Inbox: time: 2 minutes What you need: Browser, signed in to GitHub. That matters in practice: Go to github.com/notifications and practice.
-
-[ALEX]
-Walk it in order: Scan your inbox - Press H and Tab to navigate through notifications. Each one shows the repo name, type (issue/PR), and title; Mark one as done - Find a notification you've already read. Press E to mark it as done. It disappears from the list; and Configure watching - Go to the Learning Room repository. Press D to landmarks, find the repo nav area, then look for the "Watch" or "Unwatch" button (B to scan buttons). Choose your preferred watch level. Each step should leave a trace you can name.
-
-[ALEX]
-The next point gives the learner a handle. Anchor this part on What You Accomplished Today. Day 1 is complete -- and you did a lot. This is the part to say slowly: Here is every skill you practiced, mapped to the chapter where you learned it and the evidence you created along the way.
+For each repository, you choose how much you want to hear.
+Participating and @mentions means only conversations where you participated, were assigned, or were mentioned.
+All Activity means every issue, every comment, every pull request, every update.
+Ignore means no notifications from that repository at all.
+Custom gives you finer control, such as issues only, pull requests only, or releases.
 
 [JAMIE]
-Let's pause on If This Was Your First Time. What should a learner take away from it?
+And the recommendation for most repositories in this workshop is Participating and @mentions.
 
 [ALEX]
-The reason this matters is simple: if today was your first time using GitHub -- or your first time using it with a screen reader -- you have already done something most developers take weeks to piece together on their own. The listener should be able to check this: You navigated a complex platform, created real contributions, and collaborated with other people in a shared codebase.
+Yes. It keeps you in the loop without flooding you.
+
+[JAMIE]
+How does a blind or low-vision learner change that setting accessibly?
+
+[ALEX]
+On a repository page, find the Watch button in the header. On Windows with NVDA or JAWS, button navigation can help you reach it. Press Enter to open the dropdown, use arrow keys to move through the options, then press Enter to select one. The button label updates to confirm your choice.
+
+[JAMIE]
+And on macOS with VoiceOver?
+
+[ALEX]
+Use Quick Nav or standard VoiceOver navigation to find the Watch or Unwatch button, activate it with VO+Space, move through the options with VO navigation or arrows, and select with VO+Space. Again, listen for the updated button label.
+
+[JAMIE]
+That confirmation matters. You want proof the change stuck.
+
+[ALEX]
+Exactly.
+
+[PAUSE]
+
+[ALEX]
+Let’s move into the notifications inbox itself. On GitHub.com, the browser is the main place to manage notifications. You can open the inbox at github dot com slash notifications. Once there, keyboard shortcuts are useful: E to mark done, I to toggle read or unread, and Shift+M to mute a thread.
+
+[JAMIE]
+And there was also a shorter mention of M for mute in the guided challenge.
+
+[ALEX]
+Right. The important learning point is that GitHub provides keyboard-driven inbox actions, but exact behavior and shortcuts can evolve. The web interface is the authoritative place for full inbox management.
+
+[JAMIE]
+What about VS Code?
+
+[ALEX]
+If you use the GitHub Pull Requests extension, there is a Notifications view in the GitHub sidebar that can surface items needing attention. You can open a related issue or pull request directly in VS Code.
+
+[JAMIE]
+And GitHub Desktop?
+
+[ALEX]
+GitHub Desktop does not manage notifications. Use the browser or CLI for that.
 
 [PAUSE]
 
 [JAMIE]
-Let's pause on Confidence Check. What should a learner take away from it?
+Speaking of CLI, there were some command-line examples here.
 
 [ALEX]
-Do not treat Confidence Check as decoration. Before you close your laptop, take two minutes to answer these questions in your Chapter 10 challenge issue. That is not trivia. There are no wrong answers -- this is for you. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed.
-
-[ALEX]
-First, which chapter felt the most natural to you? Which one do you want to revisit? Then, can you explain what a pull request does to someone who has never used GitHub? After that, if you saw a merge conflict right now, would you know where to start? Finally, what is one thing you want to try on GitHub this week that you did not get to today? That small check between steps is what makes the workflow reliable.
+Yes, and they’re practical. If you want to list pull requests requesting your review, a very common type of notification, you can run a GitHub CLI search for open PRs review-requested from you. To open the notifications page in your browser, you can use gh browse notifications.
 
 [JAMIE]
-What should the learner prove to themselves after each small task?
+And there were also examples using the API.
 
 [ALEX]
-If the interface shifts, Your Challenge Progress is still useful because look at how many challenge issues you completed today. For someone navigating by keyboard or screen reader, this detail matters: Each one represents a skill you did not just read about -- you practiced it, posted evidence, and moved on.
+Right. You can query notifications with gh api, list open issues assigned to you with gh issue list, and inspect a specific PR with gh pr view. But there is an important limitation: the GitHub CLI does not have a full first-class notifications command for all inbox management. For actions like mark as read, mute, or archive-style workflows, the web inbox is still the main interface.
+
+[JAMIE]
+So CLI is great for checking status and finding work, but not the complete replacement.
 
 [ALEX]
-Hold that next to this. Learning Cards: What You Accomplished Today has three jobs: name the idea, give the learner a move, and show what counts as evidence.
+Exactly.
+
+[PAUSE]
 
 [ALEX]
-Here is the part to remember. You navigated GitHub entirely by keyboard: headings (H), landmarks (D), buttons (B), links (K), and form fields (F or E) became your primary navigation tools. You created issues, opened PRs, resolved conflicts, and managed notifications -- all skills that transfer to any repository on GitHub. Revisit any chapter by pressing Ctrl+L in your browser and typing the URL, or by navigating to the docs folder in the Learning Room repository. Everything you did today at your current zoom level and contrast settings will work the same way tomorrow; GitHub's layout adapts consistently to browser zoom up to 400%. If you found certain pages hard to read, revisit Settings, Accessibility on GitHub to try a different theme or motion preference before Day 2. Your profile page at github.com/your-username now shows contribution activity from today; zoom in on the contribution graph to see your green squares.
+Now, what is the notifications page like structurally? Think of it as a list of notification items, each usually exposed as a link or row you can open. A notification typically announces its title, the repository it belongs to, and the reason you received it, such as mention, review request, or assignment.
+
+[JAMIE]
+That means screen reader users should expect repeated patterns.
+
+[ALEX]
+Yes. The list is a strength once you recognize the pattern. Move through notifications item by item, listen for title, repository, and reason, then decide whether to open, mark done, mute, or leave it for later.
+
+[JAMIE]
+That sounds much more manageable than hearing it as an undifferentiated wall of links.
+
+[ALEX]
+Exactly. Pattern recognition reduces cognitive load.
 
 [PAUSE]
 
 [JAMIE]
-Where does the workshop stop being a tour and start becoming contribution?
+Let’s do the common tasks people actually need.
 
 [ALEX]
-The teaching point here is not the label; it is the move. See also: Chapter 11: VS Code Interface is where Day 2 begins -- have VS Code installed and ready. That is the difference between guessing and knowing: On Day 1, you worked entirely on GitHub.com.
+A very common one is finding pull requests that need your review. In the web inbox, use the Review requested filter. In the CLI, search for PRs with review requested from you.
 
 [JAMIE]
-Let's pause on Between Days. What should a learner take away from it?
+Another common one is checking assigned work.
 
 [ALEX]
-This part earns its place because if your workshop has a gap between Day 1 and Day 2, here are three optional things you can do to stay sharp. That gives the learner a foothold: GitHub Skills courses use bot-driven feedback inside pull requests. That is the difference between following directions and owning the workflow.
-
-[ALEX]
-The path is straightforward once it is named. Step one is explore your notification settings. Now that you understand how notifications work, visit github.com/settings/notifications and customize your email and web preferences. There is no wrong configuration -- just find what feels manageable. Step two is read issues in a project you care about. Pick any open source project on GitHub and browse its issue tracker. You now know enough to understand labels, milestones, and comment threads. Notice how maintainers communicate -- you will recognize the patterns from. Step three is try a GitHub Skills course. GitHub Skills offers free, self-paced courses that run inside real repositories. "Introduction to GitHub" is a good one if you want to reinforce what you learned today. See Appendix Z for the full list of recommended courses. The point is not speed; the point is never losing your place.
+Use the Assigned filter in the inbox, or list issues assigned to you from the CLI. Both give you a focused queue.
 
 [JAMIE]
-Let's pause on You Already Know More Than You Think. What should a learner take away from it?
+And if you open a specific notification and want to understand the PR status?
 
 [ALEX]
-You Already Know More Than You Think: Think about where you started this morning. The next useful detail is concrete: You may not have known what a repository was, or how to navigate one with a keyboard, or what happens when two people edit the same file.
+Open the notification’s title link and inspect the pull request page. In CLI workflows, you can use gh pr view with the PR number and repository.
+
+[PAUSE]
+
+[ALEX]
+Filtering is the real superpower here. You can filter the inbox by reason, like review requests or assignments. You can also filter by repository or organization.
+
+[JAMIE]
+Why is filtering by repository or organization useful?
+
+[ALEX]
+Because sometimes the noise isn’t personal, it’s contextual. Maybe you only want to see notifications from the workshop organization, or from one active repository, instead of mixing them with everything else in your GitHub life.
+
+[JAMIE]
+So if someone uses multiple repositories, teams, or identities, filters become part of the daily routine.
+
+[ALEX]
+Exactly. Instead of reading every item in arrival order, you ask: what kind of work am I checking right now?
 
 [PAUSE]
 
 [JAMIE]
-What is the final checkpoint?
+Let’s talk about scale. What happens when there are too many notifications?
 
 [ALEX]
-You should be able to point to the evidence, explain the action, and describe what you would do next if this were a real open source project. If you can teach the move back, you have learned it.
+Then you need strategy, not heroics. One approach is the mark-all-as-done workflow, used carefully. That means acknowledging that you do not need to preserve every old item in the active inbox. Clear the backlog once you’ve decided nothing critical is hiding there, then rely on targeted filters and direct notifications going forward.
 
 [JAMIE]
-And if they get stuck?
+Used carefully is doing a lot of work in that sentence.
 
 [ALEX]
-Read the latest message, not the loudest worry. Check the issue, the branch, the pull request, the status check, or the bot comment. Then ask for help with those facts in hand. That is how professionals collaborate.
+Yes. Don’t blindly wipe out the inbox if you’re unsure. Scan for review requests, assignments, and mentions first.
+
+[JAMIE]
+What about a noisy thread?
+
+[ALEX]
+Mute it. If one issue or PR keeps generating updates you no longer need, muting is appropriate. It’s especially useful when a discussion balloons after your part is done.
+
+[JAMIE]
+And how about the uncomfortable case: you got @mentioned and didn’t expect it.
+
+[ALEX]
+First, figure out whether action is actually required. Sometimes a mention is informational. If it does not need you, you might mark it done after reading, or mute the thread if it will stay noisy. The key is not to let every mention hijack your attention equally.
+
+[PAUSE]
+
+[ALEX]
+Now we should discuss account-level notification settings, because repository watch settings are only part of the picture.
+
+[JAMIE]
+This is the bonus mastery piece.
+
+[ALEX]
+Yes. At github dot com slash settings slash notifications, you can configure how GitHub contacts you. The reference setup contrasts defaults with a more intentional configuration.
+
+[JAMIE]
+Start with the default problem.
+
+[ALEX]
+With default settings, GitHub may send email notifications for every issue and pull request in every repository you watch, every comment on threads you’ve participated in, and every CI status update. That becomes overwhelming fast. Many people end up ignoring all GitHub email, which defeats the purpose.
+
+[JAMIE]
+So the reference solution is not saying all defaults are bad. It’s saying defaults often create too much volume.
+
+[ALEX]
+Exactly.
+
+[PAUSE]
+
+[ALEX]
+A more productive setup looks like this.
+For Participating notifications, email on and web on. If someone replies where you’re actively involved, you usually want to know.
+For Watching notifications, email off and web on. That means watched repository activity is available in GitHub when you choose to check it, but it does not constantly interrupt your email.
+For GitHub Actions, email off for successful runs and on for failed runs only.
+
+[JAMIE]
+That last one is elegant. A passing check usually doesn’t require action.
+
+[ALEX]
+Exactly. A green check on the PR page is enough. Failures are what need attention.
+
+[JAMIE]
+And repository-level watching?
+
+[ALEX]
+For repositories where you actively contribute, watching all activity can make sense. For repositories you read occasionally, use Custom, often issues and pull requests only. For repositories you’ve finished with, unwatch them.
+
+[JAMIE]
+That last one may be the most life-changing.
+
+[ALEX]
+It often is. Old subscriptions quietly clog your feed.
+
+[PAUSE]
+
+[JAMIE]
+What if someone uses multiple email addresses?
+
+[ALEX]
+Then custom routing can help. For example, route workshop or Community-Access organization notifications to your workshop email, and send personal project notifications to your personal email.
+
+[JAMIE]
+So the inbox structure can reflect the role you’re playing.
+
+[ALEX]
+Yes. That separation can reduce confusion and help you maintain boundaries.
+
+[PAUSE]
+
+[JAMIE]
+Can you explain the reasoning behind these settings one more time in plain language?
+
+[ALEX]
+Certainly. Email off for watching reduces constant interruption from low-priority updates. You can still check the GitHub notification bell or the web inbox when you are ready. Actions failures only keeps your attention on breakage, not routine success. Unwatching finished repositories keeps your inbox relevant to current work.
+
+[JAMIE]
+So the principle is deliberate signal selection.
+
+[ALEX]
+Exactly. Intentional notification management.
+
+[PAUSE]
+
+[ALEX]
+There’s also a common confusion we need to clear up: starring versus watching.
+
+[JAMIE]
+Yes. People often star something and then wonder whether they subscribed to all its activity.
+
+[ALEX]
+Starring a repository is basically bookmarking or endorsing it. It helps you remember it and can help others see it is useful or interesting. Starring is not the same as asking for notifications.
+
+[JAMIE]
+Watching is the one that affects notifications.
+
+[ALEX]
+Correct. Watching controls subscription to repository activity. If you choose All Activity, you can end up with a lot of notifications very quickly.
+
+[JAMIE]
+That leads to the common mistake: accidental watching.
+
+[ALEX]
+Exactly. Maybe you clicked Watch without understanding the level, or inherited a noisy setting. If you accidentally over-subscribed, go back to the repository’s Watch menu and change it to Participating and @mentions, Custom, or Ignore, depending on your needs. If the repository is no longer relevant, unwatch it or silence it.
+
+[JAMIE]
+And for this workshop, the recommended strategy is still fairly conservative.
+
+[ALEX]
+Yes. Use Participating and @mentions for most workshop repositories unless you have a specific reason to hear more.
+
+[PAUSE]
+
+[JAMIE]
+Let’s give dedicated screen reader tips for the notification inbox itself.
+
+[ALEX]
+For NVDA users, move through the notification list with standard browse navigation or arrow keys, listening for each item’s title, repository, and reason. If single-letter inbox shortcuts are not working, make sure focus is on the notification row rather than pure browse mode text.
+
+[JAMIE]
+For JAWS?
+
+[ALEX]
+Very similar. Use heading, link, and list navigation to understand the page structure, then move item by item through the notification list. Again, if shortcuts don’t work, shift into the right interaction context by focusing the notification item.
+
+[JAMIE]
+And for VoiceOver?
+
+[ALEX]
+Use VO navigation to move through the page regions and list content. When you reach notification items, listen for the repeated structure: title, repository, reason. Activate the item to open it, then return to the inbox and continue triage.
+
+[JAMIE]
+So the broad accessibility lesson is: learn the page pattern, then use your screen reader’s strongest navigation style for repeated items.
+
+[ALEX]
+Exactly. Notifications are much easier once you treat the inbox as a structured list instead of a mystery page.
+
+[PAUSE]
+
+[JAMIE]
+There was also a note about mobile.
+
+[ALEX]
+Yes. If you use the GitHub mobile app, configure push notification preferences there intentionally. Mobile can be useful for high-priority awareness, but it can also become the fastest route to overload if every repository starts buzzing your phone.
+
+[JAMIE]
+So mobile should follow the same philosophy as email and web: urgent things on, ambient noise down.
+
+[ALEX]
+Perfect.
+
+[PAUSE]
+
+[ALEX]
+Let’s turn this into a practical challenge. Tame your inbox. Change at least one watch setting. Open your notifications inbox. Test at least two filters, such as Review requested and Assigned. Then perform one action: mute or mark done.
+
+[JAMIE]
+And if someone wants to go further, they can also visit account notification settings and revise email, web, Actions, watching, custom routing, and mobile preferences.
+
+[ALEX]
+Yes. In the bonus challenge, the checklist includes email notifications, web notifications, watching, custom routing if you use multiple emails, and GitHub Mobile push preferences if you use the app.
+
+[JAMIE]
+Then they should be able to answer three reflection questions: how will you know when someone requests your review, how will you avoid being overwhelmed by busy repositories, and what is your overall strategy for the GitHub notification inbox.
+
+[ALEX]
+Exactly. Read all, triage, or filter-first are all possible strategies, as long as they are intentional and sustainable.
+
+[PAUSE]
+
+[JAMIE]
+So what really counts as success here?
+
+[ALEX]
+The key learning objective is intentional notification management. If you changed at least one setting from the default and can explain why it reduces noise while keeping you informed about what matters, you completed the bonus well.
+
+[JAMIE]
+That’s refreshingly human. Not perfection. Just a justified improvement.
+
+[ALEX]
+Exactly.
+
+[PAUSE]
+
+[ALEX]
+Let’s close the day. Today you learned how to keep your GitHub inbox useful instead of overwhelming. You practiced setting watch levels, using filters to find important work, and taking action on notifications.
+
+[JAMIE]
+If this was your first time doing any of that, that’s a substantial step. Notification skill is a real collaboration skill.
+
+[ALEX]
+It is. Productive contributors do not react to everything equally. They build habits. Check filtered notifications once or twice a day. Respond to review requests and assignments. Mute noise. Mark done when appropriate. Revisit settings when your work changes.
+
+[JAMIE]
+That sounds like the confidence check.
+
+[ALEX]
+Yes: can you find work that needs your attention, and can you prevent unimportant updates from taking over? If yes, you are building a sustainable workflow.
+
+[JAMIE]
+And your progress is not just technical. It’s strategic.
+
+[ALEX]
+Exactly. You already know more than you think.
+
+[PAUSE]
+
+[JAMIE]
+Before we finish, where should learners go when details change over time?
+
+[ALEX]
+The authoritative sources are GitHub Docs and the GitHub Changelog. For this topic specifically, GitHub’s notifications documentation is the source of truth, especially since settings, labels, and interface details can evolve.
+
+[JAMIE]
+So learn the concepts deeply, and verify the exact current interface in the docs.
+
+[ALEX]
+That’s the right habit.
+
+[PAUSE]
+
+[ALEX]
+Next time, you’ll build on this foundation. But for now, if you can keep your inbox calm enough to notice review requests, assignments, and real collaboration signals, you’ve done important work today.
+
+[JAMIE]
+And maybe, for once, your notification bell won’t feel like a threat.
+
+[ALEX]
+That is the dream.
