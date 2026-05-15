@@ -26,55 +26,46 @@ brew install python ffmpeg node
 
 Requires Python 3.10+. Apple Silicon Macs work well with default wheels.
 
-## Setup
+## One-Command Generation (Recommended)
 
-From the handoff folder root:
+From the handoff folder root, run everything with one command:
+
+```bash
+bash podcasts/tools/macos-audio-all-in-one.sh
+```
+
+This does all setup, configuration checks, audio generation, metadata tagging, feed building, and inventory validation in one go.
+
+Time estimate: 30-60 minutes on a fast Mac.
+
+---
+
+## Manual Setup (If Needed)
+
+If you prefer to run steps individually:
 
 ```bash
 bash podcasts/tools/macos-audio-setup.sh
 ```
 
-Or manually:
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install -r podcasts/tts/requirements.txt
-npm ci
-python -m podcasts.tts.download_kokoro_samples --english-high-quality-only
-npm run podcast:audio:queue
-```
-
-**Note:** `npm ci` is required to install Node dependencies for metadata writing and feed generation.
-
-The TTS model downloads write to `podcasts/tts/models/` (intentionally local, not committed).
-
-## Preview the Generation Queue
-
-```bash
-npm run podcast:audio:queue
-```
-
-Should show 75 episodes in listening order with challenges interleaved.
-
-## Trial Run (Single Episode)
-
-```bash
-source .venv/bin/activate
-python -m podcasts.tts.generate_audio --start 0 --end 0 --force --audio-format mp3
-python podcasts/tag-audio-metadata.py --audio-dir podcasts/audio/kokoro-am_liam-af_jessica --expected-count 1 --allow-missing --write --no-touch
-```
-
-## Full Production Generation
-
-After trial sounds good:
+Then after setup completes:
 
 ```bash
 bash podcasts/tools/macos-audio-generate.sh
 ```
 
-This generates all 75 MP3s, writes ID3 metadata (including chapter frames), rebuilds the podcast feed, and validates the inventory.
+**Setup includes:**
+- Homebrew installation of Python, FFmpeg, Node
+- Python venv and package installation
+- Node dependency installation (`npm ci`)
+- Kokoro TTS model download
+- Configuration validation
+
+**Generation includes:**
+- Audio MP3 synthesis (all 75 episodes)
+- ID3 metadata and chapter frame writing
+- Podcast feed generation and validation
+- Audio inventory verification
 
 MP3s are written to `podcasts/audio/kokoro-am_liam-af_jessica/`.
 
