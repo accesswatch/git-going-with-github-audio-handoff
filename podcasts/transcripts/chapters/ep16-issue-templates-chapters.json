@@ -1,54 +1,50 @@
-{
-  "version": 1,
-  "slug": "ep16-issue-templates",
-  "chapters": [
+﻿[
     {
-      "title": "Issue Templates: Overview",
-      "startSegmentIndex": 0
+        "title":  "ep16-issue-templates: Overview",
+        "startSegmentIndex":  0
     },
     {
-      "title": "Structuring Contributions for Clarity and Quality",
-      "startSegmentIndex": 7
+        "title":  "Section 2",
+        "startSegmentIndex":  16
     },
     {
-      "title": "Why Issues Matter",
-      "startSegmentIndex": 53
+        "title":  "Section 3",
+        "startSegmentIndex":  34
     },
     {
-      "title": "1. What Is an Issue Template?",
-      "startSegmentIndex": 60
+        "title":  "Section 4",
+        "startSegmentIndex":  54
     },
     {
-      "title": "2. How Templates Work on GitHub",
-      "startSegmentIndex": 66
+        "title":  "Section 5",
+        "startSegmentIndex":  65
     },
     {
-      "title": "3. Navigating the Template Picker",
-      "startSegmentIndex": 76
+        "title":  "Section 6",
+        "startSegmentIndex":  87
     },
     {
-      "title": "4. The Accessibility Agents Issue Templates",
-      "startSegmentIndex": 87
+        "title":  "Section 7",
+        "startSegmentIndex":  111
     },
     {
-      "title": "6. YAML Form-Based Templates",
-      "startSegmentIndex": 152
+        "title":  "Section 8",
+        "startSegmentIndex":  124
     },
     {
-      "title": "7. Building an Accessibility Bug Report Template",
-      "startSegmentIndex": 187
+        "title":  "Section 9",
+        "startSegmentIndex":  140
     },
     {
-      "title": "8. Pull Request Templates",
-      "startSegmentIndex": 200
+        "title":  "Section 10",
+        "startSegmentIndex":  156
     },
     {
-      "title": "10. Day 2 Amplifier: The Template Builder Agent",
-      "startSegmentIndex": 410
+        "title":  "Section 11",
+        "startSegmentIndex":  170
     },
     {
-      "title": "Issue Templates: Wrap-Up",
-      "startSegmentIndex": 418
+        "title":  "Section 12",
+        "startSegmentIndex":  182
     }
-  ]
-}
+]

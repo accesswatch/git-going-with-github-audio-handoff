@@ -3,60 +3,80 @@
   "slug": "ep52-github-desktop",
   "chapters": [
     {
-      "title": "GitHub Desktop: Overview",
+      "title": "Appendix H: GitHub Desktop",
       "startSegmentIndex": 0
     },
     {
       "title": "A Visual Git Client for Every Workflow",
-      "startSegmentIndex": 7
+      "startSegmentIndex": 4
     },
     {
-      "title": "1. What GitHub Desktop Does (and Doesn't Do)",
-      "startSegmentIndex": 9
+      "title": "What GitHub Desktop Does and Doesn't Do",
+      "startSegmentIndex": 10
     },
     {
-      "title": "3. Signing In and Authentication",
-      "startSegmentIndex": 28
+      "title": "Installing GitHub Desktop",
+      "startSegmentIndex": 22
     },
     {
-      "title": "4. The Interface at a Glance",
-      "startSegmentIndex": 37
+      "title": "Signing In and Authentication",
+      "startSegmentIndex": 30
     },
     {
-      "title": "8. Push and Pull",
+      "title": "The Interface at a Glance",
+      "startSegmentIndex": 36
+    },
+    {
+      "title": "Cloning a Repository",
+      "startSegmentIndex": 46
+    },
+    {
+      "title": "Creating and Switching Branches",
+      "startSegmentIndex": 54
+    },
+    {
+      "title": "Staging and Committing Changes",
+      "startSegmentIndex": 62
+    },
+    {
+      "title": "Push and Pull",
+      "startSegmentIndex": 74
+    },
+    {
+      "title": "Syncing Your Fork",
       "startSegmentIndex": 82
     },
     {
-      "title": "9. Syncing Your Fork",
-      "startSegmentIndex": 94
+      "title": "Resolving Merge Conflicts",
+      "startSegmentIndex": 88
     },
     {
-      "title": "10. Resolving Merge Conflicts",
+      "title": "Viewing History",
+      "startSegmentIndex": 96
+    },
+    {
+      "title": "Cherry-Pick in GitHub Desktop",
       "startSegmentIndex": 104
     },
     {
-      "title": "11. Viewing History",
-      "startSegmentIndex": 115
+      "title": "Stashing Changes",
+      "startSegmentIndex": 112
     },
     {
-      "title": "12. Cherry-Pick in GitHub Desktop",
-      "startSegmentIndex": 131
+      "title": "Undoing Changes",
+      "startSegmentIndex": 118
     },
     {
-      "title": "13. Stashing Changes",
-      "startSegmentIndex": 141
+      "title": "Accessibility and Screen Reader Notes",
+      "startSegmentIndex": 126
     },
     {
-      "title": "15. Accessibility and Screen Reader Notes",
-      "startSegmentIndex": 158
+      "title": "GitHub Desktop vs VS Code vs Git CLI -- When to Use Each",
+      "startSegmentIndex": 142
     },
     {
-      "title": "16. GitHub Desktop vs VS Code vs Git CLI -- When to Use Each",
-      "startSegmentIndex": 171
-    },
-    {
-      "title": "GitHub Desktop: Wrap-Up",
-      "startSegmentIndex": 175
+      "title": "Authoritative Sources",
+      "startSegmentIndex": 148
     }
   ]
 }

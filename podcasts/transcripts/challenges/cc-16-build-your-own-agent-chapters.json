@@ -1,102 +1,142 @@
-{
-  "version": 1,
-  "slug": "cc-16-build-your-own-agent",
-  "chapters": [
+﻿[
     {
-      "title": "Challenge 16: Build Your Agent (Capstone)",
-      "startSegmentIndex": 0
+        "title":  "cc-16-build-your-own-agent: Overview",
+        "startSegmentIndex":  0
     },
     {
-      "title": "Example agent file",
-      "startSegmentIndex": 31
+        "title":  "Section 2",
+        "startSegmentIndex":  19
     },
     {
-      "title": "Alternate valid agents",
-      "startSegmentIndex": 34
+        "title":  "Section 3",
+        "startSegmentIndex":  31
     },
     {
-      "title": "What matters",
-      "startSegmentIndex": 38
+        "title":  "Section 4",
+        "startSegmentIndex":  51
     },
     {
-      "title": "1. The Capstone Challenge",
-      "startSegmentIndex": 39
+        "title":  "Section 5",
+        "startSegmentIndex":  70
     },
     {
-      "title": "2. Phase 1: Choose Your Agent's Mission",
-      "startSegmentIndex": 51
+        "title":  "Section 6",
+        "startSegmentIndex":  88
     },
     {
-      "title": "3. Phase 2: Write the Agent File",
-      "startSegmentIndex": 57
+        "title":  "Section 7",
+        "startSegmentIndex":  105
     },
     {
-      "title": "4. Phase 3: Define Responsibilities and Guardrails",
-      "startSegmentIndex": 73
+        "title":  "Section 8",
+        "startSegmentIndex":  123
     },
     {
-      "title": "5. Phase 4: Test Your Agent Locally",
-      "startSegmentIndex": 85
+        "title":  "Section 9",
+        "startSegmentIndex":  137
     },
     {
-      "title": "7. Phase 6: Respond to Review",
-      "startSegmentIndex": 129
+        "title":  "Section 10",
+        "startSegmentIndex":  150
     },
     {
-      "title": "8. Capstone Rubric",
-      "startSegmentIndex": 141
+        "title":  "Section 11",
+        "startSegmentIndex":  167
     },
     {
-      "title": "9. Example Agents for Inspiration",
-      "startSegmentIndex": 149
+        "title":  "Section 12",
+        "startSegmentIndex":  186
     },
     {
-      "title": "55 AI Agents Across 3 Teams and 5 Platforms",
-      "startSegmentIndex": 161
+        "title":  "Section 13",
+        "startSegmentIndex":  205
     },
     {
-      "title": "Why Issues Matter",
-      "startSegmentIndex": 208
+        "title":  "Section 14",
+        "startSegmentIndex":  220
     },
     {
-      "title": "Capstone: Share Your Feedback (The Most Important Task!)",
-      "startSegmentIndex": 213
+        "title":  "Section 15",
+        "startSegmentIndex":  231
     },
     {
-      "title": "1. The Principle: Skill First, Agent Second",
-      "startSegmentIndex": 218
+        "title":  "Section 16",
+        "startSegmentIndex":  248
     },
     {
-      "title": "3. The Ecosystem: 55 Agents, 3 Teams, 5 Platforms",
-      "startSegmentIndex": 278
+        "title":  "Section 17",
+        "startSegmentIndex":  266
     },
     {
-      "title": "4. Agents in Detail - Hands-On Reference",
-      "startSegmentIndex": 303
+        "title":  "Section 18",
+        "startSegmentIndex":  278
     },
     {
-      "title": "5. Slash Commands and Prompts",
-      "startSegmentIndex": 352
+        "title":  "Section 19",
+        "startSegmentIndex":  296
     },
     {
-      "title": "6. Contributing to the Ecosystem",
-      "startSegmentIndex": 361
+        "title":  "Section 20",
+        "startSegmentIndex":  316
     },
     {
-      "title": "7. The Bigger Picture: Teams, Orchestration, and Beyond VS Code",
-      "startSegmentIndex": 439
+        "title":  "Section 21",
+        "startSegmentIndex":  336
     },
     {
-      "title": "8. GitHub Desktop, GitHub CLI, and Copilot CLI",
-      "startSegmentIndex": 467
+        "title":  "Section 22",
+        "startSegmentIndex":  351
     },
     {
-      "title": "Example session",
-      "startSegmentIndex": 489
+        "title":  "Section 23",
+        "startSegmentIndex":  365
     },
     {
-      "title": "Build Your Agent (Capstone): Final Checkpoint",
-      "startSegmentIndex": 509
+        "title":  "Section 24",
+        "startSegmentIndex":  379
+    },
+    {
+        "title":  "Section 25",
+        "startSegmentIndex":  391
+    },
+    {
+        "title":  "Section 26",
+        "startSegmentIndex":  403
+    },
+    {
+        "title":  "Section 27",
+        "startSegmentIndex":  418
+    },
+    {
+        "title":  "Section 28",
+        "startSegmentIndex":  438
+    },
+    {
+        "title":  "Section 29",
+        "startSegmentIndex":  468
+    },
+    {
+        "title":  "Section 30",
+        "startSegmentIndex":  481
+    },
+    {
+        "title":  "Section 31",
+        "startSegmentIndex":  495
+    },
+    {
+        "title":  "Section 32",
+        "startSegmentIndex":  509
+    },
+    {
+        "title":  "Section 33",
+        "startSegmentIndex":  524
+    },
+    {
+        "title":  "Section 34",
+        "startSegmentIndex":  542
+    },
+    {
+        "title":  "Section 35",
+        "startSegmentIndex":  556
     }
-  ]
-}
+]

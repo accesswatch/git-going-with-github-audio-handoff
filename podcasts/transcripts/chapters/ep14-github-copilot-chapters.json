@@ -1,70 +1,58 @@
-{
-  "version": 1,
-  "slug": "ep14-github-copilot",
-  "chapters": [
+﻿[
     {
-      "title": "GitHub Copilot: Overview",
-      "startSegmentIndex": 0
+        "title":  "ep14-github-copilot: Overview",
+        "startSegmentIndex":  0
     },
     {
-      "title": "AI-Powered Code Assistance in VS Code",
-      "startSegmentIndex": 7
+        "title":  "Section 2",
+        "startSegmentIndex":  18
     },
     {
-      "title": "Why Issues Matter",
-      "startSegmentIndex": 45
+        "title":  "Section 3",
+        "startSegmentIndex":  36
     },
     {
-      "title": "1. What is GitHub Copilot",
-      "startSegmentIndex": 51
+        "title":  "Section 4",
+        "startSegmentIndex":  64
     },
     {
-      "title": "3. Inline Suggestions - Ghost Text Completions",
-      "startSegmentIndex": 77
+        "title":  "Section 5",
+        "startSegmentIndex":  89
     },
     {
-      "title": "4. GitHub Copilot Chat - Conversational Assistance",
-      "startSegmentIndex": 126
+        "title":  "Section 6",
+        "startSegmentIndex":  105
     },
     {
-      "title": "5. Copilot Edits -- Making Multi-File Changes",
-      "startSegmentIndex": 164
+        "title":  "Section 7",
+        "startSegmentIndex":  121
     },
     {
-      "title": "6. Agent Mode -- Let Copilot Drive",
-      "startSegmentIndex": 183
+        "title":  "Section 8",
+        "startSegmentIndex":  139
     },
     {
-      "title": "7. Next Edit Suggestions",
-      "startSegmentIndex": 196
+        "title":  "Section 9",
+        "startSegmentIndex":  160
     },
     {
-      "title": "8. Copilot on GitHub.com",
-      "startSegmentIndex": 203
+        "title":  "Section 10",
+        "startSegmentIndex":  187
     },
     {
-      "title": "9. Effective Prompting for Documentation Work",
-      "startSegmentIndex": 220
+        "title":  "Section 11",
+        "startSegmentIndex":  200
     },
     {
-      "title": "10. Custom Instructions vs Custom Agents",
-      "startSegmentIndex": 240
+        "title":  "Section 12",
+        "startSegmentIndex":  222
     },
     {
-      "title": "11. Using Accessible View with Copilot Responses",
-      "startSegmentIndex": 287
+        "title":  "Section 13",
+        "startSegmentIndex":  237
     },
     {
-      "title": "13. Critically Evaluating AI Output",
-      "startSegmentIndex": 322
-    },
-    {
-      "title": "Your First Copilot Conversation",
-      "startSegmentIndex": 368
-    },
-    {
-      "title": "GitHub Copilot: Wrap-Up",
-      "startSegmentIndex": 372
+        "title":  "Section 14",
+        "startSegmentIndex":  251
     }
-  ]
-}
+]

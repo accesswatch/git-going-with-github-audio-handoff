@@ -1,7 +1,7 @@
 [
   {
     "speaker": "ALEX",
-    "text": "This is Git Going with GitHub, episode 22: GitHub Flavored Markdown. I am Alex. By the end of this episode, GitHub Flavored Markdown should feel less like a wall of GitHub words and more like a set of moves you can trust."
+    "text": "This is Git Going with GitHub, episode 22: GitHub Flavored Markdown. I am Alex. By the end of this episode, GitHub Flavored Markdown should feel less like a wall of GitHub words and more like a set of moves with visible momentum."
   },
   {
     "speaker": "JAMIE",
@@ -21,7 +21,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "Right. We are building a rhythm: orient yourself, take one intentional action, then verify what changed before moving on."
+    "text": "Right. We are building a rhythm: orient yourself, take one intentional action, then verify what changed before moving on. That rhythm is where the magic lives."
   },
   {
     "speaker": "PAUSE",
@@ -169,7 +169,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "Before the learner moves on. This part earns its place because markdown is not just one tool in this workshop - it is the thread that connects everything you do. That gives the learner a foothold: here is every place you will write or read Markdown during the two days. That is the difference between following directions and owning the workflow."
+    "text": "Before the learner moves on. This part earns its place because markdown is not just one tool in this workshop - it is the thread that connects everything you do. This is where the workflow starts to feel magical, because the result becomes visible and explainable: Here is every place you will write or read Markdown during the two days. That is the difference between following directions and owning the workflow."
   },
   {
     "speaker": "JAMIE",
@@ -193,7 +193,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "This is the move inside Learning Room connection: in the Learning Room repository, every challenge description, every welcome file, and every piece of documentation is Markdown. That matters in practice: When you fix a broken link in docs/welcome.md for Challenge 1, you are editing Markdown."
+    "text": "This is the move inside Learning Room connection: in the Learning Room repository, every challenge description, every welcome file, and every piece of documentation is Markdown. Put another way, when you fix a broken link in docs/welcome.md for Challenge 1, you are editing Markdown."
   },
   {
     "speaker": "JAMIE",
@@ -205,7 +205,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "Here is the moment where the page starts to make sense. Anchor this part on 3. How to Practice as You Read. The best way to learn Markdown is to type it yourself. This is the part to say slowly: Here are three ways to practice as you read this guide. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes."
+    "text": "Here is the moment where the page starts to make sense. Anchor this part on 3. How to Practice as You Read. The best way to learn Markdown is to type it yourself. That matters in practice: Here are three ways to practice as you read this guide. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes."
   },
   {
     "speaker": "ALEX",
@@ -217,7 +217,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "The reason this matters is simple: the Write and Preview tabs are announced as tab buttons. The listener should be able to check this: Press Enter on \"Preview\" to switch."
+    "text": "The reason this matters is simple: the Write and Preview tabs are announced as tab buttons. This is the part to say slowly: Press Enter on \"Preview\" to switch."
   },
   {
     "speaker": "ALEX",
@@ -293,11 +293,11 @@
   },
   {
     "speaker": "ALEX",
-    "text": "The teaching point here is not the label; it is the move. A paragraph is one or more lines of text separated by a blank line (an empty line with nothing on it). That is the difference between guessing and knowing: If you do not leave a blank line between two blocks of text, Markdown treats them as one continuous paragraph."
+    "text": "The teaching point here is not the label; it is the move. A paragraph is one or more lines of text separated by a blank line (an empty line with nothing on it). The useful version is: If you do not leave a blank line between two blocks of text, Markdown treats them as one continuous paragraph."
   },
   {
     "speaker": "ALEX",
-    "text": "That connects to another useful point. This part earns its place because sometimes you want to go to a new line without starting a whole new paragraph - for example, in an address or a poem. That gives the learner a foothold: to create a line break (a in HTML), end a line with two or more spaces and then press Enter."
+    "text": "That connects to another useful point. This part earns its place because sometimes you want to go to a new line without starting a whole new paragraph - for example, in an address or a poem. That is the difference between guessing and knowing: To create a line break (a in HTML), end a line with two or more spaces and then press Enter."
   },
   {
     "speaker": "JAMIE",
@@ -305,7 +305,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "Common mistake - no blank line between paragraphs: What renders (wrong): Both lines merge into one paragraph. The next useful detail is concrete: Fix: Add a blank line between them."
+    "text": "Common mistake - no blank line between paragraphs: What renders (wrong): Both lines merge into one paragraph. This is where the workflow starts to feel magical, because the result becomes visible and explainable: Fix: Add a blank line between them."
   },
   {
     "speaker": "PAUSE",
@@ -313,7 +313,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "Here is the practical turn. Here is the learner-facing version. Headings create the structure of your document. Put another way, they are how screen readers navigate, how tables of contents are built, and how readers scan for the section they need. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor."
+    "text": "Here is the practical turn. Here is the learner-facing version. Headings create the structure of your document. That gives the learner a foothold: they are how screen readers navigate, how tables of contents are built, and how readers scan for the section they need. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor."
   },
   {
     "speaker": "ALEX",
@@ -325,7 +325,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "This is the move inside Syntax: add one to six characters at the start of a line, followed by a space, then the heading text. That matters in practice: The number of characters determines the heading level."
+    "text": "This is the move inside Syntax: add one to six characters at the start of a line, followed by a space, then the heading text. The next useful detail is concrete: The number of characters determines the heading level."
   },
   {
     "speaker": "JAMIE",
@@ -341,7 +341,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "Anchor this part on Rules for accessible headings. Screen readers let you navigate by heading level. This is the part to say slowly: In NVDA and JAWS, pressing H moves to the next heading."
+    "text": "Anchor this part on Rules for accessible headings. Screen readers let you navigate by heading level. Put another way, in NVDA and JAWS, pressing H moves to the next heading."
   },
   {
     "speaker": "ALEX",
@@ -357,11 +357,11 @@
   },
   {
     "speaker": "ALEX",
-    "text": "The reason this matters is simple: markdown also supports \"setext\" headings where you underline text with = or - characters. The listener should be able to check this: This only works for levels 1 and 2, and it is harder to scan visually in raw Markdown."
+    "text": "The reason this matters is simple: markdown also supports \"setext\" headings where you underline text with = or - characters. That matters in practice: This only works for levels 1 and 2, and it is harder to scan visually in raw Markdown."
   },
   {
     "speaker": "ALEX",
-    "text": "Another way to ground it. Do not treat 6. Emphasis - Bold, Italic, and Bold Italic as decoration. Emphasis changes how text is read by screen readers - it is not just visual. That is not trivia. When text is bold or italic, well-configured screen readers can announce emphasis changes, giving the listener additional context about importance. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed."
+    "text": "Another way to ground it. Do not treat 6. Emphasis - Bold, Italic, and Bold Italic as decoration. Emphasis changes how text is read by screen readers - it is not just visual. This is the part to say slowly: When text is bold or italic, well-configured screen readers can announce emphasis changes, giving the listener additional context about importance. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed."
   },
   {
     "speaker": "JAMIE",
@@ -369,7 +369,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "If the interface shifts, Bold is still useful because wrap text in two asterisks or two underscores on each side. For someone navigating by keyboard or screen reader, this detail matters: This is bold text using underscores."
+    "text": "If the interface shifts, Bold is still useful because wrap text in two asterisks or two underscores on each side. The listener should be able to check this: This is bold text using underscores."
   },
   {
     "speaker": "PAUSE",
@@ -377,7 +377,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "This is the part worth saying out loud. Put Italic into plain language. Wrap text in one asterisk or one underscore on each side. The useful version is: This is italic text using asterisks."
+    "text": "This is the part worth saying out loud. Put Italic into plain language. Wrap text in one asterisk or one underscore on each side. That is not trivia. This is italic text using asterisks."
   },
   {
     "speaker": "JAMIE",
@@ -401,7 +401,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "This part earns its place because the following table provides guidance on when to use each type of emphasis. That gives the learner a foothold: NVDA can announce emphasis changes if the user enables \"Report font attributes\" (under Speech settings). That is the difference between following directions and owning the workflow."
+    "text": "This part earns its place because the following table provides guidance on when to use each type of emphasis. The useful version is: NVDA can announce emphasis changes if the user enables \"Report font attributes\" (under Speech settings). That is the difference between following directions and owning the workflow."
   },
   {
     "speaker": "ALEX",
@@ -417,11 +417,11 @@
   },
   {
     "speaker": "ALEX",
-    "text": "Emphasis inside words: Underscores do not (in most Markdown processors including GitHub). The next useful detail is concrete: Use asterisks when you need emphasis inside a word (rare, but it comes up in technical documentation)."
+    "text": "Emphasis inside words: Underscores do not (in most Markdown processors including GitHub). That is the difference between guessing and knowing: Use asterisks when you need emphasis inside a word (rare, but it comes up in technical documentation)."
   },
   {
     "speaker": "ALEX",
-    "text": "Now shift from knowing the term to using it. Here is the learner-facing version. Strikethrough text shows deleted or outdated content with a line through it. Put another way, wrap text in two tildes on each side."
+    "text": "Now shift from knowing the term to using it. Here is the learner-facing version. Strikethrough text shows deleted or outdated content with a line through it. This is where the workflow starts to feel magical, because the result becomes visible and explainable: Wrap text in two tildes on each side."
   },
   {
     "speaker": "JAMIE",
@@ -429,7 +429,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "This is the move inside 8. Lists - Ordered and Unordered: lists are one of the most common elements in GitHub documentation. That matters in practice: Issue descriptions, PR checklists, README instructions, step-by-step guides - they all use lists."
+    "text": "This is the move inside 8. Lists - Ordered and Unordered: lists are one of the most common elements in GitHub documentation. That gives the learner a foothold: issue descriptions, PR checklists, README instructions, step-by-step guides - they all use lists."
   },
   {
     "speaker": "JAMIE",
@@ -445,7 +445,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "This is where confidence starts to build. Anchor this part on Unordered lists (bullet points). Start each line with a dash (-), asterisk ( ), or plus sign (+) followed by a space. This is the part to say slowly: They are the most common convention on GitHub and visually distinct from the asterisks used for bold and italic. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes."
+    "text": "This is where confidence starts to build. Anchor this part on Unordered lists (bullet points). Start each line with a dash (-), asterisk ( ), or plus sign (+) followed by a space. The next useful detail is concrete: They are the most common convention on GitHub and visually distinct from the asterisks used for bold and italic. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes."
   },
   {
     "speaker": "ALEX",
@@ -465,7 +465,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "The next layer is this. Do not treat A helpful trick - Markdown renumbers for you as decoration. Here is something that surprises most new users. That is not trivia. In Markdown, the actual numbers you type do not matter for the rendered output."
+    "text": "The next layer is this. Do not treat A helpful trick - Markdown renumbers for you as decoration. Here is something that surprises most new users. That matters in practice: In Markdown, the actual numbers you type do not matter for the rendered output."
   },
   {
     "speaker": "PAUSE",
@@ -477,11 +477,11 @@
   },
   {
     "speaker": "ALEX",
-    "text": "If the interface shifts, Starting an ordered list at a specific number is still useful because if you need a list to start at a number other than 1, use that number for the first item. For someone navigating by keyboard or screen reader, this detail matters: All subsequent items are numbered sequentially from there."
+    "text": "If the interface shifts, Starting an ordered list at a specific number is still useful because if you need a list to start at a number other than 1, use that number for the first item. This is the part to say slowly: All subsequent items are numbered sequentially from there."
   },
   {
     "speaker": "ALEX",
-    "text": "Now bring the learner back to the room. Put 9. Nested Lists and Mixed Lists into plain language. Lists can contain other lists, creating an indented hierarchy. The useful version is: This is essential for complex instructions, outlines, and project structures. The interface gets easier when it becomes a set of named places instead of a wall of controls."
+    "text": "Now bring the learner back to the room. Put 9. Nested Lists and Mixed Lists into plain language. Lists can contain other lists, creating an indented hierarchy. The listener should be able to check this: This is essential for complex instructions, outlines, and project structures. The interface gets easier when it becomes a set of named places instead of a wall of controls."
   },
   {
     "speaker": "JAMIE",
@@ -529,7 +529,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "Here is the learner-facing version. List items can contain paragraphs, code blocks, and other elements. Put another way, indent the content to align with the list item text (typically four spaces). A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor."
+    "text": "Here is the learner-facing version. List items can contain paragraphs, code blocks, and other elements. That is the difference between guessing and knowing: Indent the content to align with the list item text (typically four spaces). A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor."
   },
   {
     "speaker": "ALEX",
@@ -545,7 +545,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "This is the move inside 10. Links: links are how you connect documents, reference issues, point to external resources, and cite sources. That matters in practice: Getting links right is critical for accessibility - links with bad text are one of the most common accessibility failures in documentation."
+    "text": "This is the move inside 10. Links: links are how you connect documents, reference issues, point to external resources, and cite sources. This is where the workflow starts to feel magical, because the result becomes visible and explainable: Getting links right is critical for accessibility - links with bad text are one of the most common accessibility failures in documentation."
   },
   {
     "speaker": "ALEX",
@@ -557,7 +557,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "The reason this matters is simple: add a title in quotes after the URL. The listener should be able to check this: The title appears as a tooltip on hover."
+    "text": "The reason this matters is simple: add a title in quotes after the URL. The next useful detail is concrete: The title appears as a tooltip on hover."
   },
   {
     "speaker": "PAUSE",
@@ -565,7 +565,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "The next point gives the learner a handle. Do not treat Writing accessible link text as decoration. This is one of the most important accessibility skills in Markdown authoring. That is not trivia. Screen reader users often navigate by pulling up a list of all links on a page (NVDA: NVDA+F7 then select Links; JAWS: Insert+F7). The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed."
+    "text": "The next point gives the learner a handle. Do not treat Writing accessible link text as decoration. This is one of the most important accessibility skills in Markdown authoring. Put another way, screen reader users often navigate by pulling up a list of all links on a page (NVDA: NVDA+F7 then select Links; JAWS: Insert+F7). The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed."
   },
   {
     "speaker": "JAMIE",
@@ -573,11 +573,11 @@
   },
   {
     "speaker": "ALEX",
-    "text": "If the interface shifts, Reference-style links is still useful because for documents with many links, reference-style links keep the text readable by separating the URL from the prose. For someone navigating by keyboard or screen reader, this detail matters: You define the link target once at the bottom of the document."
+    "text": "If the interface shifts, Reference-style links is still useful because for documents with many links, reference-style links keep the text readable by separating the URL from the prose. That matters in practice: You define the link target once at the bottom of the document."
   },
   {
     "speaker": "ALEX",
-    "text": "Keep the teaching thread moving. Put Relative links within a repository into plain language. When linking to other files in the same repository, use relative paths instead of full URLs. The useful version is: This way, links work on any fork or branch."
+    "text": "Keep the teaching thread moving. Put Relative links within a repository into plain language. When linking to other files in the same repository, use relative paths instead of full URLs. This is the part to say slowly: This way, links work on any fork or branch."
   },
   {
     "speaker": "PAUSE",
@@ -593,7 +593,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "Keep the teaching thread moving. This part earns its place because GitHub automatically converts full URLs in your text into clickable links, but always prefer explicit descriptive links in prose. That gives the learner a foothold: bare URLs should only appear in reference sections or code examples. That is the difference between following directions and owning the workflow."
+    "text": "Keep the teaching thread moving. This part earns its place because GitHub automatically converts full URLs in your text into clickable links, but always prefer explicit descriptive links in prose. That is not trivia. Bare URLs should only appear in reference sections or code examples. That is the difference between following directions and owning the workflow."
   },
   {
     "speaker": "JAMIE",
@@ -621,7 +621,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "This is the move inside Syntax: the text inside the square brackets is the alt text - the description that screen readers read aloud instead of displaying the image. That matters in practice: This is the single most important accessibility attribute for images."
+    "text": "This is the move inside Syntax: the text inside the square brackets is the alt text - the description that screen readers read aloud instead of displaying the image. That is the difference between guessing and knowing: This is the single most important accessibility attribute for images."
   },
   {
     "speaker": "ALEX",
@@ -641,7 +641,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "Keep the teaching thread moving. Do not treat When to use details blocks for complex images as decoration. If an image contains complex information (like an architecture diagram or a data visualization), provide a full text description in a collapsible block. That is not trivia. Screen readers announce images as \"graphic\" followed by the alt text."
+    "text": "Keep the teaching thread moving. Do not treat When to use details blocks for complex images as decoration. If an image contains complex information (like an architecture diagram or a data visualization), provide a full text description in a collapsible block. The next useful detail is concrete: Screen readers announce images as \"graphic\" followed by the alt text."
   },
   {
     "speaker": "JAMIE",
@@ -661,7 +661,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "Keep the teaching thread moving. Put 12. Blockquotes into plain language. Blockquotes are used for callouts, important notes, cited text, and instructor guidance throughout this course. The useful version is: Start each line with a character followed by a space. The interface gets easier when it becomes a set of named places instead of a wall of controls."
+    "text": "Keep the teaching thread moving. Put 12. Blockquotes into plain language. Blockquotes are used for callouts, important notes, cited text, and instructor guidance throughout this course. That matters in practice: Start each line with a character followed by a space. The interface gets easier when it becomes a set of named places instead of a wall of controls."
   },
   {
     "speaker": "JAMIE",
@@ -685,7 +685,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "Blockquotes with other elements: Blockquotes can contain any Markdown element - headings, lists, code, bold, links. The next useful detail is concrete: Screen readers announce the beginning and end of a blockquote."
+    "text": "Blockquotes with other elements: Blockquotes can contain any Markdown element - headings, lists, code, bold, links. That is not trivia. Screen readers announce the beginning and end of a blockquote."
   },
   {
     "speaker": "ALEX",
@@ -701,7 +701,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "This is the move inside 13. Inline Code and Code Blocks: code formatting is essential on GitHub. That matters in practice: the learner will use it for command-line instructions, file names, configuration values, keyboard shortcuts, and actual source code."
+    "text": "This is the move inside 13. Inline Code and Code Blocks: code formatting is essential on GitHub. The useful version is: the learner will use it for command-line instructions, file names, configuration values, keyboard shortcuts, and actual source code."
   },
   {
     "speaker": "PAUSE",
@@ -713,7 +713,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "Anchor this part on Inline code. Wrap text in single backticks ( `) to format it as code within a sentence. This is the part to say slowly: Run git status to see which files have changed."
+    "text": "Anchor this part on Inline code. Wrap text in single backticks ( `) to format it as code within a sentence. That is the difference between guessing and knowing: Run git status to see which files have changed."
   },
   {
     "speaker": "ALEX",
@@ -729,11 +729,11 @@
   },
   {
     "speaker": "ALEX",
-    "text": "The reason this matters is simple: for multi-line code, wrap it in triple backticks ( ` ) on their own lines. The listener should be able to check this: All formatting is preserved exactly."
+    "text": "The reason this matters is simple: for multi-line code, wrap it in triple backticks ( ` ) on their own lines. This is where the workflow starts to feel magical, because the result becomes visible and explainable: All formatting is preserved exactly."
   },
   {
     "speaker": "ALEX",
-    "text": "Keep the teaching thread moving. Do not treat Code blocks with syntax highlighting as decoration. Add a language identifier right after the opening triple backticks to enable syntax highlighting. That is not trivia. def greet(name: str) - str: \"\"\"Return a greeting for the given name.\"\"\" return f\"Hello, {name}! The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed."
+    "text": "Keep the teaching thread moving. Do not treat Code blocks with syntax highlighting as decoration. Add a language identifier right after the opening triple backticks to enable syntax highlighting. That gives the learner a foothold: def greet(name: str) - str: \"\"\"Return a greeting for the given name.\"\"\" return f\"Hello, {name}! The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed."
   },
   {
     "speaker": "PAUSE",
@@ -745,7 +745,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "If the interface shifts, Showing diffs in code blocks is still useful because the diff language identifier highlights additions and removals. For someone navigating by keyboard or screen reader, this detail matters: + new line that was added unchanged context line."
+    "text": "If the interface shifts, Showing diffs in code blocks is still useful because the diff language identifier highlights additions and removals. The next useful detail is concrete: + new line that was added unchanged context line."
   },
   {
     "speaker": "ALEX",
@@ -761,7 +761,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "The teaching point here is not the label; it is the move. If your code contains backticks, use more backticks for the fence. That is the difference between guessing and knowing: Use four backticks to wrap content that contains triple backticks."
+    "text": "The teaching point here is not the label; it is the move. If your code contains backticks, use more backticks for the fence. That matters in practice: Use four backticks to wrap content that contains triple backticks."
   },
   {
     "speaker": "PAUSE",
@@ -769,7 +769,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "Keep the teaching thread moving. This part earns its place because a horizontal rule creates a thematic break between sections - a visual line across the page. That gives the learner a foothold: use three or more dashes, asterisks, or underscores on a line by themselves. That is the difference between following directions and owning the workflow."
+    "text": "Keep the teaching thread moving. This part earns its place because a horizontal rule creates a thematic break between sections - a visual line across the page. This is the part to say slowly: Use three or more dashes, asterisks, or underscores on a line by themselves. That is the difference between following directions and owning the workflow."
   },
   {
     "speaker": "JAMIE",
@@ -777,7 +777,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "15. Escaping Special Characters: Many characters have special meaning in Markdown. The next useful detail is concrete: If you want to display them as literal characters instead, put a backslash (\\) before them."
+    "text": "15. Escaping Special Characters: Many characters have special meaning in Markdown. The listener should be able to check this: If you want to display them as literal characters instead, put a backslash (\\) before them."
   },
   {
     "speaker": "ALEX",
@@ -797,7 +797,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "Keep the teaching thread moving. Anchor this part on 16. Tables. Tables organize data into rows and columns. This is the part to say slowly: They are used extensively on GitHub for comparison charts, reference data, settings documentation, and checklists. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes."
+    "text": "Keep the teaching thread moving. Anchor this part on 16. Tables. Tables organize data into rows and columns. The useful version is: They are used extensively on GitHub for comparison charts, reference data, settings documentation, and checklists. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes."
   },
   {
     "speaker": "JAMIE",
@@ -849,7 +849,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "The teaching point here is not the label; it is the move. Screen readers navigate tables with Ctrl+Alt+Arrow keys (NVDA and JAWS). That is the difference between guessing and knowing: Ctrl+Alt+Right moves to the next column."
+    "text": "The teaching point here is not the label; it is the move. Screen readers navigate tables with Ctrl+Alt+Arrow keys (NVDA and JAWS). Put another way, ctrl+Alt+Right moves to the next column."
   },
   {
     "speaker": "ALEX",
@@ -857,7 +857,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "Keep the teaching thread moving. This part earns its place because if your \"table\" has only two columns where the first is a label and the second is a value, consider using a definition-style list or bold labels instead. That gives the learner a foothold: this is often easier to read with a screen reader than a two-column table."
+    "text": "Keep the teaching thread moving. This part earns its place because if your \"table\" has only two columns where the first is a label and the second is a value, consider using a definition-style list or bold labels instead. That matters in practice: This is often easier to read with a screen reader than a two-column table."
   },
   {
     "speaker": "JAMIE",
@@ -889,7 +889,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "This is the move inside 17. What Is GitHub Flavored Markdown?: GitHub Flavored Markdown (GFM) is GitHub's own superset of standard Markdown. That matters in practice: It takes everything from the CommonMark specification (the modern standard for Markdown) and adds features specifically designed for software collaboration: tables, task lists, strikethrough, autolinked references, alert blocks, Mermaid diagrams, math."
+    "text": "This is the move inside 17. What Is GitHub Flavored Markdown?: GitHub Flavored Markdown (GFM) is GitHub's own superset of standard Markdown. That is not trivia. It takes everything from the CommonMark specification (the modern standard for Markdown) and adds features specifically designed for software collaboration: tables, task lists, strikethrough, autolinked references, alert blocks, Mermaid diagrams, math."
   },
   {
     "speaker": "ALEX",
@@ -905,7 +905,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "The reason this matters is simple: GitHub introduced alert blocks in 2023. The listener should be able to check this: They render as colored, bordered callout boxes - great for emphasizing warnings, tips, or critical information."
+    "text": "The reason this matters is simple: GitHub introduced alert blocks in 2023. The useful version is: They render as colored, bordered callout boxes - great for emphasizing warnings, tips, or critical information."
   },
   {
     "speaker": "JAMIE",
@@ -945,7 +945,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "The teaching point here is not the label; it is the move. The and HTML elements create collapsible sections. That is the difference between guessing and knowing: They are one of the most useful tools for keeping long documents, issue reports, and PRs manageable - hiding optional content until the reader chooses to expand it."
+    "text": "The teaching point here is not the label; it is the move. The and HTML elements create collapsible sections. The next useful detail is concrete: They are one of the most useful tools for keeping long documents, issue reports, and PRs manageable - hiding optional content until the reader chooses to expand it."
   },
   {
     "speaker": "JAMIE",
@@ -993,7 +993,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "This is the move inside Screen Reader Behavior: the element renders as a disclosure widget. That matters in practice: After expanding: The content is immediately readable."
+    "text": "This is the move inside Screen Reader Behavior: the element renders as a disclosure widget. The listener should be able to check this: After expanding: The content is immediately readable."
   },
   {
     "speaker": "ALEX",
@@ -1017,7 +1017,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "The reason this matters is simple: task lists in GitHub issues and PRs render as real interactive checkboxes. The listener should be able to check this: Anyone with write access to the repository can check and uncheck them directly in the rendered view without editing the Markdown."
+    "text": "The reason this matters is simple: task lists in GitHub issues and PRs render as real interactive checkboxes. For someone navigating by keyboard or screen reader, this detail matters: Anyone with write access to the repository can check and uncheck them directly in the rendered view without editing the Markdown."
   },
   {
     "speaker": "JAMIE",
@@ -1081,11 +1081,11 @@
   },
   {
     "speaker": "ALEX",
-    "text": "21. Syntax Highlighting in Fenced Code Blocks: We covered basic code blocks in Section 13. The next useful detail is concrete: This section covers the GitHub-specific syntax highlighting that makes code blocks more readable for sighted users."
+    "text": "21. Syntax Highlighting in Fenced Code Blocks: We covered basic code blocks in Section 13. Put another way, this section covers the GitHub-specific syntax highlighting that makes code blocks more readable for sighted users."
   },
   {
     "speaker": "ALEX",
-    "text": "Keep the teaching thread moving. Here is the learner-facing version. Add a language identifier right after the opening triple backticks. Put another way, GitHub uses Linguist to apply syntax highlighting with appropriate colors for keywords, strings, comments, and other language constructs. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor."
+    "text": "Keep the teaching thread moving. Here is the learner-facing version. Add a language identifier right after the opening triple backticks. That matters in practice: GitHub uses Linguist to apply syntax highlighting with appropriate colors for keywords, strings, comments, and other language constructs. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor."
   },
   {
     "speaker": "PAUSE",
@@ -1097,11 +1097,11 @@
   },
   {
     "speaker": "ALEX",
-    "text": "This is the move inside Complete list of commonly used language identifiers: the following table lists the language identifiers you are most likely to use. That matters in practice: If no language is specified, the code block renders as plain monospaced text with no highlighting."
+    "text": "This is the move inside Complete list of commonly used language identifiers: the following table lists the language identifiers you are most likely to use. This is the part to say slowly: If no language is specified, the code block renders as plain monospaced text with no highlighting."
   },
   {
     "speaker": "ALEX",
-    "text": "Keep the teaching thread moving. Anchor this part on Screen Reader Note. Syntax highlighting is visual only - screen readers read the code text without announcing color changes. This is the part to say slowly: The code block itself is announced as a code region."
+    "text": "Keep the teaching thread moving. Anchor this part on Screen Reader Note. Syntax highlighting is visual only - screen readers read the code text without announcing color changes. The listener should be able to check this: The code block itself is announced as a code region."
   },
   {
     "speaker": "JAMIE",
@@ -1109,7 +1109,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "The reason this matters is simple: GitHub renders Mermaid.js diagrams inline when you use a mermaid fenced code block. The listener should be able to check this: They are common in READMEs, PRs, and documentation to illustrate architecture, flows, and relationships."
+    "text": "The reason this matters is simple: GitHub renders Mermaid.js diagrams inline when you use a mermaid fenced code block. That is not trivia. They are common in READMEs, PRs, and documentation to illustrate architecture, flows, and relationships."
   },
   {
     "speaker": "PAUSE",
@@ -1129,7 +1129,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "Keep the teaching thread moving. Put Accessibility limitation - critical into plain language. Mermaid diagrams render as SVG images. The useful version is: GitHub does not auto-generate alt text for them."
+    "text": "Keep the teaching thread moving. Put Accessibility limitation - critical into plain language. Mermaid diagrams render as SVG images. That is the difference between guessing and knowing: GitHub does not auto-generate alt text for them."
   },
   {
     "speaker": "PAUSE",
@@ -1141,7 +1141,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "The teaching point here is not the label; it is the move. Example - accessible Mermaid usage. That is the difference between guessing and knowing: flowchart LR Fork -- Clone -- Branch -- Commit -- Push -- PR -- Review -- Merge."
+    "text": "The teaching point here is not the label; it is the move. Example - accessible Mermaid usage. This is where the workflow starts to feel magical, because the result becomes visible and explainable: flowchart LR Fork -- Clone -- Branch -- Commit -- Push -- PR -- Review -- Merge."
   },
   {
     "speaker": "ALEX",
@@ -1241,7 +1241,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "Keep the teaching thread moving. This part earns its place because every heading in a GitHub Markdown file automatically gets an anchor ID. That gives the learner a foothold: you can link to any heading from anywhere - within the same document, from another file, or from an issue or PR."
+    "text": "Keep the teaching thread moving. This part earns its place because every heading in a GitHub Markdown file automatically gets an anchor ID. This is where the workflow starts to feel magical, because the result becomes visible and explainable: You can link to any heading from anywhere - within the same document, from another file, or from an issue or PR."
   },
   {
     "speaker": "PAUSE",
@@ -1253,7 +1253,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "How GitHub generates anchor IDs: GitHub converts the heading text to an anchor ID. The next useful detail is concrete: The following table shows example headings and their generated anchors."
+    "text": "How GitHub generates anchor IDs: GitHub converts the heading text to an anchor ID. That gives the learner a foothold: the following table shows example headings and their generated anchors."
   },
   {
     "speaker": "ALEX",
@@ -1269,7 +1269,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "This is the move inside Duplicate headings: if a document has two headings with the same text, GitHub appends -1, -2, and so on to the duplicate anchors. That matters in practice: Best practice: Avoid duplicate heading text."
+    "text": "This is the move inside Duplicate headings: if a document has two headings with the same text, GitHub appends -1, -2, and so on to the duplicate anchors. Put another way, best practice: Avoid duplicate heading text."
   },
   {
     "speaker": "PAUSE",
@@ -1293,7 +1293,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "The reason this matters is simple: one of GitHub's most powerful features is automatic linking. The listener should be able to check this: When you type certain patterns in any Markdown field on GitHub, they automatically become clickable links."
+    "text": "The reason this matters is simple: one of GitHub's most powerful features is automatic linking. This is the part to say slowly: When you type certain patterns in any Markdown field on GitHub, they automatically become clickable links."
   },
   {
     "speaker": "ALEX",
@@ -1325,7 +1325,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "The teaching point here is not the label; it is the move. When you include certain keywords followed by an issue reference in a PR description, merging the PR automatically closes the referenced issue. That is the difference between guessing and knowing: All of these keywords work: close, closes, closed, fix, fixes, fixed, resolve, resolves, resolved."
+    "text": "The teaching point here is not the label; it is the move. When you include certain keywords followed by an issue reference in a PR description, merging the PR automatically closes the referenced issue. The useful version is: All of these keywords work: close, closes, closed, fix, fixes, fixed, resolve, resolves, resolved."
   },
   {
     "speaker": "PAUSE",
@@ -1333,7 +1333,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "Keep the teaching thread moving. This part earns its place because GitHub automatically converts full URLs into clickable links. That gives the learner a foothold: accessibility note: While autolinked URLs work, they create poor link text for screen readers (the entire URL is read character by character). That is the difference between following directions and owning the workflow."
+    "text": "Keep the teaching thread moving. This part earns its place because GitHub automatically converts full URLs into clickable links. That is the difference between guessing and knowing: Accessibility note: While autolinked URLs work, they create poor link text for screen readers (the entire URL is read character by character). That is the difference between following directions and owning the workflow."
   },
   {
     "speaker": "JAMIE",
@@ -1341,7 +1341,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "27. HTML in Markdown: GitHub allows a subset of HTML in Markdown files. The next useful detail is concrete: This is useful for semantic elements that do not have Markdown equivalents, advanced layout needs, and accessibility improvements."
+    "text": "27. HTML in Markdown: GitHub allows a subset of HTML in Markdown files. This is where the workflow starts to feel magical, because the result becomes visible and explainable: This is useful for semantic elements that do not have Markdown equivalents, advanced layout needs, and accessibility improvements."
   },
   {
     "speaker": "JAMIE",
@@ -1349,7 +1349,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "Here is the learner-facing version. The element renders text in a key-cap style box. Put another way, press NVDA + Space to toggle Focus Mode."
+    "text": "Here is the learner-facing version. The element renders text in a key-cap style box. That gives the learner a foothold: press NVDA + Space to toggle Focus Mode."
   },
   {
     "speaker": "ALEX",
@@ -1369,7 +1369,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "Keep the teaching thread moving. Anchor this part on Allowed HTML elements on GitHub. GitHub whitelists specific HTML elements for security. This is the part to say slowly: The following table lists the most useful allowed elements. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes."
+    "text": "Keep the teaching thread moving. Anchor this part on Allowed HTML elements on GitHub. GitHub whitelists specific HTML elements for security. Put another way, the following table lists the most useful allowed elements. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes."
   },
   {
     "speaker": "JAMIE",
@@ -1389,7 +1389,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "Keep the teaching thread moving. Do not treat 28. Screen Reader Behavior Summary as decoration. This table consolidates how every Markdown element behaves with screen readers. That is not trivia. Use it as a quick reference when choosing how to format your content."
+    "text": "Keep the teaching thread moving. Do not treat 28. Screen Reader Behavior Summary as decoration. This table consolidates how every Markdown element behaves with screen readers. This is the part to say slowly: Use it as a quick reference when choosing how to format your content."
   },
   {
     "speaker": "JAMIE",
@@ -1397,7 +1397,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "If the interface shifts, 29. Accessible Markdown Authoring Checklist is still useful because use this checklist every time you write a Markdown file, issue, or PR description. For someone navigating by keyboard or screen reader, this detail matters: It covers the accessibility requirements that make your content work for everyone."
+    "text": "If the interface shifts, 29. Accessible Markdown Authoring Checklist is still useful because use this checklist every time you write a Markdown file, issue, or PR description. The listener should be able to check this: It covers the accessibility requirements that make your content work for everyone."
   },
   {
     "speaker": "ALEX",
@@ -1493,7 +1493,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "Keep the teaching thread moving. Do not treat 30. Common Mistakes and How to Fix Them as decoration. This section covers the errors we see most often in workshop participants' Markdown. That is not trivia. Each one includes what goes wrong, why it matters, and how to fix it. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed."
+    "text": "Keep the teaching thread moving. Do not treat 30. Common Mistakes and How to Fix Them as decoration. This section covers the errors we see most often in workshop participants' Markdown. That matters in practice: Each one includes what goes wrong, why it matters, and how to fix it. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed."
   },
   {
     "speaker": "JAMIE",
@@ -1501,7 +1501,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "If the interface shifts, Mistake 1 - Forgetting the blank line between paragraphs is still useful because what it produces: One merged paragraph. For someone navigating by keyboard or screen reader, this detail matters: Fix: Add a blank line between paragraphs."
+    "text": "If the interface shifts, Mistake 1 - Forgetting the blank line between paragraphs is still useful because what it produces: One merged paragraph. This is the part to say slowly: Fix: Add a blank line between paragraphs."
   },
   {
     "speaker": "PAUSE",
@@ -1509,7 +1509,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "Keep the teaching thread moving. Put Mistake 2 - Skipping heading levels into plain language. Why it matters: Screen reader users navigating by heading level will miss entire sections. The useful version is: Jumping from H1 to H4 means H2 and H3 navigation finds nothing."
+    "text": "Keep the teaching thread moving. Put Mistake 2 - Skipping heading levels into plain language. Why it matters: Screen reader users navigating by heading level will miss entire sections. The listener should be able to check this: Jumping from H1 to H4 means H2 and H3 navigation finds nothing."
   },
   {
     "speaker": "JAMIE",
@@ -1517,11 +1517,11 @@
   },
   {
     "speaker": "ALEX",
-    "text": "The teaching point here is not the label; it is the move. Why it matters: A screen reader user scanning the links list hears \"here\" - with no context about where the link goes. That is the difference between guessing and knowing: Fix: For more information, read the GitHub Documentation."
+    "text": "The teaching point here is not the label; it is the move. Why it matters: A screen reader user scanning the links list hears \"here\" - with no context about where the link goes. That is not trivia. Fix: For more information, read the GitHub Documentation."
   },
   {
     "speaker": "ALEX",
-    "text": "Keep the teaching thread moving. This part earns its place because why it matters: Screen reader users have no idea what the image shows. That gives the learner a foothold: some screen readers announce the filename, which is not helpful. That is the difference between following directions and owning the workflow."
+    "text": "Keep the teaching thread moving. This part earns its place because why it matters: Screen reader users have no idea what the image shows. For someone navigating by keyboard or screen reader, this detail matters: Some screen readers announce the filename, which is not helpful. That is the difference between following directions and owning the workflow."
   },
   {
     "speaker": "PAUSE",
@@ -1533,11 +1533,11 @@
   },
   {
     "speaker": "ALEX",
-    "text": "Mistake 5 - Using bold instead of headings: Why it matters: Visually, this looks like a heading. The next useful detail is concrete: But screen reader users navigating with H will never find it."
+    "text": "Mistake 5 - Using bold instead of headings: Why it matters: Visually, this looks like a heading. The useful version is: But screen reader users navigating with H will never find it."
   },
   {
     "speaker": "ALEX",
-    "text": "Keep the teaching thread moving. Here is the learner-facing version. Why it matters: A screen reader user enters the table without knowing what data it contains. Put another way, they hear \"table, 2 columns, 3 rows\" but not what the table is about."
+    "text": "Keep the teaching thread moving. Here is the learner-facing version. Why it matters: A screen reader user enters the table without knowing what data it contains. That is the difference between guessing and knowing: They hear \"table, 2 columns, 3 rows\" but not what the table is about."
   },
   {
     "speaker": "JAMIE",
@@ -1545,7 +1545,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "This is the move inside Mistake 7 - Code block without a language identifier: why it matters: Without the language identifier, sighted users lose the visual benefit of syntax highlighting, and tools that process Markdown lose metadata about the content. That matters in practice: Fix: Always add the language: `python."
+    "text": "This is the move inside Mistake 7 - Code block without a language identifier: why it matters: Without the language identifier, sighted users lose the visual benefit of syntax highlighting, and tools that process Markdown lose metadata about the content. This is where the workflow starts to feel magical, because the result becomes visible and explainable: Fix: Always add the language: `python."
   },
   {
     "speaker": "PAUSE",
@@ -1553,7 +1553,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "Keep the teaching thread moving. Anchor this part on Mistake 8 - Inconsistent list markers. Why it matters: While most processors render this as one list, some treat different markers as separate lists, creating unexpected spacing and structure. This is the part to say slowly: Fix: Pick one marker and use it consistently. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes."
+    "text": "Keep the teaching thread moving. Anchor this part on Mistake 8 - Inconsistent list markers. Why it matters: While most processors render this as one list, some treat different markers as separate lists, creating unexpected spacing and structure. That gives the learner a foothold: fix: Pick one marker and use it consistently. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes."
   },
   {
     "speaker": "JAMIE",
@@ -1561,11 +1561,11 @@
   },
   {
     "speaker": "ALEX",
-    "text": "The reason this matters is simple: why it matters: Screen reader users cannot access the visual diagram. The listener should be able to check this: They hear nothing or a generic SVG container message."
+    "text": "The reason this matters is simple: why it matters: Screen reader users cannot access the visual diagram. The next useful detail is concrete: They hear nothing or a generic SVG container message."
   },
   {
     "speaker": "ALEX",
-    "text": "Keep the teaching thread moving. Do not treat Mistake 10 - Alert block with wrong type as decoration. Why it matters: CAUTION (red) implies irreversible harm. That is not trivia. A suggestion to try a different approach is, at most, a TIP (green) or a NOTE (blue)."
+    "text": "Keep the teaching thread moving. Do not treat Mistake 10 - Alert block with wrong type as decoration. Why it matters: CAUTION (red) implies irreversible harm. Put another way, a suggestion to try a different approach is, at most, a TIP (green) or a NOTE (blue)."
   },
   {
     "speaker": "PAUSE",
@@ -1577,7 +1577,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "If the interface shifts, 31. Your First Real Markdown Document - Guided Exercise is still useful because in this exercise, you will create a Markdown document that uses most of the elements covered in this guide. For someone navigating by keyboard or screen reader, this detail matters: This is structured as a hands-on exercise that you can do during the workshop."
+    "text": "If the interface shifts, 31. Your First Real Markdown Document - Guided Exercise is still useful because in this exercise, you will create a Markdown document that uses most of the elements covered in this guide. That matters in practice: This is structured as a hands-on exercise that you can do during the workshop."
   },
   {
     "speaker": "JAMIE",
@@ -1597,7 +1597,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "The teaching point here is not the label; it is the move. Type the following, replacing the placeholder text with your own information. That is the difference between guessing and knowing: Use the Preview tab (or Ctrl+Shift+V in VS Code) to verify the heading renders as a large title."
+    "text": "The teaching point here is not the label; it is the move. Type the following, replacing the placeholder text with your own information. The listener should be able to check this: Use the Preview tab (or Ctrl+Shift+V in VS Code) to verify the heading renders as a large title."
   },
   {
     "speaker": "ALEX",
@@ -1653,7 +1653,7 @@
   },
   {
     "speaker": "ALEX",
-    "text": "Keep the teaching thread moving. Anchor this part on You are done when. You just wrote a Markdown document that uses headings, paragraphs, emphasis, inline code, links, blockquotes, tables, task lists, and collapsible sections. This is the part to say slowly: Every one of these skills transfers directly to issues, pull requests, and documentation in this workshop."
+    "text": "Keep the teaching thread moving. Anchor this part on You are done when. You just wrote a Markdown document that uses headings, paragraphs, emphasis, inline code, links, blockquotes, tables, task lists, and collapsible sections. This is where the workflow starts to feel magical, because the result becomes visible and explainable: Every one of these skills transfers directly to issues, pull requests, and documentation in this workshop."
   },
   {
     "speaker": "ALEX",
@@ -1701,11 +1701,27 @@
   },
   {
     "speaker": "JAMIE",
+    "text": "Let's pause on Section-Level Source Map. What should a learner take away from it?"
+  },
+  {
+    "speaker": "ALEX",
+    "text": "The teaching point here is not the label; it is the move. Use this map to verify facts for each major section in this file."
+  },
+  {
+    "speaker": "ALEX",
+    "text": "Here is the part to remember. From First Paragraph to Polished Repository - Everything You Need to Know: GitHub Docs, home, GitHub Changelog, W3C Web Content Accessibility Guidelines (WCAG) 2 overview, WAI tutorials for accessible design patterns, WAI-ARIA Authoring Practices Guide. Part 1 - Markdown Foundations: GitHub Docs, home, GitHub Changelog, W3C Web Content Accessibility Guidelines (WCAG) 2 overview, WAI tutorials for accessible design patterns, WAI-ARIA Authoring Practices Guide. What Is Markdown?: GitHub Docs, home, GitHub Changelog, W3C Web Content Accessibility Guidelines (WCAG) 2 overview, WAI tutorials for accessible design patterns, WAI-ARIA Authoring Practices Guide. Where You Will Use Markdown in This Workshop: GitHub Docs, home, GitHub Changelog, W3C Web Content Accessibility Guidelines (WCAG) 2 overview, WAI tutorials for accessible design patterns, WAI-ARIA Authoring Practices Guide. How to Practice as You Read: GitHub Docs, home, GitHub Changelog, W3C Web Content Accessibility Guidelines (WCAG) 2 overview, WAI tutorials for accessible design patterns, WAI-ARIA Authoring Practices Guide. Paragraphs and Line Breaks: GitHub Docs, home, GitHub Changelog, W3C Web Content Accessibility Guidelines (WCAG) 2 overview, WAI tutorials for accessible design patterns, WAI-ARIA Authoring Practices Guide."
+  },
+  {
+    "speaker": "PAUSE",
+    "text": ""
+  },
+  {
+    "speaker": "JAMIE",
     "text": "What should people carry with them after this?"
   },
   {
     "speaker": "ALEX",
-    "text": "Carry the map. Know what page or tool you are in, know which action you are taking, and know what confirmation should follow. If the confirmation is missing, pause. That pause is not wasted time; it is professional judgment."
+    "text": "Carry the map. Know what page or tool you are in, know which action you are taking, and know what confirmation should follow. If the confirmation is missing, pause. That pause is not wasted time; it is professional judgment, and it is how complex workflows start to feel magical instead of stressful."
   },
   {
     "speaker": "JAMIE",

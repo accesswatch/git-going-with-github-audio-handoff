@@ -1,590 +1,670 @@
-[
-  {
-    "speaker": "ALEX",
-    "text": "Welcome back to Git Going with GitHub. This is episode 9: Labels, Milestones, and Projects. I am Alex, and today we are turning Labels, Milestones, and Projects from a list of instructions into a working mental model."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "And I am Jamie. I will stop us whenever the instructions sound simple on paper but might feel different with a keyboard and screen reader."
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Organizing and tracking work with labels, milestones, and GitHub Projects. That is the surface description. Underneath it, we are building judgment: where to focus, what to ignore, and how to verify the result."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "So we are not using the audio as a shortcut around learning. We are using it to make the learning easier to enter."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Yes. A good audio lesson gives someone enough context to try the work with confidence, even before they open the written material."
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Okay, set the room for us. What are we walking into?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Organizing Work and Cross-Referencing on GitHub: Labels, milestones, and projects are the organizational layer of GitHub. The next useful detail is concrete: They turn a chaotic list of issues into a structured, navigable, prioritized body of work."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "The next layer is this. Here is the learner-facing version. Chapter 9 is a guided triage chapter focused on organization skills. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Here are the anchors worth keeping. There are 1 guided challenge. Automation check: none by default. The evidence is structured issue comment in assigned challenge issue. The pattern is inspect, classify, explain."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "What does the learner do first, second, and then after that?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Chapter 9 Challenge Set has three jobs: name the idea, give the learner a move, and show what counts as evidence."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Walk it in order: Post a triage recommendation - read an issue, recommend labels/milestone/project placement, and explain your reasoning. Each step should leave a trace you can name."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "That feels much more doable when you say it as one move."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Right. The magic is not speed. The magic is knowing what changed and why it matters."
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Turn that into a path someone can follow."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Anchor this part on Challenge 9.1 Step-by-Step: Triage Recommendation Comment. Read the details of a Learning Room issue and post a structured triage recommendation that a maintainer could act on immediately. This is the part to say slowly: Labels and issue states are how we wake up agents."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "For a learner, the useful signals are concrete. What type of work is it? (documentation fix, bug report, accessibility improvement, new content). How urgent does it seem? (blocking other work, nice-to-have, unclear). Which file or area of the repo does it affect?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Think of this as 4 checks: Open the Issues tab in your Learning Room repository; Find any open issue that does not already have labels applied (or pick one your facilitator assigns); Read the issue title and full description carefully. Note; and Open your assigned Chapter 9 challenge issue (the one titled \"Chapter 9.1: Triage Recommendation (@yourname)\"). If one step does not match what you hear, stop there and re-orient."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "What is the ordered workflow?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "The path is straightforward once it is named. Step one is scroll to the comment box and post a triage recommendation using this format. Step two is if you have write access to the repository, apply the recommended labels and milestone directly on the issue you triaged. Step three is activate the Comment button. That is the rhythm: orient, act, verify, continue."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "What makes this practice feel low-stakes but still real?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "The reason this matters is simple: your triage recommendation comment is your evidence. The listener should be able to check this: Close your Chapter 9 challenge issue when done."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "The useful habit is simple: orient, act, verify, then continue. That pause between action and trust is part of the work."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "That matters because of the next idea. Expected Outcomes has three jobs: name the idea, give the learner a move, and show what counts as evidence."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "On the ground, that means a few things. Student can read an issue and recommend appropriate labels, milestone, and project placement. Student understands triage reasoning even without maintainer permissions. Student leaves a clear, reusable triage note that a maintainer could act on immediately."
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "How would you walk the room through that step by step?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "If You Get Stuck has three jobs: name the idea, give the learner a move, and show what counts as evidence."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Start here: Not sure which label to pick? Start with just one: documentation, bug, or accessibility. You can always add more. Then: Milestone is unclear? Write none and explain why - that is a valid triage decision. Next: Project board is unknown? Write Needs Triage - that is the correct default. Last: Not sure what the issue is about? Re-read the title and first paragraph. If still unclear, that itself is useful triage feedback (\"Issue description is unclear - needs more detail\"). The sequence works because every action has a confirmation."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Give me the sequence, because order matters here."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Walk it in order: Ask facilitator to review your one-sentence reason before posting. Keep it that plain: know where you are, make the move, check the result."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "This is where the talk moves from concept to action. Put Learning Moment into plain language. Triage is about clarity, not authority. The useful version is: You do not need maintainer permissions to help organize work."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Now it sounds like a workflow instead of a wall of instructions."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "That is where confidence comes from: not from never getting lost, but from knowing how to recover."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Let's pause on Learning Pattern Used in This Chapter. What should a learner take away from it?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Learning Pattern Used in This Chapter has three jobs: name the idea, give the learner a move, and show what counts as evidence."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Think of this as 4 checks: Inspect an issue carefully before acting (read before you write); Classify work using a consistent vocabulary (labels, milestones); Explain your reasoning in writing (one-sentence justification); and Build triage instincts that transfer to any open source project. Pause after each step and listen for the confirmation before moving on."
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Before the learner moves on. This part earns its place because labels are colored tags applied to issues and pull requests. That gives the learner a foothold: they communicate at a glance what category, priority, or status an item belongs to. That is the difference between following directions and owning the workflow."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "A solid project habit is to treat metadata as decision support. Labels, status, assignees, and notifications tell you what kind of attention the work needs."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Let's pause on Navigating to the Labels Page. What should a learner take away from it?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Navigating to the Labels Page: Go to the Issues tab, then click the Labels link/button (it's in the filter toolbar above the issue list, next to Milestones). The next useful detail is concrete: The Labels page shows every label with its colour, name, and description."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "First, navigate to the Issues tab. Then, press K to find the \"Labels\" link (near the \"Milestones\" link in the toolbar). After that, press Enter. Finally, quick Nav K to find the \"Labels\" link (near the \"Milestones\" link in the toolbar). Each step should leave a trace you can name."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Before we leave Navigating to the Labels Page, what is the practical point?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Start here: VO+Space to activate. If one step does not match what you hear, stop there and re-orient."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Treat examples as spoken recipes, not decorations. You may hear something like List all labels with descriptions; gh label list; List labels in a specific format; gh label list --json name,description. Read the command, understand what it changes, then run it only when the repository state matches the lesson."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Let's pause on Tool Cards: Apply a Label. What should a learner take away from it?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Here is the learner-facing version. github.dev (web editor): Not available -- labels are managed on the issue/PR page, not in the code editor. Put another way, VS Code Desktop (GitHub Pull Requests extension)."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Start here: Open the issue or PR. Then: In the right sidebar, click the gear icon next to Labels. Next: Select labels from the dropdown, then click outside to apply. Last: Open the issue in the GitHub sidebar panel. If one step does not match what you hear, stop there and re-orient."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Before we leave Tool Cards: Apply a Label, what is the practical point?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Walk it in order: Click the label area to add or remove labels; Navigate to the sidebar → press H or 3 to find the \"Labels\" heading; Activate the Labels gear/edit button (B until you hear \"Labels\" button → Enter); and Dropdown opens showing all available labels: use ↑/↓ to navigate. That is the rhythm: orient, act, verify, continue."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Treat examples as spoken recipes, not decorations. You may hear something like gh issue edit 42 --add-label \"accessibility,good first issue\"; gh pr edit 15 --add-label \"documentation\". Add a label to an issue; gh issue edit 42 --add-label \"accessibility\"; Add multiple labels at once; gh issue edit 42 --add-label \"bug,good first issue\"; Remove a label; gh issue edit 42 --remove-label \"needs triage\"; Add a label to a PR; gh pr edit 42. Read the command, understand what it changes, then run it only when the repository state matches the lesson."
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "What should they understand before typing anything?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "This is the move inside Filtering Issues by Label: screen reader users (NVDA / JAWS - Windows). That matters in practice: Option A - Filter bar: Press F → type is:open label:accessibility → Enter."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "These are the pieces that turn the idea into a usable move. Using the filter button: From the Issues list, click the Label dropdown button above the issue list, choose the label(s) you want, then click outside to apply. The active filter shows in the search bar. Using the search bar: Click in the search/filter bar and type label:accessibility (for example) along with any other filters."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Treat examples as spoken recipes, not decorations. You may hear something like List issues with a specific label; gh issue list --label \"accessibility\"; Combine multiple labels; gh issue list --label \"accessibility\" --label \"good first issue\"; Combine with state filter; gh issue list --label \"accessibility\" --state closed; Search across. Read the command, understand what it changes, then run it only when the repository state matches the lesson."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "That is the kind of detail that keeps a screen reader user oriented."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Yes. The named thing - the heading, tab, field, branch, or button - is the handhold."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "A solid issue habit is to read the title, the body, and the timeline before acting. You are listening for the requested action, the missing evidence, and the person who needs a response."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Let's pause on Creating a New Label. What should a learner take away from it?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Anchor this part on Creating a New Label. GitHub CLI (gh) alternative - creating labels. This is the part to say slowly: Accessibility note for color: Labels have color, but they also have a text name and description - the color is supplementary information. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Think of this as 4 checks: Navigate to Issues → Labels page; Tab to \"New label\" button → Enter; Fill in: Label name (F for form field), Color (use the color picker or hex code), Description; and Tab to \"Create label\" button → Enter. That small check between steps is what makes the workflow reliable."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Create a new label; gh label create \"accessibility\" --description \"Accessibility-related issue\" --color \"0075ca\"; Create with a specific color; gh label create \"in progress\" --description \"Being actively worked on\" --color \"e4e669\". Read the command, understand what it changes, then run it only when the repository state matches the lesson."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "What is the one idea that makes the next few steps less mysterious?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Learning Cards: Labels has three jobs: name the idea, give the learner a move, and show what counts as evidence."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "The useful version is not abstract; it sounds like this. On the Issues list, labels are announced alongside each issue title: \"Label: bug\" or \"Labels: accessibility, good first issue\". Press L on an open issue (Focus Mode) to open the label picker directly; type to filter, Down Arrow to navigate, Enter to select. When filtering issues by label, type is:open label:accessibility in the search bar and press Enter; the list updates to show only matching issues. Labels appear as colored rounded rectangles next to issue titles in the list; in Windows High Contrast mode, labels use system border colors with readable text. The Label dropdown from the sidebar gear icon is searchable: type the first few letters of a label name to filter the long list. On the Labels management page (Issues tab, then Labels link), each label row shows its color swatch, name, and description in a table-like layout."
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "ALEX",
-    "text": "The next point gives the learner a handle. Do not treat What Are Milestones? as decoration. Milestones group issues and PRs toward a shared goal or deadline. That is not trivia. Think of a milestone as a sprint, a version release, or an event (like \"Hackathon Day 1 Deliverables\")."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "This is where the lesson becomes something you can check. A title and optional description. An optional due date. A progress bar (percentage of closed issues vs total)."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Let's pause on Navigating to Milestones. What should a learner take away from it?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Navigating to Milestones has three jobs: name the idea, give the learner a move, and show what counts as evidence."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Start here: Press K to find the \"Milestones\" link → Enter. Then: You see a list of milestones, each with its title, progress, and due date. Pause after each step and listen for the confirmation before moving on."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Hold that next to this. Put Reading a milestone into plain language. Each milestone is announced as a heading + progress information. The interface gets easier when it becomes a set of named places instead of a wall of controls."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "That shows up in the workshop in a few specific ways. \"Hackathon Day 1 Deliverables, 3 of 8 issues closed, due April 20\"."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "So the learner is not behind if they stop there and check the page."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Yes. Pausing to verify is not a detour; it is how you keep control of the workflow."
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Let's pause on Opening a Milestone. What should a learner take away from it?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Opening a Milestone has three jobs: name the idea, give the learner a move, and show what counts as evidence."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Think of this as 4 checks: Press 3 to navigate milestone titles (they are h3 links); Press Enter to open a milestone; The milestone detail page shows all issues and PRs belonging to it; and Navigate the list with 3 (issue titles) or I (list items). Each step should leave a trace you can name."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Let's pause on Adding an Issue to a Milestone. What should a learner take away from it?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "This part earns its place because from the open issue, find the Milestone section in the right sidebar and click the gear icon. That gives the learner a foothold: a dropdown lists available milestones - click one to assign it."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "The path is straightforward once it is named. Step one is navigate to the sidebar → \"Milestone\" heading (H or 3). Step two is activate the Milestone gear button. Step three is select a milestone from the dropdown (↑/↓ → Enter). Step four is esc to close. If one step does not match what you hear, stop there and re-orient."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Before we leave Adding an Issue to a Milestone, what is the practical point?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "First, quick Nav H or VO+Cmd+H to find the \"Milestone\" heading in the sidebar. Then, quick Nav B to find and activate the Milestone gear button (VO+Space). After that, select a milestone from the dropdown (VO+Down or arrow keys → VO+Space). That is the rhythm: orient, act, verify, continue."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Assign an issue to a milestone; gh issue edit 42 --milestone \"Hackathon Day 1\"; Remove from a milestone; gh issue edit 42 --milestone \"\"; List issues in a milestone; gh issue list --milestone \"Hackathon Day 1\". gh api repos/{owner}/{repo}/milestones -f title=\"Hackathon Day 1\" -f description=\"Day 1 deliverables\". Read the command, understand what it changes, then run it only when the repository state matches the lesson."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Let's pause on Creating a Milestone. What should a learner take away from it?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Creating a Milestone: Due date field note: The date field may render as a date picker. The next useful detail is concrete: Screen readers handle date pickers inconsistently - typing the date is most reliable across browsers."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "The parts worth keeping in working memory are these. Type the date in YYYY-MM-DD format directly (most reliable). Or use arrow keys to adjust month/day/year if spin buttons are provided. Or press Space or Enter to open a calendar widget (if your screen reader supports it) and arrow through dates."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "First, navigate to Milestones page. Then, tab to \"New milestone\" button → Enter. After that, fill in: Title, Description, Due date (optional). Finally, tab to \"Create milestone\" → Enter. That is the rhythm: orient, act, verify, continue."
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Here is the practical turn. Learning Cards: Milestones has three jobs: name the idea, give the learner a move, and show what counts as evidence."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Here is what that changes in practice. On the Milestones page, each milestone is an H3 heading link; it announces the title, progress (\"3 of 8 issues closed\"), and due date. Press Enter on a milestone heading to open it; the detail page lists all assigned issues, navigable with 3 for titles or I for list items. To assign an issue to a milestone, navigate to the sidebar \"Milestone\" heading (H), activate the gear button, then use Up/Down Arrow to select. Each milestone row shows a progress bar (green fill) and a fraction like \"3 / 8\" next to the title; the bar is visible at any zoom level. The due date appears as grey text to the right of the progress bar; at high zoom it may wrap below the title. The due date field when creating a milestone accepts typed input in YYYY-MM-DD format, which is more reliable than using the date picker at high magnification."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "What would you say to someone who is already bracing for this to be too much?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "This is the move inside Cross-References: cross-references are links between issues, PRs, and commits. That matters in practice: GitHub automatically renders 42 as a link to issue or PR 42."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "That is a useful checkpoint before anyone starts pressing keys."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Exactly. Checkpoints turn uncertainty into information."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Let's pause on Typing a Cross-Reference. What should a learner take away from it?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Anchor this part on Typing a Cross-Reference. Inside any comment or PR description text area (Focus Mode)."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Think of this as 4 checks: Type - a live-search dropdown appears; Continue typing the issue number or title fragment; Use ↓ to navigate the dropdown → Enter to select; and The 42 link is inserted automatically. Keep it that plain: know where you are, make the move, check the result."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Before we leave Typing a Cross-Reference, what is the practical point?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "The path is straightforward once it is named. Step one is type @ followed by a username. Step two is a dropdown of suggestions appears. Step three is ↓ to navigate → Enter to select. Pause after each step and listen for the confirmation before moving on."
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "If I am listening before the workshop starts, what should settle in my mind first?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "The reason this matters is simple: the Closes 42 keyword must appear in. The listener should be able to check this: It does not fire from comments on the PR."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "These are the details that keep the idea from floating away. The PR description (body text). A commit message pushed to the default branch."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Another way to ground it. Learning Cards: Cross-References has three jobs: name the idea, give the learner a move, and show what counts as evidence."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "That becomes easier when you listen for these cues. Type in any comment box (Focus Mode) to trigger a live-search dropdown of issues and PRs; press Down Arrow to navigate, Enter to insert the reference. Type @ followed by a username to trigger user autocomplete; press Down Arrow and Enter to insert the mention. After a PR merges with Closes 42 in the description, navigate to issue 42 and press 3 to find the \"Closed by XX\" cross-reference comment. Cross-reference links ( 42, @username) render as blue clickable text in comments; they are distinct from surrounding text at any zoom level. GitHub adds automatic back-links when you reference an issue or PR; look for them as timeline events (small text between comments) on the referenced item. The Closes 42 keyword in a PR description renders as a clickable link to the issue, with a small icon showing the issue's current state."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Where do you want a learner to place their attention here?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "If the interface shifts, GitHub Projects is still useful because see also: Appendix R: Projects Deep Dive covers advanced project board configuration, custom fields, and automation."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "A solid pull request habit is to separate three questions: what changed, why it changed, and what still needs review. That keeps the conversation useful instead of noisy."
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "ALEX",
-    "text": "This is the part worth saying out loud. Put What Is a GitHub Project? into plain language. GitHub Projects is a built-in project management tool. The useful version is: It can display issues and PRs from across multiple repositories in one view."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "I like that because it gives people permission to slow down."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "That is the goal. We want the page to feel explorable, not fragile."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Let's pause on Finding a Project. What should a learner take away from it?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "The teaching point here is not the label; it is the move. From an organization page or repository."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Think of this as 3 checks: Navigate to the \"Projects\" tab; Press 3 to navigate project titles (they are h3 links); and Enter to open a project. That is the rhythm: orient, act, verify, continue."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Put that beside the next piece. This part earns its place because \"Add keyboard navigation to carousel Status: In Progress Assignee: username Priority: High\". That is the difference between following directions and owning the workflow."
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "What is the safe way to learn from that example?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Navigating a Project - Board View has three jobs: name the idea, give the learner a move, and show what counts as evidence."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Treat examples as spoken recipes, not decorations. You may hear something like Step 1: Switch to Board view using the view selector button; Step 2: Each column (Todo / In Progress / Done) is a region; Step 3: D to navigate between column landmarks; Step 4: Within a column: 3 to navigate card titles, I for list items; Step 5: Enter on a. Read the command, understand what it changes, then run it only when the repository state matches the lesson."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Let's pause on Adding an Issue to a Project. What should a learner take away from it?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Adding an Issue to a Project has three jobs: name the idea, give the learner a move, and show what counts as evidence."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Start here: Navigate to the sidebar \"Projects\" section (H or 3). Then: Activate the Projects gear button. Next: Select the project from the dropdown. Last: Activate \"Add item\" button at the bottom of a column/table. Keep it that plain: know where you are, make the move, check the result."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Before we leave Adding an Issue to a Project, what is the practical point?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Walk it in order: Type to search for existing issues; and Select the issue → it's added to the project. Pause after each step and listen for the confirmation before moving on."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Give me the version that sounds like an instructor, not a manual."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Learning Cards: GitHub Projects has three jobs: name the idea, give the learner a move, and show what counts as evidence."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "A few details make that real. In Table view, press T to jump to the project table, then use Ctrl+Alt+Down Arrow for rows and Ctrl+Alt+Right Arrow for columns (Title, Status, Priority, Assignee). In Board view, press D to navigate between column landmarks (Todo, In Progress, Done), then 3 to jump between card titles within a column. Press Enter on any card or table row to open the issue/PR detail panel without leaving the project view. Board view shows issues as cards in vertical columns (Todo, In Progress, Done); each card displays the title, assignee avatar, and labels. Table view is wider and has more columns; at high zoom, use horizontal scrolling to see columns like Priority and Assignee. The view selector button (Table/Board/Roadmap) is near the top of the project page; it uses icon buttons that have text labels on hover."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "That is the part I would want someone to say out loud while they work."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Exactly. A learner should always know what they are trying to prove before they take the next action."
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "ALEX",
-    "text": "This is where confidence starts to build. Anchor this part on Practical Organization Strategy for the Hackathon. Here is a recommended structure for your Learning Room sandbox project. The durable skill is not memorizing one screen. It is knowing how to find your footing when the screen changes."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Let's pause on Try It: Label and Link. What should a learner take away from it?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "The reason this matters is simple: time: 2 minutes What you need: Browser, signed in to GitHub. The listener should be able to check this: Go to the Learning Room repository and do two things."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "The path is straightforward once it is named. Step one is add a label to an issue - Open any issue (press G then I, then Enter on an issue title). Press L (in Focus Mode) to open the label picker. Type documentation to filter, then press Enter to apply it. Press Esc to close. Step two is use a cross-reference - Leave a comment on that issue mentioning another issue number: Related to 1 (or any issue number you've seen). Press Ctrl+Enter to submit. Each step should leave a trace you can name."
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "What should people carry with them after this?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Carry the map. Know what page or tool you are in, know which action you are taking, and know what confirmation should follow. If the confirmation is missing, pause. That pause is not wasted time; it is professional judgment."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "That is a better way to say it than just follow the steps."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Right. Steps matter, but understanding wins. That is episode 9. Next in the series is episode 10, where we keep building the same contributor muscles."
-  }
+﻿[
+    {
+        "speaker":  "ALEX",
+        "text":  "Welcome back. Today we\u0027re focusing on how GitHub stops being just a pile of issues and pull requests and starts becoming an organized workspace. The big tools are labels, milestones, projects, and cross-references."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "So this is the part where GitHub becomes less of a list and more of a system?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Exactly. These are the organizational layer. They help people categorize work, set priorities, group related items, and connect conversations across issues and pull requests."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And for our learners, especially people using screen readers, that organization matters a lot."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "It really does. Good organization reduces hunting. Instead of opening issue after issue, you can filter, sort, and listen for useful metadata like labels, milestone names, and project status."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "A quick administrative note before we teach the tools. This lesson pairs with the chapter\u0027s audio episode, and there are also related appendices, including a projects deep dive and a glossary. The authoritative references behind this lesson are GitHub Docs on labels, milestones, and projects."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And there\u0027s also a workshop task in this chapter, right?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Yes. This chapter\u0027s workshop recommendation is a guided triage activity. You are asked to read an issue and post a structured triage recommendation that a maintainer could act on immediately."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "So not just, \"I think this is important,\" but a usable recommendation."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Right. The challenge count is one guided challenge. There\u0027s no automation check by default. Your evidence is a structured comment in your assigned challenge issue. And the learning pattern is inspect, classify, explain."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "That pattern sounds simple, but also very real-world."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "It is. In open source, triage is often the difference between chaos and momentum."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Walk us through the actual challenge."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Your goal is to read the details of a Learning Room issue and post a structured triage recommendation. You\u0027re working in your Learning Room repository on GitHub.com. You\u0027ll use your assigned Chapter 9 challenge issue plus one other open issue that you inspect. First, open the Issues tab in your repository. Second, find an open issue that doesn\u0027t already have labels, or use one assigned by a facilitator. Third, read the title and full description carefully."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And what are learners looking for while reading?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "A few things. What type of work is this? Documentation fix, bug report, accessibility improvement, new content, something else? How urgent does it seem? Is it blocking other work, is it nice-to-have, or is the urgency unclear? And what file or area of the repository does it affect?"
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "So before touching labels, you\u0027re forming a mental model."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Exactly. Then you open your assigned challenge issue, the one titled something like Chapter 9.1 with your name, and in the comment box you post a recommendation in a four-part format. You name the issue number. You suggest labels, usually one to three, from examples like documentation, bug, accessibility, enhancement, or good first issue. You suggest a milestone, or say none and give a reason. You suggest a project board column such as To Do, In Progress, or Needs Triage. And then you give a one-sentence reason explaining the choice."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "That\u0027s nicely constrained. It forces clear thinking."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Yes. And if you happen to have write access, you can go beyond recommending and directly apply the labels and milestone on the issue itself. Then activate the Comment button to submit your recommendation."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "There was also an important accessibility tip here."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Yes. If you\u0027re browsing available labels with a screen reader, open the repository\u0027s Labels page using the slash labels path. That page presents label names and descriptions together, which is often easier to review than a compact dropdown."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And when are you done?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "When your triage recommendation comment appears in your assigned challenge issue with all four fields filled in."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "What counts as evidence for completing the chapter?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "That comment is your evidence. After you\u0027re done, close your Chapter 9 challenge issue. If you also applied labels directly, mention that in your comment."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And the expected outcomes?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "You should be able to read an issue and recommend appropriate labels, a milestone, and project placement. You should understand triage reasoning even if you don\u0027t have maintainer permissions. And you should be able to leave a clear note that a maintainer could act on immediately."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Let\u0027s also normalize getting stuck."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Absolutely. If you\u0027re unsure which label to choose, start with one basic label like documentation, bug, or accessibility. If the milestone is unclear, writing none with a reason is valid triage. If you don\u0027t know the project board placement, Needs Triage is the correct default. If the issue itself is unclear, say that. \"Issue description is unclear, needs more detail\" is useful triage feedback. And you can always ask a facilitator to review your one-sentence reason before you post."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "I love the chapter\u0027s core idea here: triage is about clarity, not authority."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Yes. You do not need maintainer permissions to be helpful. A clear recommendation saves maintainers time and speeds collaboration. This is a daily open-source skill."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And for continued learning, there was a GitHub Skills course mentioned."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Right. The Introduction to Repository Management course is a good follow-up for labels, milestones, and contributor settings."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Let\u0027s move into labels. What are they, in plain language?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Labels are colored tags applied to issues and pull requests. They communicate category, priority, or status at a glance."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And from an audio or screen reader perspective?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "When you scan an issue list, labels are announced alongside the issue title. A screen reader might say, \"Label: bug,\" or \"Labels: accessibility, good first issue.\" That makes labels more than visual decoration. They\u0027re spoken metadata."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "What are the standard labels learners will commonly encounter?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "A typical set includes bug for something not working as expected, enhancement for a new feature or improvement, documentation for docs-only work, good first issue for beginner-friendly tasks, help wanted when maintainers want community help, question when more information is needed, invalid when an issue doesn\u0027t meet project criteria, wontfix when the project won\u0027t address it, duplicate when another issue already covers it, accessibility for accessibility-related work, and needs triage for items not yet reviewed by a maintainer."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "That list already teaches a vocabulary for participation."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Exactly. A consistent label vocabulary makes collaboration faster."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "How do you get to the Labels page in a repository?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "From the repository, go to the Issues tab, then find the Labels link or button in the toolbar near Milestones. The Labels page lists every label with its color, name, and description. For Windows screen reader users with NVDA or JAWS, you can navigate to the Issues tab, press K to move through links until you find the Labels link, then press Enter. For VoiceOver on macOS, go to the Issues tab, use Quick Nav K to find the Labels link, and activate it with VO+Space."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And there\u0027s also a terminal option."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Yes. With GitHub CLI, you can list all labels with descriptions using gh label list. If you want structured output, you can use gh label list with JSON fields such as name and description."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "That can be especially helpful if someone prefers terminal output they can pipe, search, or reformat."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Exactly."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Now let\u0027s actually apply labels. How does that work on an issue or PR?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "In the browser on GitHub.com, open the issue or pull request. In the right sidebar, find Labels and activate the gear or edit button. A dropdown opens with available labels. Select one or more labels, then click outside or press Escape. The selections save automatically."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And that same idea applies to pull requests, not just issues?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Yes. Labels can be applied to both."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "What about other tools?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "In github.dev, label management isn\u0027t available in the code editor itself, so you use the issue or PR page. In VS Code Desktop with the GitHub Pull Requests extension, you can open the issue in the GitHub sidebar and use the label area to add or remove labels. In GitHub Desktop, labels aren\u0027t directly supported, so you\u0027d use View on GitHub in the browser."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And on the command line?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "With GitHub CLI, you can edit an issue and add a label, or add multiple labels at once by passing a comma-separated list. You can do the same for a pull request."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Let\u0027s make the accessibility steps concrete."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "For NVDA or JAWS, navigate to the Labels heading in the sidebar, activate the Labels button, use arrow keys in the dropdown, press Enter to select or deselect a label, and type to filter, like typing access to jump toward accessibility. Press Escape to close. For VoiceOver, find the Labels heading, activate the button with VO+Space, navigate the dropdown with VO+Down or arrow keys, select with VO+Space, and use typing to filter."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "So the key actions are open the control, navigate, select, filter if needed, and close."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Exactly."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Let\u0027s name the common tasks explicitly: add a label to an issue, add multiple labels at once, remove a label, and add a label to a PR."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Right. Those are the core operations learners should expect."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Once labels exist, filtering is where they really become useful."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "That\u0027s right. You can filter issues by label to narrow a long list. For example, show only issues with a specific label like accessibility. You can also combine multiple labels to find issues that meet several conditions at once."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Like issues that are both documentation and good first issue?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Exactly. You can also combine label filters with state, such as open issues with a particular label. And you can search across labels more generally when you\u0027re exploring patterns in the repository."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "So labels aren\u0027t just tags. They\u0027re handles for finding work."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Well said."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "What if the label you need doesn\u0027t exist yet?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Then you create a new label, assuming you have permission. On the Labels page, there\u0027s an option to create a label by giving it a name, description, and color. You can create a basic new label, or create one with a specific color to support a consistent visual system."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Does the description matter much?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Yes. The description is especially important for accessibility and clarity. A good label description tells contributors when the label should be used. That\u0027s useful for everyone and especially helpful on the Labels page where screen readers announce both name and description."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Any learning summary for labels?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Yes. Think of labels as reusable categories. Keep them meaningful. Use a stable vocabulary. Apply only what helps. And remember that labels support both quick scanning and powerful filtering."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Next up: milestones. How are milestones different from labels?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "A milestone groups issues and pull requests toward a shared target, often a release, phase, or deadline. Labels answer, \"What kind of work is this?\" Milestones answer, \"What larger goal or time-bound effort is this part of?\""
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "So labels classify, milestones group."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Exactly."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "How do you navigate to milestones?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "From the Issues area of a repository, find the Milestones link near Labels. The milestones page lists available milestones. When you open one, you\u0027re reading a summary of that target: its title, optional description, due date if there is one, and progress based on open and closed items."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "That progress view is helpful. It\u0027s not just a bucket; it\u0027s a tracking tool."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Right. Reading a milestone means noticing what it represents and how much work remains."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "How do you open a milestone from an issue workflow?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "You can go directly from the Milestones page and activate the milestone title. Or from an issue, if a milestone is already assigned, you can follow that reference to inspect the milestone\u0027s details."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And how do you add an issue to a milestone?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Open the issue, go to the right sidebar, find the Milestone control, and assign one. If you\u0027re using GitHub CLI, you can edit the issue and set or change the milestone there as well."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And the chapter specifically expects learners to understand three milestone operations: assign an issue to a milestone, remove it from a milestone, and list issues in a milestone."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Exactly. Assigning places the issue into that tracked target. Removing detaches it if it was misclassified or deprioritized. Listing issues in a milestone lets you review everything contributing to that goal."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "What about creating a milestone?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "If you have permission, go to the Milestones page and create one with a title, description, and optionally a due date. A good milestone name is specific enough to communicate a concrete target, like a release, a sprint, or a hackathon phase."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "What\u0027s the main learning card for milestones?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Use milestones for grouped outcomes, not tiny categories. If labels are descriptive tags, milestones are shared destinations."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Now cross-references. This is one of those GitHub features people use constantly without always naming it."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Very true. A cross-reference is when one GitHub item mentions another in a way GitHub understands and links. Common types include referencing an issue from another issue, referencing an issue from a pull request, and using special closing keywords in a pull request to connect code changes to issues."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Let\u0027s start with the basic typing pattern."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "The most common form is the number reference, like hash 42, inside the same repository. GitHub turns that into a link to issue or pull request number 42. You can also reference items across repositories using owner slash repo, then hash number."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And when you do that, GitHub often creates a visible backlink, right?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Yes. That\u0027s one of the most useful effects. The referenced issue often shows that it was mentioned elsewhere, which helps people trace related work and discussion."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Now the special case: the closes keyword."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Important one. If a pull request description or a merged commit message uses a closing keyword like closes, fixes, or resolves followed by an issue reference, GitHub can automatically close the linked issue when the pull request is merged into the right branch."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "So not when the PR is opened."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Correct. The keyword fires on merge, not merely on mention. That\u0027s crucial. A plain reference links discussion. A closing keyword links discussion plus intended completion."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "That\u0027s a subtle but important distinction."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "It is. And it\u0027s part of writing responsibly on GitHub. If you\u0027re not sure the PR fully solves the issue, use a plain reference rather than a closing keyword."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "What\u0027s the compact learning summary here?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Cross-references connect context. Plain references say, \"these items are related.\" Closing keywords say, \"merging this should complete that issue.\" Use them intentionally."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Let\u0027s talk about GitHub Projects. People sometimes confuse projects with milestones."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "That\u0027s common. A GitHub Project is a broader planning and tracking space. It can include issues, pull requests, and draft items, arranged in views like tables or boards. Projects are useful for workflow management across a repository, or even across multiple repositories."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "So if milestones are targets, projects are like planning dashboards."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Exactly."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "How do you find a project?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "You may find one from a repository, an organization, or a user profile, depending on how it\u0027s set up. Look for a Projects tab or project links associated with the repository or organization."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Once inside a project, what does table view look like conceptually?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Table view presents each item as a row with fields in columns. Those fields might include title, status, assignee, labels, milestone, repository, and other custom properties."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And for screen reader users, what matters per row?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "What is announced per row is usually the item title plus the current values for the visible fields. So you want to understand that each row is not just the issue title; it\u0027s a bundle of metadata. Moving row by row lets you hear status, owner, and category in sequence."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "That\u0027s a great mental model."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "In board view, items are grouped into columns, often by status. Think of columns like To Do, In Progress, and Done or Needs Triage. You move across columns to understand workflow stage, and within a column to review the items at that stage."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "So table view is dense metadata. Board view is stage-oriented."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Precisely."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "How do you add an issue to a project?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "There are a few common ways. From the issue page, use the sidebar control to add the issue to a project. Or within the project itself, add an existing item by selecting the issue. Once added, the project can track fields like status and priority separately from the issue\u0027s own labels and milestone."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "That \"separately\" matters. Projects don\u0027t replace labels and milestones."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Right. They complement them. Labels describe. Milestones group toward goals. Projects manage workflow and planning."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And the learning summary for projects?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Use projects when you need a live workspace for planning, prioritizing, and moving work through stages."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Let\u0027s make this practical. The chapter includes an organization strategy for a hackathon."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Yes. This is where all the pieces come together. For a hackathon or workshop repo, create a small, purposeful set of labels. For example, documentation, bug, accessibility, enhancement, good first issue, and needs triage. You might also include help wanted if community pickup is encouraged."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "So not dozens of labels just because you can."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Exactly. Keep the set teachable and useful."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "What milestone should be created?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "A milestone representing the hackathon target. That might be the event name, a release goal, or a chapter completion target. The key is that all related issues can be grouped under that shared outcome."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And what\u0027s the workflow?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "New issues start in Needs Triage. After review, apply one to three meaningful labels. If the work belongs to the event goal, assign the milestone. Add it to the project and place it in the appropriate column, such as To Do or In Progress. As implementation proceeds, use cross-references to link issues and pull requests. If a pull request truly completes an issue, use a closing keyword so the issue closes on merge."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "That sounds like a clean repeatable process."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "It is. And it\u0027s scalable."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "There\u0027s also a hands-on prompt here: label and link."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Yes. The idea is to practice both organization and connection. Pick an issue, apply or recommend an appropriate label, and create a useful cross-reference to related work. That reinforces that GitHub organization is not just tagging; it\u0027s building navigable context."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Before we wrap, I want to return to one line from earlier about agents waking up when labels or states change."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "That\u0027s an excellent detail. Labels and issue states aren\u0027t only for humans. They\u0027re also signals for automation and agentic workflows. In a future capstone, you might design an agent that activates only when an issue gets a label like needs-review or accessibility-check. So good triage can trigger the right follow-up work automatically."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Which means classification can become action."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Exactly."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Can you give us a final compact comparison of the four tools?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Sure. Labels tell you what kind of work something is. Milestones tell you what larger target it\u0027s part of. Projects tell you where it sits in a workflow or planning system. Cross-references tell you what other conversations or changes it\u0027s connected to."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And the habit behind all of them?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Inspect carefully, classify consistently, explain your reasoning, and leave the repository easier to navigate than you found it."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "That\u0027s a strong open-source habit."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "It is. And one final administrative note: the chapter includes authoritative sources and a section-level source map pointing back to GitHub Docs, the GitHub changelog, and the GitHub Projects, labels, and milestones documentation. Those references are there so you can verify details and keep learning from the primary sources."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "So if you finish this lesson, your next move is simple: open an issue, read it carefully, recommend or apply a label, consider the milestone and project placement, and connect it to related work if needed."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Exactly. Clear triage is real contribution."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    }
 ]

@@ -1,506 +1,626 @@
-[
-  {
-    "speaker": "ALEX",
-    "text": "This is Git Going with GitHub, episode 2: Understanding GitHub on the Web. I am Alex. By the end of this episode, Understanding GitHub on the Web should feel less like a wall of GitHub words and more like a set of moves you can trust."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "And I am Jamie. I am here for the practical questions: what should I listen for, what can go wrong, and what is the next calm move?"
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Today we are working on this: How GitHub organizes its web pages, heading structure, landmarks, and keyboard shortcuts. I want the learner to leave with a mental map, not just a remembered path through buttons."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "So the goal is understanding first, then action, then confirmation."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Right. We are building a rhythm: orient yourself, take one intentional action, then verify what changed before moving on."
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Okay, set the room for us. What are we walking into?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "How GitHub Is Organized, and How to Orient Yourself on Every Page: Read this before navigating GitHub for the first time. The next useful detail is concrete: the lesson is the mental model that makes every subsequent guide easier."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "The next layer is this. Here is the learner-facing version. GitHub is not a single page or a single kind of page. Put another way, it is three nested levels, and understanding which level you are on changes how you navigate. A good GitHub workflow is like a well-run meeting: everyone knows the topic, the next action, and who has the floor."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "What is the one idea that makes the next few steps less mysterious?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "This is the move inside 2. What Is Always on Every GitHub Page: no matter where you navigate on GitHub, the same global navigation bar is at the top of every page. That matters in practice: Understanding its landmark structure means you always have a fixed orientation point."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "That feels much more doable when you say it as one move."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Right. The magic is not speed. The magic is knowing what changed and why it matters."
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Now bring the learner back to the room. Anchor this part on The Global Navigation Bar (always present). Visually, the top bar commonly contains the following controls. This is the part to say slowly: The order and compactness can change with viewport width, account state, and product rollout."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "A solid pull request habit is to separate three questions: what changed, why it changed, and what still needs review. That keeps the conversation useful instead of noisy."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "What would you say to someone who is already bracing for this to be too much?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "The reason this matters is simple: when you are inside a repository, a second navigation bar appears below the global bar. The listener should be able to check this: This contains the repository's tabs: Code, Issues, Pull requests, Actions, Projects, Wiki, Security, Insights, and Settings."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "A solid navigation habit is to prove where you are before activating controls. Headings, landmarks, and the address bar are not trivia; they are your map."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "That matters because of the next idea. Learning Cards: What Is Always on Every GitHub Page has three jobs: name the idea, give the learner a move, and show what counts as evidence."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "On the ground, that means a few things. Press D to cycle landmarks; the first landmark on every page is \"Navigation Menu\" -- this is your fixed anchor point. Press G then N (two keystrokes in sequence) to jump directly to Notifications from any GitHub page. The global search field is reachable with S or /; after searching, results load into the Main landmark -- press D to jump there. The global navigation bar is pinned to the top of every page; at 200%+ zoom it may shrink icons but keeps all items in a single row. The notification bell shows an unread count as a blue dot (or a number badge); zoom in on the top-right corner to see it clearly. Repository tabs below the global bar highlight the active tab with a colored underline; switch to a high-contrast theme if the underline is hard to see."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "The useful habit is simple: orient, act, verify, then continue. That pause between action and trust is part of the work."
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "If I am listening before the workshop starts, what should settle in my mind first?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "If the interface shifts, 3. How to Tell Where You Are is still useful because three signals tell you exactly where you are on GitHub, without needing to see the visual layout."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "This is where the talk moves from concept to action. Put Signal 1: The URL into plain language. GitHub URLs are readable descriptions of your location. The useful version is: Your browser's address bar is always reachable with Alt+D (Windows) or Cmd+L (Mac)."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Now it sounds like a workflow instead of a wall of instructions."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "That is where confidence comes from: not from never getting lost, but from knowing how to recover."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "What stays the same when the tool changes?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "The teaching point here is not the label; it is the move. GitHub formats page titles consistently."
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Before the learner moves on. This part earns its place because press 1 (in Browse Mode) on any GitHub page to jump to the first H1 heading. That gives the learner a foothold: what you hear tells you what type of page you are on. That is the difference between following directions and owning the workflow."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Give me the version that sounds like an instructor, not a manual."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Page Type 1: Repository Home (Code Tab): This is the central hub of any project. The next useful detail is concrete: It is where you find the file tree, the README, branch information, and links to all other parts of the repository."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Now slow down for the part people usually miss. What to expect has three jobs: name the idea, give the learner a move, and show what counts as evidence."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Here is the part that makes the next action easier. H1: owner/repo-name. Repository navigation landmark (Code, Issues, PRs, Actions tabs). A file tree table - navigate with T then Ctrl+Alt+Arrow. A rendered README below the file tree. A sidebar with About, Topics, Releases, Contributors."
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Where do you want a learner to place their attention here?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "This is the move inside Page Type 2: Issues List: a searchable, filterable list of all issues in the repository."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "That is the kind of detail that keeps a screen reader user oriented."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Yes. The named thing - the heading, tab, field, branch, or button - is the handhold."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "A solid issue habit is to read the title, the body, and the timeline before acting. You are listening for the requested action, the missing evidence, and the person who needs a response."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Here is the moment where the page starts to make sense. What to expect has three jobs: name the idea, give the learner a move, and show what counts as evidence."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Listen for the small confirmations in this list. H1: Issues. A search and filter bar at the top. Each issue is a link with: issue title, labels, number, author, comment count. Issue titles are H3 headings - press 3 to jump between them. Landmark: \"Search Results List\"."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Let's pause on Page Type 3: Issue Detail. What should a learner take away from it?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "The reason this matters is simple: the full view of a single issue: the original report, all comments, labels, assignees, and the timeline."
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "ALEX",
-    "text": "The next point gives the learner a handle. What to expect has three jobs: name the idea, give the learner a move, and show what counts as evidence."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "This is where the lesson becomes something you can check. H1: The issue title. H2: \"Description\" (original issue body). H2: \"Activity\" (comments and events). Landmark: \"Add a comment\" (the reply box at the bottom). Sidebar: assignees, labels, milestone, linked PRs."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Let's pause on Page Type 4: Pull Request Detail. What should a learner take away from it?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "If the interface shifts, Page Type 4: Pull Request Detail is still useful because the most complex page on GitHub - it has three tabs (Conversation, Commits, Files Changed), each with its own structure."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Hold that next to this. What to expect has three jobs: name the idea, give the learner a move, and show what counts as evidence."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Here are the anchors worth keeping. H1: The PR title. Landmark: \"Pull request tabs\" (Conversation, Commits, Files changed). Conversation tab: same structure as an issue detail. Files Changed tab: a file tree on the left + diff view on the right. Landmark: \"Pull request navigation tabs\" - use D to reach it, then Left/Right Arrow to switch tabs."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "So the learner is not behind if they stop there and check the page."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Yes. Pausing to verify is not a detour; it is how you keep control of the workflow."
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Let's pause on Page Type 5: Your Personal Feed and Profile. What should a learner take away from it?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "The teaching point here is not the label; it is the move. Your personal home (github.com) shows activity from repositories you follow. That is the difference between guessing and knowing: Your profile (github.com/username) shows your contribution graph, pinned repos, and bio."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "That connects to another useful point. What to expect on your feed has three jobs: name the idea, give the learner a move, and show what counts as evidence."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "For a learner, the useful signals are concrete. A \"For you\" activity stream - recent activity from repos you watch. A sidebar of suggested repositories and topics."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Let's pause on What to expect on your profile. What should a learner take away from it?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "What to expect on your profile has three jobs: name the idea, give the learner a move, and show what counts as evidence."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "The parts worth keeping in working memory are these. H1: Your username. A contribution activity graph (visually prominent; read as a table by screen readers). Pinned repositories. A list of your recent public activity."
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Here is the practical turn. Learning Cards: The Five Key Page Types has three jobs: name the idea, give the learner a move, and show what counts as evidence."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Here is what that changes in practice. On the Repository Home page, press T to jump to the file table, then Ctrl+Alt+Down Arrow to walk through files row by row. On an Issue Detail page, press 3 to jump between H3 comment headers; each announces the author and timestamp. On the PR Files Changed tab, press 3 to jump between file name headings; press 4 to jump between diff hunk headers inside each file. On the Repository Home page, the file tree uses alternating row shading; enable a high-contrast theme if rows blend together. Issue labels appear as small colored badges next to each title in the Issues list; zoom to 150%+ so the label text is readable. On the PR Files Changed tab, additions are shaded green and deletions are shaded red; high-contrast themes use bolder shading."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Let's pause on 5. Visual Map of a Repository Page. What should a learner take away from it?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "This is the move inside 5. Visual Map of a Repository Page: see also: Appendix A: Glossary defines every term used in this course. That matters in practice: Appendix B: Screen Reader Cheat Sheet has quick-reference keyboard shortcuts for navigating headings and landmarks."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "That is a useful checkpoint before anyone starts pressing keys."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Exactly. Checkpoints turn uncertainty into information."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Keep the thread going. Anchor this part on Description. A repository home page is laid out from top to bottom as follows. This is the part to say slowly: The Global Navigation bar (landmark: \"Navigation Menu\") contains the GitHub logo, Search, Copilot, Pull Requests, Issues, Notifications bell, and your avatar."
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Let's pause on Screen reader navigation of this page. What should a learner take away from it?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "The reason this matters is simple: press 1 to hear \"owner/repo-name\" (the H1, confirms you are on the right repo). The listener should be able to check this: Press D to hear \"Navigation Menu,\" then D again for \"Repository navigation,\" then D again for \"Main\" (the file tree area)."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Give me the sequence, because order matters here."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Do not treat 6. Screen Reader Orientation Sequence as decoration. Do this every time you land on a new GitHub page. That is not trivia. It takes about 10 seconds once you are practiced. The workshop is closer to rehearsal than lecture. You hear the move, try the move, and then check what changed."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "That becomes easier when you listen for these cues. What page you are on (step 1). Where the page regions are (step 2). What content is available and how it is organized (step 3)."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "First, browser tab title - tells you the page type and repo context. Then, global nav bar (top strip) - GitHub logo, search box, bells/icons. After that, repo tabs (below global nav, visible only inside a repo) - Code, Issues, Pull Requests, etc. Finally, h1 heading - tells you exactly what page you're on (repo name / \"Issues\" / issue title / PR title). The point is not speed; the point is never losing your place."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "How would you walk the room through that step by step?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Start here: Main content area - file tree, issue list, PR diff, etc. Each step should leave a trace you can name."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Let's pause on Learning Cards: Screen Reader Orientation Sequence. What should a learner take away from it?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Learning Cards: Screen Reader Orientation Sequence has three jobs: name the idea, give the learner a move, and show what counts as evidence."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "If someone is taking notes, this is the short list. Make the three-step sequence automatic: 1 (hear H1), D D D (hear landmarks), NVDA+F7 or Insert+F3 (see headings list). VoiceOver users: VO+U then arrow to \"Landmarks\" replaces the D key; VO+U then arrow to \"Headings\" replaces NVDA+F7. If pressing 1 reads something unexpected, you may be inside a modal or dialog; press Escape first, then try 1 again. Use the browser tab title as a quick orientation check without scrolling; it always shows the page type and repository context. Press Alt+D (Windows) or Cmd+L (macOS) to jump to the address bar and read the URL for exact location context. When disoriented, press Home to scroll to the top of the page where the repository name and tabs are always visible."
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "ALEX",
-    "text": "This is the part worth saying out loud. Put 7. Landmark Structure by Page Type into plain language. Each GitHub page type has a consistent landmark pattern. The useful version is: Knowing the pattern means you can skip steps 2 and 3 above for familiar pages."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "I like that because it gives people permission to slow down."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "That is the goal. We want the page to feel explorable, not fragile."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Let's pause on 8. GitHub's Heading Hierarchy in Practice. What should a learner take away from it?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "The teaching point here is not the label; it is the move. GitHub uses a predictable heading structure. That is the difference between guessing and knowing: Learning this pattern means you can navigate any page by heading level alone."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Put that beside the next piece. This part earns its place because why this matters: Pressing 3 on a PR Files Changed tab jumps between file headings - this is how you quickly navigate to a specific file without tabbing through the entire diff. That is the difference between following directions and owning the workflow."
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Let's pause on Learning Cards: GitHub's Heading Hierarchy. What should a learner take away from it?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Learning Cards: GitHub's Heading Hierarchy has three jobs: name the idea, give the learner a move, and show what counts as evidence."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "The useful version is not abstract; it sounds like this. Press 1 for H1 (page identity), 2 for H2 (major sections), 3 for H3 (individual items like comments, files, or issues). On the PR Files Changed tab, 3 jumps between file headings and 4 jumps between diff hunks within each file. Open the heading list (NVDA+F7 or Insert+F3) and use it as a table of contents to jump directly to any section. H1 headings on GitHub are displayed in large bold text near the top center of the page; H2 headings use slightly smaller bold text with a horizontal rule above them. Issue comments (H3) each have a header bar with the author's avatar, name, and timestamp; zoom in on this bar to orient yourself in long discussions. On the Files Changed tab, each file heading (H3) shows the file path in monospace text with a green/red summary of lines added/removed."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Now shift from knowing the term to using it. Here is the learner-facing version. GitHub is a responsive web application. Put another way, the layout shifts at different screen widths, and this affects what landmarks and headings you encounter."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "What is the common workflow underneath the different interfaces?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "At full desktop width (1200px+) has three jobs: name the idea, give the learner a move, and show what counts as evidence."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "A few details make that real. File tree and sidebar are visible alongside the main content. The full repository tab bar is visible. All landmark regions described above are present."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "That is the part I would want someone to say out loud while they work."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Exactly. A learner should always know what they are trying to prove before they take the next action."
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "ALEX",
-    "text": "This is where confidence starts to build. At tablet width (768-1199px) has three jobs: name the idea, give the learner a move, and show what counts as evidence."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "That shows up in the workshop in a few specific ways. Sidebar may collapse or move below the main content. Some navigation items may move into a \"More\" dropdown. Landmark structure remains the same - only visual position changes."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Let's pause on At mobile width (below 768px). What should a learner take away from it?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "The reason this matters is simple: consistent experience recommendation: Use your browser maximized or at full desktop width during this workshop. The listener should be able to check this: GitHub's landmark and heading structure is most consistent at desktop width."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "The room should hear these as checkpoints. Global navigation collapses to a hamburger-style menu. Tabs may scroll horizontally or collapse. The landmark structure is the same but the \"Navigation Menu\" landmark becomes a toggle."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "What does the learner do first, second, and then after that?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Do not treat 10. The Mental Model - Building Your Internal Map as decoration. After your first day of using GitHub, you will have an internal map. That is not trivia. Here is what that map should look like."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "First, press 1 - hear the H1 - know what floor you are on. Then, press D - hear the landmarks - know what rooms are available. After that, press NVDA+F7 - see the full outline - know what's in the room. If one step does not match what you hear, stop there and re-orient."
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Let's pause on Learning Cards: Building Your Internal Map. What should a learner take away from it?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Learning Cards: Building Your Internal Map has three jobs: name the idea, give the learner a move, and show what counts as evidence."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "These are the details that keep the idea from floating away. Memorize the elevator shortcuts: G I (Issues), G P (Pull Requests), G C (Code), G A (Actions); press? on any page to see the full list. The \"Add a comment\" landmark is always at the bottom of Issue and PR Conversation pages; press D repeatedly until you hear it to jump directly to the reply box. If a page feels unfamiliar, fall back to the three-step sequence: 1, D, NVDA+F7 and you will re-orient within seconds. Think of GitHub like a building: the top bar (lobby) never changes, the tabs below it (floor selector) change per repo, and the main area (room) changes per page. When disoriented at high zoom, press Home to return to the top of the page where the navigation bar and repo tabs are always visible. The comment box (\"mailbox\") at the bottom of issue and PR pages has a distinct white input area with a green \"Comment\" button on its right."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Turn that into a path someone can follow."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Put Try It: The 60-Second Orientation into plain language. Time: 1 minute What you need: A browser with your screen reader running. The useful version is: Open any GitHub repository - try github.com/community-access/accessibility-agents - and prove to yourself that the mental model works. The interface gets easier when it becomes a set of named places instead of a wall of controls."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Walk it in order: Press 1 - your screen reader announces the repo name. You know where you are; Press D - you hear the first landmark. Press D again to hear the next one. You now know the rooms on this floor; Press 2 - you jump to the first section heading. Press 2 again to scan the page structure; and Press H three times - you're moving through headings at any level. You're reading the outline. That small check between steps is what makes the workflow reliable."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "So this is less about memorizing and more about noticing."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Right. Once the learner can name the move, the interface becomes much less intimidating."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "Where does the workshop stop being a tour and start becoming contribution?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "The teaching point here is not the label; it is the move. Once you have this mental model solid, the Accessibility Agents make more sense. That is the difference between guessing and knowing: The @daily-briefing agent reads your GitHub notifications and presents a structured report - but the report structure mirrors the landmark structure of GitHub itself: global activity, then per-repo activity, then per-issue and per-PR detail."
-  },
-  {
-    "speaker": "PAUSE",
-    "text": ""
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "What should people carry with them after this?"
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Carry the map. Know what page or tool you are in, know which action you are taking, and know what confirmation should follow. If the confirmation is missing, pause. That pause is not wasted time; it is professional judgment."
-  },
-  {
-    "speaker": "JAMIE",
-    "text": "That is a better way to say it than just follow the steps."
-  },
-  {
-    "speaker": "ALEX",
-    "text": "Right. Steps matter, but understanding wins. That is episode 2. Next in the series is episode 3, where we keep building the same contributor muscles."
-  }
+﻿[
+    {
+        "speaker":  "ALEX",
+        "text":  "Welcome back. Before we do deeper GitHub work, we need a mental map. If GitHub has ever felt like a maze of tabs, sidebars, and pages that all blur together, this lesson is here to fix that."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And this is especially important for learners using screen readers, magnification, zoom, high contrast themes, or just anyone who wants a reliable way to know, where am I, and what kind of page is this?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Exactly. And one quick administrative note before we begin: this lesson pairs with an audio episode and with two appendices, a glossary and a screen reader cheat sheet. It also points learners to GitHub\u0027s own docs and GitHub accessibility documentation as the authoritative references."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "So this is not just theory. It\u0027s the orientation system for everything that comes next."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Yes. Read or listen to this before navigating GitHub for the first time, because once you understand page structure, landmarks, headings, and URL patterns, you can orient yourself on pages this course never explicitly teaches."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And there was also a course-planning note here, right?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Right. The chapter connects directly to a challenge called Find Your Way Around, which uses ideas from this lesson plus the next repository navigation lessons. And there\u0027s a capstone connection too: when you later build AI agents, those agents work through GitHub objects like issues, pull requests, and labels. So learning the manual workflow now is also learning how to collaborate with automation later."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Let\u0027s start with the big picture. GitHub is not one page. It\u0027s three nested levels."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "I love that already, because many beginners think GitHub is just, quote, the repo page."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Yes, but the repo is only one level. Level one is your own account area: your profile, settings, notifications. Think URLs like github dot com slash your username, or slash settings, or slash notifications."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "So that\u0027s personal space."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Exactly. Level two is an organization or another user\u0027s space. That might be github dot com slash microsoft, or slash community-access, or slash github. That\u0027s the public home area for a person or organization."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And level three is the repository."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "The place where most actual project work happens. Code, issues, pull requests, actions, discussions around changes. A URL like github dot com slash owner slash repo. Or that same path plus slash issues, or slash pull slash 42."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "So when someone says, go to the repo, they mean level three."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Almost always. And here\u0027s a very useful orientation tip for screen reader users: jump to the first level-one heading. On a repository page, the H1 is usually owner slash repo name. On a profile page, it\u0027s the username. On a settings page, it\u0027s the settings category. The first heading tells you the level."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Now let\u0027s talk about what stays consistent, because that\u0027s calming."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Yes. No matter where you are on GitHub, there is a global navigation bar at the top. It is your fixed anchor point."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Even if the visual layout shifts around?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Yes, and that\u0027s an important teaching principle in this chapter: don\u0027t over-trust position words like top-right, left side, first, below. GitHub changes layout density, feature rollout, and wrapping over time, and the page can look different depending on screen width or account state."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "So instead of saying, click the thing in the top-right, we should anchor to stable identifiers."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Exactly. Use URL pattern, page title, H1 heading, landmark name, tab name, keyboard shortcut, command name, or exact button text. Those are much more dependable."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "What\u0027s in the global navigation area?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Commonly: the GitHub logo or home link, global search, a Copilot entry point, links to pull requests and issues across GitHub, notifications, and the profile avatar menu."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And for a screen reader user, the key point is not just what the controls are, but where they live."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Right. They live in the landmark labeled Navigation Menu. If you press D to cycle landmarks, you\u0027ll hear Navigation Menu. Once you\u0027re there, K moves through links inside that landmark."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And those links are just regular links, not special controls that require forms mode or focus mode."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Correct. That\u0027s explicitly called out. In browse mode, press Enter on the links and they work."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Can we give the shortcut highlights too?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Definitely. Search is often reachable with S or slash. Notifications can be reached with G then N. And if you\u0027re moving by landmarks and links, D to Navigation Menu, then K through the available links is a reliable pattern."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "What changes once you\u0027re inside a repository?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "You get a second navigation bar below the global one: repository navigation. That\u0027s where tabs like Code, Issues, Pull requests, Actions, Projects, Wiki, Security, Insights, and Settings appear."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And that landmark has a name too."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Yes: Repository navigation. So on repo pages, you often have two crucial navigation landmarks to recognize: Navigation Menu for GitHub-wide controls, and Repository navigation for this specific project."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "The learning cards in this section also addressed different users."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "They did. For screen reader users: Navigation Menu is the fixed anchor on every page, G then N jumps to notifications, and search results load into Main after using search. For low vision users: the top navigation stays pinned, the notification bell may show an unread dot or badge, and repository tabs show the active tab with a colored underline, which may be easier to perceive in a high contrast theme. For sighted users: remember the visual pattern of a global top bar and then repository tabs below it."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Okay, if I\u0027m dropped onto some random GitHub page, how do I tell where I am without guessing?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Use three signals: the URL, the browser tab title, and the first H1 heading."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Let\u0027s do the URL first."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "GitHub URLs are wonderfully descriptive. Plain github dot com is your home or personal feed. Github dot com slash username is a user profile. Github dot com slash org is an organization profile. Github dot com slash owner slash repo is the repository home, usually the Code tab."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And then adding path pieces tells the story."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Exactly. Slash issues means the issues list. Slash issues slash 42 means issue number 42. Slash pull slash 7 means pull request 7. Slash tree slash main slash docs means a folder view. Slash blob slash main slash README dot md means a file view. Slash commit slash some hash means a commit page. Slash settings slash accessibility is your accessibility settings. Slash notifications is your notifications inbox."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And if someone uses a screen reader and wants to verify that quickly?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Go to the browser address bar. Alt+D on Windows or Command+L on Mac. Listen to the URL. That alone often tells you where you are."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Second signal: browser tab title."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "GitHub titles are also patterned. Repository home might be owner slash repo, then a short description, then GitHub. Issues list is Issues dot owner slash repo. A specific issue includes the issue title, then Issue number, then owner slash repo. A pull request includes the PR title, then Pull Request number, then owner slash repo. Notifications says Notifications dash GitHub. Settings pages often say category dash Settings."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And the third signal is the first H1."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Yes. In browse mode, press 1 to jump to the first H1. If you hear owner slash repo, you\u0027re on repository home. If you hear Issues, you\u0027re on the issues list. If you hear an issue title, you\u0027re on an issue detail page. If you hear a PR title, you\u0027re on a pull request page. If you hear your username, you\u0027re on your profile. If you hear a settings category, you\u0027re in settings."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "That is a very teachable routine: URL, title, H1."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Exactly. Three independent signals. If all three agree, you can trust your orientation."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Now we get into the page types people actually use all the time."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Yes. The lesson identifies five key page types. If you can recognize these, GitHub becomes much less mysterious."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Page type one: repository home on the Code tab."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "This is the central hub of a project. Expect the H1 to be owner slash repo-name. Expect the Repository navigation tabs. Expect a file tree, usually presented as a table. Screen reader users may navigate to the next table and then use table navigation commands such as Control+Alt with arrow keys, depending on screen reader and browser. Below the file tree, you\u0027ll often find the rendered README."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And usually some sidebar information too."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Right. Commonly an About panel, metadata, release or package info, and project-related side content. The exact arrangement can vary by viewport, but the concepts stay the same: project identity, tabs, file list, README, related metadata."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Page type two is the issues list."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "The issues list is not one issue. It\u0027s the catalog of issues for a repository. Expect the H1 to be Issues. Expect filters and search controls. Expect a list or table-like collection of issue rows, often showing issue title, issue number, labels, author, and update metadata."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "So this page answers, what open or closed issues exist in this repo?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Exactly. It\u0027s the scanning page."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Page type three is issue detail."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Now you\u0027re inside one specific issue. The H1 is the issue title. Nearby you\u0027ll usually find the issue number and state, such as open or closed. The main content area typically contains the original issue description and a threaded timeline of comments and events."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And then a sidebar with metadata."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Yes. Things like assignees, labels, projects, milestones, participants, or linked development information. The key idea is that issue detail is a conversation page around one tracked piece of work."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Page type four is pull request detail."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Another conversation page, but specifically about proposed code changes. The H1 is the pull request title. You\u0027ll encounter tabs like Conversation, Commits, Checks, and Files changed. The Conversation tab looks somewhat like an issue thread, but it includes review events, approval states, requested changes, CI checks, merge status, and code-related discussion."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And the Files Changed tab is a distinct mode."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Very much so. That\u0027s where you inspect diffs. It has its own structure and is often denser, especially for screen reader users."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Then page type five combines your personal feed and your profile."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Right. Your feed, at github dot com, is your activity hub: updates from repositories and people you follow, recent work, notifications of interest, suggested activity. Your profile, at github dot com slash your username, is your identity page: your name or username, bio, pinned repositories, contribution activity, repositories tab, and public-facing account information."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "So feed is what is happening around you, and profile is who you are on GitHub."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "That\u0027s a nice concise distinction."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Were there learning card takeaways for this whole section?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Yes: train yourself to classify a page quickly. Is it a repo home, issues list, issue detail, PR detail, feed, or profile? Once you know the type, you can predict landmarks, headings, controls, and what task is possible there."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Let\u0027s build a more concrete mental image of a repository page."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Picture a repository home page as layers. First, the global Navigation Menu at the top. Then the Repository navigation bar with tabs like Code and Issues. Then the main content area with repository identity and controls. After that, the file tree listing folders and files. Then the rendered README below. And often alongside or after the main stream, a sidebar with About and other metadata."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "So for a sighted learner, this is a visual stack. For a screen reader user, it becomes a landmark and heading sequence."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Exactly. And the lesson explicitly includes screen reader navigation of this type of page. A practical pattern is: jump by landmarks first, confirm the H1, move to Repository navigation if you need tabs, move into Main, then use headings, tables, and links to inspect the file list and README."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "So don\u0027t just arrow from the top of the page and hope."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Right. Use structure intentionally."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "That leads perfectly into the screen reader orientation sequence."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Yes. This is one of the most important practical parts of the lesson. When you land on a GitHub page, use a consistent sequence."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Walk us through it."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Step one: identify the page using URL, tab title, or H1. Step two: jump through landmarks with D so you know the major regions available. Step three: listen for Navigation Menu and, if you\u0027re inside a repository, Repository navigation. Step four: jump to the H1 with 1 and confirm the page type. Step five: move into Main and use headings, links, buttons, tables, and lists based on the page\u0027s purpose."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "So instead of, where do I start, you always start with the same ritual."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Exactly. That\u0027s the point of the learning cards here: orientation should become procedural. Land on page. Check URL. Check title. Check H1. Scan landmarks. Then act."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "That kind of repeatable routine lowers cognitive load."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "A lot."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Now let\u0027s get even more specific: landmark structure by page type."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Right. Different GitHub pages share some landmarks, but each page type tends to have a recognizable pattern."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Start with repository home."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Repository home often includes the Navigation Menu landmark first, then Repository navigation, then Main. Within Main, you may encounter search or filtering controls, a table for the file tree, regions related to README content, and complementary or aside-style information depending on browser and accessibility tree exposure."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Issues list page?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Again, Navigation Menu, then Repository navigation, then Main. Inside Main, expect filtering controls, issue list content, and possibly pagination or additional controls."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Issue detail?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Navigation Menu, Repository navigation, Main. But Main now contains a page heading for the issue title, the issue metadata, the conversation timeline, comment composer, and sidebar metadata such as labels or assignees."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Pull request conversation tab?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Similar to issue detail in landmark flow, but Main includes pull request status information, branch and merge context, review conversation, checks, and related controls."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And Files Changed?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Still under the same broader shell, but Main becomes diff-centric. Expect file-by-file changed sections, controls for viewing or filtering diffs, and a much more granular navigation experience. This is where headings and quick navigation between file sections become especially helpful."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "So the lesson isn\u0027t promising that landmarks are identical forever, but it is teaching a durable expectation pattern."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Exactly. The stable lesson is the order of orientation: global shell, repo shell if applicable, then page-specific main content."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Let\u0027s pair that with heading hierarchy, because landmarks get you to regions, but headings tell you the internal outline."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Well said. On repository home, the H1 is owner slash repo. Lower-level headings may introduce content sections like README areas, releases, or side panels, depending on page structure."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "On the issues list, the H1 is simply Issues."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Yes, and subheadings may group content or support filtering and list organization."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "On issue detail, the H1 is the issue title."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Then lower headings can identify conversation blocks, side sections, or related metadata areas."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "For pull request detail on the Conversation tab, the H1 is the PR title."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "And below that, headings may separate status, timeline content, reviews, checks summaries, and related sections."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "While on Files Changed, the heading structure often helps you hop between changed files."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Exactly. Files Changed tends to reward heading navigation because each file section can act like a chunk you want to inspect independently."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "So the learning card takeaway is to not just use heading navigation randomly. Use it with a prediction based on page type."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Yes. Know what H1 should be, then use the rest of the heading tree as your internal map of the page."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Now let\u0027s talk about viewport, because GitHub can feel like a moving target when you zoom or shrink the browser."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "And that\u0027s normal. At full desktop width, roughly twelve hundred pixels and up, GitHub often presents side-by-side layouts. Sidebars are more likely to stay alongside main content. Navigation elements may all appear expanded."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "At tablet widths?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Roughly seven hundred sixty-eight to just under twelve hundred pixels, elements may wrap. Sidebars may shift lower. Controls may compress. The same information is still present, but not necessarily in the same visual arrangement."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And on mobile widths below that?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Layouts become more stacked and condensed. Menus may collapse. Side content often moves below main content. Some control labels may shorten or become icon-triggered. This matters for both mobile devices and desktop users who zoom heavily."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "So again, don\u0027t anchor too strongly to spatial instructions."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Exactly. This is why the chapter insists on durable cues: names, landmarks, headings, URLs, buttons, tabs, and shortcuts. Those survive viewport shifts better than screen position descriptions."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Now for the mental model itself. If you wanted a learner to carry one internal picture away from this lesson, what is it?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "I would say this: every GitHub page is a shell plus a page type. The shell is the global navigation, and sometimes repository navigation. The page type is the specific work surface: repo home, issues list, issue detail, PR detail, profile, feed, and so on."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "So first identify the shell, then identify the page type."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Yes. Then predict what should be there. On repo home, expect files and README. On issues list, expect filters and issue rows. On issue detail, expect a conversation thread plus metadata. On PR detail, expect review and changed files. On feed, expect activity. On profile, identity and repositories."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "That predictive ability is what makes a site stop feeling random."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Exactly. The learning cards call this building your internal map. You\u0027re not memorizing every page. You\u0027re learning how to infer structure from a few reliable signals."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "The lesson also includes a practice activity: the 60-second orientation."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Yes. Here\u0027s the exercise. Open any GitHub page and give yourself one minute. First, identify the URL pattern. Second, listen to or inspect the browser tab title. Third, jump to the H1. Fourth, cycle landmarks. Fifth, state out loud what page type you\u0027re on and what you expect to find next."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "That\u0027s a great habit."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "It is. You can do it on a repository home, an issues list, an issue detail page, a pull request, your notifications, or your profile. The goal is not speed for its own sake. The goal is certainty."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And if someone gets stuck?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Return to the three signals. Check the URL. Check the tab title. Check the first H1. Then jump by landmarks. If needed, go back to a simpler known page like the repository Code tab or your notifications page. Use the glossary. Use the screen reader cheat sheet. And when GitHub\u0027s layout feels different than expected, trust labels and landmark names more than visual position."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "That\u0027s such an important accessibility reminder: the page may have changed shape, but it usually hasn\u0027t changed identity."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Beautifully put."
+    },
+    {
+        "speaker":  "PAUSE",
+        "text":  ""
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "There was also a short Day 2 amplifier in the chapter."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Yes. The idea is that this orientation skill becomes even more powerful the next day when you start working with automation and AI agents. Agents operate through the same objects you now understand: issues, pull requests, labels, repository pages. So a solid mental model of GitHub\u0027s structure is foundational, not optional."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "Before we close, can you give a compact recap?"
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Sure. GitHub has three levels: personal account, organization or user space, and repository. Every page has a global Navigation Menu. Repository pages also have Repository navigation. You can orient using URL, browser tab title, and the first H1. Learn the five key page types: repository home, issues list, issue detail, pull request detail, and your feed or profile. Use landmarks first, then headings. Expect layouts to change across desktop, tablet, mobile, and high zoom. Build an internal map so you can predict what belongs on each page."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "And if you\u0027re using a screen reader, make your routine automatic: address bar if needed, 1 for H1, D for landmarks, K for links within navigation, and stable labels over visual guesswork."
+    },
+    {
+        "speaker":  "ALEX",
+        "text":  "Exactly. Once you stop treating GitHub as a giant undifferentiated website and start recognizing its page types and structure, it becomes teachable, navigable, and much less stressful."
+    },
+    {
+        "speaker":  "JAMIE",
+        "text":  "That\u0027s the goal. We\u0027ll build on that from here."
+    }
 ]

@@ -1,62 +1,46 @@
-{
-  "version": 1,
-  "slug": "ep04-the-learning-room",
-  "chapters": [
+﻿[
     {
-      "title": "The Learning Room: Overview",
-      "startSegmentIndex": 0
+        "title":  "ep04-the-learning-room: Overview",
+        "startSegmentIndex":  0
     },
     {
-      "title": "What Is the Learning Room?",
-      "startSegmentIndex": 7
+        "title":  "Section 2",
+        "startSegmentIndex":  13
     },
     {
-      "title": "Why a Per-Student Repo?",
-      "startSegmentIndex": 9
+        "title":  "Section 3",
+        "startSegmentIndex":  26
     },
     {
-      "title": "Step-by-Step: Accept Your Classroom Assignment and Open Your.",
-      "startSegmentIndex": 11
+        "title":  "Section 4",
+        "startSegmentIndex":  40
     },
     {
-      "title": "Two Tracks That Reinforce Each Other",
-      "startSegmentIndex": 43
+        "title":  "Section 5",
+        "startSegmentIndex":  51
     },
     {
-      "title": "Your Learning Room Folder Structure",
-      "startSegmentIndex": 58
+        "title":  "Section 6",
+        "startSegmentIndex":  62
     },
     {
-      "title": "Your Practice Branch",
-      "startSegmentIndex": 61
+        "title":  "Section 7",
+        "startSegmentIndex":  79
     },
     {
-      "title": "The Practice Files: What You Will Work On",
-      "startSegmentIndex": 82
+        "title":  "Section 8",
+        "startSegmentIndex":  98
     },
     {
-      "title": "The Learning Automation System",
-      "startSegmentIndex": 152
+        "title":  "Section 9",
+        "startSegmentIndex":  110
     },
     {
-      "title": "Study Groups (Optional)",
-      "startSegmentIndex": 162
+        "title":  "Section 10",
+        "startSegmentIndex":  129
     },
     {
-      "title": "Key Differences: Skills Module vs. Your Learning Room",
-      "startSegmentIndex": 166
-    },
-    {
-      "title": "Tips for Reviewing a Peer's PR",
-      "startSegmentIndex": 169
-    },
-    {
-      "title": "Celebration: You're Contributing",
-      "startSegmentIndex": 210
-    },
-    {
-      "title": "The Learning Room: Wrap-Up",
-      "startSegmentIndex": 213
+        "title":  "Section 11",
+        "startSegmentIndex":  150
     }
-  ]
-}
+]

@@ -3,60 +3,52 @@
   "slug": "ep50-advanced-git-operations",
   "chapters": [
     {
-      "title": "Advanced Git Operations: Overview",
+      "title": "Advanced Git overview and accessible use of the reference",
       "startSegmentIndex": 0
     },
     {
-      "title": "Going Deeper with Git",
-      "startSegmentIndex": 7
+      "title": "Cherry-pick and conflict handling",
+      "startSegmentIndex": 12
     },
     {
-      "title": "1. Cherry-Pick -- Grabbing a Specific Commit",
-      "startSegmentIndex": 11
+      "title": "Interactive rebase for cleaning history",
+      "startSegmentIndex": 33
     },
     {
-      "title": "2. Interactive Rebase -- Cleaning Up Your History",
-      "startSegmentIndex": 41
+      "title": "Reset modes and unstaging",
+      "startSegmentIndex": 52
     },
     {
-      "title": "3. git reset -- Undoing at Different Depths",
-      "startSegmentIndex": 62
+      "title": "Revert as safe undo on shared branches",
+      "startSegmentIndex": 65
     },
     {
-      "title": "4. git revert -- The Safe Undo for Shared Branches",
-      "startSegmentIndex": 86
+      "title": "Tags and releases",
+      "startSegmentIndex": 76
     },
     {
-      "title": "5. Tags -- Marking Important Moments",
+      "title": "Detached HEAD and recovery",
+      "startSegmentIndex": 89
+    },
+    {
+      "title": "Force pushing safely after rewritten history",
       "startSegmentIndex": 98
     },
     {
-      "title": "6. Detached HEAD -- What It Is and How to Get Out",
-      "startSegmentIndex": 118
+      "title": "Bisect for finding the breaking commit",
+      "startSegmentIndex": 111
     },
     {
-      "title": "7. Force Pushing Safely",
-      "startSegmentIndex": 133
+      "title": "Cleaning untracked files carefully",
+      "startSegmentIndex": 122
     },
     {
-      "title": "8. git bisect -- Finding the Commit That Broke Things",
-      "startSegmentIndex": 150
+      "title": "Protected branches and correct contribution flow",
+      "startSegmentIndex": 131
     },
     {
-      "title": "9. git clean -- Clearing Out Untracked Files",
-      "startSegmentIndex": 163
-    },
-    {
-      "title": "10. Branch Protection -- Why Your Push or Merge May Be Blocked",
-      "startSegmentIndex": 176
-    },
-    {
-      "title": "11. Using GitHub Copilot for Git Operations",
-      "startSegmentIndex": 198
-    },
-    {
-      "title": "Advanced Git Operations: Wrap-Up",
-      "startSegmentIndex": 220
+      "title": "Quick reference and using Copilot with Git",
+      "startSegmentIndex": 145
     }
   ]
 }

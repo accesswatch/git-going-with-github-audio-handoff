@@ -1,90 +1,70 @@
-{
-  "version": 1,
-  "slug": "ep13-github-prs-extension",
-  "chapters": [
+﻿[
     {
-      "title": "The GitHub Pull Requests Extension: Overview",
-      "startSegmentIndex": 0
+        "title":  "ep13-github-prs-extension: Overview",
+        "startSegmentIndex":  0
     },
     {
-      "title": "The GitHub Pull Requests Extension",
-      "startSegmentIndex": 7
+        "title":  "Section 2",
+        "startSegmentIndex":  15
     },
     {
-      "title": "Managing Pull Requests from VS Code",
-      "startSegmentIndex": 9
+        "title":  "Section 3",
+        "startSegmentIndex":  29
     },
     {
-      "title": "Why Issues Matter",
-      "startSegmentIndex": 42
+        "title":  "Section 4",
+        "startSegmentIndex":  42
     },
     {
-      "title": "1. Installing the GitHub Pull Requests Extension",
-      "startSegmentIndex": 46
+        "title":  "Section 5",
+        "startSegmentIndex":  55
     },
     {
-      "title": "Method 2: Explorer Section",
-      "startSegmentIndex": 83
+        "title":  "Section 6",
+        "startSegmentIndex":  72
     },
     {
-      "title": "3. Checking Out a Pull Request Branch",
-      "startSegmentIndex": 103
+        "title":  "Section 7",
+        "startSegmentIndex":  87
     },
     {
-      "title": "4. Reviewing Pull Requests in VS Code",
-      "startSegmentIndex": 130
+        "title":  "Section 8",
+        "startSegmentIndex":  113
     },
     {
-      "title": "6. Pull Request Description Templates",
-      "startSegmentIndex": 217
+        "title":  "Section 9",
+        "startSegmentIndex":  124
     },
     {
-      "title": "7. Commenting and Requesting Changes",
-      "startSegmentIndex": 230
+        "title":  "Section 10",
+        "startSegmentIndex":  149
     },
     {
-      "title": "8. Merging Pull Requests",
-      "startSegmentIndex": 262
+        "title":  "Section 11",
+        "startSegmentIndex":  175
     },
     {
-      "title": "Review a PR from VS Code",
-      "startSegmentIndex": 310
+        "title":  "Section 12",
+        "startSegmentIndex":  186
     },
     {
-      "title": "Conducting Pull Request Reviews with a Screen Reader",
-      "startSegmentIndex": 316
+        "title":  "Section 13",
+        "startSegmentIndex":  199
     },
     {
-      "title": "Why Issues Matter",
-      "startSegmentIndex": 346
+        "title":  "Section 14",
+        "startSegmentIndex":  215
     },
     {
-      "title": "Two Environments for Code Review",
-      "startSegmentIndex": 354
+        "title":  "Section 15",
+        "startSegmentIndex":  226
     },
     {
-      "title": "Reviewing in VS Code with the Accessible Diff Viewer",
-      "startSegmentIndex": 410
+        "title":  "Section 16",
+        "startSegmentIndex":  242
     },
     {
-      "title": "Exercises",
-      "startSegmentIndex": 472
-    },
-    {
-      "title": "Using GitHub Copilot to Understand Code Changes",
-      "startSegmentIndex": 599
-    },
-    {
-      "title": "The Reviewer's Craft",
-      "startSegmentIndex": 624
-    },
-    {
-      "title": "Day 2 Teaser: The Full Accessibility Agents Review Ecosystem",
-      "startSegmentIndex": 640
-    },
-    {
-      "title": "The GitHub Pull Requests Extension: Wrap-Up",
-      "startSegmentIndex": 661
+        "title":  "Section 17",
+        "startSegmentIndex":  257
     }
-  ]
-}
+]
