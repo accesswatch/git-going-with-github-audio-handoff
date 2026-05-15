@@ -3,156 +3,60 @@
   "slug": "cc-11-day-2-pull-request",
   "chapters": [
     {
-      "title": "Challenge 11: Open a Day 2 PR",
+      "title": "Challenge 11 pattern and Day 2 PR objective",
       "startSegmentIndex": 0
     },
     {
-      "title": "Example PR",
-      "startSegmentIndex": 21
+      "title": "Example PR structure and what changed from Day 1",
+      "startSegmentIndex": 12
     },
     {
-      "title": "What matters",
-      "startSegmentIndex": 23
+      "title": "Local Git workflow in VS Code and workshop practice",
+      "startSegmentIndex": 20
     },
     {
-      "title": "Managing Repositories, Branches, and Changes Accessibly",
-      "startSegmentIndex": 25
+      "title": "Cloning repositories accessibly in VS Code",
+      "startSegmentIndex": 28
     },
     {
-      "title": "Why Issues Matter",
-      "startSegmentIndex": 63
+      "title": "Source Control panel, status, and diffs",
+      "startSegmentIndex": 40
     },
     {
-      "title": "2. The Source Control Panel - Complete Walkthrough",
-      "startSegmentIndex": 117
+      "title": "Branches, staging, committing, and pushing",
+      "startSegmentIndex": 48
     },
     {
-      "title": "3. Branch Management",
-      "startSegmentIndex": 149
+      "title": "Sync, discard, history, conflicts, stash, and recovery",
+      "startSegmentIndex": 64
     },
     {
-      "title": "4. Staging Changes - Files, Lines, and Chunks",
-      "startSegmentIndex": 219
+      "title": "GitHub Pull Requests extension and PR management in VS Code",
+      "startSegmentIndex": 90
     },
     {
-      "title": "6. Push and Pull Operations",
-      "startSegmentIndex": 285
+      "title": "Viewing, checking out, reviewing, and creating pull requests",
+      "startSegmentIndex": 100
     },
     {
-      "title": "What to do if push fails",
-      "startSegmentIndex": 316
+      "title": "Templates, comments, reviews, merge, and troubleshooting",
+      "startSegmentIndex": 116
     },
     {
-      "title": "Syncing Your Fork with the Upstream Repository",
-      "startSegmentIndex": 328
+      "title": "Accessible review on GitHub.com and in VS Code",
+      "startSegmentIndex": 132
     },
     {
-      "title": "7. Discarding Changes",
-      "startSegmentIndex": 350
+      "title": "Reviewer craft, Copilot caution, and Day 2 wrap-up",
+      "startSegmentIndex": 150
     },
     {
-      "title": "8. Timeline View - File History and Blame",
-      "startSegmentIndex": 395
+      "title": "Solution recap and what matters",
+      "startSegmentIndex": 164
     },
     {
-      "title": "9. Resolving Merge Conflicts in VS Code",
-      "startSegmentIndex": 446
-    },
-    {
-      "title": "10. Stash Management",
-      "startSegmentIndex": 468
-    },
-    {
-      "title": "10b. Emergency Recovery - git reflog",
-      "startSegmentIndex": 521
-    },
-    {
-      "title": "11. Alternative Git Interfaces",
-      "startSegmentIndex": 541
-    },
-    {
-      "title": "Clone, Branch, Commit",
-      "startSegmentIndex": 557
-    },
-    {
-      "title": "The GitHub Pull Requests Extension",
-      "startSegmentIndex": 562
-    },
-    {
-      "title": "Managing Pull Requests from VS Code",
-      "startSegmentIndex": 565
-    },
-    {
-      "title": "Why Issues Matter",
-      "startSegmentIndex": 593
-    },
-    {
-      "title": "1. Installing the GitHub Pull Requests Extension",
-      "startSegmentIndex": 597
-    },
-    {
-      "title": "Method 2: Explorer Section",
-      "startSegmentIndex": 630
-    },
-    {
-      "title": "3. Checking Out a Pull Request Branch",
-      "startSegmentIndex": 648
-    },
-    {
-      "title": "4. Reviewing Pull Requests in VS Code",
-      "startSegmentIndex": 670
-    },
-    {
-      "title": "6. Pull Request Description Templates",
-      "startSegmentIndex": 755
-    },
-    {
-      "title": "7. Commenting and Requesting Changes",
-      "startSegmentIndex": 769
-    },
-    {
-      "title": "8. Merging Pull Requests",
-      "startSegmentIndex": 801
-    },
-    {
-      "title": "Review a PR from VS Code",
-      "startSegmentIndex": 847
-    },
-    {
-      "title": "Conducting Pull Request Reviews with a Screen Reader",
-      "startSegmentIndex": 852
-    },
-    {
-      "title": "Why Issues Matter",
-      "startSegmentIndex": 882
-    },
-    {
-      "title": "Two Environments for Code Review",
-      "startSegmentIndex": 889
-    },
-    {
-      "title": "Reviewing in VS Code with the Accessible Diff Viewer",
-      "startSegmentIndex": 945
-    },
-    {
-      "title": "Exercises",
-      "startSegmentIndex": 1007
-    },
-    {
-      "title": "Using GitHub Copilot to Understand Code Changes",
-      "startSegmentIndex": 1133
-    },
-    {
-      "title": "The Reviewer's Craft",
-      "startSegmentIndex": 1159
-    },
-    {
-      "title": "Day 2 Teaser: The Full Accessibility Agents Review Ecosystem",
-      "startSegmentIndex": 1175
-    },
-    {
-      "title": "Open a Day 2 PR: Final Checkpoint",
-      "startSegmentIndex": 1195
+      "title": "Authoritative sources and verification habit",
+      "startSegmentIndex": 180
     }
   ]
 }

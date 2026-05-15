@@ -3,44 +3,60 @@
   "slug": "ep48-build-your-agent-capstone",
   "chapters": [
     {
-      "title": "Build Your Agent: Capstone: Overview",
+      "title": "Capstone overview and evidence expectations",
       "startSegmentIndex": 0
     },
     {
-      "title": "1. The Capstone Challenge",
-      "startSegmentIndex": 7
+      "title": "Choosing a contribution path",
+      "startSegmentIndex": 18
     },
     {
-      "title": "2. Phase 1: Choose Your Agent's Mission",
-      "startSegmentIndex": 19
+      "title": "Accessibility Agents as the default path",
+      "startSegmentIndex": 28
     },
     {
-      "title": "3. Phase 2: Write the Agent File",
-      "startSegmentIndex": 25
+      "title": "GLOW as a capstone option",
+      "startSegmentIndex": 38
     },
     {
-      "title": "4. Phase 3: Define Responsibilities and Guardrails",
-      "startSegmentIndex": 41
+      "title": "Using another repository",
+      "startSegmentIndex": 52
     },
     {
-      "title": "5. Phase 4: Test Your Agent Locally",
-      "startSegmentIndex": 53
+      "title": "Defining the mission",
+      "startSegmentIndex": 60
     },
     {
-      "title": "7. Phase 6: Respond to Review",
-      "startSegmentIndex": 96
+      "title": "Writing or improving the agentic asset",
+      "startSegmentIndex": 66
     },
     {
-      "title": "8. Capstone Rubric",
-      "startSegmentIndex": 109
+      "title": "Plain Language Findings Reviewer example",
+      "startSegmentIndex": 74
     },
     {
-      "title": "9. Example Agents for Inspiration",
-      "startSegmentIndex": 119
+      "title": "Local testing and Copilot Chat",
+      "startSegmentIndex": 92
     },
     {
-      "title": "Build Your Agent: Capstone: Wrap-Up",
-      "startSegmentIndex": 133
+      "title": "Preparing the pull request and evidence",
+      "startSegmentIndex": 104
+    },
+    {
+      "title": "Responding to review",
+      "startSegmentIndex": 116
+    },
+    {
+      "title": "Rubric and quality bar",
+      "startSegmentIndex": 124
+    },
+    {
+      "title": "What to do if you get stuck",
+      "startSegmentIndex": 136
+    },
+    {
+      "title": "Authoritative sources and wrap-up",
+      "startSegmentIndex": 144
     }
   ]
 }

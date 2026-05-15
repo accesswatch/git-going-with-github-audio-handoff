@@ -3,44 +3,52 @@
   "slug": "ep33-github-pages",
   "chapters": [
     {
-      "title": "Publishing with GitHub Pages: Overview",
+      "title": "Publishing static sites with GitHub Pages",
       "startSegmentIndex": 0
     },
     {
-      "title": "How to Deploy a Static Website Directly from Your Repository",
-      "startSegmentIndex": 7
+      "title": "Overview and what GitHub Pages is for",
+      "startSegmentIndex": 6
     },
     {
-      "title": "1. What GitHub Pages Is",
-      "startSegmentIndex": 11
+      "title": "Enabling Pages in repository settings",
+      "startSegmentIndex": 13
     },
     {
-      "title": "4. The html/ Folder in This Project",
-      "startSegmentIndex": 35
+      "title": "Branch deployment and GitHub Actions sources",
+      "startSegmentIndex": 22
     },
     {
-      "title": "Option A2 - Rename html/ to docs/",
-      "startSegmentIndex": 42
+      "title": "Working with the html folder in this project",
+      "startSegmentIndex": 29
     },
     {
-      "title": "5. Custom Domains",
-      "startSegmentIndex": 50
+      "title": "Custom domains and DNS setup",
+      "startSegmentIndex": 40
     },
     {
-      "title": "6. HTTPS and Security",
-      "startSegmentIndex": 58
+      "title": "HTTPS and repository security basics",
+      "startSegmentIndex": 47
     },
     {
-      "title": "7. Accessibility Considerations for Published Sites",
+      "title": "Accessibility for the published site",
+      "startSegmentIndex": 51
+    },
+    {
+      "title": "Continuous deployment and automated accessibility checks",
       "startSegmentIndex": 64
     },
     {
-      "title": "8. GitHub Actions and Continuous Deployment",
-      "startSegmentIndex": 86
+      "title": "Limitations of GitHub Pages",
+      "startSegmentIndex": 68
     },
     {
-      "title": "Publishing with GitHub Pages: Wrap-Up",
-      "startSegmentIndex": 103
+      "title": "Troubleshooting common Pages problems",
+      "startSegmentIndex": 71
+    },
+    {
+      "title": "Authoritative sources and source map habits",
+      "startSegmentIndex": 82
     }
   ]
 }

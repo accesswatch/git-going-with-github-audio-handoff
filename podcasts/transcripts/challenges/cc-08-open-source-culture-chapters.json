@@ -3,152 +3,56 @@
   "slug": "cc-08-open-source-culture",
   "chapters": [
     {
-      "title": "Challenge 08: The Culture Layer",
+      "title": "Open source culture and workshop reflection",
       "startSegmentIndex": 0
     },
     {
-      "title": "Challenge 8: The Culture Layer",
-      "startSegmentIndex": 7
+      "title": "Challenge 8 expectations and solution guidance",
+      "startSegmentIndex": 14
     },
     {
-      "title": "Example reflection comment",
-      "startSegmentIndex": 19
+      "title": "GitHub Flow and branch discipline",
+      "startSegmentIndex": 22
     },
     {
-      "title": "Example triage recommendation",
-      "startSegmentIndex": 21
+      "title": "Keeping your fork up to date",
+      "startSegmentIndex": 32
     },
     {
-      "title": "Alternate approaches",
-      "startSegmentIndex": 23
+      "title": "Commit messages and atomic commits",
+      "startSegmentIndex": 38
     },
     {
-      "title": "What matters",
-      "startSegmentIndex": 26
+      "title": "Open source communication, feedback, and tone",
+      "startSegmentIndex": 44
     },
     {
-      "title": "How to Be an Effective and Respectful Open Source Contributor",
-      "startSegmentIndex": 29
+      "title": "Commenting and code review etiquette",
+      "startSegmentIndex": 58
     },
     {
-      "title": "Why Issues Matter",
-      "startSegmentIndex": 56
+      "title": "Accessibility, difficult situations, and social contracts",
+      "startSegmentIndex": 74
     },
     {
-      "title": "GitHub Flow - The Standard Contribution Workflow",
-      "startSegmentIndex": 60
+      "title": "READMEs, community health files, and communication channels",
+      "startSegmentIndex": 86
     },
     {
-      "title": "Keeping Your Fork Up to Date",
-      "startSegmentIndex": 90
+      "title": "First-time contribution workflow and habits",
+      "startSegmentIndex": 100
     },
     {
-      "title": "When to sync",
-      "startSegmentIndex": 113
+      "title": "Chapter 9 triage challenge and labels",
+      "startSegmentIndex": 114
     },
     {
-      "title": "Writing Good Commit Messages",
-      "startSegmentIndex": 123
+      "title": "Milestones, cross-references, and projects",
+      "startSegmentIndex": 130
     },
     {
-      "title": "The Nature of Open Source Communication",
-      "startSegmentIndex": 145
-    },
-    {
-      "title": "The Anatomy of Helpful Feedback",
-      "startSegmentIndex": 156
-    },
-    {
-      "title": "Inclusive Commenting for Accessibility Issues",
-      "startSegmentIndex": 220
-    },
-    {
-      "title": "The \"Good First Issue\" Social Contract",
-      "startSegmentIndex": 223
-    },
-    {
-      "title": "Writing Your First README",
-      "startSegmentIndex": 243
-    },
-    {
-      "title": "Community Health Files",
-      "startSegmentIndex": 254
-    },
-    {
-      "title": "When to Use Different Communication Channels",
-      "startSegmentIndex": 271
-    },
-    {
-      "title": "Rewrite One Comment",
-      "startSegmentIndex": 274
-    },
-    {
-      "title": "Contributing to Open Source",
-      "startSegmentIndex": 279
-    },
-    {
-      "title": "A Guide for First-Time Contributors",
-      "startSegmentIndex": 282
-    },
-    {
-      "title": "1. What Is Open Source?",
-      "startSegmentIndex": 283
-    },
-    {
-      "title": "2. Who Can Contribute?",
-      "startSegmentIndex": 286
-    },
-    {
-      "title": "3. What Makes a Good First Contribution?",
-      "startSegmentIndex": 288
-    },
-    {
-      "title": "4. Finding Something to Work On",
-      "startSegmentIndex": 293
-    },
-    {
-      "title": "5. Reading an Issue Before You Start",
-      "startSegmentIndex": 298
-    },
-    {
-      "title": "7. Getting Help",
-      "startSegmentIndex": 315
-    },
-    {
-      "title": "8. After Your Contribution Is Merged",
-      "startSegmentIndex": 319
-    },
-    {
-      "title": "9. Building a Contribution Habit",
-      "startSegmentIndex": 321
-    },
-    {
-      "title": "Organizing Work and Cross-Referencing on GitHub",
-      "startSegmentIndex": 326
-    },
-    {
-      "title": "Why Issues Matter",
-      "startSegmentIndex": 349
-    },
-    {
-      "title": "Cross-References",
-      "startSegmentIndex": 403
-    },
-    {
-      "title": "GitHub Projects",
-      "startSegmentIndex": 416
-    },
-    {
-      "title": "Practical Organization Strategy for the Hackathon",
-      "startSegmentIndex": 437
-    },
-    {
-      "title": "Label and Link",
-      "startSegmentIndex": 438
-    },
-    {
-      "title": "The Culture Layer: Final Checkpoint",
-      "startSegmentIndex": 442
+      "title": "Hackathon organization strategy and wrap-up",
+      "startSegmentIndex": 142
     }
   ]
 }

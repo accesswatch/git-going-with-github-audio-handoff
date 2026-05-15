@@ -3,64 +3,44 @@
   "slug": "ep38-resources",
   "chapters": [
     {
-      "title": "Resources and Links: Overview",
+      "title": "Resources Overview and Navigation Guidance",
       "startSegmentIndex": 0
     },
     {
-      "title": "Everything You Need - Before, During, and After the Workshop",
-      "startSegmentIndex": 7
+      "title": "The Central Project and Your Fork",
+      "startSegmentIndex": 14
     },
     {
-      "title": "1. The Central Project - Accessibility Agents",
-      "startSegmentIndex": 11
+      "title": "Official GitHub Accessibility Guides",
+      "startSegmentIndex": 28
     },
     {
-      "title": "2. GitHub Accessibility Guides",
-      "startSegmentIndex": 24
+      "title": "GitHub Skills and Learning Path",
+      "startSegmentIndex": 36
     },
     {
-      "title": "3. GitHub Skills Learning Modules",
-      "startSegmentIndex": 26
-    },
-    {
-      "title": "7. GitHub Agentic Workflows",
+      "title": "Screen Readers and Setup References",
       "startSegmentIndex": 54
     },
     {
-      "title": "8. Spec-Driven Development - Spec Kit",
+      "title": "VS Code, Copilot, Agents, and Spec-Driven Work",
       "startSegmentIndex": 62
     },
     {
-      "title": "10. GitHub Mobile Apps",
-      "startSegmentIndex": 73
+      "title": "CLI, Desktop, and Mobile Interfaces",
+      "startSegmentIndex": 76
     },
     {
-      "title": "11. GitHub Best Practices and Power Features",
-      "startSegmentIndex": 83
+      "title": "Best Practices and Power Features",
+      "startSegmentIndex": 88
     },
     {
-      "title": "How it works",
-      "startSegmentIndex": 153
+      "title": "Finding Contributions, Standards, and Shortcuts",
+      "startSegmentIndex": 126
     },
     {
-      "title": "Use for",
-      "startSegmentIndex": 157
-    },
-    {
-      "title": "12. Finding More Contributions",
-      "startSegmentIndex": 174
-    },
-    {
-      "title": "14b. Learning Pathways",
-      "startSegmentIndex": 176
-    },
-    {
-      "title": "16. Your Workshop Documentation - Offline Reference",
-      "startSegmentIndex": 178
-    },
-    {
-      "title": "Resources and Links: Wrap-Up",
-      "startSegmentIndex": 183
+      "title": "Learning Pathways, Community, and Offline Reference",
+      "startSegmentIndex": 140
     }
   ]
 }

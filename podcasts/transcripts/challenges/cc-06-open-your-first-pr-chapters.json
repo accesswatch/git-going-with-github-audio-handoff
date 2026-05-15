@@ -3,88 +3,56 @@
   "slug": "cc-06-open-your-first-pr",
   "chapters": [
     {
-      "title": "Challenge 06: Open Your First Pull Request",
+      "title": "Pull requests as contribution workflow and accessibility setup",
       "startSegmentIndex": 0
     },
     {
-      "title": "Challenge 6: Open Your First Pull Request",
-      "startSegmentIndex": 7
+      "title": "Workshop challenge flow and branch strategy",
+      "startSegmentIndex": 11
     },
     {
-      "title": "Example PR",
-      "startSegmentIndex": 23
+      "title": "Create one small branch change",
+      "startSegmentIndex": 19
     },
     {
-      "title": "Alternate linking syntax",
-      "startSegmentIndex": 36
+      "title": "Open a linked pull request",
+      "startSegmentIndex": 30
     },
     {
-      "title": "What matters",
-      "startSegmentIndex": 39
+      "title": "Passing checks and challenge completion",
+      "startSegmentIndex": 43
     },
     {
-      "title": "Creating, Reviewing, and Merging Pull Requests with a Screen.",
-      "startSegmentIndex": 41
+      "title": "Solution example and linked issue syntax",
+      "startSegmentIndex": 51
     },
     {
-      "title": "Why Issues Matter",
-      "startSegmentIndex": 78
+      "title": "Navigating pull requests and understanding the page",
+      "startSegmentIndex": 63
     },
     {
-      "title": "What Is a Pull Request?",
-      "startSegmentIndex": 91
+      "title": "Reading conversation, commits, checks, and files changed",
+      "startSegmentIndex": 71
     },
     {
-      "title": "Navigating to Pull Requests",
-      "startSegmentIndex": 94
+      "title": "Opening pull requests, descriptions, and drafts",
+      "startSegmentIndex": 88
     },
     {
-      "title": "The Pull Request List Page",
-      "startSegmentIndex": 108
+      "title": "Review workflow and suggested changes",
+      "startSegmentIndex": 99
     },
     {
-      "title": "Navigating the PR Tab Bar",
-      "startSegmentIndex": 111
+      "title": "Merge options, auto-merge, and after merge",
+      "startSegmentIndex": 109
     },
     {
-      "title": "Reading the Checks Tab",
-      "startSegmentIndex": 139
+      "title": "Practical scenarios, mistakes, and writing descriptions that get reviewed",
+      "startSegmentIndex": 118
     },
     {
-      "title": "Reading the Files Changed Tab",
-      "startSegmentIndex": 149
-    },
-    {
-      "title": "Requesting reviewers",
-      "startSegmentIndex": 230
-    },
-    {
-      "title": "Submitting a Review",
-      "startSegmentIndex": 235
-    },
-    {
-      "title": "Understanding Merge Options (for Maintainers)",
-      "startSegmentIndex": 281
-    },
-    {
-      "title": "After a PR is merged",
-      "startSegmentIndex": 284
-    },
-    {
-      "title": "Auto-Merge - Merging When You Can't Wait Around",
-      "startSegmentIndex": 286
-    },
-    {
-      "title": "Writing PR Descriptions That Get Reviewed",
-      "startSegmentIndex": 299
-    },
-    {
-      "title": "Read a Real Pull Request",
-      "startSegmentIndex": 316
-    },
-    {
-      "title": "Open Your First Pull Request: Final Checkpoint",
-      "startSegmentIndex": 322
+      "title": "Local workflow, reading a real PR, and authoritative sources",
+      "startSegmentIndex": 129
     }
   ]
 }

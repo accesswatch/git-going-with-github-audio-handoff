@@ -3,76 +3,48 @@
   "slug": "cc-07-survive-a-merge-conflict",
   "chapters": [
     {
-      "title": "Challenge 07: Survive a Merge Conflict",
+      "title": "Merge conflicts are normal and learnable",
       "startSegmentIndex": 0
     },
     {
-      "title": "Challenge 7: Survive a Merge Conflict",
-      "startSegmentIndex": 7
+      "title": "Challenge workflow and evidence",
+      "startSegmentIndex": 8
     },
     {
-      "title": "What conflict markers look like",
-      "startSegmentIndex": 19
+      "title": "What a merge conflict is and why it happens",
+      "startSegmentIndex": 14
     },
     {
-      "title": "On github.com",
-      "startSegmentIndex": 27
+      "title": "How to prevent conflicts",
+      "startSegmentIndex": 18
     },
     {
-      "title": "In VS Code",
+      "title": "Reading conflict markers safely",
+      "startSegmentIndex": 24
+    },
+    {
+      "title": "Resolving the challenge step by step",
       "startSegmentIndex": 32
     },
     {
-      "title": "What matters",
-      "startSegmentIndex": 36
+      "title": "Accessibility and learning cards",
+      "startSegmentIndex": 38
     },
     {
-      "title": "Understanding, Preventing, and Resolving Conflicts",
-      "startSegmentIndex": 37
+      "title": "Resolving conflicts on GitHub and in VS Code",
+      "startSegmentIndex": 42
     },
     {
-      "title": "Why Issues Matter",
-      "startSegmentIndex": 63
+      "title": "Terminal workflow and command line messages",
+      "startSegmentIndex": 48
     },
     {
-      "title": "What Is a Merge Conflict?",
-      "startSegmentIndex": 78
+      "title": "When conflicts are useful and what to do when stuck",
+      "startSegmentIndex": 56
     },
     {
-      "title": "How to Prevent Conflicts (Prevention is Easier Than Resolution)",
-      "startSegmentIndex": 80
-    },
-    {
-      "title": "Advanced Prevention: Understanding Fast-Forward Merges",
-      "startSegmentIndex": 108
-    },
-    {
-      "title": "When Conflicts Are Actually Good",
-      "startSegmentIndex": 114
-    },
-    {
-      "title": "Conflict Markers - What They Mean",
-      "startSegmentIndex": 123
-    },
-    {
-      "title": "Resolving Conflicts on GitHub (Web Editor)",
-      "startSegmentIndex": 139
-    },
-    {
-      "title": "Resolving Conflicts in VS Code (Day 2)",
-      "startSegmentIndex": 152
-    },
-    {
-      "title": "Reading a Conflict Message from Git (Command Line Reference)",
-      "startSegmentIndex": 171
-    },
-    {
-      "title": "Read a Conflict (Without Fear)",
-      "startSegmentIndex": 174
-    },
-    {
-      "title": "Survive a Merge Conflict: Final Checkpoint",
-      "startSegmentIndex": 178
+      "title": "Checklist, outcomes, and authoritative sources",
+      "startSegmentIndex": 64
     }
   ]
 }

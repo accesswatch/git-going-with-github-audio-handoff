@@ -3,92 +3,64 @@
   "slug": "ep24-github-discussions",
   "chapters": [
     {
-      "title": "GitHub Discussions: Overview",
+      "title": "Appendix U: Discussions and Gists",
       "startSegmentIndex": 0
     },
     {
-      "title": "Forum-Style Conversations Beyond Issues and Pull Requests",
-      "startSegmentIndex": 7
+      "title": "GitHub Discussions overview and support hub onboarding",
+      "startSegmentIndex": 4
     },
     {
-      "title": "1. Discussions vs. Issues: When to Use Which",
-      "startSegmentIndex": 19
+      "title": "Discussions versus issues",
+      "startSegmentIndex": 8
     },
     {
-      "title": "3. Discussion Categories",
+      "title": "Navigating to repository and organization discussions",
+      "startSegmentIndex": 14
+    },
+    {
+      "title": "Discussion categories and page layout",
+      "startSegmentIndex": 20
+    },
+    {
+      "title": "Creating a discussion accessibly",
+      "startSegmentIndex": 24
+    },
+    {
+      "title": "Reading, replying, nested replies, and upvoting",
       "startSegmentIndex": 32
     },
     {
-      "title": "4. Creating a Discussion",
-      "startSegmentIndex": 39
+      "title": "Marking an answer and polls",
+      "startSegmentIndex": 40
     },
     {
-      "title": "6. Marking an Answer",
-      "startSegmentIndex": 60
+      "title": "Screen reader navigation reference and organization-level discussions",
+      "startSegmentIndex": 48
     },
     {
-      "title": "7. Polls",
+      "title": "Accessibility agents differences",
+      "startSegmentIndex": 54
+    },
+    {
+      "title": "GitHub Gists overview and use cases",
+      "startSegmentIndex": 58
+    },
+    {
+      "title": "What a gist is and when to use it versus a repository",
+      "startSegmentIndex": 62
+    },
+    {
+      "title": "Creating, editing, embedding, cloning, and forking gists",
       "startSegmentIndex": 68
     },
     {
-      "title": "9. Organization-Level Discussions",
-      "startSegmentIndex": 86
+      "title": "Finding, discovering, commenting on, and securing gists",
+      "startSegmentIndex": 80
     },
     {
-      "title": "10. Accessibility Agents: What's Different Here",
-      "startSegmentIndex": 89
-    },
-    {
-      "title": "Shareable Code Snippets and Notes",
-      "startSegmentIndex": 92
-    },
-    {
-      "title": "What Is a Gist?",
-      "startSegmentIndex": 99
-    },
-    {
-      "title": "When to Use a Gist vs a Repository",
-      "startSegmentIndex": 102
-    },
-    {
-      "title": "Editing a Gist",
-      "startSegmentIndex": 122
-    },
-    {
-      "title": "Embedding a Gist",
-      "startSegmentIndex": 125
-    },
-    {
-      "title": "Cloning a Gist",
-      "startSegmentIndex": 127
-    },
-    {
-      "title": "Forking a Gist",
-      "startSegmentIndex": 130
-    },
-    {
-      "title": "Finding Your Gists",
-      "startSegmentIndex": 135
-    },
-    {
-      "title": "Discovering Public Gists",
-      "startSegmentIndex": 141
-    },
-    {
-      "title": "Gist Comments",
-      "startSegmentIndex": 144
-    },
-    {
-      "title": "Gists vs GitHub Repositories - Quick Comparison",
-      "startSegmentIndex": 167
-    },
-    {
-      "title": "Deleting a Gist",
-      "startSegmentIndex": 170
-    },
-    {
-      "title": "GitHub Discussions: Wrap-Up",
-      "startSegmentIndex": 174
+      "title": "Examples, quick comparison, deleting, and sources",
+      "startSegmentIndex": 88
     }
   ]
 }

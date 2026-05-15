@@ -3,32 +3,40 @@
   "slug": "ep18-glossary",
   "chapters": [
     {
-      "title": "Glossary of Terms: Overview",
+      "title": "Glossary Purpose and Accessibility Navigation",
       "startSegmentIndex": 0
     },
     {
-      "title": "Every Term You Need for Open Source Contribution",
-      "startSegmentIndex": 7
+      "title": "Using the Glossary as a Reference Tool",
+      "startSegmentIndex": 6
     },
     {
-      "title": "Common Abbreviations and Slang",
-      "startSegmentIndex": 91
+      "title": "Repositories, Forks, Remotes, and Local Setup",
+      "startSegmentIndex": 10
     },
     {
-      "title": "Stash commands",
-      "startSegmentIndex": 119
+      "title": "Branches, Commits, and Diffs",
+      "startSegmentIndex": 30
     },
     {
-      "title": "Community Files",
-      "startSegmentIndex": 178
+      "title": "Issues, Pull Requests, Reviews, and Merging",
+      "startSegmentIndex": 44
     },
     {
-      "title": "Alphabetical Quick Reference",
-      "startSegmentIndex": 183
+      "title": "People and Roles in Open Source",
+      "startSegmentIndex": 68
     },
     {
-      "title": "Glossary of Terms: Wrap-Up",
-      "startSegmentIndex": 185
+      "title": "Abbreviations and Everyday GitHub Language",
+      "startSegmentIndex": 78
+    },
+    {
+      "title": "Advanced Git Concepts and Safety Practices",
+      "startSegmentIndex": 84
+    },
+    {
+      "title": "Quick Reference, Community Resources, and Source Map",
+      "startSegmentIndex": 142
     }
   ]
 }

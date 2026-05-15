@@ -3,88 +3,64 @@
   "slug": "cc-13-copilot-as-collaborator",
   "chapters": [
     {
-      "title": "Challenge 13: AI as Your Copilot",
+      "title": "GitHub Copilot overview and workshop framing",
       "startSegmentIndex": 0
     },
     {
-      "title": "Example interaction transcript",
-      "startSegmentIndex": 22
+      "title": "AI assistance in VS Code and workshop guidance",
+      "startSegmentIndex": 9
     },
     {
-      "title": "Before and after",
-      "startSegmentIndex": 24
+      "title": "Challenge 13 workshop flow and evidence",
+      "startSegmentIndex": 18
     },
     {
-      "title": "Critical evaluation notes",
-      "startSegmentIndex": 26
+      "title": "Setting up Copilot and verifying activation",
+      "startSegmentIndex": 27
     },
     {
-      "title": "Alternate approaches",
-      "startSegmentIndex": 29
+      "title": "Inline suggestions and accessibility",
+      "startSegmentIndex": 36
     },
     {
-      "title": "What matters",
-      "startSegmentIndex": 33
+      "title": "Copilot Chat usage and navigation",
+      "startSegmentIndex": 45
     },
     {
-      "title": "AI-Powered Code Assistance in VS Code",
-      "startSegmentIndex": 34
+      "title": "Copilot Edits and Agent features",
+      "startSegmentIndex": 56
     },
     {
-      "title": "Why Issues Matter",
-      "startSegmentIndex": 72
+      "title": "Next Edit Suggestions and GitHub.com features",
+      "startSegmentIndex": 67
     },
     {
-      "title": "1. What is GitHub Copilot",
-      "startSegmentIndex": 78
+      "title": "Effective prompting and iteration",
+      "startSegmentIndex": 74
     },
     {
-      "title": "3. Inline Suggestions - Ghost Text Completions",
-      "startSegmentIndex": 104
+      "title": "Custom instructions, custom agents, and accessibility guidance",
+      "startSegmentIndex": 83
     },
     {
-      "title": "4. GitHub Copilot Chat - Conversational Assistance",
-      "startSegmentIndex": 151
+      "title": "Accessible View and keyboard workflow",
+      "startSegmentIndex": 94
     },
     {
-      "title": "5. Copilot Edits -- Making Multi-File Changes",
-      "startSegmentIndex": 187
+      "title": "Critical evaluation framework",
+      "startSegmentIndex": 101
     },
     {
-      "title": "6. Agent Mode -- Let Copilot Drive",
-      "startSegmentIndex": 206
+      "title": "Solution example: alt text review and evaluation",
+      "startSegmentIndex": 112
     },
     {
-      "title": "7. Next Edit Suggestions",
-      "startSegmentIndex": 219
+      "title": "Challenge completion, troubleshooting, and learning pattern",
+      "startSegmentIndex": 123
     },
     {
-      "title": "8. Copilot on GitHub.com",
-      "startSegmentIndex": 226
-    },
-    {
-      "title": "9. Effective Prompting for Documentation Work",
-      "startSegmentIndex": 243
-    },
-    {
-      "title": "10. Custom Instructions vs Custom Agents",
-      "startSegmentIndex": 263
-    },
-    {
-      "title": "11. Using Accessible View with Copilot Responses",
-      "startSegmentIndex": 310
-    },
-    {
-      "title": "13. Critically Evaluating AI Output",
-      "startSegmentIndex": 345
-    },
-    {
-      "title": "Your First Copilot Conversation",
-      "startSegmentIndex": 392
-    },
-    {
-      "title": "AI as Your Copilot: Final Checkpoint",
-      "startSegmentIndex": 396
+      "title": "Authoritative sources and closing mindset",
+      "startSegmentIndex": 145
     }
   ]
 }

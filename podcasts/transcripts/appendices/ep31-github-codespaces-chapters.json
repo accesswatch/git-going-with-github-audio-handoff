@@ -3,32 +3,60 @@
   "slug": "ep31-github-codespaces",
   "chapters": [
     {
-      "title": "GitHub Codespaces: Overview",
+      "title": "Appendix J: GitHub Codespaces",
       "startSegmentIndex": 0
     },
     {
       "title": "Cloud Development Environments - Accessibility Guide",
-      "startSegmentIndex": 7
+      "startSegmentIndex": 1
+    },
+    {
+      "title": "Table of Contents",
+      "startSegmentIndex": 2
     },
     {
       "title": "1. What Is GitHub Codespaces?",
-      "startSegmentIndex": 9
+      "startSegmentIndex": 3
+    },
+    {
+      "title": "2. Creating a Codespace",
+      "startSegmentIndex": 8
+    },
+    {
+      "title": "3. Codespace Environments",
+      "startSegmentIndex": 13
+    },
+    {
+      "title": "4. Accessibility in Codespaces",
+      "startSegmentIndex": 17
+    },
+    {
+      "title": "5. Screen Reader Configuration",
+      "startSegmentIndex": 24
     },
     {
       "title": "6. Keyboard Shortcuts in Codespaces",
-      "startSegmentIndex": 63
+      "startSegmentIndex": 29
+    },
+    {
+      "title": "7. Managing Your Codespaces",
+      "startSegmentIndex": 33
     },
     {
       "title": "8. Dotfiles and Persistent Configuration",
-      "startSegmentIndex": 77
+      "startSegmentIndex": 37
     },
     {
       "title": "9. Codespaces vs GitHub.dev",
-      "startSegmentIndex": 81
+      "startSegmentIndex": 40
     },
     {
-      "title": "GitHub Codespaces: Wrap-Up",
-      "startSegmentIndex": 101
+      "title": "10. Common Issues and Workarounds",
+      "startSegmentIndex": 43
+    },
+    {
+      "title": "Authoritative Sources",
+      "startSegmentIndex": 50
     }
   ]
 }

@@ -3,64 +3,40 @@
   "slug": "cc-14-design-an-issue-template",
   "chapters": [
     {
-      "title": "Challenge 14: Template Remix",
+      "title": "Why issue templates matter and what to prepare",
       "startSegmentIndex": 0
     },
     {
-      "title": "Example template",
-      "startSegmentIndex": 21
+      "title": "Challenge 14 overview and learning pattern",
+      "startSegmentIndex": 18
     },
     {
-      "title": "Alternate valid templates",
-      "startSegmentIndex": 24
+      "title": "How issue templates work on GitHub",
+      "startSegmentIndex": 32
     },
     {
-      "title": "What matters",
-      "startSegmentIndex": 27
+      "title": "Reading top-level template keys in the challenge and solution",
+      "startSegmentIndex": 42
     },
     {
-      "title": "Structuring Contributions for Clarity and Quality",
-      "startSegmentIndex": 29
+      "title": "YAML field types and field anatomy",
+      "startSegmentIndex": 58
     },
     {
-      "title": "Why Issues Matter",
-      "startSegmentIndex": 77
+      "title": "Markdown versus YAML templates",
+      "startSegmentIndex": 78
     },
     {
-      "title": "1. What Is an Issue Template?",
-      "startSegmentIndex": 82
+      "title": "Challenge steps and testing workflow",
+      "startSegmentIndex": 102
     },
     {
-      "title": "2. How Templates Work on GitHub",
-      "startSegmentIndex": 88
+      "title": "Hands-on exercises, pull requests, and upstream contribution",
+      "startSegmentIndex": 132
     },
     {
-      "title": "3. Navigating the Template Picker",
-      "startSegmentIndex": 98
-    },
-    {
-      "title": "4. The Accessibility Agents Issue Templates",
-      "startSegmentIndex": 111
-    },
-    {
-      "title": "6. YAML Form-Based Templates",
-      "startSegmentIndex": 172
-    },
-    {
-      "title": "7. Building an Accessibility Bug Report Template",
-      "startSegmentIndex": 207
-    },
-    {
-      "title": "8. Pull Request Templates",
-      "startSegmentIndex": 220
-    },
-    {
-      "title": "10. Day 2 Amplifier: The Template Builder Agent",
-      "startSegmentIndex": 430
-    },
-    {
-      "title": "Template Remix: Final Checkpoint",
-      "startSegmentIndex": 438
+      "title": "Troubleshooting, outcomes, and evidence submission",
+      "startSegmentIndex": 160
     }
   ]
 }

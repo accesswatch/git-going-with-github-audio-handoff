@@ -3,108 +3,40 @@
   "slug": "ep37-contributing-to-open-source",
   "chapters": [
     {
-      "title": "Contributing to Open Source: Overview",
+      "title": "Culture, etiquette, and the Chapter 8 reflection task",
       "startSegmentIndex": 0
     },
     {
-      "title": "How to Be an Effective and Respectful Open Source Contributor",
-      "startSegmentIndex": 7
+      "title": "GitHub Flow and branch-focused contribution habits",
+      "startSegmentIndex": 24
     },
     {
-      "title": "Why Issues Matter",
-      "startSegmentIndex": 33
+      "title": "Keeping your fork up to date",
+      "startSegmentIndex": 49
     },
     {
-      "title": "GitHub Flow - The Standard Contribution Workflow",
-      "startSegmentIndex": 40
+      "title": "Writing good commit messages",
+      "startSegmentIndex": 63
     },
     {
-      "title": "Keeping Your Fork Up to Date",
-      "startSegmentIndex": 69
+      "title": "Open source communication and helpful feedback",
+      "startSegmentIndex": 76
     },
     {
-      "title": "When to sync",
-      "startSegmentIndex": 90
+      "title": "Commenting and code review etiquette",
+      "startSegmentIndex": 99
     },
     {
-      "title": "Writing Good Commit Messages",
-      "startSegmentIndex": 102
+      "title": "Difficult situations, README files, and community health files",
+      "startSegmentIndex": 127
     },
     {
-      "title": "The Nature of Open Source Communication",
-      "startSegmentIndex": 125
+      "title": "Communication channels and phrase patterns",
+      "startSegmentIndex": 150
     },
     {
-      "title": "The Anatomy of Helpful Feedback",
-      "startSegmentIndex": 137
-    },
-    {
-      "title": "Inclusive Commenting for Accessibility Issues",
-      "startSegmentIndex": 201
-    },
-    {
-      "title": "The \"Good First Issue\" Social Contract",
-      "startSegmentIndex": 204
-    },
-    {
-      "title": "Writing Your First README",
-      "startSegmentIndex": 224
-    },
-    {
-      "title": "Community Health Files",
-      "startSegmentIndex": 236
-    },
-    {
-      "title": "When to Use Different Communication Channels",
-      "startSegmentIndex": 252
-    },
-    {
-      "title": "Rewrite One Comment",
-      "startSegmentIndex": 255
-    },
-    {
-      "title": "Contributing to Open Source",
-      "startSegmentIndex": 261
-    },
-    {
-      "title": "A Guide for First-Time Contributors",
-      "startSegmentIndex": 263
-    },
-    {
-      "title": "1. What Is Open Source?",
-      "startSegmentIndex": 264
-    },
-    {
-      "title": "2. Who Can Contribute?",
-      "startSegmentIndex": 268
-    },
-    {
-      "title": "3. What Makes a Good First Contribution?",
-      "startSegmentIndex": 269
-    },
-    {
-      "title": "4. Finding Something to Work On",
-      "startSegmentIndex": 275
-    },
-    {
-      "title": "5. Reading an Issue Before You Start",
-      "startSegmentIndex": 279
-    },
-    {
-      "title": "7. Getting Help",
-      "startSegmentIndex": 297
-    },
-    {
-      "title": "8. After Your Contribution Is Merged",
-      "startSegmentIndex": 300
-    },
-    {
-      "title": "9. Building a Contribution Habit",
-      "startSegmentIndex": 302
-    },
-    {
-      "title": "Contributing to Open Source: Wrap-Up",
-      "startSegmentIndex": 308
+      "title": "A guide for first-time contributors",
+      "startSegmentIndex": 160
     }
   ]
 }

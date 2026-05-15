@@ -3,48 +3,60 @@
   "slug": "ep26-github-projects",
   "chapters": [
     {
-      "title": "GitHub Projects Deep Dive: Overview",
+      "title": "Appendix R: GitHub Projects Deep Dive",
       "startSegmentIndex": 0
     },
     {
-      "title": "Boards, Tables, Roadmaps, Automations, and Accessible Navigation",
-      "startSegmentIndex": 7
+      "title": "Projects v2: What Changed",
+      "startSegmentIndex": 4
     },
     {
-      "title": "1. Projects v2: What Changed",
-      "startSegmentIndex": 9
+      "title": "Creating a Project",
+      "startSegmentIndex": 8
     },
     {
-      "title": "2. Creating a Project",
-      "startSegmentIndex": 10
+      "title": "The Three Layouts in Depth",
+      "startSegmentIndex": 16
     },
     {
-      "title": "4. Custom Fields",
-      "startSegmentIndex": 49
+      "title": "Custom Fields",
+      "startSegmentIndex": 30
     },
     {
-      "title": "6. Built-In Automations",
-      "startSegmentIndex": 79
+      "title": "Adding and Managing Items",
+      "startSegmentIndex": 38
     },
     {
-      "title": "7. Iterations (Sprints)",
-      "startSegmentIndex": 92
+      "title": "Built-In Automations",
+      "startSegmentIndex": 46
     },
     {
-      "title": "8. Views and Filters",
-      "startSegmentIndex": 109
+      "title": "Iterations Sprints",
+      "startSegmentIndex": 54
     },
     {
-      "title": "9. Cross-Repository Projects",
-      "startSegmentIndex": 125
+      "title": "Views and Filters",
+      "startSegmentIndex": 60
     },
     {
-      "title": "11. Accessibility Agents: /project-status",
-      "startSegmentIndex": 138
+      "title": "Cross-Repository Projects",
+      "startSegmentIndex": 68
     },
     {
-      "title": "GitHub Projects Deep Dive: Wrap-Up",
-      "startSegmentIndex": 164
+      "title": "Screen Reader Navigation Reference",
+      "startSegmentIndex": 74
+    },
+    {
+      "title": "Accessibility Agents: /project-status",
+      "startSegmentIndex": 84
+    },
+    {
+      "title": "Exercises",
+      "startSegmentIndex": 90
+    },
+    {
+      "title": "Section-Level Source Map",
+      "startSegmentIndex": 100
     }
   ]
 }

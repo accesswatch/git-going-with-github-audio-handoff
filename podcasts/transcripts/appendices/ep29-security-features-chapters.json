@@ -3,48 +3,48 @@
   "slug": "ep29-security-features",
   "chapters": [
     {
-      "title": "GitHub Security Features: Overview",
+      "title": "GitHub Security Features Overview",
       "startSegmentIndex": 0
     },
     {
-      "title": "Dependabot, Secret Scanning, Code Scanning, and Private.",
-      "startSegmentIndex": 7
+      "title": "Security and quality tab basics",
+      "startSegmentIndex": 8
     },
     {
-      "title": "1. The Security and quality tab - What It Contains",
-      "startSegmentIndex": 14
+      "title": "Dependabot alerts and updates",
+      "startSegmentIndex": 23
     },
     {
-      "title": "2. Dependabot - Automated Dependency Updates",
-      "startSegmentIndex": 27
+      "title": "Secret scanning and push protection",
+      "startSegmentIndex": 41
     },
     {
-      "title": "3. Secret Scanning - Preventing Credential Leaks",
-      "startSegmentIndex": 39
+      "title": "Code scanning and CodeQL",
+      "startSegmentIndex": 57
     },
     {
-      "title": "4. Code Scanning and CodeQL",
-      "startSegmentIndex": 53
+      "title": "Private vulnerability reporting",
+      "startSegmentIndex": 67
     },
     {
-      "title": "5. Private Vulnerability Reporting",
-      "startSegmentIndex": 62
-    },
-    {
-      "title": "6. The SECURITY.md File",
+      "title": "SECURITY.md and reporting guidance",
       "startSegmentIndex": 78
     },
     {
-      "title": "7. Software Bill of Materials (SBOM)",
-      "startSegmentIndex": 85
+      "title": "SBOM concepts and export",
+      "startSegmentIndex": 84
     },
     {
-      "title": "9. Security and Accessibility Agents",
-      "startSegmentIndex": 91
+      "title": "Screen reader navigation for security workflows",
+      "startSegmentIndex": 90
     },
     {
-      "title": "GitHub Security Features: Wrap-Up",
-      "startSegmentIndex": 97
+      "title": "Security dashboard and accessibility agents",
+      "startSegmentIndex": 100
+    },
+    {
+      "title": "Authoritative sources and wrap-up",
+      "startSegmentIndex": 111
     }
   ]
 }

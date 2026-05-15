@@ -3,36 +3,56 @@
   "slug": "ep27-advanced-search",
   "chapters": [
     {
-      "title": "Advanced Search: Overview",
+      "title": "Appendix N: GitHub Advanced Search",
       "startSegmentIndex": 0
     },
     {
       "title": "Finding Anything Across All of GitHub",
-      "startSegmentIndex": 7
+      "startSegmentIndex": 4
     },
     {
-      "title": "1. The Search Interface",
-      "startSegmentIndex": 9
+      "title": "The Search Interface",
+      "startSegmentIndex": 6
     },
     {
-      "title": "2. Search Scopes",
-      "startSegmentIndex": 17
+      "title": "Search Scopes",
+      "startSegmentIndex": 18
     },
     {
-      "title": "5. Searching Code",
-      "startSegmentIndex": 23
+      "title": "The Core Query Language",
+      "startSegmentIndex": 24
     },
     {
-      "title": "9. Practical Queries for This Workshop",
-      "startSegmentIndex": 25
-    },
-    {
-      "title": "10. Saving and Reusing Searches",
-      "startSegmentIndex": 28
-    },
-    {
-      "title": "Advanced Search: Wrap-Up",
+      "title": "Searching Issues and Pull Requests",
       "startSegmentIndex": 34
+    },
+    {
+      "title": "Searching Code",
+      "startSegmentIndex": 62
+    },
+    {
+      "title": "Searching Commits",
+      "startSegmentIndex": 74
+    },
+    {
+      "title": "Searching Repositories",
+      "startSegmentIndex": 80
+    },
+    {
+      "title": "Searching Users and Organizations",
+      "startSegmentIndex": 88
+    },
+    {
+      "title": "Practical Queries for This Workshop",
+      "startSegmentIndex": 92
+    },
+    {
+      "title": "Saving and Reusing Searches",
+      "startSegmentIndex": 104
+    },
+    {
+      "title": "Authoritative Sources",
+      "startSegmentIndex": 110
     }
   ]
 }

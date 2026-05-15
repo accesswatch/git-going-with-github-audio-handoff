@@ -3,40 +3,48 @@
   "slug": "ep30-vscode-accessibility-reference",
   "chapters": [
     {
-      "title": "VS Code Accessibility Reference: Overview",
+      "title": "Appendix G: VS Code Accessibility Reference",
       "startSegmentIndex": 0
     },
     {
       "title": "Complete Technical Reference for Screen Reader Users",
-      "startSegmentIndex": 7
+      "startSegmentIndex": 4
     },
     {
-      "title": "1. Complete Accessibility Settings Reference",
-      "startSegmentIndex": 11
+      "title": "Complete Accessibility Settings Reference",
+      "startSegmentIndex": 8
     },
     {
-      "title": "2. Audio Cues - All Options",
-      "startSegmentIndex": 16
+      "title": "Audio Cues and Accessibility Signals Overview",
+      "startSegmentIndex": 20
     },
     {
-      "title": "3. Accessible Diff Viewer - Complete Guide",
-      "startSegmentIndex": 26
+      "title": "Accessible Diff Viewer Complete Guide",
+      "startSegmentIndex": 28
     },
     {
-      "title": "5. Complete Keyboard Shortcuts",
-      "startSegmentIndex": 86
+      "title": "Screen Reader Specific Configurations",
+      "startSegmentIndex": 38
     },
     {
-      "title": "6. Accessibility Signals Types and Customization",
-      "startSegmentIndex": 88
+      "title": "Complete Keyboard Shortcuts",
+      "startSegmentIndex": 44
     },
     {
-      "title": "7. Settings.json Configuration Examples",
-      "startSegmentIndex": 101
+      "title": "Accessibility Signals Types and Customization",
+      "startSegmentIndex": 52
     },
     {
-      "title": "VS Code Accessibility Reference: Wrap-Up",
-      "startSegmentIndex": 109
+      "title": "Settings JSON Configuration Examples",
+      "startSegmentIndex": 58
+    },
+    {
+      "title": "Quick Copy Recommended Settings and VS Code 1.120 Updates",
+      "startSegmentIndex": 68
+    },
+    {
+      "title": "Authoritative Sources and Section Level Source Map",
+      "startSegmentIndex": 76
     }
   ]
 }
